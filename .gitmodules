@@ -1,3 +1,6 @@
 [submodule "CardanoNFTs"]
 	path = CardanoNFTs
 	url = https://github.com/Cardano-NFTs/policyIDs
+[submodule "cardano-token-registry"]
+	path = cardano-token-registry
+	url = https://github.com/cardano-foundation/cardano-token-registry
