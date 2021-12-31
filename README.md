@@ -1,4 +1,5 @@
 # crfa-offchain-data-registry
 
-- Cardano NFTs
+- Cardano NFTs (git submodule)
+- Cardano Token Registry (git submodule)
 - ScriptHash -> dApp
