@@ -1,0 +1,3 @@
+[submodule "CardanoNFTs"]
+	path = CardanoNFTs
+	url = https://github.com/Cardano-NFTs/policyIDs
