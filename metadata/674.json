@@ -1,0 +1,5 @@
+{
+    "cip": "CIP-0020",
+    "cipLink": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0020",
+    "name": "Transaction message/comment metadata"
+}
