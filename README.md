@@ -2,4 +2,3 @@
 
 - Cardano NFTs
 - ScriptHash -> dApp
-- 
