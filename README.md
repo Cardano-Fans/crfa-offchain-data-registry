@@ -4,7 +4,6 @@
 - Cardano Token Registry (git submodule)
 - ScriptHash -> dApp
 - message metadata groups
-- Cardano Donuts (git submodule)
 
 # Other sources
 - https://js.adapools.org/groups.json
