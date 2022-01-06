@@ -1,8 +1,19 @@
 {
     "projectName": "PIGY Oracle",
-    "scriptHash": "e265b741cd9ac2c4d695402f7bb4cb49cbe0d9e33eec9a26dbfa9e59",
-    "contractAddress": "addr1w83xtd6pekdv93xkj4qz77a5edyuhcxeuvlwex3xm0afukgj73l65",
     "link": "https://oracle.pigytoken.com",
     "twitter": "https://twitter.com/pigytoken",
-    "version": 1
+
+    "scripts": [
+        {
+            "name": "PIGYOracle",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "e265b741cd9ac2c4d695402f7bb4cb49cbe0d9e33eec9a26dbfa9e59",
+                    "contractAddress": "addr1w83xtd6pekdv93xkj4qz77a5edyuhcxeuvlwex3xm0afukgj73l65"
+                }    
+            ]
+        }
+    ]
 }
