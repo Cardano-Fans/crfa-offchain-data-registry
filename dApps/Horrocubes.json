@@ -1,8 +1,39 @@
 {
     "projectName": "Horrocubes",
-    "scriptHash": "331824937dd4425f5469058058729997f8feda0218542a7aef62143c",
-    "contractAddress": "addr1wye3sfyn0h2yyh65dyzcqkrjnxtl3lk6qgv9g2n6aa3pg0qfjmdan",
     "link": "https://horrocubes.io",
     "twitter": "https://twitter.com/horrocubes",
-    "version": 1
+
+    "scripts": [
+        {
+            "name": "Horrocubes",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "331824937dd4425f5469058058729997f8feda0218542a7aef62143c",
+                    "contractAddress": "addr1wye3sfyn0h2yyh65dyzcqkrjnxtl3lk6qgv9g2n6aa3pg0qfjmdan"
+                }                
+            ]
+        },
+        {
+            "name": "Horrocubes",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "160b85e53e25ef49272c421f04b702bc32184d102865fd1dc8815cde",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "name": "KnightOfSwordsXmas",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "cd743f819701ba9123b4a17d587aaf1342d19fee896453c6ad9c3825",
+                    "version": 1
+                }
+            ]
+        }
+    ]
 }
