@@ -1,8 +1,19 @@
 {
     "projectName": "DEADPXLZ",
-    "scriptHash": "e7e8550ae1a8a3e2fa5923004662d53cfd62ed62496e4df7496c462c",
-    "contractAddress": "addr1z8n7s4g2ux528ch6ty3sq3nz65706chdvfykun0hf9kyvtq92vl27xmdcqhdvcu632a585gfsgx9h29atl8uhqph2rdsgkfpn3",
     "link": "https://pxlz.org",
     "twitter": "https://twitter.com/pxlzNFT",
-    "version": 1
+
+    "scripts": [
+        {
+            "name": "DEADPXLZ",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "e7e8550ae1a8a3e2fa5923004662d53cfd62ed62496e4df7496c462c",
+                    "contractAddress": "addr1z8n7s4g2ux528ch6ty3sq3nz65706chdvfykun0hf9kyvtq92vl27xmdcqhdvcu632a585gfsgx9h29atl8uhqph2rdsgkfpn3"
+                }    
+            ]
+        }
+    ]
 }
