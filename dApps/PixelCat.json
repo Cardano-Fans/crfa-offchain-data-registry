@@ -1,8 +1,19 @@
 {
     "projectName": "PixelCat",
-    "scriptHash": "9d67eff9976037be8ebabc166a4a4a3901f1d6c79786b3fd8e4e1c10",
-    "contractAddress": "addr1wxwk0mlejasr005wh27pv6j2fgusruwkc7tcdvla3e8pcyqzrhpzs",
     "link": "https://market.pixelcatnft.com/#/nexhype",
     "twitter": "https://twitter.com/pixelcatcnft",
-    "version": 1
+
+    "scripts": [
+        {
+            "name": "PixelCat",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "9d67eff9976037be8ebabc166a4a4a3901f1d6c79786b3fd8e4e1c10",
+                    "contractAddress": "addr1wxwk0mlejasr005wh27pv6j2fgusruwkc7tcdvla3e8pcyqzrhpzs"
+                }    
+            ]
+        }
+    ]
 }
