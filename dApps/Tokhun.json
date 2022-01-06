@@ -1,0 +1,19 @@
+{
+    "projectName": "Tokhun",
+    "link": "https://tokhun.io",
+    "twitter": "https://twitter.com/Tokhun_io",
+
+    "scripts": [
+        {
+            "name": "Tokhun",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "3f44f789aeeabb8059f56cc358f94e2559f81233df464624d865ee3a",
+                    "contractAddress": "addr1wyl5fauf4m4thqze74kvxk8efcj4n7qjx005v33ympj7uwsscprfk"
+                }    
+            ]
+        }
+    ]
+}
