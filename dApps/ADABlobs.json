@@ -1,8 +1,19 @@
 {
     "projectName": "ADA Blobs",
-    "scriptHash": "c1c0f2fbbc40ec587e6a3fd05a43f02e3e23f9debb30d4a62e49e7bb",
-    "contractAddress": "addr1w8qupuhmh3qwckr7dglaqkjr7qhruglem6anp49x9ey70wcrn3fa8",
     "link": "https://adablobs.io",
     "twitter": "https://twitter.com/TheAvatarNick",
-    "version": 1
+
+    "scripts": [
+        {
+            "name": "ADA Blobs",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "c1c0f2fbbc40ec587e6a3fd05a43f02e3e23f9debb30d4a62e49e7bb",
+                    "contractAddress": "addr1w8qupuhmh3qwckr7dglaqkjr7qhruglem6anp49x9ey70wcrn3fa8"
+                }    
+            ]
+        }
+    ]
 }
