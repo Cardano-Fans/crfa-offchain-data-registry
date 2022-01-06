@@ -1,0 +1,32 @@
+{
+    "projectName": "Lobster Challenge",
+
+    "scripts": [
+        {
+            "name": "Lobster Challenge voting",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "eb188aca85f89b55579d4de10a729700e7113b325389404ea7d5cfe6",
+                    "contractAddress": "addr1w8433zk2shufk42hn4x7zznjjuqwwyfmxffcjszw5l2ulesdt3jff"
+                },
+                {
+                    "version": 2,
+                    "scriptHash": "c8d43a8b772de55797acb1b9413fb646e915cc46679e5b94f79c5ed6",
+                    "contractAddress": "addr1w8ydgw5twuk724uh4jcmjsflkerwj9wvgeneuku577w9a4s7avmxg"
+                }
+            ]
+        },
+        {
+            "name": "Lobster Challenge",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "fda1b6b487bee2e7f64ecf24d24b1224342484c0195ee1b7b943db50",
+                    "version": 1
+                }
+            ]
+        }
+    ]
+}
