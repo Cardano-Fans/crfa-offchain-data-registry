@@ -1,0 +1,24 @@
+{
+    "projectName": "SpaceBudz",
+    "link": "https://spacebudz.io",
+    "twitter": "https://twitter.com/spacebudzNFT",
+
+    "scripts": [
+        {
+            "name": "SpaceBudz",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "aba3c2914116298a146af57d8156b1583f183fc05c0aa48ee95bec71",
+                    "contractAddress": "addr1wx468s53gytznzs5dt6hmq2kk9vr7xplcpwq4fywa9d7cug7fd0ed"
+                },    
+                {
+                    "version": 2,
+                    "scriptHash": "0449932f9da0258d220c39f803ceb8e2c45fdc605e8dd42f35558b58",
+                    "contractAddress": "addr1wyzynye0nksztrfzpsulsq7whr3vgh7uvp0gm4p0x42ckkqqq6kxq"
+                }
+            ]
+        }
+    ]
+}
