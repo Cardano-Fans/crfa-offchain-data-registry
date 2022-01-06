@@ -1,0 +1,24 @@
+{
+    "projectName": "MuesliSwap",
+    "link": "https://ada.muesliswap.com",
+    "twitter": "https://twitter.com/MuesliSwapTeam",
+
+    "scripts": [
+        {
+            "name": "MuesliSwap",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "ea184d0a7e640c4b5daa3f2cef851e75477729c2fd89f6ffbed7874c",
+                    "contractAddress": "addr1w84psng20ejqcj6a4gljemu9re65waefct7cnahlhmtcwnq63kxyq"
+                },    
+                {
+                    "version": 2,
+                    "scriptHash": "15b95fdaceeb507073a1bd198803373beeafbd82560fbf8abe9073ff",
+                    "contractAddress": "addr1wy2mjh76em44qurn5x73nzqrxua7ataasftql0u2h6g88lc3gtgpz"
+                }
+            ]
+        }
+    ]
+}
