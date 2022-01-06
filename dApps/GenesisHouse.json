@@ -1,8 +1,24 @@
 {
     "projectName": "Genesis House",
-    "scriptHash": "fe762a90c4e7a3c2810f5b4e2b37f96f049c25a9172044e86f23f44e",
-    "contractAddress": "addr1w8l8v25scnn68s5ppad5u2ehl9hsf8p94ytjq38gdu3lgnscg4pa8",
     "link": "https://www.genesishouse.io",
     "twitter": "https://twitter.com/GenesisHouseIO",
-    "version": 1
+
+    "scripts": [
+        {
+            "name": "GenesisHouse",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "cb40e79f9719a8cccfecce30f77461f456b492e5307231e66157c925",
+                    "contractAddress": "addr1w895peuljuv63nx0an8rpam5v869ddyju5c8yv0xv9tujfg706num"
+                },    
+                {
+                    "version": 2,
+                    "scriptHash": "fe762a90c4e7a3c2810f5b4e2b37f96f049c25a9172044e86f23f44e",
+                    "contractAddress": "addr1w8l8v25scnn68s5ppad5u2ehl9hsf8p94ytjq38gdu3lgnscg4pa8"
+                }
+            ]
+        }
+    ]
 }
