@@ -1,0 +1,24 @@
+{
+    "projectName": "SundaeSwap Mainnet Test",
+    "link": "https://www.sundaeswap.finance",
+    "twitter": "https://twitter.com/SundaeSwap",
+
+    "scripts": [
+        {
+            "name": "SundaeSwap Mainnet Test",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",
+                    "contractAddress": "addr1wy547pr3u8y7tpj6cxvddpwradkestryqwtwnuhyd4ufyzqw56p7p"
+                },    
+                {
+                    "version": 2,
+                    "scriptHash": "3776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",
+                    "contractAddress": "addr1wymhd0xyunu2qm8cuxx42pahstzt2w0uh26xenqzmy9y0dqs9fdtx"
+                }
+            ]
+        }
+    ]
+}

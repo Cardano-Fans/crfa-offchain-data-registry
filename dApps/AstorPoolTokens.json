@@ -1,0 +1,29 @@
+{
+    "projectName": "Astor Pool Tokens",
+    "link": "https://astorpool.net",
+    "twitter": "https://twitter.com/AstorPool",
+  
+    "scripts": [
+        {
+            "name": "Astor Pool Tokens Swap",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "7ad427bc37992916a7e5189dc046d3224fe0ab206521dad9acf5dfdf",
+                    "contractAddress": "addr1w9adgfaux7vjj948u5vfmszx6v3ylc9typjjrkke4n6alhcwu2j5z"
+                }
+            ]
+        },
+        {
+            "name": "Astor Pool Tokens",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "3f997b68b1f491c7c2f10af4e2bf9566c5d25bd61df0343065d4fe1c",
+                    "version": 1
+                }
+            ]
+        }
+    ]
+}
