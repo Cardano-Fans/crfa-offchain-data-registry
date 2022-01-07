@@ -1,0 +1,49 @@
+{
+    "projectName": "Cardahub",
+    "link": "https://cardahub.io/home",
+    "twitter": "https://twitter.com/cardahubio",
+
+    "scripts": [
+        {
+            "name": "Cardahub",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "8cf73edc8c847b8a8ded9053abf7528c6d03c250bccbbdab8d78245c",
+                    "contractAddress": "addr1wxx0w0ku3jz8hz5dakg982lh22xx6q7z2z7vh0dt34uzghqrxdhqq"
+                }                
+            ]
+        },
+        {
+            "name": "CardahubScript",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "e0bdf3c3c4f53fcefc09423317364349209ad02423ad4397df4f2441",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "name": "Cardahub",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "33b6150f4f5df62bfc638f206f3a37254d4a82f15f0c6635a20eb83f",
+                    "version": 1
+                }
+            ]
+        },
+          {
+            "name": "RoadtoRoyals",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "9ad1bb6bdf9237e5364b031bdf8cf527556220cb0fe0a658098622c8",
+                    "version": 1
+                }
+            ]
+        }    
+    ]
+}
