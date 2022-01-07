@@ -1,8 +1,25 @@
 {
-    "projectName": "jpg.store",
-    "scriptHash": "4a59ebd93ea53d1bbf7f82232c7b012700a0cf4bb78d879dabb1a20a",
-    "contractAddress": "addr1w999n67e86jn6xal07pzxtrmqynspgx0fwmcmpua4wc6yzsxpljz3",
-    "link": "https://www.jpg.store",
-    "twitter": "https://twitter.com/jpgstoreNFT",
-    "version": 1
+	    "projectName": "jpg.store",
+	    "link": "https://www.jpg.store",
+	    "twitter": "https://twitter.com/jpgstoreNFT",
+	
+
+	    "scripts": [
+	        {
+	            "name": "jpg.store",
+	            "purpose": "SPEND",
+	            "versions": [
+	                {
+	                    "version": 1,
+	                    "scriptHash": "25da22dfd99bf874e59d74c304a1d28e921310327c3e4d6960123f2e",
+	                    "contractAddress": "addr1wyja5gklmxdlsa89n46vxp9p628fyycsxf7runtfvqfr7tsj52k9x"
+	                },    
+	                {
+	                    "version": 2,
+	                    "scriptHash": "4a59ebd93ea53d1bbf7f82232c7b012700a0cf4bb78d879dabb1a20a",
+	                    "contractAddress": "addr1w999n67e86jn6xal07pzxtrmqynspgx0fwmcmpua4wc6yzsxpljz3"
+	                }
+	            ]
+	        }
+	    ]
 }
