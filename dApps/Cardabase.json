@@ -1,0 +1,17 @@
+{
+    "projectName": "Cardabase",
+    "link": "https://cardabase.io",
+
+    "scripts": [
+        {
+            "name": "Cardabase Collection",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "98d0f940d22382ade1163d76e5045447f05918a8647890949c84f347",
+                    "version": 1
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "projectName": "World of Pirates",
+    "link": "https://www.worldofpirates.io",
+    "twitter": "https://twitter.com/worldofpirates_",
+
+    "scripts": [
+        {
+            "name": "Jane Water Scout",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "ef5fa783b64fed07e18ae29a86d924d3f55a690997e49151bbd8e3fb",
+                    "version": 1
+                }
+            ]
+        }
+    ]
+}

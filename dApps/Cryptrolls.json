@@ -1,0 +1,18 @@
+{
+    "projectName": "Cryptrolls",
+    "link": "https://cryptrolls.io",
+    "twitter": "https://twitter.com/cryptrolls",
+
+    "scripts": [
+        {
+            "name": "Cryptrolls",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "1f3274e8e6a26804835b44c525b22b983badcd2e2f5cb4416d308c36",
+                    "version": 1
+                }
+            ]
+        }
+    ]
+}
