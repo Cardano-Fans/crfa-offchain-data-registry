@@ -1,0 +1,19 @@
+{
+    "projectName": "CryptoDino",
+    "link": "https://www.cryptodino.io",
+    "twitter": "https://twitter.com/cryptodino_io",
+
+    "scripts": [
+        {
+            "name": "CryptoDino",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "aab69a551fc931c565f5262bf9b2ccea846551d952e98535309e3f39",
+                    "contractAddress": "addr1wx4tdxj4rlynr3t975nzh7djen4gge23m9fwnpf4xz0r7wg8hf7ea"
+                }    
+            ]
+        }
+    ]
+}
