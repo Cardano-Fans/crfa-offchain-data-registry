@@ -13,7 +13,12 @@
 	                    "version": 1,
 	                    "scriptHash": "6c543aedd852f66af335b5a30056e85f99f29a98b95fe95190c6711b",
 	                    "contractAddress": "addr1w9k9gwhdmpf0v6hnxk66xqzkap0enu56nzu4l623jrr8zxcgcxtg3"
-	                }    
+	                },  
+	                {
+	                    "version": 2,
+	                    "scriptHash": "d73279cce303cd1ed7efcf9987ffb5fddcb5b74bb39a806959451f99",
+	                    "contractAddress": "addr1w8tny7wvuvpu68khal8enpllkh7aeddhfwee4qrft9z3lxgm0n2me"
+	                } 			    
 	            ]
 	        }
 	    ]
