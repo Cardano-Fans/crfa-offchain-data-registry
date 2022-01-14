@@ -17,6 +17,11 @@
                     "version": 2,
                     "scriptHash": "fe762a90c4e7a3c2810f5b4e2b37f96f049c25a9172044e86f23f44e",
                     "contractAddress": "addr1w8l8v25scnn68s5ppad5u2ehl9hsf8p94ytjq38gdu3lgnscg4pa8"
+                },
+                {
+                    "version": 3,
+                    "scriptHash": "85a51b82cf24be7053565d6189dbda829f16c9c1ebf1ce506965d54a",
+                    "contractAddress": "addr1wxz62xuzeujtuuzn2ewkrzwmm2pf79kfc84lrnjsd9ja2jscv3gy0"
                 }
             ]
         }
