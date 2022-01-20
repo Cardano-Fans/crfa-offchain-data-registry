@@ -1,0 +1,34 @@
+{
+    "projectName": "SundaeSwap",
+    "link": "https://www.sundaeswap.finance",
+    "twitter": "https://twitter.com/SundaeSwap",
+
+    "scripts": [
+        {
+            "name": "SundaeSwap",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "4020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
+                    "contractAddress": "addr1w9qzpelu9hn45pefc0xr4ac4kdxeswq7pndul2vuj59u8tqaxdznu"
+                },
+                {
+                    "version": 2,
+                    "scriptHash": "ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",
+                    "contractAddress": "addr1wxaptpmxcxawvr3pzlhgnpmzz3ql43n2tc8mn3av5kx0yzs09tqh8"
+                }                
+            ]
+        },
+        {
+            "name": "SundaeSwap",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
+                    "version": 1
+                }
+            ]
+        }
+    ]
+}
