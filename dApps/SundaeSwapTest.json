@@ -17,21 +17,6 @@
                     "version": 2,
                     "scriptHash": "3776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",
                     "contractAddress": "addr1wymhd0xyunu2qm8cuxx42pahstzt2w0uh26xenqzmy9y0dqs9fdtx"
-                },
-                {
-                    "version": 3,
-                    "scriptHash": "4020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
-                    "contractAddress": "addr1w9qzpelu9hn45pefc0xr4ac4kdxeswq7pndul2vuj59u8tqaxdznu"
-                },
-                {
-                    "version": 4,
-                    "scriptHash": "ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",
-                    "contractAddress": "addr1wxaptpmxcxawvr3pzlhgnpmzz3ql43n2tc8mn3av5kx0yzs09tqh8"
-                },
-                {
-                    "version": 5,
-                    "scriptHash": "d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",
-                    "contractAddress": "addr1w82z6yrftsxz77el0ce2q4vuspcym2x0xgpgneurrwvasfge778fd"
                 }                
             ]
         },
