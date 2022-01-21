@@ -1,0 +1,24 @@
+{
+    "projectName": "Minswap Mainnet Test",
+    "link": "https://minswap.org",
+    "twitter": "https://twitter.com/MinswapDEX",
+
+    "scripts": [
+        {
+            "name": "Minswap Mainnet Test",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "96a6d04ac183d349f277f00d93ac79fe170dce37713ea9a493f79f81",
+                    "contractAddress": "addr1wxt2d5z2cxpaxj0jwlcqmyav08lpwrwwxacna2dyj0melqgugxgdz"
+                },    
+                {
+                    "version": 2,
+                    "scriptHash": "41fc4cf0d7e68914348c580329acdaa63591919782ab809aa09849bf",
+                    "contractAddress": "addr1w9qlcn8s6lngj9p533vqx2dvm2nrtyv3j7p2hqy65zvyn0ck0gj25"
+                }                
+            ]
+        }
+    ]
+}
