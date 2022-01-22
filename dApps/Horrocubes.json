@@ -32,6 +32,16 @@
                     "version": 1
                 }
             ]
-        }
+        },
+        {
+            "name": "Insania",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "e45605e3f7d131723422c67353a3d2e0cccc06192e2e92efab9c8deb",
+                    "version": 1
+                }
+            ]
+        }          
     ]
 }
