@@ -3,10 +3,8 @@
 	    "link": "https://artano.io",
 	    "twitter": "https://twitter.com/artano__io",
 	
-
 	    "scripts": [
 	        {
-	            "name": "Artano.",
 	            "purpose": "SPEND",
 	            "versions": [
 	                {

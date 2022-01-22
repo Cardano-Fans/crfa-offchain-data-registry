@@ -1,11 +1,11 @@
 {
-    "projectName": "Minswap Mainnet Test",
+    "projectName": "Minswap Mainnet",
     "link": "https://minswap.org",
     "twitter": "https://twitter.com/MinswapDEX",
 
     "scripts": [
         {
-            "name": "Minswap Mainnet Test",
+            "name": "test",
             "purpose": "SPEND",
             "versions": [
                 {

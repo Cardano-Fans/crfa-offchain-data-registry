@@ -5,7 +5,6 @@
 
     "scripts": [
         {
-            "name": "MuesliSwap",
             "purpose": "SPEND",
             "versions": [
                 {
