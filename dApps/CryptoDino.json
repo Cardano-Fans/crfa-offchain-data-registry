@@ -5,7 +5,6 @@
 
     "scripts": [
         {
-            "name": "CryptoDino",
             "purpose": "SPEND",
             "versions": [
                 {

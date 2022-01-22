@@ -5,7 +5,6 @@
 
     "scripts": [
         {
-            "name": "Cardahub",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -16,7 +15,6 @@
             ]
         },
         {
-            "name": "CardahubScript",
             "purpose": "MINT",
             "versions": [
                 {
@@ -26,7 +24,7 @@
             ]
         },
         {
-            "name": "Cardahub",
+            "name": "???",
             "purpose": "MINT",
             "versions": [
                 {

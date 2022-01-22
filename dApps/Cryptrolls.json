@@ -5,7 +5,6 @@
 
     "scripts": [
         {
-            "name": "Cryptrolls",
             "purpose": "MINT",
             "versions": [
                 {
