@@ -38,7 +38,7 @@
             ]
         },        
         {
-            "name": "test1",
+            "name": "unclassified1",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "name": "test1",
+            "name": "unclassified2",
             "purpose": "SPEND",
             "versions": [
                 {
