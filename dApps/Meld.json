@@ -1,0 +1,28 @@
+{
+    "projectName": "MELD",
+    "link": "https://www.meld.com",
+    "twitter": "https://twitter.com/MELD_labs",
+
+    "scripts": [
+        {
+            "name": "MELD Diamond Hand NFT 1",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "c6d53bf97c0d7e38368b2ed6b2dcf8d5fb4df0ac533fa22458e04f45",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "name": "MELD Diamond Hand NFT 2",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "3b07e0f2a262fa1436df3c91e420d57ad9fd46aa04377ec80a05ee3f",
+                    "version": 1
+                }
+            ]
+        }        
+    ]
+}
