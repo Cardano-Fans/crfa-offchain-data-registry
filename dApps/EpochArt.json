@@ -1,0 +1,30 @@
+{
+    "projectName": "Epoch Art",
+    "link": "",
+    "twitter": "https://twitter.com/epoch_art",
+
+    "scripts": [
+        {
+            "name": "with royalties",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "15eea1eeab457fb4545f260bfc84506dff8b5026e82dd1e516a859a3",
+                    "contractAddress": "addr1wy27ag0w4dzhldz5tunqhlyy2pkllz6sym5zm509z659ngcgumgve"
+                }
+            ]
+        },
+        {
+            "name": "without royalties",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "013a96b8fffc077e2b391ddce7043acc4b6a6c87ec39cf40195e8680",
+                    "contractAddress": "addr1wyqn494cll7qwl3t8ywaeecy8txyk6nvslkrnn6qr90gdqqtx6fqp"
+                }
+            ]
+        }
+    ]
+}
