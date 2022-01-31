@@ -23,6 +23,16 @@
                     "version": 1
                 }
             ]
+        },
+        {
+            "name": "locked staking token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "c51806ac8fd893646c12fbd8483abdd4db5b587e16e155a1bc1b289f",
+                    "version": 1
+                }
+            ]
         }        
     ]
 }
