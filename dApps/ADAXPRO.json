@@ -1,0 +1,23 @@
+{
+    "projectName": "ADAX PRO",
+    "link": "https://dex.adax.pro",
+    "twitter": "https://twitter.com/adax_pro",
+
+    "scripts": [
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "87ee94d2e531d9c47ca90cbded7b4ba81e9edeb88ddc2ecb91223dad",
+                    "contractAddress": "addr1wxr7a9xju5can3ru4yxtmmtmfw5pa8k7hzxactktjy3rmtgzh4dws"
+                },    
+                {
+                    "version": 2,
+                    "scriptHash": "6e9d20c716e2be5ce65c86a6fb7dd46be22a555fb9907ab9f8c7f064",
+                    "contractAddress": "addr1w9hf6gx8zm3tuh8xtjr2d7ma6347y2j4t7ueq74elrrlqeqr43xk9"
+                }
+            ]
+        }
+    ]
+}
