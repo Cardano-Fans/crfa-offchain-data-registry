@@ -16,7 +16,12 @@
                     "version": 2,
                     "scriptHash": "6e9d20c716e2be5ce65c86a6fb7dd46be22a555fb9907ab9f8c7f064",
                     "contractAddress": "addr1w9hf6gx8zm3tuh8xtjr2d7ma6347y2j4t7ueq74elrrlqeqr43xk9"
-                }
+                },
+                {
+                    "version": 3,
+                    "scriptHash": "132a06349fcbbf1e372a2d74fc1af230402ab808b7d8841462a33a60",
+                    "contractAddress": "addr1wyfj5p35nl9m783h9gkhflq67gcyq24cpzma3pq5v23n5cq4tkne4"
+                }                  
             ]
         }
     ]
