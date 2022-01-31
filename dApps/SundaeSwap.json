@@ -60,6 +60,17 @@
             ]
         },
         {
+            "name": "unclassified3",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "74db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",
+                    "contractAddress": "addr1w96dh8r6yds9et9wfmnrtg267mnrck3ej9wysyj5a6uhtzchkcr5d"
+                }
+            ]
+        },       
+        {
             "name": "Scooper Manager",
             "purpose": "MINT",
             "versions": [
