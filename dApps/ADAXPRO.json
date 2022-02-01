@@ -124,6 +124,17 @@
                     "contractAddress": "addr1wy8kykzhhf3ram52rfyde6enn3vgly6snh3septmwthaavcppvqls"
                 }                  
             ]
+        },
+        {
+            "name": "unclassified12",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "d8ad1683b20e390b34a3d313c8404bf125813dd162d9c5c31ec77bdc",
+                    "contractAddress": "addr1w8v2695rkg8rjze550f38jzqf0cjtqfa693dn3wrrmrhhhqrls0vz"
+                }                  
+            ]
         }         
     ]
 }
