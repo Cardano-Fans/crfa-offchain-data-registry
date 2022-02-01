@@ -15,6 +15,16 @@
             ]
         },
         {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+                    "scriptHash": "f20e79df1b81eaa46817aabe97823304ad6059b6586582ccefc49b7f",
+                    "contractAddress": "addr1w8equ7wlrwq74frgz74ta9uzxvz26czekevxtqkvalzfklcl5pl33"
+                }
+            ]
+        },        
+        {
             "purpose": "MINT",
             "versions": [
                 {
