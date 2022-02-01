@@ -1,0 +1,19 @@
+{
+    "projectName": "Aada Finance",
+    "link": "https://aada.finance",
+    "twitter": "https://twitter.com/AadaFinance",
+
+    "scripts": [
+        {
+            "name": "swap v.1 vs v.2",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "4c3231f64e9140a17977e6e634b394fd59b7dff0d5be6a53b8e6434b",
+                    "contractAddress": "addr1w9xryv0kf6g5pgtewlnwvd9njn74nd7l7r2mu6jnhrnyxjcgsfjq5"
+                }
+            ]
+        }
+    ]
+}
