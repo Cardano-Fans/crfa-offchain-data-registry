@@ -5,7 +5,7 @@
 
     "scripts": [
         {
-            "name": "Order Book",
+            "name": "Order Book / Escrow",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "name": "AMM",
+            "name": "Liquidity Pool",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -27,7 +27,17 @@
             ]
         },
         {
-            "name": "Scooper Manager",
+            "name": "Liquidity Provider Token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "name": "SundaeSwap Factory",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -38,54 +48,13 @@
             ]
         },        
         {
-            "name": "unclassified1",
+            "name": "Scooper Rewards",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-                    "scriptHash": "3776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",
-                    "contractAddress": "addr1wymhd0xyunu2qm8cuxx42pahstzt2w0uh26xenqzmy9y0dqs9fdtx"
-                }                
-            ]
-        },
-        {
-            "name": "unclassified2",
-            "purpose": "SPEND",
-            "versions": [
-                {
-                    "version": 1,
-                    "scriptHash": "295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",
-                    "contractAddress": "addr1wy547pr3u8y7tpj6cxvddpwradkestryqwtwnuhyd4ufyzqw56p7p"
-                }
-            ]
-        },
-        {
-            "name": "unclassified3",
-            "purpose": "SPEND",
-            "versions": [
-                {
-                    "version": 1,
-                    "scriptHash": "74db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",
-                    "contractAddress": "addr1w96dh8r6yds9et9wfmnrtg267mnrck3ej9wysyj5a6uhtzchkcr5d"
-                }
-            ]
-        },       
-        {
-            "name": "Scooper Manager",
-            "purpose": "MINT",
-            "versions": [
-                {
-                    "mintPolicyID": "e8a447d4e19016ca2aa74d20b4c4de87adb1f21dfb5493bf2d7281a6",
-                    "version": 1
-                }
-            ]
-        },
-        {
-            "purpose": "MINT",
-            "versions": [
-                {
-                    "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
-                    "version": 1
+                    "scriptHash": "646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",
+                    "contractAddress": "addr1w9jx45flh83z6wuqypyash54mszwmdj8r64fydafxtfc6jgrw4rm3"
                 }
             ]
         }
