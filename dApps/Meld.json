@@ -33,6 +33,17 @@
                     "version": 1
                 }
             ]
-        }        
+        },
+        {
+            "name": "token vesting",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "c677cdb77d115df5d3772aaad91ea9e4b5d4a7f970308183dd193f1c",
+                    "contractAddress": "addr1w8r80ndh05g4mawnwu424kg748jtt498l9crpqvrm5vn78q32ats7"                    
+                }
+            ]
+        } 
     ]
 }
