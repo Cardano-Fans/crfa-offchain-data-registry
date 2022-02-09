@@ -35,6 +35,16 @@
             ]
         },
         {
+            "name": "vesting auth token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "59c9aa4ea305356d37e5948ef2a3e6477674c80cff384889fdff902b",
+                    "version": 1
+                }
+            ]
+        },        
+        {
             "name": "token vesting",
             "purpose": "SPEND",
             "versions": [
