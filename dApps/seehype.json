@@ -1,0 +1,18 @@
+{
+    "projectName": "H.Y.P.E. CNFT",
+    "link": "https://www.seehype.com",
+    "twitter": "https://twitter.com/haveyouseenhype",
+
+    "scripts": [
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "c1528109e73be2492355412a719a9d2562aff7dbd4c00f3fa8058a45",
+                    "contractAddress": "addr1w8q49qgfuua7yjfr24qj5uv6n5jk9tlhm02vqrel4qzc53gzmux09"
+                }    
+            ]
+        }
+    ]
+}
