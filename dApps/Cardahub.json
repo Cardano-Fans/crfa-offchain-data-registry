@@ -33,7 +33,27 @@
                 }
             ]
         },
-          {
+        {
+            "name": "Rune Fortress",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "5d6aa5c975266893fc446f24a094dddc59192638b5da0ec0691ec0ae",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "name": "ShadowRealms CNFT",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "6903728593dc2b963fa28f1550483fc6aa143586a47e539c3cd3fa02",
+                    "version": 1
+                }
+            ]
+        },        
+        {
             "name": "RoadtoRoyals",
             "purpose": "MINT",
             "versions": [
