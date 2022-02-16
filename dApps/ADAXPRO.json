@@ -135,6 +135,83 @@
                     "contractAddress": "addr1w8v2695rkg8rjze550f38jzqf0cjtqfa693dn3wrrmrhhhqrls0vz"
                 }                  
             ]
-        }         
+        },
+        {
+            "name": "unclassified13",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "1c25a58d96cc4c504ff6cd543be14bd0b6a2940efc86bc1f1503ff86",
+                    "contractAddress": "addr1wywztfvdjmxyc5z07mx4gwlpf0gtdg55pm7gd0qlz5pllpshuye3h"
+                }                  
+            ]
+        },
+        {
+            "name": "unclassified14",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "cf3404732207a1bc1c6ca8db57ea7aff2a7a750f4889e6592c1bd54a",
+                    "contractAddress": "addr1w88ngprnygr6r0qudj5dk4l20tlj57n4paygneje9sda2jsqmu6lr"
+                }                  
+            ]
+        },
+        {
+            "name": "unclassified15",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "61a36e3af7a7bc4e04ff9f121a346f2dde173e69b0a73f8c14e1b202",
+                    "contractAddress": "addr1w9s6xm3677nmcnsyl703yx35dukau9e7dxc2w0uvznsmyqslnjeha"
+                }                  
+            ]
+        },
+        {
+            "name": "unclassified16",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "353cba0d59adaa4a835c75fdeb0b864543ae27001a24e84df42b7c9b",
+                    "contractAddress": "addr1wy6newsdtxk65j5rt36lm6ctsez58t38qqdzf6zd7s4hexcjkapy3"
+                }                  
+            ]
+        },
+        {
+            "name": "unclassified17",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "8402327b45db6a132392d02525057cf9c1fce61e64847911aa4514f8",
+                    "contractAddress": "addr1wxzqyvnmghdk5yerjtgz2fg90nuurl8xrejgg7g34fz3f7q79hjry"
+                }                  
+            ]
+        },
+        {
+            "name": "unclassified18",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "dded24bbf64cfe83b9dfafe30e245f37d133276e825220427dac6856",
+                    "contractAddress": "addr1w8w76f9m7ex0aqaem7h7xr3ytumazve8d6p9ygzz0kkxs4s04a4r5"
+                }                  
+            ]
+        },
+        {
+            "name": "unclassified19",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "8402327b45db6a132392d02525057cf9c1fce61e64847911aa4514f8",
+                    "contractAddress": "addr1wxzqyvnmghdk5yerjtgz2fg90nuurl8xrejgg7g34fz3f7q79hjry"
+                }                  
+            ]
+        }        
     ]
 }
