@@ -70,7 +70,11 @@
                 {
                     "mintPolicyID": "d9ab867ae26e22be44b8c9611beb9b4527081337e70cc1c4eb86c4f2",
                     "version": 1
-                }
+                },
+                {
+                    "mintPolicyID": "2d14ec7a8f3f9fc9852290558ea39c5768463941211a20ff1bda0888",
+                    "version": 2
+                }                
             ]
         }        
     ]
