@@ -18,6 +18,17 @@
                     "contractAddress": "addr1wy2mjh76em44qurn5x73nzqrxua7ataasftql0u2h6g88lc3gtgpz"
                 }
             ]
-        }
+        },
+        {
+            "name": "Staking Order",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "785331daeba8b0f238183d502e14ace037d1167ececb99b744a2aaaf",
+                    "contractAddress": "addr1w9u9xvw6aw5tpu3crq74qts54nsr05gk0m8vhxdhgj324tc4mqq3g"
+                }
+            ]
+        }        
     ]
 }
