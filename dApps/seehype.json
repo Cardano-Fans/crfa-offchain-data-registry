@@ -13,6 +13,17 @@
                     "contractAddress": "addr1w8q49qgfuua7yjfr24qj5uv6n5jk9tlhm02vqrel4qzc53gzmux09"
                 }    
             ]
-        }
+        },
+        {
+            "name": "vaporizer",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 1,
+                    "scriptHash": "85ee5c5faf4d486be259b67631553cc4a08aa0fe31a15cf23978d43a",
+                    "contractAddress": "addr1wxz7uhzl4ax5s6lztxm8vv248nz2pz4qlcc6zh8j89udgwsjczg23"
+                }                  
+            ]
+        }        
     ]
 }
