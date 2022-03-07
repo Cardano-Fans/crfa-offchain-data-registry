@@ -31,7 +31,11 @@
                 {
                     "mintPolicyID": "c51806ac8fd893646c12fbd8483abdd4db5b587e16e155a1bc1b289f",
                     "version": 1
-                }
+                },
+                {
+                    "mintPolicyID": "4c820aadf6ae8c755430455f5803d283bde0b20114bd93a8f381c72c",
+                    "version": 2
+                }                
             ]
         },
         {
