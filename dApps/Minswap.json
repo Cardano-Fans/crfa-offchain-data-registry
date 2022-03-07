@@ -1,11 +1,11 @@
 {
-    "projectName": "Minswap Mainnet",
+    "projectName": "Minswap",
     "link": "https://minswap.org",
     "twitter": "https://twitter.com/MinswapDEX",
 
     "scripts": [
         {
-            "name": "test",
+            "name": "Mainnet load test",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -19,6 +19,38 @@
                     "contractAddress": "addr1w9qlcn8s6lngj9p533vqx2dvm2nrtyv3j7p2hqy65zvyn0ck0gj25"
                 }                
             ]
-        }
+        },
+        {
+            "name": "Batch Order",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "0ca50950adbb06c5c5f6833924a66ac873e43202588b6d338602d78d",
+                    "contractAddress": "addr1wyx22z2s4kasd3w976pnjf9xdty88epjqfvgkmfnscpd0rg3z8y6v"
+                }
+            ]
+        },
+        {
+            "name": "Liquidity Pool",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "57c8e718c201fba10a9da1748d675b54281d3b1b983c5d1687fc7317",
+                    "contractAddress": "addr1z9tu3ecccgqlhgg2nkshfrt8td2zs8fmrwvrchgksl78x96j2c79g"
+                }
+            ]
+        },        
+        {
+            "name": "Liquidity Provider Token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "e0baa1f0887a766daf5196f92c88728e356e71255c5ad00866607484",
+                    "version": 1
+                }
+            ]
+        }        
     ]
 }
