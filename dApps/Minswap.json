@@ -51,6 +51,26 @@
                     "version": 1
                 }
             ]
+        },
+        {
+            "name": "Factory PolicyID",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "3f6092645942a54a75186b25e0975b79e1f50895ad958b42015eb6d2",
+                    "version": 1
+                }
+            ]
+        },         
+        {
+            "name": "NFT PolicyID",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "5178cc70a14405d3248e415d1a120c61d2aa74b4cee716d475b1495e",
+                    "version": 1
+                }
+            ]
         }        
     ]
 }
