@@ -9,12 +9,12 @@
             "purpose": "SPEND",
             "versions": [
                 {
-                    "version": 1,
+                    "version": 0,
                     "scriptHash": "96a6d04ac183d349f277f00d93ac79fe170dce37713ea9a493f79f81",
                     "contractAddress": "addr1wxt2d5z2cxpaxj0jwlcqmyav08lpwrwwxacna2dyj0melqgugxgdz"
                 },    
                 {
-                    "version": 2,
+                    "version": 0,
                     "scriptHash": "41fc4cf0d7e68914348c580329acdaa63591919782ab809aa09849bf",
                     "contractAddress": "addr1w9qlcn8s6lngj9p533vqx2dvm2nrtyv3j7p2hqy65zvyn0ck0gj25"
                 }                
@@ -41,7 +41,17 @@
                     "contractAddress": "addr1z9tu3ecccgqlhgg2nkshfrt8td2zs8fmrwvrchgksl78x96j2c79g"
                 }
             ]
-        },        
+        }, 
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "73c3f85a23b2b81d7df84a9616b666b1e1c8c5fcfff6783d9c4a1a45",
+                    "contractAddress": "addr1w9eu87z6ywets8talp9fv94kv6c7rjx9lnllv7pan39p53gkjg05e"
+                }
+            ]
+        },         
         {
             "name": "Liquidity Provider Token",
             "purpose": "MINT",
@@ -71,6 +81,55 @@
                     "version": 1
                 }
             ]
-        }        
+        },
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+                    "scriptHash": "98df3b00a1500fcb77daa0520550fb088fc923399788b89637b9de59",
+                    "contractAddress": "addr1wxvd7wcq59gqljmhm2s9yp2slvygljfr8xtc3wykx7uaukgt8lqh6"
+                }
+            ]
+        },          
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+                    "scriptHash": "a65ca58a4e9c755fa830173d2a5caed458ac0c73f97db7faae2e7e3b",
+                    "contractAddress": "addr1wxn9efv2f6w82hagxqtn62ju4m293tqvw0uhmdl64ch8uwc0h43gt"
+                }
+            ]
+        },
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+                    "scriptHash": "9b85d5e8611945505f078aeededcbed1d6ca11053f61e3f9d999fe44",
+                    "contractAddress": "addr1wxdct40gvyv525zlq79wahkuhmgadjs3q5lkrclemxvlu3qyda7l2"
+                }
+            ]
+        },        
+        {
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "e4214b7cce62ac6fbba385d164df48e157eae5863521b4b67ca71d86",
+                    "version": 2
+                }
+            ]
+        },        
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+                    "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec13309",
+                    "contractAddress": "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxz2j2c79gy9l76sdg0xwhd7r0c0kna0tycz4y5s6mlenh8pq0xmsha"
+                }
+            ]
+        }         
     ]
 }
