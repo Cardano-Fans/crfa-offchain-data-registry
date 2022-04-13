@@ -1,6 +1,6 @@
 {
     "projectName": "Epoch Art",
-    "link": "https://testnet.epoch.art",
+    "link": "https://epoch.art",
     "twitter": "https://twitter.com/epoch_art",
 
     "scripts": [
@@ -35,6 +35,17 @@
                     "contractAddress": "addr1wy60hwhwzhngy7e34472ejxjrqaa4u9vumz5qcfh3m3nv9ss3k4wu"
                 }                
             ]
-        }
+        },
+        {
+            "name": "mutant staking",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "1d13dcbab76e93fb80cc022fc7d797826bf64ca24d3bf6f1885272de",
+                    "contractAddress": "addr1wyw38h96kahf87uqespzl37hj7pxhajv5fxnhah33pf89hswjepm0"
+                }             
+            ]
+        }        
     ]
 }
