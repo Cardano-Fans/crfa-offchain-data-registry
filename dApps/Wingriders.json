@@ -47,6 +47,16 @@
                     "contractAddress": "addr1wx0aglsd278m2wdea3lqzmw9acjcgsgs49n3942e3xc82xcu406l6"
                 }
             ]
+        },
+        {
+            "name": "Factory/Liquidity token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570",
+                    "version": 1
+                }               
+            ]
         }
     ]
 }
