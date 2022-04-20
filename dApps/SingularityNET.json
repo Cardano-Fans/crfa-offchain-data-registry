@@ -1,0 +1,18 @@
+{
+    "projectName": "SingularityNET",
+    "link": "https://linktr.ee/singularitynet",
+    "twitter": "https://twitter.com/singularity_net",
+
+    "scripts": [
+        {
+            "name": "AGIX",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "f43a62fdc3965df486de8a0d32fe800963589c41b38946602a0dc535",
+                    "version": 1
+                }
+            ]
+        }
+    ]
+}
