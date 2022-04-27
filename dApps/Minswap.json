@@ -125,6 +125,17 @@
                     "contractAddress": "addr1wxdct40gvyv525zlq79wahkuhmgadjs3q5lkrclemxvlu3qyda7l2"
                 }
             ]
-        }                     
+        },
+        {
+            "name": "MINt Un-stake liquidity",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+                    "scriptHash": "9df55104326a3264d803d44ed87139581d1c912e26ba8e73bc385e2f",
+                    "contractAddress": "addr1wxwl25gyxf4ryexcq02yakr389vp68y39cnt4rnnhsu9utcjfhaef"
+                }
+            ]
+        }          
     ]
 }
