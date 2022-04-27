@@ -13,6 +13,16 @@
                     "version": 1
                 }
             ]
-        }
+        },
+        {
+            "name": "NTX",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "edfd7a1d77bcb8b884c474bdc92a16002d1fb720e454fa6e99344479",
+                    "version": 1
+                }
+            ]
+        }        
     ]
 }
