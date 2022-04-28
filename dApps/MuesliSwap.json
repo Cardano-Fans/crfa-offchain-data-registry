@@ -29,6 +29,17 @@
                     "contractAddress": "addr1w9u9xvw6aw5tpu3crq74qts54nsr05gk0m8vhxdhgj324tc4mqq3g"
                 }
             ]
-        }        
+        },
+        {
+            "name": "Partial matches",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "f1ec90d33208778214cdc7fa90858ac5620253d99f84c10335928cab",
+                    "contractAddress": "addr1z8c7eyxnxgy80qs5ehrl4yy93tzkyqjnmx0cfsgrxkfge27q47h8tv3jp07j8yneaxj7qc63zyzqhl933xsglcsgtqcqxzc2je"
+                }
+            ]
+        }         
     ]
 }
