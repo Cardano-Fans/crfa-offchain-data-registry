@@ -127,7 +127,7 @@
             ]
         },
         {
-            "name": "MINt Un-stake liquidity",
+            "name": "MINt staking liquidity",
             "purpose": "SPEND",
             "versions": [
                 {
