@@ -1,0 +1,18 @@
+{
+    "projectName": "Lending Pond",
+    "link": "https://lendingpond.app",
+    "twitter": "https://twitter.com/lendingpond_ada",
+
+    "scripts": [
+        {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "9c30c6f741ccd6b4dece11acfd505365abab14450ea2214435f8124e",
+                    "contractAddress": "addr1wxwrp3hhg8xdddx7ecg6el2s2dj6h2c5g582yg2yxhupyns8feg4m"
+                }    
+            ]
+        }
+    ]
+}
