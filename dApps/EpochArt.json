@@ -37,6 +37,16 @@
             ]
         },
         {
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 3,
+                    "scriptHash": "1b10df63a7eec88a10eb812686601ee83a59010ef69f1f550c5ac68c",
+                    "contractAddress": "addr1wyd3phmr5lhv3zssawqjdpnqrm5r5kgppmmf7864p3dvdrqwuutk4"
+                }             
+            ]
+        },         
+        {
             "name": "mutant staking",
             "purpose": "SPEND",
             "versions": [
