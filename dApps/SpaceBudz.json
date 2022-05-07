@@ -18,6 +18,27 @@
                     "contractAddress": "addr1wyzynye0nksztrfzpsulsq7whr3vgh7uvp0gm4p0x42ckkqqq6kxq"
                 }
             ]
-        }
+        },
+        {
+            "name": "Token Validator",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 3,
+                    "scriptHash": "336f0fc67c83fabe248bad4af737edd5611a8dbfd6d09fa923978e00",
+                    "contractAddress": "addr1wyek7r7x0jpl403y3wk54aehah2kzx5dhltdp8afywtcuqqmt9hg4"
+                }
+            ]
+        },
+        {
+            "name": "Token Policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "4bbe1a11a1b8b1ffa7250e3cca799b74c10252792c575af906ae9b99",
+                    "version": 3
+                }
+            ]
+        }        
     ]
 }
