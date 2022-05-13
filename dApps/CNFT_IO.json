@@ -2,6 +2,7 @@
     "projectName": "CNFT.IO",
     "link": "https://cnft.io",
     "twitter": "https://twitter.com/CNFT_IO",
+    "category": "NFT",
 
     "scripts": [
         {
@@ -23,6 +24,15 @@
                     "contractAddress": "addr1w89s3lfv7gkugker5llecq6x3k2vjvfnvp4692laeqe6w6s93vj3j"
                 }                
             ]
-        }
+        },
+        {
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "9902279d9e834859a5fca5b9a334d070aa1ae686be2f49407aae5ea9",
+                    "version": 3
+                }               
+            ]
+        }        
     ]
 }
