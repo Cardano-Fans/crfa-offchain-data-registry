@@ -2,7 +2,8 @@
     "projectName": "CNFT.IO",
     "link": "https://cnft.io",
     "twitter": "https://twitter.com/CNFT_IO",
-    "category": "NFT",
+    "category": "MARKET_PLACE",
+    "subCategory": "NFT",
 
     "scripts": [
         {
