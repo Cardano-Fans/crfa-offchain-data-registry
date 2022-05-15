@@ -2,6 +2,8 @@
     "projectName": "Jam On Bread",
     "link": "https://www.jamonbread.com",
     "twitter": "https://twitter.com/JamOnBread_com",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {
