@@ -2,6 +2,8 @@
     "projectName": "CryptoDino",
     "link": "https://www.cryptodino.io",
     "twitter": "https://twitter.com/cryptodino_io",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {
