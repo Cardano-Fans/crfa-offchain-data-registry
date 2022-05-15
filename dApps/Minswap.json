@@ -2,6 +2,7 @@
     "projectName": "Minswap",
     "link": "https://minswap.org",
     "twitter": "https://twitter.com/MinswapDEX",
+    "category": "DEX",    
 
     "scripts": [
         {
