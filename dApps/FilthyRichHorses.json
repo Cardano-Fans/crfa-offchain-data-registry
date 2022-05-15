@@ -2,6 +2,8 @@
     "projectName": "Filthy Rich Horses",
     "link": "https://www.filthyrichhorses.com",
     "twitter": "https://twitter.com/FRHorses",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {
