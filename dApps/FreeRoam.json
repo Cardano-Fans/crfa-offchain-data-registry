@@ -2,6 +2,8 @@
     "projectName": "FreeRoam",
     "link": "https://freeroam.io",
     "twitter": "https://twitter.com/freeroam_io",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {
