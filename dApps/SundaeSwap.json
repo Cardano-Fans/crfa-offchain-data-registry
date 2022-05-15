@@ -2,6 +2,7 @@
     "projectName": "SundaeSwap",
     "link": "https://www.sundaeswap.finance",
     "twitter": "https://twitter.com/SundaeSwap",
+    "category": "DEX",    
 
     "scripts": [
         {
