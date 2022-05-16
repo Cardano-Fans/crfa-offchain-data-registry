@@ -2,7 +2,8 @@
     "projectName": "World of Pirates",
     "link": "https://www.worldofpirates.io",
     "twitter": "https://twitter.com/worldofpirates_",
-    "category": "GAMING",     
+    "category": "GAMING",
+    "subCategory": "NFT",    
 
     "scripts": [
         {
