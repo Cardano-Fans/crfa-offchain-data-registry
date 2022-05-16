@@ -2,6 +2,8 @@
     "projectName": "Cicada NFT",
     "link": "https://cicadanft.com",
     "twitter": "https://twitter.com/cicadanft",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
 
     "scripts": [
         {

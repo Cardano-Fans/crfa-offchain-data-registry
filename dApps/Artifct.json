@@ -2,6 +2,8 @@
     "projectName": "Artifct",
     "link": "https://artifct.app",
     "twitter": "https://twitter.com/ArtifctApp",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",
 
     "scripts": [
         {

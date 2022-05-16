@@ -2,6 +2,8 @@
     "projectName": "Epoch Art",
     "link": "https://epoch.art",
     "twitter": "https://twitter.com/epoch_art",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {

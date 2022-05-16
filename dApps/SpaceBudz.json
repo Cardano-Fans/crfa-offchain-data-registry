@@ -2,6 +2,8 @@
     "projectName": "SpaceBudz",
     "link": "https://spacebudz.io",
     "twitter": "https://twitter.com/spacebudzNFT",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {

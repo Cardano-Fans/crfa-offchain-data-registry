@@ -2,6 +2,8 @@
     "projectName": "NFTJAM",
     "link": "https://nftjam.io",
     "twitter": "https://twitter.com/nftjam_io",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {

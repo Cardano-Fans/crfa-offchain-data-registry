@@ -1,6 +1,8 @@
 {
     "projectName": "Cardabase",
     "link": "https://cardabase.io",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {

@@ -2,6 +2,8 @@
     "projectName": "Wingriders",
     "link": "https://www.wingriders.com",
     "twitter": "https://twitter.com/wingriderscom",
+    "category": "DEFI",     
+    "subCategory": "DEX",     
 
     "scripts": [
         {

@@ -2,6 +2,8 @@
     "projectName": "PixelCat",
     "link": "https://market.pixelcatnft.com/#/nexhype",
     "twitter": "https://twitter.com/pixelcatcnft",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {

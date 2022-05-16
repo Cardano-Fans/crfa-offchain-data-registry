@@ -2,6 +2,8 @@
     "projectName": "Genesis House",
     "link": "https://www.genesishouse.io",
     "twitter": "https://twitter.com/GenesisHouseIO",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",    
 
     "scripts": [
         {
