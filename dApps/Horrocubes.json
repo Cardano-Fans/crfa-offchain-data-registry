@@ -2,7 +2,8 @@
     "projectName": "Horrocubes",
     "link": "https://horrocubes.io",
     "twitter": "https://twitter.com/horrocubes",
-    "category": "GAMING",    
+    "category": "GAMING",
+    "subCategory": "NFT",   
 
     "scripts": [
         {
