@@ -3,7 +3,7 @@
     "link": "https://aada.finance",
     "twitter": "https://twitter.com/AadaFinance",
     "category": "DEFI",    
-    "sunCategory": "LENDING_BORROWING",    
+    "subCategory": "LENDING_BORROWING",    
 
     "scripts": [
         {
