@@ -2,7 +2,8 @@
     "projectName": "MELD",
     "link": "https://www.meld.com",
     "twitter": "https://twitter.com/MELD_labs",
-    "category": "LENDING&BORROWING",    
+    "category": "DEFI",    
+    "subCategory": "LENDING_BORROWING",    
 
     "scripts": [
         {
