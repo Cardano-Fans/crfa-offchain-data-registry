@@ -2,8 +2,8 @@
     "projectName": "Lending Pond",
     "link": "https://lendingpond.app",
     "twitter": "https://twitter.com/lendingpond_ada",
-    "category": "LENDING&BORROWING",
-    "subCategory": "NFT",       
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",       
 
     "scripts": [
         {
