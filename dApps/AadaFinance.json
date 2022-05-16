@@ -2,7 +2,8 @@
     "projectName": "Aada Finance",
     "link": "https://aada.finance",
     "twitter": "https://twitter.com/AadaFinance",
-    "category": "LENDING&BORROWING",    
+    "category": "DEFI",    
+    "sunCategory": "LENDING_BORROWING",    
 
     "scripts": [
         {
