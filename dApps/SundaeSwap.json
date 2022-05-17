@@ -3,7 +3,10 @@
     "link": "https://www.sundaeswap.finance",
     "twitter": "https://twitter.com/SundaeSwap",
     "category": "DEFI",    
-    "subCategory": "DEX",    
+    "subCategory": "DEX",  
+    "auditor": "Runtime Verification Inc.",
+    "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/SundaeSwap.pdf",
+    "auditType": "MANUAL",    
 
     "scripts": [
         {
