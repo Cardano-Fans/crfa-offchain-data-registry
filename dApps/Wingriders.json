@@ -3,7 +3,10 @@
     "link": "https://www.wingriders.com",
     "twitter": "https://twitter.com/wingriderscom",
     "category": "DEFI",     
-    "subCategory": "DEX",     
+    "subCategory": "DEX",   
+    "auditor": "CertiK",
+    "auditLink": "https://www.certik.com/projects/wingriders",
+    "auditType": "MANUAL",      
 
     "scripts": [
         {
