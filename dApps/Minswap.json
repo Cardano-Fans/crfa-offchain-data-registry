@@ -3,7 +3,10 @@
     "link": "https://minswap.org",
     "twitter": "https://twitter.com/MinswapDEX",
     "category": "DEFI",    
-    "subCategory": "DEX",    
+    "subCategory": "DEX", 
+    "auditor": "Tweag",
+    "auditLink": "https://github.com/CatspersCoffee/contracts/blob/main/dex/audit-report/MinSwap-Jan31.pdf",
+    "auditType": "MANUAL",
 
     "scripts": [
         {
