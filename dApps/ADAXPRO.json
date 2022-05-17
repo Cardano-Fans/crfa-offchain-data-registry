@@ -4,6 +4,9 @@
     "twitter": "https://twitter.com/adax_pro",
     "category": "DEFI",    
     "subCategory": "DEX",    
+    "auditor": "BTblock",
+    "auditLink": "https://www.gofyeo.com/post/btblock-completes-cardano-smart-contract-review-for-adax",
+    "auditType": "MANUAL",      
 
     "scripts": [
         {
