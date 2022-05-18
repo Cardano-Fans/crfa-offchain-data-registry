@@ -3,7 +3,10 @@
     "link": "https://www.meld.com",
     "twitter": "https://twitter.com/MELD_labs",
     "category": "DEFI",    
-    "subCategory": "LENDING_BORROWING",    
+    "subCategory": "LENDING_BORROWING",   
+    "auditor": "Tweag",
+    "auditLink": "https://meld-labs.github.io/technical/assets/tweag-audit-202112.pdf",
+    "auditType": "MANUAL",     
 
     "scripts": [
         {
