@@ -3,8 +3,15 @@
     "link": "https://www.sundaeswap.finance",
     "twitter": "https://twitter.com/SundaeSwap",
     "category": "DEFI",    
-    "subCategory": "DEX",    
-
+    "subCategory": "DEX",  
+    "audits": [
+        {
+         "auditId": "pUrR",
+         "auditor": "Runtime Verification Inc.",
+         "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/SundaeSwap.pdf",
+         "auditType": "MANUAL"
+        }
+    ],
     "scripts": [
         {
             "name": "Mainnet load test",
@@ -29,7 +36,8 @@
                 {
                     "version": 1,
                     "scriptHash": "ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",
-                    "contractAddress": "addr1wxaptpmxcxawvr3pzlhgnpmzz3ql43n2tc8mn3av5kx0yzs09tqh8"
+                    "contractAddress": "addr1wxaptpmxcxawvr3pzlhgnpmzz3ql43n2tc8mn3av5kx0yzs09tqh8",
+                    "auditId": "pUrR"
                 }
             ]
         },
@@ -40,7 +48,8 @@
                 {
                     "version": 1,
                     "scriptHash": "4020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
-                    "contractAddress": "addr1w9qzpelu9hn45pefc0xr4ac4kdxeswq7pndul2vuj59u8tqaxdznu"
+                    "contractAddress": "addr1w9qzpelu9hn45pefc0xr4ac4kdxeswq7pndul2vuj59u8tqaxdznu",
+                    "auditId": "pUrR"
                 }
             ]
         },
@@ -50,7 +59,8 @@
             "versions": [
                 {
                     "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
-                    "version": 1
+                    "version": 1,
+                    "auditId": "pUrR"
                 }
             ]
         },
@@ -61,7 +71,8 @@
                 {
                     "version": 1,
                     "scriptHash": "d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",
-                    "contractAddress": "addr1w82z6yrftsxz77el0ce2q4vuspcym2x0xgpgneurrwvasfge778fd"
+                    "contractAddress": "addr1w82z6yrftsxz77el0ce2q4vuspcym2x0xgpgneurrwvasfge778fd",
+                    "auditId": "pUrR"
                 }
             ]
         },        
@@ -72,7 +83,8 @@
                 {
                     "version": 1,
                     "scriptHash": "646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",
-                    "contractAddress": "addr1w9jx45flh83z6wuqypyash54mszwmdj8r64fydafxtfc6jgrw4rm3"
+                    "contractAddress": "addr1w9jx45flh83z6wuqypyash54mszwmdj8r64fydafxtfc6jgrw4rm3",
+                    "auditId": "pUrR"
                 }
             ]
         }

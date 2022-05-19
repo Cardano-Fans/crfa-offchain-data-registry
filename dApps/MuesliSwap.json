@@ -3,19 +3,26 @@
     "link": "https://ada.muesliswap.com",
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
-    "subCategory": "DEX",    
-
+    "subCategory": "DEX", 
+    "audits": [
+        {
+         "auditId": "xBOD",
+         "auditor": "MLabs",
+         "auditLink": "https://github.com/mlabs-haskell/muesliswap-audit-public/blob/master/MuesliSwap-audit-report.pdf",
+         "auditType": "MANUAL"
+        }
+    ],
     "scripts": [
         {
             "purpose": "SPEND",
             "versions": [
                 {
-                    "version": 1,
+                    "version": 0,
                     "scriptHash": "ea184d0a7e640c4b5daa3f2cef851e75477729c2fd89f6ffbed7874c",
                     "contractAddress": "addr1w84psng20ejqcj6a4gljemu9re65waefct7cnahlhmtcwnq63kxyq"
                 },    
                 {
-                    "version": 2,
+                    "version": 1,
                     "scriptHash": "15b95fdaceeb507073a1bd198803373beeafbd82560fbf8abe9073ff",
                     "contractAddress": "addr1wy2mjh76em44qurn5x73nzqrxua7ataasftql0u2h6g88lc3gtgpz"
                 }
@@ -37,9 +44,10 @@
             "purpose": "SPEND",
             "versions": [
                 {
-                    "version": 1,
+                    "version": 2,
                     "scriptHash": "f1ec90d33208778214cdc7fa90858ac5620253d99f84c10335928cab",
-                    "contractAddress": "addr1z8c7eyxnxgy80qs5ehrl4yy93tzkyqjnmx0cfsgrxkfge27q47h8tv3jp07j8yneaxj7qc63zyzqhl933xsglcsgtqcqxzc2je"
+                    "contractAddress": "addr1z8c7eyxnxgy80qs5ehrl4yy93tzkyqjnmx0cfsgrxkfge27q47h8tv3jp07j8yneaxj7qc63zyzqhl933xsglcsgtqcqxzc2je",
+                    "auditId": "xBOD"
                 }
             ]
         }         
