@@ -3,11 +3,15 @@
     "link": "https://www.meld.com",
     "twitter": "https://twitter.com/MELD_labs",
     "category": "DEFI",    
-    "subCategory": "LENDING_BORROWING",   
-    "auditor": "Tweag",
-    "auditLink": "https://meld-labs.github.io/technical/assets/tweag-audit-202112.pdf",
-    "auditType": "MANUAL",     
-
+    "subCategory": "LENDING_BORROWING", 
+    "audits": [
+        {
+         "auditId": "eelU",
+         "auditor": "Tweag",
+         "auditLink": "https://meld-labs.github.io/technical/assets/tweag-audit-202112.pdf",
+         "auditType": "MANUAL"
+        }
+    ],
     "scripts": [
         {
             "name": "MELD Diamond Hand NFT 1",
@@ -15,7 +19,7 @@
             "versions": [
                 {
                     "mintPolicyID": "c6d53bf97c0d7e38368b2ed6b2dcf8d5fb4df0ac533fa22458e04f45",
-                    "version": 1
+                    "version": 0
                 }
             ]
         },
@@ -25,7 +29,7 @@
             "versions": [
                 {
                     "mintPolicyID": "3b07e0f2a262fa1436df3c91e420d57ad9fd46aa04377ec80a05ee3f",
-                    "version": 1
+                    "version": 0
                 }
             ]
         },
@@ -35,7 +39,8 @@
             "versions": [
                 {
                     "mintPolicyID": "c51806ac8fd893646c12fbd8483abdd4db5b587e16e155a1bc1b289f",
-                    "version": 1
+                    "version": 1,
+                    "auditId": "eelU"
                 },
                 {
                     "mintPolicyID": "4c820aadf6ae8c755430455f5803d283bde0b20114bd93a8f381c72c",
@@ -49,7 +54,8 @@
             "versions": [
                 {
                     "mintPolicyID": "59c9aa4ea305356d37e5948ef2a3e6477674c80cff384889fdff902b",
-                    "version": 1
+                    "version": 1,
+                    "auditId": "eelU"
                 }
             ]
         },        
@@ -60,7 +66,8 @@
                 {
                     "version": 1,
                     "scriptHash": "c677cdb77d115df5d3772aaad91ea9e4b5d4a7f970308183dd193f1c",
-                    "contractAddress": "addr1w8r80ndh05g4mawnwu424kg748jtt498l9crpqvrm5vn78q32ats7"                    
+                    "contractAddress": "addr1w8r80ndh05g4mawnwu424kg748jtt498l9crpqvrm5vn78q32ats7",
+                    "auditId": "eelU"
                 }
             ]
         } 
