@@ -4,10 +4,14 @@
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
     "subCategory": "DEX", 
-    "auditor": "MLabs",
-    "auditLink": "https://github.com/mlabs-haskell/muesliswap-audit-public/blob/master/MuesliSwap-audit-report.pdf",
-    "auditType": "MANUAL",    
-
+    "audits": [
+        {
+         "auditId": "xBOD",
+         "auditor": "MLabs",
+         "auditLink": "https://github.com/mlabs-haskell/muesliswap-audit-public/blob/master/MuesliSwap-audit-report.pdf",
+         "auditType": "MANUAL"
+        }
+    ],
     "scripts": [
         {
             "purpose": "SPEND",
@@ -42,7 +46,8 @@
                 {
                     "version": 2,
                     "scriptHash": "f1ec90d33208778214cdc7fa90858ac5620253d99f84c10335928cab",
-                    "contractAddress": "addr1z8c7eyxnxgy80qs5ehrl4yy93tzkyqjnmx0cfsgrxkfge27q47h8tv3jp07j8yneaxj7qc63zyzqhl933xsglcsgtqcqxzc2je"
+                    "contractAddress": "addr1z8c7eyxnxgy80qs5ehrl4yy93tzkyqjnmx0cfsgrxkfge27q47h8tv3jp07j8yneaxj7qc63zyzqhl933xsglcsgtqcqxzc2je",
+                    "auditId": "xBOD"
                 }
             ]
         }         
