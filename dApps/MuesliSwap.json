@@ -3,7 +3,7 @@
     "link": "https://ada.muesliswap.com",
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
-    "subCategory": "ORDER BOOK DEX",
+    "subCategory": "ORDER_BOOK_DEX",
     "features": ["Partial orders", "DEX Aggregator", "Milk staking"], 
     "contracts": [
         {
