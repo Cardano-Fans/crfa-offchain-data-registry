@@ -3,7 +3,15 @@
     "link": "https://ada.muesliswap.com",
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
-    "subCategory": "DEX", 
+    "subCategory": "ORDER BOOK DEX",
+    "features": ["Partial orders", "DEX Aggregator", "Milk staking"], 
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/MuesliSwapTeam/muesliswap-cardano-contracts",
+         "contractID": "MnBY"
+        }
+    ],
     "audits": [
         {
          "auditId": "xBOD",
@@ -19,12 +27,14 @@
                 {
                     "version": 0,
                     "scriptHash": "ea184d0a7e640c4b5daa3f2cef851e75477729c2fd89f6ffbed7874c",
-                    "contractAddress": "addr1w84psng20ejqcj6a4gljemu9re65waefct7cnahlhmtcwnq63kxyq"
+                    "contractAddress": "addr1w84psng20ejqcj6a4gljemu9re65waefct7cnahlhmtcwnq63kxyq",
+                    "contractID": "MnBY"
                 },    
                 {
                     "version": 1,
                     "scriptHash": "15b95fdaceeb507073a1bd198803373beeafbd82560fbf8abe9073ff",
-                    "contractAddress": "addr1wy2mjh76em44qurn5x73nzqrxua7ataasftql0u2h6g88lc3gtgpz"
+                    "contractAddress": "addr1wy2mjh76em44qurn5x73nzqrxua7ataasftql0u2h6g88lc3gtgpz",
+                    "contractID": "MnBY"
                 }
             ]
         },
