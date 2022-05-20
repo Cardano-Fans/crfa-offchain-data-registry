@@ -4,7 +4,7 @@
     "twitter": "https://twitter.com/MinswapDEX",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
-    "features": ["Swap", "Limit orders", "Liquidity mining", "Yield farming"], 
+    "features": ["SWAP", "LIMIT_ORDERS", "LIQUIDITY_MINING", "YIELD_FARMING"], 
     "contracts": [
         {
          "openSource": true,
