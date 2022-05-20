@@ -3,7 +3,7 @@
     "link": "https://adax.pro",
     "twitter": "https://twitter.com/adax_pro",
     "category": "DEFI",    
-    "subCategory": "ORDER BOOK DEX",
+    "subCategory": "ORDER_BOOK_DEX",
     "contracts": [
         {
          "openSource": true,
