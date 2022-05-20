@@ -3,7 +3,15 @@
     "link": "https://minswap.org",
     "twitter": "https://twitter.com/MinswapDEX",
     "category": "DEFI",    
-    "subCategory": "DEX",
+    "subCategory": "AMM DEX",
+    "features": ["Swap", "Limit orders", "Liquidity mining", "Yield farming"], 
+    "contracts": [
+        {
+         "openSource": "TRUE",
+         "contractLink": "https://github.com/CatspersCoffee/contracts",
+         "contractID": "wFhM"
+        }
+    ],
     "audits": [
         {
          "auditId": "DDUz",
@@ -37,6 +45,7 @@
                     "version": 1,
                     "scriptHash": "0ca50950adbb06c5c5f6833924a66ac873e43202588b6d338602d78d",
                     "contractAddress": "addr1wyx22z2s4kasd3w976pnjf9xdty88epjqfvgkmfnscpd0rg3z8y6v",
+                    "contractID": "wFhM",
                     "auditId": "DDUz"
                 },
                 {
@@ -54,6 +63,7 @@
                     "version": 1,
                     "scriptHash": "57c8e718c201fba10a9da1748d675b54281d3b1b983c5d1687fc7317",
                     "contractAddress": "addr1z9tu3ecccgqlhgg2nkshfrt8td2zs8fmrwvrchgksl78x96j2c79g",
+                    "contractID": "wFhM",
                     "auditId": "DDUz"
                 },
                 {
@@ -70,6 +80,7 @@
                     "version": 1,
                     "scriptHash": "73c3f85a23b2b81d7df84a9616b666b1e1c8c5fcfff6783d9c4a1a45",
                     "contractAddress": "addr1w9eu87z6ywets8talp9fv94kv6c7rjx9lnllv7pan39p53gkjg05e",
+                    "contractID": "wFhM",
                     "auditId": "DDUz"
                 }
             ]
@@ -81,6 +92,7 @@
                 {
                     "mintPolicyID": "e0baa1f0887a766daf5196f92c88728e356e71255c5ad00866607484",
                     "version": 1,
+                    "contractID": "wFhM",
                     "auditId": "DDUz"
                 },
                 {
@@ -96,6 +108,7 @@
                 {
                     "mintPolicyID": "3f6092645942a54a75186b25e0975b79e1f50895ad958b42015eb6d2",
                     "version": 1,
+                    "contractID": "wFhM",
                     "auditId": "DDUz"
                 },
                 {
@@ -111,6 +124,7 @@
                 {
                     "mintPolicyID": "5178cc70a14405d3248e415d1a120c61d2aa74b4cee716d475b1495e",
                     "version": 1,
+                    "contractID": "wFhM",
                     "auditId": "DDUz"
                 },
                 {
