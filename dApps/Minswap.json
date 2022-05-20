@@ -7,7 +7,7 @@
     "features": ["Swap", "Limit orders", "Liquidity mining", "Yield farming"], 
     "contracts": [
         {
-         "openSource": "TRUE",
+         "openSource": true,
          "contractLink": "https://github.com/CatspersCoffee/contracts",
          "contractID": "wFhM"
         }
