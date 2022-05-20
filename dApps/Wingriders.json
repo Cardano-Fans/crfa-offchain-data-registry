@@ -4,7 +4,7 @@
     "twitter": "https://twitter.com/wingriderscom",
     "category": "DEFI",     
     "subCategory": "AMM_DEX",
-    "features": ["Swap", "Liquidity mining", "ADA staking", "Yield Farming"], 
+    "features": ["SWAP", "LIQUIDITY_MINING", "ADA_STAKING", "YIELD_FARMING"], 
     "contracts": [
         {
          "openSource": false
