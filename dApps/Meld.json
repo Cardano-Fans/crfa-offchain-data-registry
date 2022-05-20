@@ -4,6 +4,12 @@
     "twitter": "https://twitter.com/MELD_labs",
     "category": "DEFI",    
     "subCategory": "LENDING_BORROWING", 
+    "features": ["MELD Locked Staking", "MELD Vesting"], 
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
     "audits": [
         {
          "auditId": "eelU",
