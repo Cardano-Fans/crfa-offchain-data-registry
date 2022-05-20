@@ -4,7 +4,7 @@
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
     "subCategory": "ORDER_BOOK_DEX",
-    "features": ["Partial orders", "DEX Aggregator", "Milk staking"], 
+    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING"], 
     "contracts": [
         {
          "openSource": true,
