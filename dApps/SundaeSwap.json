@@ -4,7 +4,7 @@
     "twitter": "https://twitter.com/SundaeSwap",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
-    "features": ["Swap", "Liquidity mining"], 
+    "features": ["SWAP", "LIQUIDITY_MINING"], 
     "contracts": [
         {
          "openSource": false
