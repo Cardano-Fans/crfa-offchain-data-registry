@@ -3,7 +3,13 @@
     "link": "https://www.sundaeswap.finance",
     "twitter": "https://twitter.com/SundaeSwap",
     "category": "DEFI",    
-    "subCategory": "DEX",  
+    "subCategory": "AMM_DEX",
+    "features": ["SWAP", "LIQUIDITY_MINING"], 
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
     "audits": [
         {
          "auditId": "pUrR",

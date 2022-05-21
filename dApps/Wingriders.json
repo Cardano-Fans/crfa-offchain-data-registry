@@ -3,7 +3,13 @@
     "link": "https://www.wingriders.com",
     "twitter": "https://twitter.com/wingriderscom",
     "category": "DEFI",     
-    "subCategory": "DEX", 
+    "subCategory": "AMM_DEX",
+    "features": ["SWAP", "LIQUIDITY_MINING", "ADA_STAKING", "YIELD_FARMING"], 
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
     "audits": [
         {
          "auditId": "9oS7",
