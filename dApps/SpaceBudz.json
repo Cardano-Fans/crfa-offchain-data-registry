@@ -4,9 +4,17 @@
     "twitter": "https://twitter.com/spacebudzNFT",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
-
+    "features": ["MARKETPLACE", "PERSONALIZE_NFT"], 
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/SpaceBudz",
+         "contractId": "ZU7P"
+        }
+    ],
     "scripts": [
         {
+            "name": "Marketplace",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -17,29 +25,41 @@
                 {
                     "version": 2,
                     "scriptHash": "0449932f9da0258d220c39f803ceb8e2c45fdc605e8dd42f35558b58",
-                    "contractAddress": "addr1wyzynye0nksztrfzpsulsq7whr3vgh7uvp0gm4p0x42ckkqqq6kxq"
+                    "contractAddress": "addr1wyzynye0nksztrfzpsulsq7whr3vgh7uvp0gm4p0x42ckkqqq6kxq",
+                    "contractId": "ZU7P"
                 }
             ]
         },
         {
-            "name": "Token Validator",
+            "name": "Identity-Token Validator",
             "purpose": "SPEND",
             "versions": [
                 {
-                    "version": 3,
+                    "version": 1,
                     "scriptHash": "336f0fc67c83fabe248bad4af737edd5611a8dbfd6d09fa923978e00",
                     "contractAddress": "addr1wyek7r7x0jpl403y3wk54aehah2kzx5dhltdp8afywtcuqqmt9hg4"
-                }
+                },
+                {
+                    "version": 2,
+                    "scriptHash": "a745429480879c839f0131ccdf35b5cb0cd77f51d51bd5c8e617a21f",
+                    "contractAddress": "addr1wxn52s55szreequlqycuehe4kh9se4ml2823h4wguct6y8cgczmge",
+                    "contractId": "ZU7P"
+                }                
             ]
         },
         {
-            "name": "Token Policy",
+            "name": "Identity-Token Policy",
             "purpose": "MINT",
             "versions": [
                 {
                     "mintPolicyID": "4bbe1a11a1b8b1ffa7250e3cca799b74c10252792c575af906ae9b99",
-                    "version": 3
-                }
+                    "version": 1
+                },
+                {
+                    "mintPolicyID": "e47f849c5262b93b46789251519ec0a7921087b84b3782b871497e8f",
+                    "version": 2,
+                    "contractId": "ZU7P"
+                }                
             ]
         }        
     ]
