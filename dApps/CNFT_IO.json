@@ -4,9 +4,16 @@
     "twitter": "https://twitter.com/CNFT_IO",
     "category": "MARKETPLACE",
     "subCategory": "NFT",
-
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/Canonical-LLC/cnft-io-marketplace",
+         "contractId": "lADw"
+        }
+    ],
     "scripts": [
         {
+            "name": "Marketplace",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -22,7 +29,8 @@
                 {
                     "version": 3,
                     "scriptHash": "cb08fd2cf22dc45b23a7ff9c03468d94c93133606ba2abfdc833a76a",
-                    "contractAddress": "addr1w89s3lfv7gkugker5llecq6x3k2vjvfnvp4692laeqe6w6s93vj3j"
+                    "contractAddress": "addr1w89s3lfv7gkugker5llecq6x3k2vjvfnvp4692laeqe6w6s93vj3j",
+                    "contractId": "lADw"
                 }                
             ]
         },
@@ -31,7 +39,8 @@
             "versions": [
                 {
                     "mintPolicyID": "9902279d9e834859a5fca5b9a334d070aa1ae686be2f49407aae5ea9",
-                    "version": 3
+                    "version": 3,
+                    "contractId": "lADw"
                 }               
             ]
         }        
