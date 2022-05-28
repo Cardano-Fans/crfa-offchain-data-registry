@@ -1,10 +1,39 @@
 {
+    "id": "MUESLI",
     "projectName": "MuesliSwap",
     "link": "https://ada.muesliswap.com",
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
     "subCategory": "ORDER_BOOK_DEX",
-    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING"], 
+    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING"],
+    
+    "versions": [
+        {
+            "version": 1,
+            "description": "",
+            "scripts": [
+                {
+                    "id": "ORDER_BOOK",
+                    "version": 0
+                },
+                {
+                    "id": "STAKING_ORDER",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "version": 2,
+            "description": "",
+            "scripts": [
+                {
+                    "id": "ORDER_BOOK",
+                    "version": 0
+                }
+            ]
+        }
+    ],
+    
     "contracts": [
         {
          "openSource": true,
@@ -22,6 +51,8 @@
     ],
     "scripts": [
         {
+            "id": "ORDER_BOOK",
+            "name": "Order Book - bla",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -39,6 +70,7 @@
             ]
         },
         {
+            "id": "STAKING_ORDER",
             "name": "Staking Order",
             "purpose": "SPEND",
             "versions": [
