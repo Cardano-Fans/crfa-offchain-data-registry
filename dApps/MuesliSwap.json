@@ -7,10 +7,11 @@
     "subCategory": "ORDER_BOOK_DEX",
     "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING"],
     
-    "versions": [
+    "releases": [
         {
-            "version": 1,
-            "description": "",
+            "releaseNumber": 1,
+            "releaseName": "Groovy Gonzales",
+            "description": "our old version",
             "scripts": [
                 {
                     "id": "ORDER_BOOK",
@@ -23,12 +24,16 @@
             ]
         },
         {
-            "version": 2,
-            "description": "",
+            "releaseNumber": 2,
+            "releaseName": "Spooky Culprit",
+            "description": "our new v2",
             "scripts": [
                 {
                     "id": "ORDER_BOOK",
                     "version": 0
+                },
+                    "id": "STAKING_ORDER",
+                    "version": 2
                 }
             ]
         }
