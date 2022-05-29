@@ -5,8 +5,22 @@
     "category": "GAMING",
     "subCategory": "NFT",     
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "XlJb3t",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "XlJb3t",
             "purpose": "MINT",
             "versions": [
                 {

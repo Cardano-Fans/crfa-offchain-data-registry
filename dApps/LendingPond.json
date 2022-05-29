@@ -5,8 +5,22 @@
     "category": "DEFI",
     "subCategory": "LENDING_BORROWING",       
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "4dyRmd",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "4dyRmd",
             "purpose": "SPEND",
             "versions": [
                 {

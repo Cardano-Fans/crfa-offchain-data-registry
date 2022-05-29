@@ -3,8 +3,22 @@
     "link": "https://cyphermonks.com",
     "category": "COMMUNITY",      
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "0fv6Mh",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "0fv6Mh",
             "name": "A Token for St Jude",
             "purpose": "SPEND",
             "versions": [

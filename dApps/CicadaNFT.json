@@ -5,8 +5,22 @@
     "category": "COLLECTION",
     "subCategory": "NFT",
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "tdQMoM",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+    
     "scripts": [
         {
+            "id": "tdQMoM",
             "purpose": "SPEND",
             "versions": [
                 {

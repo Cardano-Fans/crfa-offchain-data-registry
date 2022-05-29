@@ -5,6 +5,19 @@
     "category": "DEFI",    
     "subCategory": "ORACLE",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "0F8CjI",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+    
     "scripts": [
         {
             "purpose": "SPEND",

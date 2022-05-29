@@ -5,8 +5,22 @@
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "NMkwXk",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "NMkwXk",
             "purpose": "SPEND",
             "versions": [
                 {

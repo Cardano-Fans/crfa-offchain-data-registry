@@ -5,6 +5,7 @@
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
     "features": ["SWAP", "LIQUIDITY_MINING"], 
+
     "contracts": [
         {
          "openSource": false
