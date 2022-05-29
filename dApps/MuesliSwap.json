@@ -10,30 +10,30 @@
     "releases": [
         {
             "releaseNumber": 1,
-            "releaseName": "Groovy Gonzales",
-            "description": "our old version",
+            "releaseName": "V1",
+            "description": "",
             "scripts": [
                 {
                     "id": "ORDER_BOOK",
                     "version": 0
-                },
-                {
-                    "id": "STAKING_ORDER",
-                    "version": 1
                 }
             ]
         },
         {
             "releaseNumber": 2,
-            "releaseName": "Spooky Culprit",
-            "description": "our new v2",
+            "releaseName": "V2",
+            "description": "",
             "scripts": [
                 {
                     "id": "ORDER_BOOK",
-                    "version": 0
+                    "version": 1
                 },
                     "id": "STAKING_ORDER",
-                    "version": 2
+                    "version": 1
+                },
+                },
+                    "id": "PARTIAL_MATCH",
+                    "version": 1
                 }
             ]
         }
@@ -57,7 +57,7 @@
     "scripts": [
         {
             "id": "ORDER_BOOK",
-            "name": "Order Book - bla",
+            "name": "Order Book",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -87,11 +87,12 @@
             ]
         },
         {
+            "id": "PARTIAL_MATCH"
             "name": "Partial Match Order",
             "purpose": "SPEND",
             "versions": [
                 {
-                    "version": 2,
+                    "version": 1,
                     "scriptHash": "f1ec90d33208778214cdc7fa90858ac5620253d99f84c10335928cab",
                     "contractAddress": "addr1z8c7eyxnxgy80qs5ehrl4yy93tzkyqjnmx0cfsgrxkfge27q47h8tv3jp07j8yneaxj7qc63zyzqhl933xsglcsgtqcqxzc2je",
                     "auditId": "xBOD"
