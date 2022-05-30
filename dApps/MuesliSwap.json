@@ -14,7 +14,7 @@
             "description": "old version of Order Book script",
             "scripts": [
                 {
-                    "id": "ORDER_BOOK",
+                    "id": "b9XDbe",
                     "version": 0
                 }
             ]
@@ -25,15 +25,15 @@
             "description": "new versions of all scripts used by the Dapp",
             "scripts": [
                 {
-                    "id": "ORDER_BOOK",
+                    "id": "b9XDbe",
                     "version": 1
                 },
                 {
-                    "id": "STAKING_ORDER",
+                    "id": "MtEFqz",
                     "version": 1
                 },
                 {
-                    "id": "PARTIAL_MATCH",
+                    "id": "hGPSoP",
                     "version": 1
                 }
             ]
@@ -56,7 +56,7 @@
     ],
     "scripts": [
         {
-            "id": "ORDER_BOOK",
+            "id": "b9XDbe",
             "name": "Order Book",
             "purpose": "SPEND",
             "versions": [
@@ -75,7 +75,7 @@
             ]
         },
         {
-            "id": "STAKING_ORDER",
+            "id": "MtEFqz",
             "name": "Staking Order",
             "purpose": "SPEND",
             "versions": [
@@ -87,7 +87,7 @@
             ]
         },
         {
-            "id": "PARTIAL_MATCH",
+            "id": "hGPSoP",
             "name": "Partial Match Order",
             "purpose": "SPEND",
             "versions": [
