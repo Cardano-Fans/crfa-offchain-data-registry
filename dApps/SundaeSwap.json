@@ -14,11 +14,11 @@
             "description": "Mainnet load tests pre-launch",
             "scripts": [
                 {
-                    "id": "MAINNET_TEST",
+                    "id": "EEHvb6",
                     "version": 0
                 },
                 {
-                    "id": "MAINNET_TEST",
+                    "id": "EEHvb6",
                     "version": 1
                 }
             ]
@@ -29,31 +29,31 @@
             "description": "new versions of all scripts used by the Dapp",
             "scripts": [
                 {
-                    "id": "ORDER_BOOK",
+                    "id": "aM07TS",
                     "version": 1
                 },
                 {
-                    "id": "LIQUIDITY_POOL",
+                    "id": "aX10UZ",
                     "version": 1
                 },
                 {
-                    "id": "LIQUIDITY_TOKEN",
+                    "id": "wZvAWT",
                     "version": 1
                 },
                 {
-                    "id": "FACTORY",
+                    "id": "Uq7zqE",
                     "version": 1
                 },
                 {
-                    "id": "SCOOPER_REWARDS",
+                    "id": "NZGaoj",
                     "version": 1
                 },   
                 {
-                    "id": "YIELD_FARMING",
+                    "id": "Xwh0rZ",
                     "version": 1
                 },
                 {
-                    "id": "SCOOPER_LICENCE",
+                    "id": "I4bGnp",
                     "version": 1
                 }                
             ]
@@ -75,7 +75,7 @@
     ],
     "scripts": [
         {
-            "id": "MAINNET_TEST",
+            "id": "EEHvb6",
             "name": "Mainnet load test",
             "purpose": "SPEND",
             "versions": [
@@ -92,7 +92,7 @@
             ]
         },        
         {
-            "id": "ORDER_BOOK",
+            "id": "aM07TS",
             "name": "Order Book / Escrow",
             "purpose": "SPEND",
             "versions": [
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "id": "LIQUIDITY_POOL",
+            "id": "aX10UZ",
             "name": "Liquidity Pool",
             "purpose": "SPEND",
             "versions": [
@@ -118,7 +118,7 @@
             ]
         },
         {
-            "id": "LIQUIDITY_TOKEN",
+            "id": "wZvAWT",
             "name": "Liquidity Provider Token",
             "purpose": "MINT",
             "versions": [
@@ -130,7 +130,7 @@
             ]
         },
         {
-            "id": "FACTORY",
+            "id": "Uq7zqE",
             "name": "SundaeSwap Factory",
             "purpose": "SPEND",
             "versions": [
@@ -143,7 +143,7 @@
             ]
         },        
         {
-            "id": "SCOOPER_REWARDS",
+            "id": "NZGaoj",
             "name": "Scooper Rewards",
             "purpose": "SPEND",
             "versions": [
@@ -156,7 +156,7 @@
             ]
         },
         {
-            "id": "YIELD_FARMING",
+            "id": "Xwh0rZ",
             "name": "Farming",
             "purpose": "SPEND",
             "versions": [
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "id": "SCOOPER_LICENCE",
+            "id": "I4bGnp",
             "name": "Scooper License",
             "purpose": "MINT",
             "versions": [
