@@ -5,6 +5,44 @@
     "twitter": "https://twitter.com/CNFT_IO",
     "category": "MARKETPLACE",
     "subCategory": "NFT",
+    
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "0j8R8c",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "0j8R8c",
+                    "version": 2
+                }
+            ]
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "scripts": [
+                {
+                    "id": "0j8R8c",
+                    "version": 3
+                },
+                {
+                    "id": "116Z4E",
+                    "version": 3
+                }               
+            ]
+        }        
+    ],
+    
     "contracts": [
         {
          "openSource": true,
@@ -14,6 +52,7 @@
     ],
     "scripts": [
         {
+            "id": "0j8R8c",
             "name": "Marketplace",
             "purpose": "SPEND",
             "versions": [
@@ -36,6 +75,7 @@
             ]
         },
         {
+            "id": "116Z4E",
             "purpose": "MINT",
             "versions": [
                 {
