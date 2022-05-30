@@ -4,21 +4,43 @@
     "link": "https://astorpool.net",
     "twitter": "https://twitter.com/AstorPool",
     "category": "COMMUNITY",    
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "9X8Tf6",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "9X8Tf6",
+                    "version": 2
+                },
+                {
+                    "id": "n7J7jM",
+                    "version": 1
+                }                
+            ]
+        }        
+    ],    
   
     "scripts": [
         {
+            "id": "9X8Tf6",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
                     "scriptHash": "7ad427bc37992916a7e5189dc046d3224fe0ab206521dad9acf5dfdf",
                     "contractAddress": "addr1w9adgfaux7vjj948u5vfmszx6v3ylc9typjjrkke4n6alhcwu2j5z"
-                }
-            ]
-        },
-        {
-            "purpose": "SPEND",
-            "versions": [
+                },
                 {
                     "version": 2,
                     "scriptHash": "f20e79df1b81eaa46817aabe97823304ad6059b6586582ccefc49b7f",
@@ -27,6 +49,7 @@
             ]
         },        
         {
+            "id": "n7J7jM",
             "purpose": "MINT",
             "versions": [
                 {
