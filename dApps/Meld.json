@@ -6,6 +6,56 @@
     "category": "DEFI",    
     "subCategory": "LENDING_BORROWING", 
     "features": ["MELD_LOCKED_STAKING", "MELD_VESTING"], 
+    
+    "releases": [
+        {
+            "releaseNumber": 0,
+            "releaseName": "V0",
+            "description": "MELD Diamond Hand NFT",
+            "scripts": [
+                {
+                    "id": "jgp5bb",
+                    "version": 0
+                },
+                {
+                    "id": "XLYQVj",
+                    "version": 0
+                }              
+            ]
+        },
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "description": "old version of locked staking token minting script",
+            "scripts": [
+                {
+                    "id": "CMCq66",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "description": "last versions of all dapp scripts",
+            "scripts": [
+                {
+                    "id": "CMCq66",
+                    "version": 2
+                },
+                {
+                    "id": "D8kwAe",
+                    "version": 1
+                },
+                {
+                    "id": "KDwTJq",
+                    "version": 1
+                }                 
+            ]
+        }        
+    ],
+    
+    
     "contracts": [
         {
          "openSource": false
@@ -21,6 +71,7 @@
     ],
     "scripts": [
         {
+            "id": "jgp5bb",
             "name": "MELD Diamond Hand NFT 1",
             "purpose": "MINT",
             "versions": [
@@ -31,6 +82,7 @@
             ]
         },
         {
+            "id": "XLYQVj",
             "name": "MELD Diamond Hand NFT 2",
             "purpose": "MINT",
             "versions": [
@@ -41,6 +93,7 @@
             ]
         },
         {
+            "id": "CMCq66",
             "name": "locked staking token",
             "purpose": "MINT",
             "versions": [
@@ -56,6 +109,7 @@
             ]
         },
         {
+            "id": "D8kwAe",
             "name": "vesting auth token",
             "purpose": "MINT",
             "versions": [
@@ -67,6 +121,7 @@
             ]
         },        
         {
+            "id": "KDwTJq",
             "name": "token vesting",
             "purpose": "SPEND",
             "versions": [

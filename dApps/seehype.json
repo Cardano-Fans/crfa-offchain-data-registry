@@ -4,10 +4,28 @@
     "link": "https://www.seehype.com",
     "twitter": "https://twitter.com/haveyouseenhype",
     "category": "COLLECTION",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",  
+    
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "aH3mi6",
+                    "version": 1
+                },
+                {
+                    "id": "BMX5z3",
+                    "version": 1
+                }                
+            ]
+        }
+    ],    
 
     "scripts": [
         {
+            "id": "aH3mi6",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -18,6 +36,7 @@
             ]
         },
         {
+            "id": "BMX5z3",
             "name": "vaporizer",
             "purpose": "SPEND",
             "versions": [                

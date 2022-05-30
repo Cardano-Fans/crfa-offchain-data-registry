@@ -5,8 +5,25 @@
     "twitter": "https://twitter.com/singularity_net",
     "category": "MARKETPLACE",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "ygiFgw",
+                    "version": 1
+                },
+                {
+                    "id": "FC13hj",
+                    "version": 1
+                }                
+            ]
+        }
+    ],
     "scripts": [
         {
+            "id": "ygiFgw",
             "name": "AGIX",
             "purpose": "MINT",
             "versions": [
@@ -17,6 +34,7 @@
             ]
         },
         {
+            "id": "FC13hj",
             "name": "NTX",
             "purpose": "MINT",
             "versions": [

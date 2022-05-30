@@ -6,6 +6,46 @@
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
     "features": ["MARKETPLACE", "PERSONALIZE_NFT"], 
+    
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "4Vwv3Y",
+                    "version": 1
+                },
+                {
+                    "id": "ZEz6b3",
+                    "version": 1
+                },
+                {
+                    "id": "ROHDcK",
+                    "version": 1
+                }                  
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "4Vwv3Y",
+                    "version": 2
+                },
+                {
+                    "id": "ZEz6b3",
+                    "version": 2
+                },
+                {
+                    "id": "ROHDcK",
+                    "version": 2
+                }                  
+            ]
+        }        
+    ],
+    
     "contracts": [
         {
          "openSource": true,
@@ -15,6 +55,7 @@
     ],
     "scripts": [
         {
+            "id": "4Vwv3Y",
             "name": "Marketplace",
             "purpose": "SPEND",
             "versions": [
@@ -32,6 +73,7 @@
             ]
         },
         {
+            "id": "ZEz6b3",
             "name": "Identity-Token Validator",
             "purpose": "SPEND",
             "versions": [
@@ -49,6 +91,7 @@
             ]
         },
         {
+            "id": "ROHDcK",
             "name": "Identity-Token Policy",
             "purpose": "MINT",
             "versions": [
