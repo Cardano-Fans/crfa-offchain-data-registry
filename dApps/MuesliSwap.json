@@ -5,7 +5,40 @@
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
     "subCategory": "ORDER_BOOK_DEX",
-    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING"], 
+    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING"],
+    
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "description": "old version of Order Book script",
+            "scripts": [
+                {
+                    "id": "b9XDbe",
+                    "version": 0
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "description": "new versions of all scripts used by the Dapp",
+            "scripts": [
+                {
+                    "id": "b9XDbe",
+                    "version": 1
+                },
+                {
+                    "id": "MtEFqz",
+                    "version": 1
+                },
+                {
+                    "id": "hGPSoP",
+                    "version": 1
+                }
+            ]
+        }
+    ],
     "contracts": [
         {
          "openSource": true,
@@ -23,6 +56,8 @@
     ],
     "scripts": [
         {
+            "id": "b9XDbe",
+            "name": "Order Book",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -40,6 +75,7 @@
             ]
         },
         {
+            "id": "MtEFqz",
             "name": "Staking Order",
             "purpose": "SPEND",
             "versions": [
@@ -51,11 +87,12 @@
             ]
         },
         {
+            "id": "hGPSoP",
             "name": "Partial Match Order",
             "purpose": "SPEND",
             "versions": [
                 {
-                    "version": 2,
+                    "version": 1,
                     "scriptHash": "f1ec90d33208778214cdc7fa90858ac5620253d99f84c10335928cab",
                     "contractAddress": "addr1z8c7eyxnxgy80qs5ehrl4yy93tzkyqjnmx0cfsgrxkfge27q47h8tv3jp07j8yneaxj7qc63zyzqhl933xsglcsgtqcqxzc2je",
                     "auditId": "xBOD"

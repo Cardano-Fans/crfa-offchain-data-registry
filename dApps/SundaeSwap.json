@@ -5,7 +5,60 @@
     "twitter": "https://twitter.com/SundaeSwap",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
-    "features": ["SWAP", "LIQUIDITY_MINING"], 
+    "features": ["SWAP", "LIQUIDITY_MINING", "YIELD_FARMING"], 
+    
+    "releases": [
+        {
+            "releaseNumber": 0,
+            "releaseName": "V0",
+            "description": "Mainnet load tests pre-launch",
+            "scripts": [
+                {
+                    "id": "EEHvb6",
+                    "version": 0
+                },
+                {
+                    "id": "EEHvb6",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "description": "new versions of all scripts used by the Dapp",
+            "scripts": [
+                {
+                    "id": "aM07TS",
+                    "version": 1
+                },
+                {
+                    "id": "aX10UZ",
+                    "version": 1
+                },
+                {
+                    "id": "wZvAWT",
+                    "version": 1
+                },
+                {
+                    "id": "Uq7zqE",
+                    "version": 1
+                },
+                {
+                    "id": "NZGaoj",
+                    "version": 1
+                },   
+                {
+                    "id": "Xwh0rZ",
+                    "version": 1
+                },
+                {
+                    "id": "I4bGnp",
+                    "version": 1
+                }                
+            ]
+        }
+    ],
 
     "contracts": [
         {
@@ -22,6 +75,7 @@
     ],
     "scripts": [
         {
+            "id": "EEHvb6",
             "name": "Mainnet load test",
             "purpose": "SPEND",
             "versions": [
@@ -31,13 +85,14 @@
                     "contractAddress": "addr1wymhd0xyunu2qm8cuxx42pahstzt2w0uh26xenqzmy9y0dqs9fdtx"
                 },    
                 {
-                    "version": 0,
+                    "version": 1,
                     "scriptHash": "295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",
                     "contractAddress": "addr1wy547pr3u8y7tpj6cxvddpwradkestryqwtwnuhyd4ufyzqw56p7p"
                 }                
             ]
         },        
         {
+            "id": "aM07TS",
             "name": "Order Book / Escrow",
             "purpose": "SPEND",
             "versions": [
@@ -50,6 +105,7 @@
             ]
         },
         {
+            "id": "aX10UZ",
             "name": "Liquidity Pool",
             "purpose": "SPEND",
             "versions": [
@@ -62,6 +118,7 @@
             ]
         },
         {
+            "id": "wZvAWT",
             "name": "Liquidity Provider Token",
             "purpose": "MINT",
             "versions": [
@@ -73,6 +130,7 @@
             ]
         },
         {
+            "id": "Uq7zqE",
             "name": "SundaeSwap Factory",
             "purpose": "SPEND",
             "versions": [
@@ -85,6 +143,7 @@
             ]
         },        
         {
+            "id": "NZGaoj",
             "name": "Scooper Rewards",
             "purpose": "SPEND",
             "versions": [
@@ -92,6 +151,31 @@
                     "version": 1,
                     "scriptHash": "646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",
                     "contractAddress": "addr1w9jx45flh83z6wuqypyash54mszwmdj8r64fydafxtfc6jgrw4rm3",
+                    "auditId": "pUrR"
+                }
+            ]
+        },
+        {
+            "id": "Xwh0rZ",
+            "name": "Farming",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "74db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",
+                    "contractAddress": "addr1w96dh8r6yds9et9wfmnrtg267mnrck3ej9wysyj5a6uhtzchkcr5d",
+                    "auditId": "pUrR"
+                }
+            ]
+        },
+        {
+            "id": "I4bGnp",
+            "name": "Scooper License",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "e8a447d4e19016ca2aa74d20b4c4de87adb1f21dfb5493bf2d7281a6",
+                    "version": 1,
                     "auditId": "pUrR"
                 }
             ]
