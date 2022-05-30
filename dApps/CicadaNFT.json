@@ -1,12 +1,27 @@
 {
+    "id": "Q9Qe6koS",
     "projectName": "Cicada NFT",
     "link": "https://cicadanft.com",
     "twitter": "https://twitter.com/cicadanft",
     "category": "COLLECTION",
     "subCategory": "NFT",
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "tdQMoM",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+    
     "scripts": [
         {
+            "id": "tdQMoM",
             "purpose": "SPEND",
             "versions": [
                 {

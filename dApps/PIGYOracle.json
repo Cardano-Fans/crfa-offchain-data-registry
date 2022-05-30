@@ -1,12 +1,27 @@
 {
+    "id": "KoPimTyF",
     "projectName": "PIGY Oracle",
     "link": "https://oracle.pigytoken.com",
     "twitter": "https://twitter.com/pigytoken",
     "category": "DEFI",     
     "subCategory": "ORACLE",     
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "PM9B3w",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "PM9B3w",
             "purpose": "SPEND",
             "versions": [
                 {

@@ -1,11 +1,26 @@
 {
+    "id": "IZujMUw2",
     "projectName": "Cardabase",
     "link": "https://cardabase.io",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "0F8CjA",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "0F8CjA",
             "purpose": "MINT",
             "versions": [
                 {

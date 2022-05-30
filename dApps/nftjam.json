@@ -1,12 +1,27 @@
 {
+    "id": "uVO6VSRK",
     "projectName": "NFTJAM",
     "link": "https://nftjam.io",
     "twitter": "https://twitter.com/nftjam_io",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "m9COQg",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "m9COQg",
             "purpose": "SPEND",
             "versions": [
                 {

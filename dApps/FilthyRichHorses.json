@@ -1,12 +1,27 @@
 {
+    "id": "3Cvyqvxc",
     "projectName": "Filthy Rich Horses",
     "link": "https://www.filthyrichhorses.com",
     "twitter": "https://twitter.com/FRHorses",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "NMkwXk",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "NMkwXk",
             "purpose": "SPEND",
             "versions": [
                 {

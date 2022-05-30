@@ -1,13 +1,27 @@
 {
+    "id": "UiJPK0kd",
     "projectName": "C3 Tubular Collection",
     "link": "https://charli3.io",
     "twitter": "https://twitter.com/Oraclecharli3",
     "category": "DEFI",    
     "subCategory": "ORACLE",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "t5sNH6",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
-            "purpose": "SPEND",
+            "id": "t5sNH6",
             "versions": [
                 {
                     "version": 1,

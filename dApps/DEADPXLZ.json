@@ -1,12 +1,27 @@
 {
+    "id": "dFh5cIlW",
     "projectName": "DEADPXLZ",
     "link": "https://pxlz.org",
     "twitter": "https://twitter.com/pxlzNFT",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "mnq9Lo",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "mnq9Lo",
             "purpose": "SPEND",
             "versions": [
                 {

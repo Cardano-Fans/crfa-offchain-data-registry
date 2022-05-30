@@ -1,12 +1,27 @@
 {
+    "id": "BXs1zsOo",
     "projectName": "Cryptrolls",
     "link": "https://cryptrolls.io",
     "twitter": "https://twitter.com/cryptrolls",
     "category": "GAMING",
     "subCategory": "NFT",     
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "XlJb3t",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "XlJb3t",
             "purpose": "MINT",
             "versions": [
                 {

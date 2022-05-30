@@ -1,12 +1,27 @@
 {
+    "id": "Fdbzxdvm",
     "projectName": "ADA Blobs",
     "link": "https://adablobs.io",
     "twitter": "https://twitter.com/TheAvatarNick",
     "category": "COLLECTION",
     "subCategory": "NFT",
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "N6GaUc",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "N6GaUc",
             "purpose": "SPEND",
             "versions": [
                 {

@@ -1,12 +1,27 @@
 {
+    "id": "CViX2JD8",
     "projectName": "World of Pirates",
     "link": "https://www.worldofpirates.io",
     "twitter": "https://twitter.com/worldofpirates_",
     "category": "GAMING",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "sNHmnX",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "sNHmnX",
             "name": "Jane Water Scout",
             "purpose": "MINT",
             "versions": [

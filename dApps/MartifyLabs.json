@@ -1,13 +1,27 @@
 {
-	    "projectName": "Martify Labs",
+		"id": "hd6RwbwL",
+		"projectName": "Martify Labs",
 	    "link": "https://martify.io",
 	    "twitter": "https://twitter.com/MartifyLabs",
 	    "category": "MARKETPLACE",
-            "subCategory": "NFT",
-	
+        "subCategory": "NFT",
+
+		"releases": [
+			{
+				"releaseNumber": 1,
+				"releaseName": "V1",
+				"scripts": [
+					{
+						"id": "1WIILr",
+						"version": 1
+					}
+				]
+			}
+		],
 
 	    "scripts": [
 	        {
+				"id": "1WIILr",
 	            "purpose": "SPEND",
 	            "versions": [
 	                {

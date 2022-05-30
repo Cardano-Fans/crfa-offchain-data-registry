@@ -1,12 +1,27 @@
 {
+    "id": "9SYAJPNN",
     "projectName": "Artifct",
     "link": "https://artifct.app",
     "twitter": "https://twitter.com/ArtifctApp",
     "category": "MARKETPLACE",
     "subCategory": "NFT",
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "PmNd6w",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "PmNd6w",
             "purpose": "SPEND",
             "versions": [
                 {

@@ -1,12 +1,27 @@
 {
+    "id": "Oy9RZJJ7",
     "projectName": "Jam On Bread",
     "link": "https://www.jamonbread.com",
     "twitter": "https://twitter.com/JamOnBread_com",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "j9Iwij",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "j9Iwij",
             "purpose": "SPEND",
             "versions": [
                 {

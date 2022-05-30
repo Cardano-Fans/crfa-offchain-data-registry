@@ -1,12 +1,27 @@
 {
+    "id": "kDntbtwa",
     "projectName": "PixelCat",
     "link": "https://market.pixelcatnft.com/#/nexhype",
     "twitter": "https://twitter.com/pixelcatcnft",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "J7ffai",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "J7ffai",
             "purpose": "SPEND",
             "versions": [
                 {

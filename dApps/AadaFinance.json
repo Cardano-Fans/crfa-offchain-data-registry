@@ -1,12 +1,27 @@
 {
+    "id": "0ct1MVX8",
     "projectName": "Aada Finance",
     "link": "https://aada.finance",
     "twitter": "https://twitter.com/AadaFinance",
     "category": "DEFI",    
     "subCategory": "LENDING_BORROWING",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "4kleE6",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "4kleE6",
             "name": "swap v.1 vs v.2",
             "purpose": "SPEND",
             "versions": [

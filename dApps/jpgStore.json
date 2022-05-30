@@ -1,12 +1,47 @@
 {
+		"id": "X5ZVWkat",
 	    "projectName": "jpg.store",
 	    "link": "https://www.jpg.store",
 	    "twitter": "https://twitter.com/jpgstoreNFT",
 	    "category": "MARKETPLACE",
-            "subCategory": "NFT",
+        "subCategory": "NFT",
+
+		"releases": [
+			{
+				"releaseNumber": 1,
+				"releaseName": "V1",
+				"scripts": [
+					{
+						"id": "1Ezcv7",
+						"version": 1
+					}
+				]
+			},
+			{
+				"releaseNumber": 2,
+				"releaseName": "V2",
+				"scripts": [
+					{
+						"id": "1Ezcv7",
+						"version": 2
+					}
+				]
+			},
+			{
+				"releaseNumber": 3,
+				"releaseName": "V3",
+				"scripts": [
+					{
+						"id": "1Ezcv7",
+						"version": 3
+					}
+				]
+			}
+		],
 
 	    "scripts": [
 	        {
+				"id": "1Ezcv7",
 	            "purpose": "SPEND",
 	            "versions": [
 	                {

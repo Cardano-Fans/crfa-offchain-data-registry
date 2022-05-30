@@ -1,12 +1,27 @@
 {
+    "id": "DdJuMqki",
     "projectName": "FreeRoam",
     "link": "https://freeroam.io",
     "twitter": "https://twitter.com/freeroam_io",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "nLVlzc",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "nLVlzc",
             "purpose": "SPEND",
             "versions": [
                 {

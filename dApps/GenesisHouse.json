@@ -1,12 +1,57 @@
 {
+    "id": "n7sfVkyq",
     "projectName": "Genesis House",
     "link": "https://www.genesishouse.io",
     "twitter": "https://twitter.com/GenesisHouseIO",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "bYINU9",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "bYINU9",
+                    "version": 2
+                }
+            ]
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "scripts": [
+                {
+                    "id": "bYINU9",
+                    "version": 3
+                }
+            ]
+        },
+        {
+            "releaseNumber": 4,
+            "releaseName": "V4",
+            "scripts": [
+                {
+                    "id": "bYINU9",
+                    "version": 4
+                }
+            ]
+        }
+    ],
+
     "scripts": [
         {
+            "id": "bYINU9",
             "purpose": "SPEND",
             "versions": [
                 {
