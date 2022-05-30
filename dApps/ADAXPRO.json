@@ -5,6 +5,144 @@
     "twitter": "https://twitter.com/adax_pro",
     "category": "DEFI",    
     "subCategory": "ORDER_BOOK_DEX",
+    
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "PyX2Uh",
+                    "version": 1
+                },
+                {
+                    "id": "jn9I3i",
+                    "version": 1
+                },
+                {
+                    "id": "bHNaDV",
+                    "version": 1
+                },
+                {
+                    "id": "bHP3T0",
+                    "version": 1
+                },
+                {
+                    "id": "95HbWI",
+                    "version": 1
+                },
+                {
+                    "id": "iWGJjU",
+                    "version": 1
+                },
+                {
+                    "id": "R9VfjU",
+                    "version": 1
+                },
+                {
+                    "id": "lNFLxF",
+                    "version": 1
+                },
+                {
+                    "id": "ndlMGl",
+                    "version": 1
+                },
+                {
+                    "id": "gCVDcw",
+                    "version": 1
+                },
+                {
+                    "id": "ZTe0iV",
+                    "version": 1
+                },   
+                {
+                    "id": "FIgLzL",
+                    "version": 1
+                },
+                {
+                    "id": "6hRD6x",
+                    "version": 1
+                },
+                {
+                    "id": "GvXNoP",
+                    "version": 1
+                },
+                {
+                    "id": "TjeFWr",
+                    "version": 1
+                },
+                {
+                    "id": "jjy6kp",
+                    "version": 1
+                },
+                {
+                    "id": "Py4V4l",
+                    "version": 1
+                },
+                {
+                    "id": "z6rzTX",
+                    "version": 1
+                },
+                {
+                    "id": "Q8gVen",
+                    "version": 1
+                },
+                {
+                    "id": "sn5BfM",
+                    "version": 1
+                },
+                {
+                    "id": "Utv5mv",
+                    "version": 1
+                },
+                {
+                    "id": "vCKABN",
+                    "version": 1
+                },
+                {
+                    "id": "OMYGyC",
+                    "version": 1
+                },
+                {
+                    "id": "w9fP4X",
+                    "version": 1
+                },
+                {
+                    "id": "UFseuQ",
+                    "version": 1
+                },
+                {
+                    "id": "XFeMe4",
+                    "version": 1
+                },
+                {
+                    "id": "pGWJ7M",
+                    "version": 1
+                },
+                {
+                    "id": "Pzfrmc",
+                    "version": 1
+                },
+                {
+                    "id": "6tcn43",
+                    "version": 1
+                },
+                {
+                    "id": "YgLao9",
+                    "version": 1
+                },
+                {
+                    "id": "lUoEpS",
+                    "version": 1
+                },
+                {
+                    "id": "r3HsXd",
+                    "version": 1
+                }          
+            ]
+        }
+    ],
+    
     "contracts": [
         {
          "openSource": true,
@@ -22,6 +160,7 @@
     ],
     "scripts": [
         {
+            "id": "PyX2Uh",
             "name": "unclassified1",
             "purpose": "SPEND",
             "versions": [
@@ -35,6 +174,7 @@
             ]
         },    
         {
+            "id": "jn9I3i",
             "name": "unclassified2",
             "purpose": "SPEND",
             "versions": [
@@ -48,6 +188,7 @@
             ]
         },    
         {
+            "id": "bHNaDV",
             "name": "unclassified3",
             "purpose": "SPEND",
             "versions": [                
@@ -61,6 +202,7 @@
             ]
         },
         {
+            "id": "bHP3T0",
             "name": "unclassified4",
             "purpose": "SPEND",
             "versions": [                
@@ -74,6 +216,7 @@
             ]
         },
         {
+            "id": "95HbWI",
             "name": "unclassified5",
             "purpose": "SPEND",
             "versions": [                
@@ -87,6 +230,7 @@
             ]
         },
         {
+            "id": "iWGJjU",
             "name": "unclassified6",
             "purpose": "SPEND",
             "versions": [                
@@ -100,6 +244,7 @@
             ]
         },
         {
+            "id": "R9VfjU",
             "name": "unclassified7",
             "purpose": "SPEND",
             "versions": [                
@@ -113,6 +258,7 @@
             ]
         },
         {
+            "id": "lNFLxF",
             "name": "unclassified8",
             "purpose": "SPEND",
             "versions": [                
@@ -126,6 +272,7 @@
             ]
         },
         {
+            "id": "ndlMGl",
             "name": "unclassified9",
             "purpose": "SPEND",
             "versions": [                
@@ -139,6 +286,7 @@
             ]
         },
         {
+            "id": "gCVDcw",
             "name": "unclassified10",
             "purpose": "SPEND",
             "versions": [                
@@ -152,6 +300,7 @@
             ]
         },
         {
+            "id": "ZTe0iV",
             "name": "unclassified11",
             "purpose": "SPEND",
             "versions": [                
@@ -165,6 +314,7 @@
             ]
         },
         {
+            "id": "FIgLzL",
             "name": "unclassified12",
             "purpose": "SPEND",
             "versions": [                
@@ -178,6 +328,7 @@
             ]
         },
         {
+            "id": "6hRD6x",
             "name": "unclassified13",
             "purpose": "SPEND",
             "versions": [                
@@ -191,6 +342,7 @@
             ]
         },
         {
+            "id": "GvXNoP",
             "name": "unclassified14",
             "purpose": "SPEND",
             "versions": [                
@@ -204,6 +356,7 @@
             ]
         },
         {
+            "id": "TjeFWr",
             "name": "unclassified15",
             "purpose": "SPEND",
             "versions": [                
@@ -217,6 +370,7 @@
             ]
         },
         {
+            "id": "jjy6kp",
             "name": "unclassified16",
             "purpose": "SPEND",
             "versions": [                
@@ -230,6 +384,7 @@
             ]
         },
         {
+            "id": "Py4V4l",
             "name": "unclassified17",
             "purpose": "SPEND",
             "versions": [                
@@ -243,6 +398,7 @@
             ]
         },
         {
+            "id": "z6rzTX",
             "name": "unclassified18",
             "purpose": "SPEND",
             "versions": [                
@@ -256,6 +412,7 @@
             ]
         },
         {
+            "id": "Q8gVen",
             "name": "unclassified19",
             "purpose": "SPEND",
             "versions": [                
@@ -269,6 +426,7 @@
             ]
         },
         {
+            "id": "sn5BfM",
             "name": "unclassified20",
             "purpose": "SPEND",
             "versions": [                
@@ -282,6 +440,7 @@
             ]
         },
         {
+            "id": "Utv5mv",
             "name": "unclassified21",
             "purpose": "SPEND",
             "versions": [                
@@ -295,6 +454,7 @@
             ]
         },
         {
+            "id": "vCKABN",
             "name": "unclassified22",
             "purpose": "SPEND",
             "versions": [                
@@ -308,6 +468,7 @@
             ]
         },
         {
+            "id": "OMYGyC",
             "name": "unclassified23",
             "purpose": "SPEND",
             "versions": [                
@@ -321,6 +482,7 @@
             ]
         },
         {
+            "id": "w9fP4X",
             "name": "unclassified24",
             "purpose": "SPEND",
             "versions": [                
@@ -334,6 +496,7 @@
             ]
         },
         {
+            "id": "UFseuQ",
             "name": "unclassified25",
             "purpose": "SPEND",
             "versions": [                
@@ -347,6 +510,7 @@
             ]
         },
         {
+            "id": "XFeMe4",
             "name": "unclassified26",
             "purpose": "SPEND",
             "versions": [                
@@ -360,6 +524,7 @@
             ]
         },
         {
+            "id": "pGWJ7M",
             "name": "unclassified27",
             "purpose": "SPEND",
             "versions": [                
@@ -373,6 +538,7 @@
             ]
         },
         {
+            "id": "Pzfrmc",
             "name": "unclassified28",
             "purpose": "SPEND",
             "versions": [                
@@ -386,6 +552,7 @@
             ]
         },
         {
+            "id": "6tcn43",
             "name": "unclassified29",
             "purpose": "SPEND",
             "versions": [                
@@ -399,6 +566,7 @@
             ]
         },
         {
+            "id": "YgLao9",
             "name": "unclassified30",
             "purpose": "SPEND",
             "versions": [                
@@ -412,6 +580,7 @@
             ]
         },
         {
+            "id": "lUoEpS",            
             "name": "unclassified31",
             "purpose": "SPEND",
             "versions": [                
@@ -425,6 +594,7 @@
             ]
         },  
         {
+            "id": "r3HsXd",
             "name": "unclassified32",
             "purpose": "SPEND",
             "versions": [                
