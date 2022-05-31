@@ -5,6 +5,32 @@
     "twitter": "https://twitter.com/horrocubes",
     "category": "GAMING",
     "subCategory": "NFT",   
+    
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "3ZwSBL",
+                    "version": 1
+                },
+                {
+                    "id": "sOeAgZ",
+                    "version": 1
+                },
+                {
+                    "id": "VPxYub",
+                    "version": 1
+                },
+                {
+                    "id": "X1exNa",
+                    "version": 1
+                }                 
+            ]
+        }
+    ],    
+    
     "contracts": [
         {
          "openSource": true,
@@ -14,6 +40,7 @@
     ],
     "scripts": [
         {
+            "id": "3ZwSBL",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -25,6 +52,7 @@
             ]
         },
         {
+            "id": "sOeAgZ",
             "purpose": "MINT",
             "versions": [
                 {
@@ -35,6 +63,7 @@
             ]
         },
         {
+            "id": "VPxYub",
             "name": "KnightOfSwordsXmas",
             "purpose": "MINT",
             "versions": [
@@ -46,6 +75,7 @@
             ]
         },
         {
+            "id": "X1exNa",
             "name": "Insania",
             "purpose": "MINT",
             "versions": [
