@@ -1,0 +1,35 @@
+{
+    "id": "T2jx7gIi",
+    "projectName": "Fluid Tokens",
+    "link": "https://fluidtokens.com/",
+    "twitter": "https://twitter.com/FluidTokens",
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",       
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "VrdrNF",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "VrdrNF",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "84017e78c2e887e8fac3fdf270110464aebd67f9cfc73453714b62f6",
+                    "contractAddress": "addr1wxzqzlncct5g0686c07lyuq3q3j2a0t8l88uwdznw99k9asz6z0hq"
+                }    
+            ]
+        }
+    ]
+}
