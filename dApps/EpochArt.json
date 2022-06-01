@@ -5,9 +5,55 @@
     "twitter": "https://twitter.com/epoch_art",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
+    
+    "releases": [
+			{
+				"releaseNumber": 1,
+				"releaseName": "V1",
+				"scripts": [
+					{
+						"id": "CshsuR",
+						"version": 1
+					},
+					{
+						"id": "rbUCIZ",
+						"version": 1
+					}                    
+				]
+			},
+			{
+				"releaseNumber": 2,
+				"releaseName": "V2",
+				"scripts": [
+					{
+						"id": "CshsuR",
+						"version": 2
+					},
+					{
+						"id": "rbUCIZ",
+						"version": 2
+					}                    
+				]
+			},
+			{
+				"releaseNumber": 3,
+				"releaseName": "V3",
+				"scripts": [
+					{
+						"id": "rQKcB7",
+						"version": 3
+					},
+					{
+						"id": "pSxiLt",
+						"version": 1
+					}                    
+				]
+			}
+		],
 
     "scripts": [
         {
+            "id": "CshsuR",
             "name": "with royalties",
             "purpose": "SPEND",
             "versions": [
@@ -24,6 +70,7 @@
             ]
         },     
         {
+            "id": "rbUCIZ",
             "name": "without royalties",
             "purpose": "SPEND",
             "versions": [
@@ -40,6 +87,7 @@
             ]
         },
         {
+            "id": "rQKcB7",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -50,6 +98,7 @@
             ]
         },         
         {
+            "id": "pSxiLt",
             "name": "mutant staking",
             "purpose": "SPEND",
             "versions": [
