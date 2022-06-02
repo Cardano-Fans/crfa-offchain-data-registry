@@ -90,7 +90,11 @@
                 {
                     "id": "GrVPm4",
                     "version": 2
-                }                               
+                },
+                {
+                    "id": "jQrRKz",
+                    "version": 2
+                }                
              ]
         }                
     ],
@@ -265,6 +269,18 @@
                     "contractAddress": "addr1wxwl25gyxf4ryexcq02yakr389vp68y39cnt4rnnhsu9utcjfhaef"
                 }
             ]
-        }          
+        },
+        {
+            "id": "jQrRKz",
+            "name": "Withdraw vesting",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+                    "scriptHash": "a813c75283bac225b19f1d0c0a914d89cac6db9a9ce967d105d353ec",
+                    "contractAddress": "addr1wx5p836jswavyfd3nuwscz53fkyu43kmn2wwje73qhf48mqw02kqx"
+                }
+            ]
+        }         
     ]
 }
