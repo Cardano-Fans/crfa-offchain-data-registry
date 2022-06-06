@@ -14,7 +14,11 @@
                 {
                     "id": "b5VLuS",
                     "version": 1
-                }
+                },
+                {
+                    "id": "shgwuZ",
+                    "version": 1
+                }                
             ]
         }
     ],
@@ -22,7 +26,7 @@
     "scripts": [
         {
             "id": "b5VLuS",
-            "name": "aw0k3n alg0rithms",
+            "name": "aw0k3n offspring",
             "purpose": "MINT",
             "versions": [
                 {
@@ -30,6 +34,17 @@
                     "version": 1
                 }
             ]
-        }      
+        },
+        {
+            "id": "shgwuZ",
+            "name": "aw0k3n breeding",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "058da992164d8970320b8464088e6f0f2f702f2b7afe7847a760eb2f",
+                    "contractAddress": "addr1wyzcm2vjzexcjupjpwzxgzywdu8j7up09da0u7z85aswktc4g3asp"
+                }    
+            ]
+        }        
      ]
 }
