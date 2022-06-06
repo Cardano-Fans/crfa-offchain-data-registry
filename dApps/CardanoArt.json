@@ -1,0 +1,35 @@
+{
+    "id": "9gmwxXFT",
+    "projectName": "Cardano Art",
+    "link": "https://cardano.art",
+    "twitter": "https://twitter.com/CardanoArt",
+    "category": "COLLECTION",    
+    "subCategory": "NFT",    
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "b5VLuS",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "b5VLuS",
+            "name": "aw0k3n alg0rithms",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "2b4ac45ffa2c8dca38354121bb581ce582819106c48920b4bcf3a109",
+                    "version": 1
+                }
+            ]
+        }      
+     ]
+}
