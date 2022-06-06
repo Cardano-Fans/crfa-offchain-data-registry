@@ -1,0 +1,51 @@
+{
+    "id": "9gmwxXFT",
+    "projectName": "Cardano Art",
+    "link": "https://cardano.art",
+    "twitter": "https://twitter.com/CardanoArt",
+    "category": "COLLECTION",    
+    "subCategory": "NFT",    
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "b5VLuS",
+                    "version": 1
+                },
+                {
+                    "id": "shgwuZ",
+                    "version": 1
+                }                
+            ]
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "b5VLuS",
+            "name": "aw0k3n offspring",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "2b4ac45ffa2c8dca38354121bb581ce582819106c48920b4bcf3a109",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "shgwuZ",
+            "name": "aw0k3n breeding",
+            "purpose": "SPEND",            
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "058da992164d8970320b8464088e6f0f2f702f2b7afe7847a760eb2f",
+                    "contractAddress": "addr1wyzcm2vjzexcjupjpwzxgzywdu8j7up09da0u7z85aswktc4g3asp"
+                }    
+            ]
+        }        
+     ]
+}
