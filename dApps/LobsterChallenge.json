@@ -14,19 +14,9 @@
                     "version": 1
                 },
                 {
-                    "id": "3WIILp",
+                    "id": "ERCSP4",
                     "version": 1
-                }
-            ]
-        },
-        {
-            "releaseNumber": 2,
-            "releaseName": "V2",
-            "scripts": [
-                {
-                    "id": "2WIILa",
-                    "version": 2
-                },
+                },                
                 {
                     "id": "3WIILp",
                     "version": 1
@@ -44,13 +34,19 @@
                     "version": 1,
                     "scriptHash": "eb188aca85f89b55579d4de10a729700e7113b325389404ea7d5cfe6",
                     "contractAddress": "addr1w8433zk2shufk42hn4x7zznjjuqwwyfmxffcjszw5l2ulesdt3jff"
-                },
-                {
-                    "version": 2,
-                    "scriptHash": "c8d43a8b772de55797acb1b9413fb646e915cc46679e5b94f79c5ed6",
-                    "contractAddress": "addr1w8ydgw5twuk724uh4jcmjsflkerwj9wvgeneuku577w9a4s7avmxg"
                 }
             ]
+        },
+        {
+            "id": "ERCSP4",
+            "purpose": "SPEND",
+            "versions": [        
+                {
+                    "version": 1,
+                    "scriptHash": "c8d43a8b772de55797acb1b9413fb646e915cc46679e5b94f79c5ed6",
+                    "contractAddress": "addr1w8ydgw5twuk724uh4jcmjsflkerwj9wvgeneuku577w9a4s7avmxg"
+                }  
+             ]
         },
         {
             "id": "3WIILp",
