@@ -22,10 +22,10 @@
     "scripts": [
         {
             "id": "t5sNH6",
+            "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-                    "purpose": "SPEND",
                     "scriptHash": "e24268acb75d8613becf77027b810028d17c776fbdb8ec97b0a69b8e",
                     "contractAddress": "addr1w83yy69vkawcvya7eamsy7upqq5dzlrhd77m3myhkznfhrszj6emw"
                 }    
