@@ -1,10 +1,42 @@
 {
-    "id": "hd6RwbwL",
+    "id": "YIAefi62kS",
     "projectName": "Lobster Challenge",
-    "category": "COMMUNITY",      
+    "category": "COMMUNITY",
 
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "2WIILa",
+                    "version": 1
+                },
+                {
+                    "id": "3WIILp",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "2WIILa",
+                    "version": 2
+                },
+                {
+                    "id": "3WIILp",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+    
     "scripts": [
         {
+            "id": "2WIILa",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -20,6 +52,7 @@
             ]
         },
         {
+            "id": "3WIILp",
             "purpose": "MINT",
             "versions": [
                 {
