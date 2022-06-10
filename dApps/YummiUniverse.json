@@ -1,0 +1,36 @@
+{
+    "id": "lqYkEIJv",
+    "projectName": "Yummi Universe",
+    "link": "https://stake.yummiuniverse.com",
+    "twitter": "https://twitter.com/YummiUniverse",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "KEHHi3",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "KEHHi3",
+            "name": "Staking",          
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "1a180134108ad693da6c53190c69d4ac1248753ccd4ef9fa7149a3f3",
+                    "contractAddress": "addr1wydpsqf5zz9ddy76d3f3jrrf6jkpyjr48nx5a706w9y68ucy4wu6s"
+                }    
+            ]
+        }
+    ]
+}
