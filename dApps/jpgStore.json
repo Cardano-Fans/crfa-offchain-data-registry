@@ -8,28 +8,8 @@
 
 	    "releases": [
 			{
-				"releaseNumber": 0.1,
-				"releaseName": "V0.1",
-				"scripts": [
-					{
-						"id": "1Ezcv7",
-						"version": 0.1
-					}
-				]
-			},
-			{
-				"releaseNumber": 0.2,
-				"releaseName": "V0.2",
-				"scripts": [
-					{
-						"id": "1Ezcv7",
-						"version": 0.2
-					}
-				]
-			},
-			{
 				"releaseNumber": 1,
-				"releaseName": "V1",
+				"releaseName": "V0.1",
 				"scripts": [
 					{
 						"id": "1Ezcv7",
@@ -39,11 +19,31 @@
 			},
 			{
 				"releaseNumber": 2,
+				"releaseName": "V0.2",
+				"scripts": [
+					{
+						"id": "1Ezcv7",
+						"version": 2
+					}
+				]
+			},
+			{
+				"releaseNumber": 3,
+				"releaseName": "V1",
+				"scripts": [
+					{
+						"id": "1Ezcv7",
+						"version": 3
+					}
+				]
+			},
+			{
+				"releaseNumber": 4,
 				"releaseName": "V2",
 				"scripts": [
 					{
 						"id": "LcIgfO",
-						"version": 2
+						"version": 4
 					}
 				]
 			}			
@@ -55,17 +55,17 @@
 	            "purpose": "SPEND",
 	            "versions": [
 	                {
-	                    "version": 0.1,
+	                    "version": 1,
 	                    "scriptHash": "25da22dfd99bf874e59d74c304a1d28e921310327c3e4d6960123f2e",
 	                    "contractAddress": "addr1wyja5gklmxdlsa89n46vxp9p628fyycsxf7runtfvqfr7tsj52k9x"
 	                },
 	                {
-	                    "version": 0.2,
+	                    "version": 2,
 	                    "scriptHash": "beb881c47075b2910ae7e13fb268908f70878d06638ff86a5caaa16c",
 	                    "contractAddress": "addr1wxlt3qwywp6m9yg2ulsnlvngjz8hppudqe3cl7r2tj42zmqxrfx80"
 	                },			    
 	                {
-	                    "version": 1,
+	                    "version": 3,
 	                    "scriptHash": "4a59ebd93ea53d1bbf7f82232c7b012700a0cf4bb78d879dabb1a20a",
 	                    "contractAddress": "addr1w999n67e86jn6xal07pzxtrmqynspgx0fwmcmpua4wc6yzsxpljz3"
 	                }
@@ -77,7 +77,7 @@
 	            "purpose": "SPEND",
 	            "versions": [		    
 	                {
-	                    "version": 2,
+	                    "version": 4,
 	                    "scriptHash": "a55f409501bf65805bb0dc76f6f9ae90b61e19ed870bc00256813608",
 	                    "contractAddress": "addr1zxj47sy4qxlktqzmkrw8dahe46gtv8seakrshsqz26qnvzypw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspksr3q9nx"
 	                }
