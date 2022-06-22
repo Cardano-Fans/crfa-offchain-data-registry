@@ -42,10 +42,6 @@
 					{
 						"id": "rQKcB7",
 						"version": 3
-					},
-					{
-						"id": "pSxiLt",
-						"version": 1
 					}                    
 				]
 			}
@@ -96,18 +92,6 @@
                     "contractAddress": "addr1wyd3phmr5lhv3zssawqjdpnqrm5r5kgppmmf7864p3dvdrqwuutk4"
                 }             
             ]
-        },         
-        {
-            "id": "pSxiLt",
-            "name": "mutant staking",
-            "purpose": "SPEND",
-            "versions": [
-                {
-                    "version": 1,
-                    "scriptHash": "1d13dcbab76e93fb80cc022fc7d797826bf64ca24d3bf6f1885272de",
-                    "contractAddress": "addr1wyw38h96kahf87uqespzl37hj7pxhajv5fxnhah33pf89hswjepm0"
-                }             
-            ]
-        }        
+        }	    
     ]
 }
