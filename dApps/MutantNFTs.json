@@ -1,0 +1,52 @@
+{
+    "id": "vz5SAzfT",
+    "projectName": "MutantNFTs",
+    "link": "https://mutant-nft.com",
+    "twitter": "https://mobile.twitter.com/mutantnfts",
+    "category": "COLLECTION",
+    "subCategory": "NFT",    
+    
+    "releases": [
+			{
+				"releaseNumber": 1,
+				"releaseName": "V1",
+				"scripts": [
+					{
+						"id": "BxrNX1",
+						"version": 1
+					},
+					{
+						"id": "SxL0mO",
+						"version": 1
+					}                    
+				]
+			}
+		],
+
+    "scripts": [        
+        {
+            "id": "BxrNX1",
+            "name": "mutant staking",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "1d13dcbab76e93fb80cc022fc7d797826bf64ca24d3bf6f1885272de",
+                    "contractAddress": "addr1wyw38h96kahf87uqespzl37hj7pxhajv5fxnhah33pf89hswjepm0"
+                }             
+            ]
+        },
+        {
+            "id": "SxL0mO",
+            "name": "mutant token",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "1bec58093b1de0361affebe381fa3a6bcd93644aa47dafcd4eac88cb",
+                    "contractAddress": "addr1wyd7ckqf8vw7qds6ll478q068f4umymyf2j8mt7df6kg3jcrrd8rw"
+                }             
+            ]
+        } 	    
+    ]
+}
