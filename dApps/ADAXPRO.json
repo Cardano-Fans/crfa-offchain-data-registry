@@ -140,7 +140,33 @@
                     "version": 1
                 }          
             ]
-        }
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "jtbvoD",
+                    "version": 2
+                },
+                {
+                    "id": "pnywPf",
+                    "version": 2
+                }, 
+                {
+                    "id": "VfSR5X",
+                    "version": 2
+                },
+                {
+                    "id": "aeB7Vz",
+                    "version": 2
+                },
+                {
+                    "id": "j9eEVF",
+                    "version": 2
+                }  
+             ]   
+         }
     ],
     
     "contracts": [
@@ -606,6 +632,63 @@
                     "auditId": "OJTP"
                 }                  
             ]
-        }         
+        },
+        {
+            "id": "jtbvoD",
+            "name": "batcher contract",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 2,
+                    "scriptHash": "bb69ba38801dec818fdc94d6e24c3f3866fee298a1bea57b56600e8a",
+                    "contractAddress": "addr1wxaknw3csqw7eqv0mj2ddcjv8uuxdlhznzsmaftm2esqazs8nnmnd"
+                }                  
+            ]
+        },
+        {
+            "id": "pnywPf",
+            "name": "pool contract",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 2,
+                    "scriptHash": "b485f07d29c2c9c2b2ccffb372c737edfa6f80db94e9850c26be8327",
+                    "contractAddress": "addr1wx6gtura98pvns4jenlmxuk8xlkl5muqmw2wnpgvy6lgxfc76q9hj"
+                }                  
+            ]
+        },
+        {
+            "id": "VfSR5X",
+            "name": "factory policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "07b7609e9f401a1bbd9da2d51d3e8abdc64117e2b29c1f588e561ffe",
+                    "version": 2
+                }
+            ]
+        },  
+        {
+            "id": "aeB7Vz",
+            "name": "lp policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "a785cc559079d6e87b1dcf64332cefd63994bd46173d90a93959d13a",
+                    "version": 2
+                }
+            ]
+        },
+        {
+            "id": "j9eEVF",
+            "name": "pool uniqueness NFT policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "ddf5b502c05b8a9efc43c57e6ee7188c5a4863f4d205ae28b1d04645",
+                    "version": 2
+                }
+            ]
+        }        
     ]
 }
