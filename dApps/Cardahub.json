@@ -46,6 +46,10 @@
                 {
                     "id": "qq6DS1",
                     "version": 1
+                },
+                {
+                    "id": "aS0Pz0",
+                    "version": 1
                 }                 
             ]
         }
@@ -153,6 +157,17 @@
                     "version": 1
                 }
             ]
-        }        
+        },
+        {
+            "id": "aS0Pz0",
+            "name": "Genius Yield ISPO - Diamond Hands",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "46ca6117ad8645a1fc3fc5f653b552c2211537c46ae71b4362317867",
+                    "version": 1
+                }
+            ]
+        }         
     ]
 }
