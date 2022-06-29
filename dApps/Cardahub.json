@@ -38,7 +38,15 @@
                 {
                     "id": "GgN45K",
                     "version": 2
-                }                
+                },
+                {
+                    "id": "CbGjxr",
+                    "version": 1
+                },
+                {
+                    "id": "qq6DS1",
+                    "version": 1
+                }                 
             ]
         }
     ],
@@ -122,6 +130,28 @@
                     "mintPolicyID": "d9ab867ae26e22be44b8c9611beb9b4527081337e70cc1c4eb86c4f2",
                     "version": 2
                 }                
+            ]
+        },
+        {
+            "id": "CbGjxr",
+            "name": "Genius Yield ISPO - FOMO",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "436a3f05a3894535518b98318b595b0d39d6322ab68183b488a82e55",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "qq6DS1",
+            "name": "Genius Yield ISPO - Late Fan",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "1cfbcac6633f732abe3235ebb932e952bf6b4ff67b7b57a351743588",
+                    "version": 1
+                }
             ]
         }        
     ]
