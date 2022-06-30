@@ -38,7 +38,19 @@
                 {
                     "id": "GgN45K",
                     "version": 2
-                }                
+                },
+                {
+                    "id": "CbGjxr",
+                    "version": 1
+                },
+                {
+                    "id": "qq6DS1",
+                    "version": 1
+                },
+                {
+                    "id": "aS0Pz0",
+                    "version": 1
+                }                 
             ]
         }
     ],
@@ -123,6 +135,39 @@
                     "version": 2
                 }                
             ]
-        }        
+        },
+        {
+            "id": "CbGjxr",
+            "name": "Genius Yield ISPO - FOMO",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "436a3f05a3894535518b98318b595b0d39d6322ab68183b488a82e55",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "qq6DS1",
+            "name": "Genius Yield ISPO - Late Fan",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "1cfbcac6633f732abe3235ebb932e952bf6b4ff67b7b57a351743588",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "aS0Pz0",
+            "name": "Genius Yield ISPO - Diamond Hands",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "46ca6117ad8645a1fc3fc5f653b552c2211537c46ae71b4362317867",
+                    "version": 1
+                }
+            ]
+        }         
     ]
 }
