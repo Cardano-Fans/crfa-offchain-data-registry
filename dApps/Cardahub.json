@@ -50,7 +50,11 @@
                 {
                     "id": "aS0Pz0",
                     "version": 1
-                }                 
+                },
+                {
+                    "id": "jXSS9e",
+                    "version": 1
+                }                
             ]
         }
     ],
@@ -168,6 +172,17 @@
                     "version": 1
                 }
             ]
-        }         
+        },
+        {
+            "id": "jXSS9e",
+            "name": "Genius Yield ISPO - Ape",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "15d4fc88735ba32787b70c9688726a5b2e5848ee82aa7c4a7062c41e",
+                    "version": 1
+                }
+            ]
+        }          
     ]
 }
