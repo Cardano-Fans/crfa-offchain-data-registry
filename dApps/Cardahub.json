@@ -54,6 +54,10 @@
                 {
                     "id": "jXSS9e",
                     "version": 1
+                },
+                {
+                    "id": "HIPPvq",
+                    "version": 1
                 }                
             ]
         }
@@ -183,6 +187,17 @@
                     "version": 1
                 }
             ]
-        }          
+        },
+        {
+            "id": "HIPPvq",
+            "name": "Genius Yield ISPO - HODLer",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "394201d726c07e5168daf8e354f1fa0a6c1596e4a0ac447ed94455b3",
+                    "version": 1
+                }
+            ]
+        }        
     ]
 }
