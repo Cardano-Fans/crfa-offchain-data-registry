@@ -58,7 +58,11 @@
                 {
                     "id": "HIPPvq",
                     "version": 1
-                }                
+                },
+                {
+                    "id": "XfW6JA",
+                    "version": 1
+                }                 
             ]
         }
     ],
@@ -198,6 +202,17 @@
                     "version": 1
                 }
             ]
-        }        
+        },
+        {
+            "id": "XfW6JA",
+            "name": "Genius Yield ISPO - Shark",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "7b4552699376a48d175c6bc479f5a5b824544a6ffd739564f2118a5a",
+                    "version": 1
+                }
+            ]
+        }         
     ]
 }
