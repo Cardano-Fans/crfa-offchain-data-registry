@@ -4,8 +4,8 @@
     "link": "https://ada.muesliswap.com",
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
-    "subCategory": "ORDER_BOOK_DEX",
-    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING"],
+    "subCategory": "HYBRID_DEX",
+    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING", "LIQUIDITY_MINING"],
     
     "releases": [
         {
@@ -22,7 +22,7 @@
         {
             "releaseNumber": 2,
             "releaseName": "V2",
-            "description": "new versions of all scripts used by the Dapp",
+            "description": "latest versions of all scripts used by the Dapp",
             "scripts": [
                 {
                     "id": "b9XDbe",
@@ -35,14 +35,26 @@
                 {
                     "id": "hGPSoP",
                     "version": 1
-                }
+                },
+                {
+                    "id": "5WPmd6",
+                    "version": 1
+                },
+                {
+                    "id": "Fn09Al",
+                    "version": 1
+                },
+                {
+                    "id": "mJkBqv",
+                    "version": 1
+                }                
             ]
         }
     ],
     "contracts": [
         {
          "openSource": true,
-         "contractLink": "https://github.com/MuesliSwapTeam/muesliswap-cardano-contracts",
+         "contractLink": "https://github.com/MuesliSwapTeam",
          "contractId": "MnBY"
         }
     ],
@@ -98,6 +110,44 @@
                     "auditId": "xBOD"
                 }
             ]
-        }         
+        },
+        {
+            "id": "5WPmd6",
+            "name": "Pool Contract",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "e8baad9288dc9abdc099b46f2ac006b1a82c7df4996e067f00c04e8d",
+                    "contractAddress": "addr1z85t4tvj3rwf40wqnx6x72kqq6c6stra7jvkupnlqrqyarthhd58w0qrqpyv4dc2c2mk98sduawl7l4gjuc9rafyv98sgylfw3",
+                    "contractId": "MnBY"                    
+                }
+            ]
+        },
+        {
+            "id": "Fn09Al",
+            "name": "Batching",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "1b3c5a646a018e0cfbd40fba97518c8e955e5869f0afd4f8c568493e",
+                    "contractAddress": "addr1wydncknydgqcur8m6s8m49633j8f2hjcd8c2l48cc45yj0s4ta38n",
+                    "contractId": "MnBY"                    
+                }
+            ]
+        },
+        {
+            "id": "mJkBqv",
+            "name": "Liquidity Pool Token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "8c9a2d459d2d8dc7c11192f971ab647fac65833121b7e8181e583c64",
+                    "version": 1,
+                    "contractId": "MnBY"                    
+                }
+            ]
+        }        
     ]
 }
