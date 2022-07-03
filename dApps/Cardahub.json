@@ -62,7 +62,11 @@
                 {
                     "id": "XfW6JA",
                     "version": 1
-                }                 
+                },
+                {
+                    "id": "XnaNGU",
+                    "version": 1
+                }                   
             ]
         }
     ],
@@ -213,6 +217,17 @@
                     "version": 1
                 }
             ]
-        }         
+        },
+        {
+            "id": "XnaNGU",
+            "name": "Genius Yield ISPO - Degen",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "ee9c9c1568de2c9c00a7b0bd862a5ab96f488c8c731519178dca121c",
+                    "version": 1
+                }
+            ]
+        }        
     ]
 }
