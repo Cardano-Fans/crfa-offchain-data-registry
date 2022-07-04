@@ -16,7 +16,11 @@
                 {
                     "id": "b9XDbe",
                     "version": 0
-                }
+                },
+                {
+                    "id": "b9XDbe",
+                    "version": 1
+                }                
             ]
         },
         {
@@ -24,10 +28,6 @@
             "releaseName": "V2",
             "description": "latest versions of all scripts used by the Dapp",
             "scripts": [
-                {
-                    "id": "b9XDbe",
-                    "version": 1
-                },
                 {
                     "id": "MtEFqz",
                     "version": 1
@@ -46,6 +46,14 @@
                 },
                 {
                     "id": "mJkBqv",
+                    "version": 1
+                },
+                {
+                    "id": "7kfq6a",
+                    "version": 1
+                },
+                {
+                    "id": "pigoar",
                     "version": 1
                 }                
             ]
@@ -126,7 +134,7 @@
         },
         {
             "id": "Fn09Al",
-            "name": "Batching",
+            "name": "Batch Order",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -148,6 +156,30 @@
                     "contractId": "MnBY"                    
                 }
             ]
-        }        
+        },
+        {
+            "id": "7kfq6a",
+            "name": "Factory Policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "ffcdbb9155da0602280c04d8b36efde35e3416567f9241aff0955269",
+                    "version": 1,
+                    "contractId": "MnBY"                    
+                }
+            ]
+        },
+        {
+            "id": "pigoar",
+            "name": "NFT Policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "7a8041a0693e6605d010d5185b034d55c79eaf7ef878aae3bdcdbf67",
+                    "version": 1,
+                    "contractId": "MnBY"                    
+                }
+            ]
+        }         
     ]
 }
