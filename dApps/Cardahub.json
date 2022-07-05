@@ -58,7 +58,15 @@
                 {
                     "id": "HIPPvq",
                     "version": 1
-                }                
+                },
+                {
+                    "id": "XfW6JA",
+                    "version": 1
+                },
+                {
+                    "id": "XnaNGU",
+                    "version": 1
+                }                   
             ]
         }
     ],
@@ -195,6 +203,28 @@
             "versions": [
                 {
                     "mintPolicyID": "394201d726c07e5168daf8e354f1fa0a6c1596e4a0ac447ed94455b3",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "XfW6JA",
+            "name": "Genius Yield ISPO - Shark",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "7b4552699376a48d175c6bc479f5a5b824544a6ffd739564f2118a5a",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "XnaNGU",
+            "name": "Genius Yield ISPO - Degen",          
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "ee9c9c1568de2c9c00a7b0bd862a5ab96f488c8c731519178dca121c",
                     "version": 1
                 }
             ]
