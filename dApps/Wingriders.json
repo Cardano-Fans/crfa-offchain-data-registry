@@ -35,6 +35,10 @@
 						"version": 1
 					},
 					{
+						"id": "tjt7ua",
+						"version": 1
+					},					
+					{
 						"id": "QPPiOs",
 						"version": 2
 					}, 
@@ -98,7 +102,19 @@
                     "auditId": "9oS7"
                 }
             ]
-        },        
+        },
+        {
+            "id": "tjt7ua",
+            "name": "Vesting",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "0a27b0fb1daeb27ff58a79adcefc784fe5cfb5399750d3552e8c54f9",
+                    "contractAddress": "addr1wy9z0v8mrkhtyll43fu6mnhu0p87tna48xt4p56496x9f7g940jft"
+                }
+            ]
+        },  	    
         {
             "id": "QPPiOs",
             "name": "Farm/Voting",
