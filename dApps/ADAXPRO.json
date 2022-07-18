@@ -4,7 +4,8 @@
     "link": "https://adax.pro",
     "twitter": "https://twitter.com/adax_pro",
     "category": "DEFI",    
-    "subCategory": "ORDER_BOOK_DEX",
+    "subCategory": "AMM_DEX",
+    "features": ["SWAP", "LIQUIDITY_MINING"],    
     
     "releases": [
         {
