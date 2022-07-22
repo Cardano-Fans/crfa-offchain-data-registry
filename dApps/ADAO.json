@@ -1,0 +1,67 @@
+{
+    "id": "yfli6eg0",
+    "projectName": "ADAO",
+    "link": "https://www.theadao.io",
+    "twitter": "https://twitter.com/ADAOcommunity",
+    "category": "COMMUNITY",
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "myOxZ9",
+                    "version": 1
+                },
+                {
+                    "id": "VejMU1",
+                    "version": 1
+                },
+                {
+                    "id": "PexH32",
+                    "version": 1
+                }              
+            ]
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "myOxZ9",
+            "name": "ADAO/ADA LP for $RAT",          
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "87ca979bdcae00f547fc47f96a165e2f51366b6a22bcb42afe4784ea",
+                    "contractAddress": "addr1wxru49ummjhqpa28l3rlj6sktch4zdntdg3tedp2lercf6sz8rfq3"
+                }    
+            ]
+        },
+        {
+            "id": "VejMU1",
+            "name": "ADAO for Origin Aether",          
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "013dce23842f3b50750787d9dfbc05248970be1fd42d25df94dd1378",
+                    "contractAddress": "addr1wyqnmn3rsshnk5r4q7ranhauq5jgju97rl2z6fwljnw3x7q58vzfg"
+                }    
+            ]
+        },
+        {
+            "id": "PexH32",
+            "name": "ADAO/ADA LP for Origin Aether",          
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "4c10e4ebb35be0b31635d059c728be550b5c5fcf8a63801a08845ac2",
+                    "contractAddress": "addr1w9xppe8tkdd7pvckxhg9n3eghe2skhzle79x8qq6pzz94sscatz4s"
+                }    
+            ]
+        }       
+    ]
+}
