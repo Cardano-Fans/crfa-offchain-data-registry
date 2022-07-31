@@ -46,7 +46,8 @@
 						"id": "0zi8YI",
 						"version": 1
 					}                    
-				]
+				],
+                "auditId": "9oS7"
 			}		
     ],    
     
@@ -72,8 +73,7 @@
                 {
                     "version": 1,
                     "scriptHash": "e9823c2d96ffc29ba6dd695fd85f784aa081bdcc01f92bb43242e752",
-                    "contractAddress": "addr1w85cy0pdjmlu9xaxm454lkzl0p92pqdaesqlj2a5xfpww5s7evt7c",
-                    "auditId": "9oS7"
+                    "contractAddress": "addr1w85cy0pdjmlu9xaxm454lkzl0p92pqdaesqlj2a5xfpww5s7evt7c"
                 }
             ]
         },
@@ -85,8 +85,7 @@
                 {
                     "version": 1,
                     "scriptHash": "e6c90a5923713af5786963dee0fdffd830ca7e0c86a041d9e5833e91",
-                    "contractAddress": "addr1w8nvjzjeydcn4atcd93aac8allvrpjn7pjr2qsweukpnayghhwcpj",
-                    "auditId": "9oS7"
+                    "contractAddress": "addr1w8nvjzjeydcn4atcd93aac8allvrpjn7pjr2qsweukpnayghhwcpj"
                 }
             ]
         },
@@ -98,8 +97,7 @@
                 {
                     "version": 1,
                     "scriptHash": "86ae9eebd8b97944a45201e4aec1330a72291af2d071644bba015959",
-                    "contractAddress": "addr1wxr2a8htmzuhj39y2gq7ftkpxv98y2g67tg8zezthgq4jkg0a4ul4",
-                    "auditId": "9oS7"
+                    "contractAddress": "addr1wxr2a8htmzuhj39y2gq7ftkpxv98y2g67tg8zezthgq4jkg0a4ul4"
                 }
             ]
         },
@@ -123,8 +121,7 @@
                 {
                     "version": 1,
                     "scriptHash": "9fd47e0d578fb539b9ec7e016dc5ee25844110a96712d55989b0751b",
-                    "contractAddress": "addr1wx0aglsd278m2wdea3lqzmw9acjcgsgs49n3942e3xc82xcu406l6",
-                    "auditId": "9oS7"
+                    "contractAddress": "addr1wx0aglsd278m2wdea3lqzmw9acjcgsgs49n3942e3xc82xcu406l6"
                 },
                 {
                     "version": 2,
@@ -140,8 +137,7 @@
             "versions": [
                 {
                     "mintPolicyID": "026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570",
-                    "version": 1,
-                    "auditId": "9oS7"
+                    "version": 1
                 }               
             ]
         }
