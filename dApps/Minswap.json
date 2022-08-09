@@ -52,7 +52,9 @@
                     "id": "BADbuv",
                     "version": 1
                 }
-             ]
+             ],
+             "auditId": "DDUz",
+             "contractId": "wFhM"
         },
         {
             "releaseNumber": 2,
@@ -140,9 +142,7 @@
                 {
                     "version": 1,
                     "scriptHash": "0ca50950adbb06c5c5f6833924a66ac873e43202588b6d338602d78d",
-                    "contractAddress": "addr1wyx22z2s4kasd3w976pnjf9xdty88epjqfvgkmfnscpd0rg3z8y6v",
-                    "contractId": "wFhM",
-                    "auditId": "DDUz"
+                    "contractAddress": "addr1wyx22z2s4kasd3w976pnjf9xdty88epjqfvgkmfnscpd0rg3z8y6v"
                 },
                 {
                     "version": 2,
@@ -159,9 +159,7 @@
                 {
                     "version": 1,
                     "scriptHash": "57c8e718c201fba10a9da1748d675b54281d3b1b983c5d1687fc7317",
-                    "contractAddress": "addr1z9tu3ecccgqlhgg2nkshfrt8td2zs8fmrwvrchgksl78x96j2c79g",
-                    "contractId": "wFhM",
-                    "auditId": "DDUz"
+                    "contractAddress": "addr1z9tu3ecccgqlhgg2nkshfrt8td2zs8fmrwvrchgksl78x96j2c79g"
                 },
                 {
                     "version": 2,
@@ -177,9 +175,7 @@
                 {
                     "version": 1,
                     "scriptHash": "73c3f85a23b2b81d7df84a9616b666b1e1c8c5fcfff6783d9c4a1a45",
-                    "contractAddress": "addr1w9eu87z6ywets8talp9fv94kv6c7rjx9lnllv7pan39p53gkjg05e",
-                    "contractId": "wFhM",
-                    "auditId": "DDUz"
+                    "contractAddress": "addr1w9eu87z6ywets8talp9fv94kv6c7rjx9lnllv7pan39p53gkjg05e"
                 }
             ]
         },         
@@ -190,9 +186,7 @@
             "versions": [
                 {
                     "mintPolicyID": "e0baa1f0887a766daf5196f92c88728e356e71255c5ad00866607484",
-                    "version": 1,
-                    "contractId": "wFhM",
-                    "auditId": "DDUz"
+                    "version": 1
                 },
                 {
                     "mintPolicyID": "e4214b7cce62ac6fbba385d164df48e157eae5863521b4b67ca71d86",
@@ -207,9 +201,7 @@
             "versions": [
                 {
                     "mintPolicyID": "3f6092645942a54a75186b25e0975b79e1f50895ad958b42015eb6d2",
-                    "version": 1,
-                    "contractId": "wFhM",
-                    "auditId": "DDUz"
+                    "version": 1
                 },
                 {
                     "mintPolicyID": "13aa2accf2e1561723aa26871e071fdf32c867cff7e7d50ad470d62f",
@@ -224,9 +216,7 @@
             "versions": [
                 {
                     "mintPolicyID": "5178cc70a14405d3248e415d1a120c61d2aa74b4cee716d475b1495e",
-                    "version": 1,
-                    "contractId": "wFhM",
-                    "auditId": "DDUz"
+                    "version": 1
                 },
                 {
                     "mintPolicyID": "0be55d262b29f564998ff81efe21bdc0022621c12f15af08d0f2ddb1",
