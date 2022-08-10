@@ -30,7 +30,8 @@
                     "id": "uu1usL",
                     "version": 1
                 }                  
-            ]
+            ],
+        "contractId": "VAl0"    
         }
     ],
     
@@ -51,8 +52,7 @@
                 {
                     "version": 1,
                     "scriptHash": "87ca979bdcae00f547fc47f96a165e2f51366b6a22bcb42afe4784ea",
-                    "contractAddress": "addr1wxru49ummjhqpa28l3rlj6sktch4zdntdg3tedp2lercf6sz8rfq3",
-                    "contractId": "VAl0"
+                    "contractAddress": "addr1wxru49ummjhqpa28l3rlj6sktch4zdntdg3tedp2lercf6sz8rfq3"
                 }    
             ]
         },
@@ -64,8 +64,7 @@
                 {
                     "version": 1,
                     "scriptHash": "013dce23842f3b50750787d9dfbc05248970be1fd42d25df94dd1378",
-                    "contractAddress": "addr1wyqnmn3rsshnk5r4q7ranhauq5jgju97rl2z6fwljnw3x7q58vzfg",
-                    "contractId": "VAl0"
+                    "contractAddress": "addr1wyqnmn3rsshnk5r4q7ranhauq5jgju97rl2z6fwljnw3x7q58vzfg"
                 }    
             ]
         },
@@ -77,8 +76,7 @@
                 {
                     "version": 1,
                     "scriptHash": "4c10e4ebb35be0b31635d059c728be550b5c5fcf8a63801a08845ac2",
-                    "contractAddress": "addr1w9xppe8tkdd7pvckxhg9n3eghe2skhzle79x8qq6pzz94sscatz4s",
-                    "contractId": "VAl0"
+                    "contractAddress": "addr1w9xppe8tkdd7pvckxhg9n3eghe2skhzle79x8qq6pzz94sscatz4s"
                 }    
             ]
         },
@@ -90,8 +88,7 @@
                 {
                     "version": 1,
                     "scriptHash": "a7e4e32d1fd47cfc69f5d691a4f833cbb538419904b7ea3535d5ceb8",
-                    "contractAddress": "addr1wxn7fcedrl28elrf7htfrf8cx09m2wzpnyzt0634xh2uawqlmranr",
-                    "contractId": "VAl0"
+                    "contractAddress": "addr1wxn7fcedrl28elrf7htfrf8cx09m2wzpnyzt0634xh2uawqlmranr"
                 }    
             ]
         },
@@ -103,8 +100,7 @@
                 {
                     "version": 1,
                     "scriptHash": "75e003e0749ce453fc419933297de37f4e859324dc79d1156b3699f946816e36fc8d131e4dd612f97e14f594d7397f581e9d0e064e272169",
-                    "contractAddress": "addr1z967qqlqwjwwg5lugxvnx2taudl5apvnynw8n5g4dvmfn72xs9hrdlydzv0ym4sjl9lpfav56uuh7kq7n58qvn38y95shpns5v",
-                    "contractId": "VAl0"
+                    "contractAddress": "addr1z967qqlqwjwwg5lugxvnx2taudl5apvnynw8n5g4dvmfn72xs9hrdlydzv0ym4sjl9lpfav56uuh7kq7n58qvn38y95shpns5v"
                 }    
             ]
         }         
