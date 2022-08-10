@@ -15,7 +15,15 @@
                     "id": "N6GaUc",
                     "version": 1
                 }
-            ]
+            ],
+        "contractId": "cWhq"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/NicholasMaselli/ADABlobsPlutus",
+         "contractId": "cWhq"
         }
     ],
 
