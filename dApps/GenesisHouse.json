@@ -35,7 +35,8 @@
                     "id": "bYINU9",
                     "version": 3
                 }
-            ]
+            ],
+        "contractId": "Vr4Y"            
         },
         {
             "releaseNumber": 4,
@@ -48,6 +49,13 @@
             ]
         }
     ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/Canonical-LLC/Genesis-Auction-House",
+         "contractId": "Vr4Y"
+        }
+    ],    
 
     "scripts": [
         {
