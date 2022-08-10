@@ -4,7 +4,7 @@
 	    "link": "https://www.jpg.store",
 	    "twitter": "https://twitter.com/jpgstoreNFT",
 	    "category": "MARKETPLACE",
-            "subCategory": "NFT",
+        "subCategory": "NFT",
 
 	    "releases": [
 			{
@@ -43,9 +43,11 @@
 				"scripts": [
 					{
 						"id": "LcIgfO",
-						"version": 4
+						"version": 1
 					}
-				]
+				],
+				"auditId": "qpmI",
+				"contractId": "JN3E"
 			}			
 		],
 
@@ -87,16 +89,14 @@
 	            ]
 	        },
 	        {
-		    "id": "LcIgfO",
-                    "name": "Offers",			
+		"id": "LcIgfO",
+                "name": "Offers",			
 	            "purpose": "SPEND",
 	            "versions": [		    
 	                {
-	                    "version": 4,
-	                    "scriptHash": "a55f409501bf65805bb0dc76f6f9ae90b61e19ed870bc00256813608",
-	                    "contractAddress": "addr1zxj47sy4qxlktqzmkrw8dahe46gtv8seakrshsqz26qnvzypw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspksr3q9nx",
-			    "contractId": "JN3E",
-			    "auditId": "qpmI"
+	                    "version": 1,
+	                    "scriptHash": "a55f409501bf65805bb0dc76f6f9ae90b61e19ed870bc0025681360881728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
+	                    "contractAddress": "addr1zxj47sy4qxlktqzmkrw8dahe46gtv8seakrshsqz26qnvzypw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspksr3q9nx"
 	                }
 	            ]
 	        }		    
