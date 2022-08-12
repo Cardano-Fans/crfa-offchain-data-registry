@@ -46,7 +46,8 @@
                     "id": "AtcLBv",
                     "version": 2
                 }                 
-            ]
+            ],
+        "contractId": "ZU7P"    
         }        
     ],
     
@@ -71,8 +72,7 @@
                 {
                     "version": 2,
                     "scriptHash": "0449932f9da0258d220c39f803ceb8e2c45fdc605e8dd42f35558b58",
-                    "contractAddress": "addr1wyzynye0nksztrfzpsulsq7whr3vgh7uvp0gm4p0x42ckkqqq6kxq",
-                    "contractId": "ZU7P"
+                    "contractAddress": "addr1wyzynye0nksztrfzpsulsq7whr3vgh7uvp0gm4p0x42ckkqqq6kxq"
                 }
             ]
         },
@@ -89,8 +89,7 @@
                 {
                     "version": 2,
                     "scriptHash": "a745429480879c839f0131ccdf35b5cb0cd77f51d51bd5c8e617a21f",
-                    "contractAddress": "addr1wxn52s55szreequlqycuehe4kh9se4ml2823h4wguct6y8cgczmge",
-                    "contractId": "ZU7P"
+                    "contractAddress": "addr1wxn52s55szreequlqycuehe4kh9se4ml2823h4wguct6y8cgczmge"
                 }                
             ]
         },
@@ -105,8 +104,7 @@
                 },
                 {
                     "mintPolicyID": "e47f849c5262b93b46789251519ec0a7921087b84b3782b871497e8f",
-                    "version": 2,
-                    "contractId": "ZU7P"
+                    "version": 2
                 }                
             ]
         },
@@ -118,8 +116,7 @@
                 {
                     "version": 2,
                     "scriptHash": "e69ef846b28607307badfeb7f756f23fab32743428e76a48e65bed96",
-                    "contractAddress": "addr1w8nfa7zxk2rqwvrm4hlt0a6k7gl6kvn5xs5ww6jgued7m9sutuf8w",
-                    "contractId": "ZU7P"
+                    "contractAddress": "addr1w8nfa7zxk2rqwvrm4hlt0a6k7gl6kvn5xs5ww6jgued7m9sutuf8w"
                 }                
             ]
         }        
