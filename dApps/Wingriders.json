@@ -137,8 +137,9 @@
             "versions": [
                 {
                     "mintPolicyID": "026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570",
-                    "version": 1
-                }               
+                    "version": 1,
+                    "fetchAndTurnTokenHoldersIntoContractAddresses": true
+                }
             ]
         }
     ]
