@@ -26,20 +26,12 @@
         {
             "releaseNumber": 1,
             "releaseName": "V1",
-            "description": "old version of locked staking token minting script",
+            "description": "last versions of all dapp scripts",
             "scripts": [
                 {
                     "id": "CMCq66",
                     "version": 1
-                }
-            ],
-            "auditId": "eelU"
-        },
-        {
-            "releaseNumber": 2,
-            "releaseName": "V2",
-            "description": "last versions of all dapp scripts",
-            "scripts": [
+                },                
                 {
                     "id": "CMCq66",
                     "version": 2
@@ -51,8 +43,17 @@
                 {
                     "id": "KDwTJq",
                     "version": 1
-                }                 
-            ]
+                },
+                {
+                    "id": "dF96KY",
+                    "version": 1
+                },
+                {
+                    "id": "v1TRHt",
+                    "version": 1
+                }        
+            ],
+            "auditId": "eelU"    
         }        
     ],
     "contracts": [
@@ -128,6 +129,28 @@
                     "contractAddress": "addr1w8r80ndh05g4mawnwu424kg748jtt498l9crpqvrm5vn78q32ats7"
                 }
             ]
-        } 
+        },
+        {
+            "id": "dF96KY",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "30e02ff8576298babd301cee58928d7b320364abeae556c46e3cf42d",
+                    "contractAddress": "addr1wycwqtlc2a3f3w4axqwwukyj34anyqmy404w24kydc70gtg5w4elq"
+                }
+            ]
+        },
+        {
+            "id": "v1TRHt",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "ba3501cd170c96349c342c5ef4242c596b58afaecdcffc0bb04af0ec",
+                    "contractAddress": "addr1wxar2qwdzuxfvdyuxsk9aapy93vkkk904mxullqtkp90pmqh0xrmz"
+                }
+            ]
+        }        
     ]
 }
