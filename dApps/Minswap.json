@@ -158,8 +158,8 @@
             "versions": [
                 {
                     "version": 1,
-                    "scriptHash": "57c8e718c201fba10a9da1748d675b54281d3b1b983c5d1687fc7317",
-                    "contractAddress": "addr1z9tu3ecccgqlhgg2nkshfrt8td2zs8fmrwvrchgksl78x96j2c79g"
+                    "scriptHash": "57c8e718c201fba10a9da1748d675b54281d3b1b983c5d1687fc731752563c5410bff6a0d43ccebb7c37e1f69f5eb260552521adff33b9c2",
+                    "contractAddress": "addr1z9tu3ecccgqlhgg2nkshfrt8td2zs8fmrwvrchgksl78x96j2c79gy9l76sdg0xwhd7r0c0kna0tycz4y5s6mlenh8pq26n58l"
                 },
                 {
                     "version": 2,
