@@ -31,7 +31,16 @@
                     "id": "2qxCLl",
                     "version": 1
                 }                
-            ]
+            ],
+        "contractId": "V7pD"    
+        }
+    ],
+    
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/aadafinance",
+         "contractId": "V7pD"
         }
     ],
 
