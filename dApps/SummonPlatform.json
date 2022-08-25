@@ -1,0 +1,35 @@
+{
+    "id": "E0lQdGtb",
+    "projectName": "Summon Platform",
+    "link": "https://summonplatform.io",
+    "twitter": "https://twitter.com/SummonPlatform",
+    "category": "COMMUNITY",
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "doDSjz",
+                    "version": 1
+                }
+            ]           
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "doDSjz",
+            "name": "Non-custodial token sale",           
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "a4e6d8637e16e8b40506e8cc0df2434b33d8ea253d9bf07b4a26ea61",
+                    "contractAddress": "addr1wxjwdkrr0ctw3dq9qm5vcr0jgd9n8k82y57ehurmfgnw5cgrxh0hr"
+                }    
+            ]
+        }
+    ]
+}

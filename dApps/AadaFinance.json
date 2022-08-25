@@ -14,8 +14,33 @@
                 {
                     "id": "4kleE6",
                     "version": 1
-                }
-            ]
+                },
+                {
+                    "id": "TLvqM1",
+                    "version": 1
+                },
+                {
+                    "id": "1xlBNk",
+                    "version": 1
+                },
+                {
+                    "id": "vdNR9m",
+                    "version": 1
+                },
+                {
+                    "id": "2qxCLl",
+                    "version": 1
+                }                
+            ],
+        "contractId": "V7pD"    
+        }
+    ],
+    
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/aadafinance",
+         "contractId": "V7pD"
         }
     ],
 
@@ -31,6 +56,54 @@
                     "contractAddress": "addr1w9xryv0kf6g5pgtewlnwvd9njn74nd7l7r2mu6jnhrnyxjcgsfjq5"
                 }
             ]
-        }
+        },
+        {
+            "id": "TLvqM1",
+            "name": "AADA staking",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "1999507bc0ee90e1c376e608496e624e8645b3d558e244c2cd825a38",
+                    "contractAddress": "addr1wyvej5rmcrhfpcwrwmnqsjtwvf8gv3dn64vwy3xzekp95wqqhdkwa"
+                }
+            ]
+        },
+        {
+            "id": "1xlBNk",
+            "name": "Script Adresses 1",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "ca36b39e5f501d7d2acf670154979edf3c415597f25f4658a8049a3d7c82e4096d1b18dc77bd9ad4501600ffae581e99c65995e7cc86369e",
+                    "contractAddress": "addr1z89rdvu7tagp6lf2eansz4yhnm0ncs24jle973jc4qzf50tustjqjmgmrrw800v663gpvq8l4evpaxwxtx270nyxx60qxz7da3"
+                }
+            ]
+        },
+        {
+            "id": "vdNR9m",
+            "name": "Script Adresses 2",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "9d50ffd8d60edbbec3332d2e5dac0ff1f66d2f22efd19c8f6f69c5be7c82e4096d1b18dc77bd9ad4501600ffae581e99c65995e7cc86369e",
+                    "contractAddress": "addr1zxw4pl7c6c8dh0krxvkjuhdvplclvmf0ythar8y0da5ut0nustjqjmgmrrw800v663gpvq8l4evpaxwxtx270nyxx60qhr7a2u"
+                }
+            ]
+        },
+        {
+            "id": "2qxCLl",
+            "name": "Script Adresses 3",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "69cc54438617ed39bd8ebb060a9837937ce1946557e5c5aae06f27b67c82e4096d1b18dc77bd9ad4501600ffae581e99c65995e7cc86369e",
+                    "contractAddress": "addr1z95uc4zrsct76wda36asvz5cx7fhecv5v4t7t3d2uphj0dnustjqjmgmrrw800v663gpvq8l4evpaxwxtx270nyxx60qspzxnz"
+                }
+            ]
+        }        
     ]
 }
