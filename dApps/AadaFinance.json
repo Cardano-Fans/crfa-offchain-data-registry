@@ -32,6 +32,7 @@
                     "version": 1
                 }                
             ],
+        "auditId": "NOyf",            
         "contractId": "V7pD"    
         }
     ],
@@ -43,6 +44,14 @@
          "contractId": "V7pD"
         }
     ],
+    "audits": [
+        {
+         "auditId": "NOyf",
+         "auditor": "Vaccuumlabs",
+         "auditLink": "https://github.com/aadafinance/materials/blob/main/Aada_finance_audit.pdf",
+         "auditType": "MANUAL"     
+        }
+    ],    
 
     "scripts": [
         {
