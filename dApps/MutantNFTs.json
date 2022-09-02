@@ -18,10 +18,14 @@
 					{
 						"id": "SxL0mO",
 						"version": 1
-					}                    
+					},
+					{
+						"id": "lSRWJ0",
+						"version": 1
+					}  					
 				]
 			}
-		],
+    ],
 
     "scripts": [        
         {
@@ -45,6 +49,18 @@
                     "version": 1,
                     "scriptHash": "1bec58093b1de0361affebe381fa3a6bcd93644aa47dafcd4eac88cb",
                     "contractAddress": "addr1wyd7ckqf8vw7qds6ll478q068f4umymyf2j8mt7df6kg3jcrrd8rw"
+                }             
+            ]
+        },
+        {
+            "id": "lSRWJ0",
+            "name": "onchain raffle",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "22f12548a9b1e61fca4b5d9cb87f947f757d0b5e7fb2366fc32e40fe",
+                    "contractAddress": "addr1wy30zf2g4xc7v872fdweewrlj3lh2lgttelmydn0cvhyplsg3vnkq"
                 }             
             ]
         } 	    
