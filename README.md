@@ -1,7 +1,6 @@
 # crfa-offchain-data-registry
 
-- ScriptHash -> dApp
-- message metadata groups
+This registry contains mappings of script hashes to dApps. Please add your project here or correct mistakes. We are maintaining it on best effort basis.
 
 
 Caveats:
