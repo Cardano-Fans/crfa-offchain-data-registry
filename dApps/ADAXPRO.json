@@ -5,7 +5,7 @@
     "twitter": "https://twitter.com/adax_pro",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
-    "features": ["SWAP", "LIQUIDITY_MINING"],    
+    "features": ["SWAP", "LIQUIDITY_MINING", "YIELD_FARMING"],    
     
     "releases": [
         {
