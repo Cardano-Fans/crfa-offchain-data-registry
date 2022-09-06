@@ -37,6 +37,10 @@
                     "version": 2
                 },
                 {
+                    "id": "CMCq66",
+                    "version": 3
+                },                
+                {
                     "id": "D8kwAe",
                     "version": 1
                 },
@@ -104,7 +108,11 @@
                 {
                     "mintPolicyID": "4c820aadf6ae8c755430455f5803d283bde0b20114bd93a8f381c72c",
                     "version": 2
-                }                
+                },
+                {
+                    "mintPolicyID": "40243894c103511d74c884e8ed231c0ca7df00644bd4afe2b82044fb",
+                    "version": 3
+                }                 
             ]
         },
         {
