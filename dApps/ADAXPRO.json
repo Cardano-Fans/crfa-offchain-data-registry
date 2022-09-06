@@ -167,7 +167,23 @@
                 {
                     "id": "j9eEVF",
                     "version": 2
-                }  
+                },
+                {
+                    "id": "CnJQwH",
+                    "version": 2
+                },
+                {
+                    "id": "UOVzCd",
+                    "version": 2
+                },
+                {
+                    "id": "VsrNk9",
+                    "version": 2
+                },
+                {
+                    "id": "gLGdlY",
+                    "version": 2
+                }                
             ]
         }
     ],
@@ -627,6 +643,51 @@
                     "mintPolicyID": "ddf5b502c05b8a9efc43c57e6ee7188c5a4863f4d205ae28b1d04645",
                     "version": 2
                 }
+            ]
+        },
+        {
+            "id": "CnJQwH",
+            "name": "coin policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "a9ed33c7ce212c20e348d90fdde46ce160950d15eae3f9d1e05c713f",
+                    "version": 2
+                }
+            ]
+        },
+        {
+            "id": "UOVzCd",
+            "name": "time policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "bf80f4f3326b6ea3fbf624ff114d74bcfc587c2f8660da8a8811194e",
+                    "version": 2
+                }
+            ]
+        },
+        {
+            "id": "VsrNk9",
+            "name": "NFT policy",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "2bbe35bcc0a5d60cbd53c10edb6f30585d4fc92e08ca32096081d8cd",
+                    "version": 2
+                }
+            ]
+        },
+        {
+            "id": "gLGdlY",
+            "name": "farming contract",
+            "purpose": "SPEND",
+            "versions": [                
+                {
+                    "version": 2,
+                    "scriptHash": "d7db8be47db66b1deb0094ca5e91205bca6079edb9a0c4bfd631e73d",
+                    "contractAddress": "addr1w8tahzly0kmxk80tqz2v5h53ypdu5creaku6p39l6cc7w0ghxy9rd"
+                }                  
             ]
         }        
     ]
