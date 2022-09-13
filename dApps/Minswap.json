@@ -97,7 +97,8 @@
                     "id": "jQrRKz",
                     "version": 2
                 }                
-             ]
+             ],
+             "auditId": "o53W"
         }                
     ],
     
@@ -114,7 +115,13 @@
          "auditor": "Tweag",
          "auditLink": "https://github.com/CatspersCoffee/contracts/blob/main/dex/audit-report/MinSwap-Jan31.pdf",
          "auditType": "MANUAL"
-        }
+        },
+        {
+         "auditId": "o53W",
+         "auditor": "CertiK",
+         "auditLink": "https://www.certik.com/projects/minswap#audit",
+         "auditType": "MANUAL"
+        }        
     ],
     "scripts": [
         {
