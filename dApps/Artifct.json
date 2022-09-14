@@ -10,6 +10,7 @@
         {
             "releaseNumber": 1,
             "releaseName": "V1",
+            "auditId": "z5L90f",
             "scripts": [
                 {
                     "id": "PmNd6w",
@@ -18,7 +19,14 @@
             ]
         }
     ],
-
+    "audits": [
+        {
+         "auditId": "z5L90f",
+         "auditor": "Canonical LLC.",
+         "auditLink": "https://github.com/kieransimkin/artifct/blob/main/Artifct_Security_Assessment_3.pdf",
+         "auditType": "MANUAL"
+        }
+    ],
     "scripts": [
         {
             "id": "PmNd6w",
