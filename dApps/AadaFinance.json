@@ -3,9 +3,13 @@
     "projectName": "Aada Finance",
     "link": "https://aada.finance",
     "twitter": "https://twitter.com/AadaFinance",
-    "category": "DEFI",    
-    "subCategory": "LENDING_BORROWING",    
-
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",
+    "features": [
+        "LEND",
+        "BORROW",
+        "STAKE",
+    ],
     "releases": [
         {
             "releaseNumber": 1,
@@ -32,31 +36,51 @@
                     "version": 1
                 }
             ],
-        "auditId": "AAyf",
-        "contractId": "A9pD"
+            "auditId": "AAyf",
+            "contractId": "A9pD"
         }
     ],
-    
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/aadafinance",
-         "contractId": "A9pD"
+            "openSource": true,
+            "contractLink": "https://github.com/aadafinance",
+            "contractId": "A9pD"
         }
     ],
     "audits": [
         {
-         "auditId": "AAyf",
-         "auditor": "Vaccuumlabs",
-         "auditLink": "https://github.com/aadafinance/materials/blob/main/aada-audit.pdf",
-         "auditType": "MANUAL"     
+            "auditId": "AAyf",
+            "auditor": "Vaccuumlabs",
+            "auditLink": "https://github.com/aadafinance/materials/blob/main/aada-audit.pdf",
+            "auditType": "MANUAL"
         }
-    ],    
-
+    ],
     "scripts": [
         {
+            "id": "yaaJ3o",
+            "name": "Borrower NFT-Bond token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "21ca2902ad0406bc2ce361ad91157b3542544d86d4e3d3e3c43f1763",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "yabJ3o",
+            "name": "Lender NFT-Bond token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "42f0e3706d2e0a0761db8da21387aadabe609a7cf328d249ebc2eeff",
+                    "version": 1
+                }
+            ]
+        },
+        {
             "id": "AAlBNk",
-            "name": "Request.hs",
+            "name": "Create loan request",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -68,7 +92,7 @@
         },
         {
             "id": "AANR9m",
-            "name": "Collateral.hs",
+            "name": "Start loan",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -80,7 +104,7 @@
         },
         {
             "id": "AAxCLl",
-            "name": "Interest.hs",
+            "name": "Repay loan",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -92,7 +116,7 @@
         },
         {
             "id": "AAxCLl",
-            "name": "Liquidation.hs",
+            "name": "Claim liquidated collateral",
             "purpose": "SPEND",
             "versions": [
                 {
