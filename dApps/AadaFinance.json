@@ -36,7 +36,7 @@
                     "version": 1
                 },
                 {
-                    "id": "AAxCLl",
+                    "id": "AAxCLd",
                     "version": 1
                 },
                 {
@@ -123,7 +123,7 @@
             ]
         },
         {
-            "id": "AAxCLl",
+            "id": "AAxCLld",
             "name": "Claim liquidated collateral",
             "purpose": "SPEND",
             "versions": [
