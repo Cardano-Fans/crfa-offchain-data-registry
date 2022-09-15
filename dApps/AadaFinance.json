@@ -8,7 +8,7 @@
     "features": [
         "LEND",
         "BORROW",
-        "STAKE",
+        "STAKE"
     ],
     "releases": [
         {
