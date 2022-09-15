@@ -3,66 +3,134 @@
     "projectName": "Aada Finance",
     "link": "https://aada.finance",
     "twitter": "https://twitter.com/AadaFinance",
-    "category": "DEFI",    
-    "subCategory": "LENDING_BORROWING",    
-
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",
+    "features": [
+        "LEND",
+        "BORROW",
+        "STAKE",
+    ],
     "releases": [
         {
             "releaseNumber": 1,
             "releaseName": "V1",
             "scripts": [
                 {
-                    "id": "4kleE6",
+                    "id": "yaaJ3o",
+                    "version": 1
+                },
+                {
+                    "id": "yabJ3o",
+                    "version": 1
+                },
+                {
+                    "id": "AAlBNk",
+                    "version": 1
+                },
+                {
+                    "id": "AANR9m",
+                    "version": 1
+                },
+                {
+                    "id": "AAxCLl",
+                    "version": 1
+                },
+                {
+                    "id": "AAxCLl",
                     "version": 1
                 },
                 {
                     "id": "TLvqM1",
                     "version": 1
-                },
-                {
-                    "id": "1xlBNk",
-                    "version": 1
-                },
-                {
-                    "id": "vdNR9m",
-                    "version": 1
-                },
-                {
-                    "id": "2qxCLl",
-                    "version": 1
-                }                
+                }
             ],
-        "auditId": "NOyf",            
-        "contractId": "V7pD"    
+            "auditId": "AAyf",
+            "contractId": "A9pD"
         }
     ],
-    
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/aadafinance",
-         "contractId": "V7pD"
+            "openSource": true,
+            "contractLink": "https://github.com/aadafinance",
+            "contractId": "A9pD"
         }
     ],
     "audits": [
         {
-         "auditId": "NOyf",
-         "auditor": "Vaccuumlabs",
-         "auditLink": "https://github.com/aadafinance/materials/blob/main/Aada_finance_audit.pdf",
-         "auditType": "MANUAL"     
+            "auditId": "AAyf",
+            "auditor": "Vaccuumlabs",
+            "auditLink": "https://github.com/aadafinance/materials/blob/main/aada-audit.pdf",
+            "auditType": "MANUAL"
         }
-    ],    
-
+    ],
     "scripts": [
         {
-            "id": "4kleE6",
-            "name": "swap v.1 vs v.2",
+            "id": "yaaJ3o",
+            "name": "Borrower NFT-Bond token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "21ca2902ad0406bc2ce361ad91157b3542544d86d4e3d3e3c43f1763",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "yabJ3o",
+            "name": "Lender NFT-Bond token",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "42f0e3706d2e0a0761db8da21387aadabe609a7cf328d249ebc2eeff",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "AAlBNk",
+            "name": "Create loan request",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-                    "scriptHash": "4c3231f64e9140a17977e6e634b394fd59b7dff0d5be6a53b8e6434b",
-                    "contractAddress": "addr1w9xryv0kf6g5pgtewlnwvd9njn74nd7l7r2mu6jnhrnyxjcgsfjq5"
+                    "scriptHash": "0a5abd03628e0308b63abe546c0d3bd8969faaf46b98d082808b805969962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
+                    "contractAddress": "addr1zy9940grv28qxz9k82l9gmqd80vfd8a2734e35yzsz9cqktfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9smq5w00"
+                }
+            ]
+        },
+        {
+            "id": "AANR9m",
+            "name": "Start loan",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "2d75e5cf11622d5f68e2b2ef5be50f0027bb7d485e98c881e665676c69962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
+                    "contractAddress": "addr1zykhtew0z93z6hmgu2ew7kl9puqz0wmafp0f3jypuejkwmrfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9skq4p22"
+                }
+            ]
+        },
+        {
+            "id": "AAxCLl",
+            "name": "Repay loan",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "92862d28096bed36fb01d36dc4c77214f64630d60bc990db9876f25069962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
+                    "contractAddress": "addr1zxfgvtfgp9476dhmq8fkm3x8wg20v33s6c9unyxmnpm0y5rfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9st8q78h"
+                }
+            ]
+        },
+        {
+            "id": "AAxCLl",
+            "name": "Claim liquidated collateral",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "b1259b98f6e4776985fc5a9333717d8c9f1e62744fed8240640461d769962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
+                    "contractAddress": "addr1zxcjtxuc7mj8w6v9l3dfxvm30kxf78nzw387mqjqvszxr4mfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9sp92046"
                 }
             ]
         },
@@ -77,42 +145,6 @@
                     "contractAddress": "addr1wyvej5rmcrhfpcwrwmnqsjtwvf8gv3dn64vwy3xzekp95wqqhdkwa"
                 }
             ]
-        },
-        {
-            "id": "1xlBNk",
-            "name": "Script Adresses 1",
-            "purpose": "SPEND",
-            "versions": [
-                {
-                    "version": 1,
-                    "scriptHash": "ca36b39e5f501d7d2acf670154979edf3c415597f25f4658a8049a3d7c82e4096d1b18dc77bd9ad4501600ffae581e99c65995e7cc86369e",
-                    "contractAddress": "addr1z89rdvu7tagp6lf2eansz4yhnm0ncs24jle973jc4qzf50tustjqjmgmrrw800v663gpvq8l4evpaxwxtx270nyxx60qxz7da3"
-                }
-            ]
-        },
-        {
-            "id": "vdNR9m",
-            "name": "Script Adresses 2",
-            "purpose": "SPEND",
-            "versions": [
-                {
-                    "version": 1,
-                    "scriptHash": "9d50ffd8d60edbbec3332d2e5dac0ff1f66d2f22efd19c8f6f69c5be7c82e4096d1b18dc77bd9ad4501600ffae581e99c65995e7cc86369e",
-                    "contractAddress": "addr1zxw4pl7c6c8dh0krxvkjuhdvplclvmf0ythar8y0da5ut0nustjqjmgmrrw800v663gpvq8l4evpaxwxtx270nyxx60qhr7a2u"
-                }
-            ]
-        },
-        {
-            "id": "2qxCLl",
-            "name": "Script Adresses 3",
-            "purpose": "SPEND",
-            "versions": [
-                {
-                    "version": 1,
-                    "scriptHash": "69cc54438617ed39bd8ebb060a9837937ce1946557e5c5aae06f27b67c82e4096d1b18dc77bd9ad4501600ffae581e99c65995e7cc86369e",
-                    "contractAddress": "addr1z95uc4zrsct76wda36asvz5cx7fhecv5v4t7t3d2uphj0dnustjqjmgmrrw800v663gpvq8l4evpaxwxtx270nyxx60qspzxnz"
-                }
-            ]
-        }        
+        }
     ]
 }
