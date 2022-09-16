@@ -4,7 +4,7 @@
 	    "link": "https://www.jpg.store",
 	    "twitter": "https://twitter.com/jpgstoreNFT",
 	    "category": "MARKETPLACE",
-        "subCategory": "NFT",
+            "subCategory": "NFT",
 
 	    "releases": [
 			{
@@ -62,6 +62,7 @@
         {
          "auditId": "qpmI",
          "auditor": "Runtime Vеrification",
+	 "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Jpg.Store-audit-report.pdf",	
          "auditType": "MANUAL"
         }
     ],
