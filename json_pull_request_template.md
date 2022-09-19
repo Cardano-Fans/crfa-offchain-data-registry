@@ -1,4 +1,5 @@
-{                                                          // json file name should be dApp name (in case it already exists, update existing one, if not create new one
+                                                           // json file name should be dApp name (in case it already exists, update existing one, if not create new one
+{                                                          
     "id": "",                                              // random 8 characters unique dApp id
     "projectName": "",                                     // dApp name
     "link": "",                                            // dApp main page link
