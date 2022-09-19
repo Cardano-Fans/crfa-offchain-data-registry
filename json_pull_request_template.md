@@ -1,6 +1,7 @@
-// json file name should be dApp name (in case it already exists, update existing one, if not create new one
-{                                                          
-    "id": "xxxxxxxx",                                      // random 8 characters unique dApp id
+{   
+The name of the .json file should be the dApp name (in case it already exists, please update the existing one, if not create new one)
+
+    "id": "",                                              // random 8 characters unique dApp id
     "projectName": "",                                     // dApp name
     "link": "",                                            // dApp main page link
     "twitter": "",                                         // dApp twitter page link
@@ -8,8 +9,10 @@
     "subCategory": "",                                     // sub-categories: AMM_DEX, ORDERBOOK_DEX, HYBRID_DEX, LENDING_BORROWING, NFT, ORACLE
     "features": [""],                                      // dApp various features (for example: SWAP, LEND, YIELD, etc.)      
     
-   "releases": [                                           // each smart contract or batch of smart contracts to be grouped by releases
-                                                           // (in present example: 2 releases, old and current one)
+	                                                       // each smart contract or batch of smart contracts to be grouped by releases
+	                                                       // (in present example: 2 releases, old and current one)
+   "releases": [
+   
         {
             "releaseNumber": 1,
             "releaseName": "V1",
