@@ -48,10 +48,10 @@ The name of the .json file should be the dApp name (in case it already exists, p
                     "version": 2
                 }
              ],                                                   
-        "auditId": "",                              // random 4 characters unique audit Id of the last released scripts that point to current release
-                                                    // (detailed in audits section)
-        "contractId": ""                            // random 4 characters unique open source Id of the last released scripts that point to current release
-                                                    // (detailed in open source section)
+        "auditId": "",                              // random 4 characters unique audit Id of the last released scripts that point
+                                                    // to current release (detailed in audits section)
+        "contractId": ""                            // random 4 characters unique open source Id of the last released scripts that
+                                                    // point to current release (detailed in open source section)
         }              
     ],
     
