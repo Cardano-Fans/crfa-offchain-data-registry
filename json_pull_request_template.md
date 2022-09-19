@@ -7,7 +7,7 @@
     "subCategory": "",                                     // sub-categories: AMM_DEX, ORDERBOOK_DEX, HYBRID_DEX, LENDING_BORROWING, NFT, ORACLE
     "features": [""],                                      // dApp various features (for example: SWAP, LEND, YIELD, etc.)      
     
-   "releases":                                             // each smart contract or batch of smart contracts to be grouped by releases
+   "releases":[                                             // each smart contract or batch of smart contracts to be grouped by releases
                                                            // (in present example: 2 releases, old and current one)
         {
             "releaseNumber": 1,
