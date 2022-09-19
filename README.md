@@ -10,10 +10,10 @@ to use a single script hash.
 Nothing stops a project from having a script hash that changes over time by inlining data into the script
 
 ## Explanation for dapp file:
+The name of the .json file should be the dApp name (in case it already exists, please update the existing one, if not create new one)
 
 ```
 {   
-The name of the .json file should be the dApp name (in case it already exists, please update the existing one, if not create new one)
 
     "id": "",                                     // random 8 characters unique dApp id
     "projectName": "",                            // dApp name
