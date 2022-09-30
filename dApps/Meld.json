@@ -55,7 +55,15 @@
                 {
                     "id": "v1TRHt",
                     "version": 1
-                }        
+                },
+                {
+                    "id": "lXQeog",
+                    "version": 1
+                },
+                {
+                    "id": "cGtCMf",
+                    "version": 1
+                }                   
             ],
             "auditId": "eelU"    
         }        
@@ -139,7 +147,20 @@
             ]
         },
         {
+            "id": "v1TRHt",
+            "name": "staking 1",              
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "ba3501cd170c96349c342c5ef4242c596b58afaecdcffc0bb04af0ec",
+                    "contractAddress": "addr1wxar2qwdzuxfvdyuxsk9aapy93vkkk904mxullqtkp90pmqh0xrmz"
+                }
+            ]
+        },         
+        {
             "id": "dF96KY",
+            "name": "staking 2",            
             "purpose": "SPEND",
             "versions": [
                 {
@@ -150,15 +171,26 @@
             ]
         },
         {
-            "id": "v1TRHt",
+            "id": "lXQeog",             
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-                    "scriptHash": "ba3501cd170c96349c342c5ef4242c596b58afaecdcffc0bb04af0ec",
-                    "contractAddress": "addr1wxar2qwdzuxfvdyuxsk9aapy93vkkk904mxullqtkp90pmqh0xrmz"
+                    "scriptHash": "d5910c330ed47f23f0cc86132332bd081f193220e302f6c180acb3a2",
+                    "contractAddress": "addr1w82ezrpnpm287glsejrpxgejh5yp7xfjyr3s9akpszkt8gssyea0e"
                 }
             ]
-        }        
+        },
+        {
+            "id": "cGtCMf",             
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "0397b7b0f2fa064645785c2131fa7dd0a3a160ce603a3a30bff2df49",
+                    "contractAddress": "addr1wype0das7taqv3j90pwzzv060hg28gtqeesr5w3shled7jguelvrg"
+                }
+            ]
+        }          
     ]
 }
