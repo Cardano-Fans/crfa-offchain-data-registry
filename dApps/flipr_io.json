@@ -1,8 +1,8 @@
 {
     "id": "DdJuMqki",
-    "projectName": "FreeRoam",
-    "link": "https://freeroam.io",
-    "twitter": "https://twitter.com/freeroam_io",
+    "projectName": "flipr.io",
+    "link": "https://flipr.io",
+    "twitter": "https://twitter.com/flipr_io",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
 
@@ -16,7 +16,17 @@
                     "version": 1
                 }
             ]
-        }
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "nLVlzc",
+                    "version": 2
+                }
+            ]
+        }        
     ],
 
     "scripts": [
@@ -28,8 +38,13 @@
                     "version": 1,
                     "scriptHash": "ac036d365ea5d81f7cfbffc067a7c519041c79e47b68b0b883b7bd11",
                     "contractAddress": "addr1wxkqxmfkt6jas8mul0luqea8c5vsg8reu3ak3v9cswmm6yg2u9mrh"
-                }    
+                },
+                {
+                    "version": 2,
+                    "scriptHash": "f16f90ccb2795b16c55e59898203b5126c506c729207192c9760e18d",
+                    "contractAddress": "addr1w8cklyxvkfu4k9k9tevcnqsrk5fxc5rvw2fqwxfvjaswrrgzlu9dt"
+                }                 
             ]
-        }
+        }       
     ]
 }
