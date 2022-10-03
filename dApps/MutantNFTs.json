@@ -22,6 +22,10 @@
 					{
 						"id": "lSRWJ0",
 						"version": 1
+					},
+					{
+						"id": "MiC79C",
+						"version": 1
 					}  					
 				]
 			}
@@ -30,7 +34,7 @@
     "scripts": [        
         {
             "id": "BxrNX1",
-            "name": "mutant staking",
+            "name": "Mutant staking",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -42,7 +46,7 @@
         },
         {
             "id": "SxL0mO",
-            "name": "mutant token",
+            "name": "Mutant token",
             "purpose": "SPEND",
             "versions": [
                 {
@@ -63,6 +67,18 @@
                     "contractAddress": "addr1wy30zf2g4xc7v872fdweewrlj3lh2lgttelmydn0cvhyplsg3vnkq"
                 }             
             ]
-        } 	    
+        },
+        {
+            "id": "MiC79C",
+            "name": "Mutant staking service",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "6c59481b23efbdc48b5ead4f31e5a9bc73609b220f25191634b94244",
+                    "contractAddress": "addr1w9k9jjqmy0hmm3ytt6k57v094x78xcymyg8j2xgkxju5y3qxz4y0w"
+                }             
+            ]
+        }	    
     ]
 }
