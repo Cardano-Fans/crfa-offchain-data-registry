@@ -47,9 +47,19 @@
 					}
 				],
 				"auditId": "qpmI"				
-			}	    
-		],
-
+			},
+		    	{
+				"releaseNumber": 3,
+				"releaseName": "V3",
+				"scripts": [
+					{
+						"id": "Ejwj3a",
+						"version": 1
+					}
+				],
+				"contractId": "JN3E"
+			}
+    ],
     "contracts": [
         {
          "openSource": true,
