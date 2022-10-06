@@ -105,14 +105,14 @@
 	            ]
 	        },
 	        {
-		"id": "Ejwj3k",		
+		"id": "Ejwj3a",		
 	            "purpose": "SPEND",
 	            "versions": [		    
 	                {
 	                    "version": 1,
 			    "plutusVersion": 2, 				
-	                    "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad",
-	                    "contractAddress": "addr1wxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tgdf3chh"
+	                    "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad81728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
+	                    "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tvpw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspks905plm"
 	                }
 	            ]
 	        }	    
