@@ -53,8 +53,7 @@
                     "version": 1
                 }                
             ],
-            "auditId": "xBOD",
-            "contractId": "MnBY"                    
+            "auditId": "xBOD"                   
         },
         {
             "releaseNumber": 3,
@@ -89,13 +88,14 @@
                     "id": "pigoar",
                     "version": 2
                 }                
-            ]                    
+            ],
+            "contractId": "MnBY" 		
         }        
     ],
     "contracts": [
         {
          "openSource": true,
-         "contractLink": "https://github.com/MuesliSwapTeam",
+         "contractLink": "https://github.com/MuesliSwapTeam/muesliswap-cardano-pool-contracts",
          "contractId": "MnBY"
         }
     ],
