@@ -59,16 +59,22 @@
             "versions": [
                 {
                     "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71a27b0572bf383c751e13597a600538e465bf9f4eb2df497b15101b27",                    
                     "scriptHash": "a27b0572bf383c751e13597a600538e465bf9f4eb2df497b15101b27",
                     "contractAddress": "addr1wx38kptjhuurcag7zdvh5cq98rjxt0ulf6ed7jtmz5gpkfcgjyyx3"
                 },
                 {
                     "version": 2,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71483788748bd6129043bfc87fba9c0b5bc7e49b892efdc9dd783e3285",                     
                     "scriptHash": "483788748bd6129043bfc87fba9c0b5bc7e49b892efdc9dd783e3285",
                     "contractAddress": "addr1w9yr0zr530tp9yzrhly8lw5upddu0eym3yh0mjwa0qlr9pgmkzgv0"
                 },
                 {
                     "version": 3,
+	            "plutusVersion": 1, 
+	            "fullScriptHash": "71cb08fd2cf22dc45b23a7ff9c03468d94c93133606ba2abfdc833a76a",                      
                     "scriptHash": "cb08fd2cf22dc45b23a7ff9c03468d94c93133606ba2abfdc833a76a",
                     "contractAddress": "addr1w89s3lfv7gkugker5llecq6x3k2vjvfnvp4692laeqe6w6s93vj3j"
                 }                
@@ -80,6 +86,7 @@
             "versions": [
                 {
                     "mintPolicyID": "9902279d9e834859a5fca5b9a334d070aa1ae686be2f49407aae5ea9",
+		    "plutusVersion": 1, 			
                     "version": 3
                 }               
             ]
