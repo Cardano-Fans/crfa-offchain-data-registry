@@ -12,6 +12,16 @@
     ],
     "releases": [
         {
+            "releaseNumber": 0,
+            "releaseName": "V0",
+            "scripts": [
+                {
+                    "id": "dvP7mm",
+                    "version": 1
+                }
+                ]
+        },        
+        {
             "releaseNumber": 1,
             "releaseName": "V1",
             "scripts": [
@@ -65,12 +75,27 @@
     ],
     "scripts": [
         {
+            "id": "dvP7mm",
+            "name": "Swap smart contract",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 1, 
+	                "fullScriptHash": "714c3231f64e9140a17977e6e634b394fd59b7dff0d5be6a53b8e6434b",                     
+                    "scriptHash": "4c3231f64e9140a17977e6e634b394fd59b7dff0d5be6a53b8e6434b",
+                    "contractAddress": "addr1w9xryv0kf6g5pgtewlnwvd9njn74nd7l7r2mu6jnhrnyxjcgsfjq5"
+                }
+            ]
+        },       
+        {
             "id": "yaaJ3o",
             "name": "Borrower NFT-Bond token",
             "purpose": "MINT",
             "versions": [
                 {
                     "mintPolicyID": "21ca2902ad0406bc2ce361ad91157b3542544d86d4e3d3e3c43f1763",
+		            "plutusVersion": 1,                    
                     "version": 1
                 }
             ]
@@ -82,6 +107,7 @@
             "versions": [
                 {
                     "mintPolicyID": "42f0e3706d2e0a0761db8da21387aadabe609a7cf328d249ebc2eeff",
+		            "plutusVersion": 1,                    
                     "version": 1
                 }
             ]
@@ -93,6 +119,8 @@
             "versions": [
                 {
                     "version": 1,
+		            "plutusVersion": 1, 
+	                "fullScriptHash": "110a5abd03628e0308b63abe546c0d3bd8969faaf46b98d082808b805969962602a7025d4163233855c5a379313b27239b8623ad53540815cb",                     
                     "scriptHash": "0a5abd03628e0308b63abe546c0d3bd8969faaf46b98d082808b805969962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
                     "contractAddress": "addr1zy9940grv28qxz9k82l9gmqd80vfd8a2734e35yzsz9cqktfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9smq5w00"
                 }
@@ -105,6 +133,8 @@
             "versions": [
                 {
                     "version": 1,
+		            "plutusVersion": 1, 
+	                "fullScriptHash": "112d75e5cf11622d5f68e2b2ef5be50f0027bb7d485e98c881e665676c69962602a7025d4163233855c5a379313b27239b8623ad53540815cb",                     
                     "scriptHash": "2d75e5cf11622d5f68e2b2ef5be50f0027bb7d485e98c881e665676c69962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
                     "contractAddress": "addr1zykhtew0z93z6hmgu2ew7kl9puqz0wmafp0f3jypuejkwmrfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9skq4p22"
                 }
@@ -117,6 +147,8 @@
             "versions": [
                 {
                     "version": 1,
+		            "plutusVersion": 1, 
+	                "fullScriptHash": "1192862d28096bed36fb01d36dc4c77214f64630d60bc990db9876f25069962602a7025d4163233855c5a379313b27239b8623ad53540815cb",                     
                     "scriptHash": "92862d28096bed36fb01d36dc4c77214f64630d60bc990db9876f25069962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
                     "contractAddress": "addr1zxfgvtfgp9476dhmq8fkm3x8wg20v33s6c9unyxmnpm0y5rfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9st8q78h"
                 }
@@ -129,6 +161,8 @@
             "versions": [
                 {
                     "version": 1,
+		            "plutusVersion": 1, 
+	                "fullScriptHash": "11b1259b98f6e4776985fc5a9333717d8c9f1e62744fed8240640461d769962602a7025d4163233855c5a379313b27239b8623ad53540815cb",                      
                     "scriptHash": "b1259b98f6e4776985fc5a9333717d8c9f1e62744fed8240640461d769962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
                     "contractAddress": "addr1zxcjtxuc7mj8w6v9l3dfxvm30kxf78nzw387mqjqvszxr4mfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9sp92046"
                 }
@@ -141,6 +175,8 @@
             "versions": [
                 {
                     "version": 1,
+ 		            "plutusVersion": 1, 
+	                "fullScriptHash": "711999507bc0ee90e1c376e608496e624e8645b3d558e244c2cd825a38",                     
                     "scriptHash": "1999507bc0ee90e1c376e608496e624e8645b3d558e244c2cd825a38",
                     "contractAddress": "addr1wyvej5rmcrhfpcwrwmnqsjtwvf8gv3dn64vwy3xzekp95wqqhdkwa"
                 }
