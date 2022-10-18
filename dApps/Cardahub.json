@@ -78,6 +78,8 @@
             "versions": [
                 {
                     "version": 1,
+		            "plutusVersion": 1, 
+	                "fullScriptHash": "718cf73edc8c847b8a8ded9053abf7528c6d03c250bccbbdab8d78245c",                     
                     "scriptHash": "8cf73edc8c847b8a8ded9053abf7528c6d03c250bccbbdab8d78245c",
                     "contractAddress": "addr1wxx0w0ku3jz8hz5dakg982lh22xx6q7z2z7vh0dt34uzghqrxdhqq"
                 }                
@@ -89,6 +91,7 @@
             "versions": [
                 {
                     "mintPolicyID": "e0bdf3c3c4f53fcefc09423317364349209ad02423ad4397df4f2441",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -100,6 +103,7 @@
             "versions": [
                 {
                     "mintPolicyID": "33b6150f4f5df62bfc638f206f3a37254d4a82f15f0c6635a20eb83f",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -111,6 +115,7 @@
             "versions": [
                 {
                     "mintPolicyID": "5d6aa5c975266893fc446f24a094dddc59192638b5da0ec0691ec0ae",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -122,6 +127,7 @@
             "versions": [
                 {
                     "mintPolicyID": "6903728593dc2b963fa28f1550483fc6aa143586a47e539c3cd3fa02",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -133,6 +139,7 @@
             "versions": [
                 {
                     "mintPolicyID": "9ad1bb6bdf9237e5364b031bdf8cf527556220cb0fe0a658098622c8",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -144,10 +151,12 @@
             "versions": [
                 {
                     "mintPolicyID": "2d14ec7a8f3f9fc9852290558ea39c5768463941211a20ff1bda0888",
+		            "plutusVersion": 1,                     
                     "version": 1
                 },
                 {
                     "mintPolicyID": "d9ab867ae26e22be44b8c9611beb9b4527081337e70cc1c4eb86c4f2",
+		            "plutusVersion": 1,                     
                     "version": 2
                 }                
             ]
@@ -159,6 +168,7 @@
             "versions": [
                 {
                     "mintPolicyID": "436a3f05a3894535518b98318b595b0d39d6322ab68183b488a82e55",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -170,6 +180,7 @@
             "versions": [
                 {
                     "mintPolicyID": "1cfbcac6633f732abe3235ebb932e952bf6b4ff67b7b57a351743588",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -181,6 +192,7 @@
             "versions": [
                 {
                     "mintPolicyID": "46ca6117ad8645a1fc3fc5f653b552c2211537c46ae71b4362317867",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -192,6 +204,7 @@
             "versions": [
                 {
                     "mintPolicyID": "15d4fc88735ba32787b70c9688726a5b2e5848ee82aa7c4a7062c41e",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -203,6 +216,7 @@
             "versions": [
                 {
                     "mintPolicyID": "394201d726c07e5168daf8e354f1fa0a6c1596e4a0ac447ed94455b3",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -214,6 +228,7 @@
             "versions": [
                 {
                     "mintPolicyID": "7b4552699376a48d175c6bc479f5a5b824544a6ffd739564f2118a5a",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
@@ -225,6 +240,7 @@
             "versions": [
                 {
                     "mintPolicyID": "ee9c9c1568de2c9c00a7b0bd862a5ab96f488c8c731519178dca121c",
+		            "plutusVersion": 1,                     
                     "version": 1
                 }
             ]
