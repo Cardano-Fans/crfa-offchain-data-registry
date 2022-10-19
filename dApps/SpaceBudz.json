@@ -66,11 +66,15 @@
             "versions": [
                 {
                     "version": 1,
+		            "plutusVersion": 1,  
+	                "fullScriptHash": "71aba3c2914116298a146af57d8156b1583f183fc05c0aa48ee95bec71",                    
                     "scriptHash": "aba3c2914116298a146af57d8156b1583f183fc05c0aa48ee95bec71",
                     "contractAddress": "addr1wx468s53gytznzs5dt6hmq2kk9vr7xplcpwq4fywa9d7cug7fd0ed"
                 },    
                 {
                     "version": 2,
+		            "plutusVersion": 1,  
+	                "fullScriptHash": "710449932f9da0258d220c39f803ceb8e2c45fdc605e8dd42f35558b58",                      
                     "scriptHash": "0449932f9da0258d220c39f803ceb8e2c45fdc605e8dd42f35558b58",
                     "contractAddress": "addr1wyzynye0nksztrfzpsulsq7whr3vgh7uvp0gm4p0x42ckkqqq6kxq"
                 }
@@ -83,11 +87,15 @@
             "versions": [
                 {
                     "version": 1,
+ 		            "plutusVersion": 1,  
+	                "fullScriptHash": "71336f0fc67c83fabe248bad4af737edd5611a8dbfd6d09fa923978e00",                     
                     "scriptHash": "336f0fc67c83fabe248bad4af737edd5611a8dbfd6d09fa923978e00",
                     "contractAddress": "addr1wyek7r7x0jpl403y3wk54aehah2kzx5dhltdp8afywtcuqqmt9hg4"
                 },
                 {
                     "version": 2,
+ 		            "plutusVersion": 1,  
+	                "fullScriptHash": "71a745429480879c839f0131ccdf35b5cb0cd77f51d51bd5c8e617a21f",                     
                     "scriptHash": "a745429480879c839f0131ccdf35b5cb0cd77f51d51bd5c8e617a21f",
                     "contractAddress": "addr1wxn52s55szreequlqycuehe4kh9se4ml2823h4wguct6y8cgczmge"
                 }                
@@ -100,10 +108,12 @@
             "versions": [
                 {
                     "mintPolicyID": "4bbe1a11a1b8b1ffa7250e3cca799b74c10252792c575af906ae9b99",
+ 		            "plutusVersion": 1,                     
                     "version": 1
                 },
                 {
                     "mintPolicyID": "e47f849c5262b93b46789251519ec0a7921087b84b3782b871497e8f",
+ 		            "plutusVersion": 1,                     
                     "version": 2
                 }                
             ]
@@ -115,6 +125,8 @@
             "versions": [
                 {
                     "version": 2,
+ 		            "plutusVersion": 1,  
+	                "fullScriptHash": "71e69ef846b28607307badfeb7f756f23fab32743428e76a48e65bed96",                    
                     "scriptHash": "e69ef846b28607307badfeb7f756f23fab32743428e76a48e65bed96",
                     "contractAddress": "addr1w8nfa7zxk2rqwvrm4hlt0a6k7gl6kvn5xs5ww6jgued7m9sutuf8w"
                 }                

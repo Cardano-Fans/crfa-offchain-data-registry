@@ -29,6 +29,7 @@
             "versions": [
                 {
                     "mintPolicyID": "f43a62fdc3965df486de8a0d32fe800963589c41b38946602a0dc535",
+ 		            "plutusVersion": 1,                  
                     "version": 1
                 }
             ]
@@ -40,6 +41,7 @@
             "versions": [
                 {
                     "mintPolicyID": "edfd7a1d77bcb8b884c474bdc92a16002d1fb720e454fa6e99344479",
+		            "plutusVersion": 1,                    
                     "version": 1
                 }
             ]

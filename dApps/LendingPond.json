@@ -26,6 +26,8 @@
             "versions": [
                 {
                     "version": 1,
+		            "plutusVersion": 1, 
+	                "fullScriptHash": "719c30c6f741ccd6b4dece11acfd505365abab14450ea2214435f8124e",                    
                     "scriptHash": "9c30c6f741ccd6b4dece11acfd505365abab14450ea2214435f8124e",
                     "contractAddress": "addr1wxwrp3hhg8xdddx7ecg6el2s2dj6h2c5g582yg2yxhupyns8feg4m"
                 }    
