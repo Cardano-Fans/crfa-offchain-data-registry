@@ -1,9 +1,9 @@
 {
-		"id": "hd6RwbwL",
-		"projectName": "Martify Labs",
-	    "link": "https://martify.io",
-	    "twitter": "https://twitter.com/MartifyLabs",
-	    "category": "MARKETPLACE",
+	"id": "hd6RwbwL",
+	"projectName": "Martify Labs",
+	"link": "https://martify.io",
+	"twitter": "https://twitter.com/MartifyLabs",
+	"category": "MARKETPLACE",
         "subCategory": "NFT",
 
 		"releases": [
@@ -26,6 +26,8 @@
 	            "versions": [
 	                {
 	                    "version": 1,
+ 		            "plutusVersion": 1, 
+	                    "fullScriptHash": "7178113df24a3e1b2a95f19f182b61583de2b8bcf246555faf31d14b18", 				
 	                    "scriptHash": "78113df24a3e1b2a95f19f182b61583de2b8bcf246555faf31d14b18",
 	                    "contractAddress": "addr1w9upz00jfglpk2547x03s2mptq779w9u7fr92ha0x8g5kxq9fuyx0"
 	                }    
