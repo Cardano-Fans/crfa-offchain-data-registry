@@ -30,6 +30,8 @@
             "versions": [
                 {
                     "version": 1,
+ 		            "plutusVersion": 1,  
+	                "fullScriptHash": "71c1528109e73be2492355412a719a9d2562aff7dbd4c00f3fa8058a45",                    
                     "scriptHash": "c1528109e73be2492355412a719a9d2562aff7dbd4c00f3fa8058a45",
                     "contractAddress": "addr1w8q49qgfuua7yjfr24qj5uv6n5jk9tlhm02vqrel4qzc53gzmux09"
                 }    
@@ -42,6 +44,8 @@
             "versions": [                
                 {
                     "version": 1,
+ 		            "plutusVersion": 1,  
+	                "fullScriptHash": "7185ee5c5faf4d486be259b67631553cc4a08aa0fe31a15cf23978d43a",                    
                     "scriptHash": "85ee5c5faf4d486be259b67631553cc4a08aa0fe31a15cf23978d43a",
                     "contractAddress": "addr1wxz7uhzl4ax5s6lztxm8vv248nz2pz4qlcc6zh8j89udgwsjczg23"
                 }                  
