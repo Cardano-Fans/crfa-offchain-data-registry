@@ -1,0 +1,73 @@
+{
+    "id": "bublMQ2d",
+    "projectName": "Mashdapp",
+    "link": "https://www.mashd.app",
+    "twitter": "https://twitter.com/Mashdapp",
+    "category": "MARKETPLACE",    
+    "subCategory": "WRAPPED_ASSETS",    
+
+    "releases": [
+        {
+            "releaseNumber": 0,
+            "releaseName": "V0",
+            "description": "Mainnet tests pre-launch",          
+            "scripts": [
+                {
+                    "id": "sQy6xK",
+                    "version": 1
+                },
+                {
+                    "id": "sQy6xK",
+                    "version": 2
+                },
+                {
+                    "id": "cvRsPb",
+                    "version": 1
+                }                 
+            ]
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],  
+
+    "scripts": [
+        {
+            "id": "sQy6xK",
+            "name": "Mainnet test",            
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+	                  "fullScriptHash": "716ace04cb410f64f3c4a4e192e00314b30809a01c0a62dcc8ceedee65",                        
+                    "scriptHash": "6ace04cb410f64f3c4a4e192e00314b30809a01c0a62dcc8ceedee65",
+                    "contractAddress": "addr1w94vupxtgy8kfu7y5nse9cqrzjesszdqrs9x9hxgemk7ueg8a89xu"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+	                  "fullScriptHash": "711b3bb76338dbf1d9c5c0fe748a55c029ba619663e96e25b30693b28a",                        
+                    "scriptHash": "1b3bb76338dbf1d9c5c0fe748a55c029ba619663e96e25b30693b28a",
+                    "contractAddress": "addr1wydnhdmr8rdlrkw9crl8fzj4cq5m5cvkv05kufdnq6fm9zskcekyp"
+                }               
+            ]
+        },
+        {
+            "id": "cvRsPb",
+            "name": "Closed Beta test",             
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+	                  "fullScriptHash": "712e5bae74e9c854b21b6a98b2c33f7a9cd8d2d8f48c266d9b3fee1137",                        
+                    "scriptHash": "2e5bae74e9c854b21b6a98b2c33f7a9cd8d2d8f48c266d9b3fee1137",
+                    "contractAddress": "addr1wyh9htn5a8y9fvsmd2vt9sel02wd35kc7jxzvmvm8lhpzdc4gz73w"
+                }                
+            ]
+        }
+     ]
+}
