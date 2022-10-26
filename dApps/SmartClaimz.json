@@ -1,0 +1,50 @@
+{   
+
+    "id": "b64ed72f",                                     
+    "projectName": "SmartClaimz",                            
+    "link": "https://smartclaimz.io",                        
+    "twitter": "https://twitter.com/Freeloaderz2022",        
+    "category": "MARKETPLACE",                               
+    "subCategory": "NFT",                            
+    "features": [""],                                   
+    
+	                                          
+	                                          
+   "releases": [
+   
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "description": "initial version of all scripts",
+            "scripts":                            
+                                                   
+                                                  
+            [
+                {
+                    "id": "bcb95b",
+                    "version": 1
+                }
+            ]                                                    
+        } 
+    ],
+    
+    "contracts": [                                  
+        {
+         "openSource": false                        
+        }
+    ],
+    "scripts": [                                    
+        {
+            "id": "bcb95b",                          
+            "name": "Native Script for SmartClaimz", 
+            "purpose": "SPEND",                     
+            "versions": [
+                {
+                    "version": 1,                   
+                    "scriptHash": "710b469570d716f4ba49c248cb26c383ea63a286fb3b69220fd71ef13e",               
+                    "contractAddress": "addr1wy95d9ts6ut0fwjfcfyvkfkrs04x8g5xlvakjgs06u00z0sejufrj"           
+                }
+            ]
+        }
+    ]
+}
