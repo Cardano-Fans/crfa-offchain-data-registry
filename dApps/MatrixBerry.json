@@ -1,0 +1,60 @@
+{
+    "id": "1jFWJl8H",
+    "projectName": "Matrix Berry",
+    "link": "https://matrix.berrypool.io",
+    "twitter": "https://twitter.com/berry_ales",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "VnjA9w",
+                    "version": 1
+                },
+                {
+                    "id": "nnT2dh",
+                    "version": 1
+                }              
+            ],
+        "contractId": "f6Oj"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/berry-pool/matrix",
+         "contractId": "f6Oj"
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "VnjA9w",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",                     
+                    "scriptHash": "a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",
+                    "contractAddress": "addr1wxj4h8mcz4kpgx6nux0e7wqf3zmj9sm29n3tt0qxht542qc9xsv2z"
+                }    
+            ]
+        },
+        {
+            "id": "nnT2dh",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "mintPolicyID": "01cecfaeda9d846c08675902b55a6371f593d9239744867462c5382e",
+		                "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        }      
+    ]
+}
