@@ -1,0 +1,43 @@
+{
+    "id": "LrfmwQ16",
+    "projectName": "DripDropz",
+    "link": "https://dripdropz.io",
+    "twitter": "https://twitter.com/DripDropz_io",
+    "category": "VARIA",
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "tqzeyL",
+                    "version": 1
+                }              
+            ]           
+        }
+    ],
+  
+   "contracts":[
+      {
+         "openSource":false
+      }
+   ],
+
+    "scripts": [
+        {
+            "id": "tqzeyL",
+            "name":"DripDropz Token Claiming",          
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "61c232edd30746e3bce85ffecdfcccb79f79c043e5a590260b19565453",                     
+                    "scriptHash": "c232edd30746e3bce85ffecdfcccb79f79c043e5a590260b19565453",
+                    "contractAddress": "addr1v8pr9mwnqarw808gtllvmlxvk70hnszrukjeqfstr9t9g5crud8c4"
+                }    
+            ]
+        }      
+    ]
+}
