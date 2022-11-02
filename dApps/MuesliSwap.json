@@ -5,7 +5,8 @@
     "twitter": "https://twitter.com/MuesliSwapTeam",
     "category": "DEFI",    
     "subCategory": "HYBRID_DEX",
-    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "MILK_STAKING", "LIQUIDITY_MINING"],
+    "dappDescription": "The first decentralized exchange for Cardano and Milkomeda and the first Hybrid DEX on Cardano",	
+    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "STAKING", "LIQUIDITY_MINING", "YIELD_FARMING"],
     
     "releases": [
         {
