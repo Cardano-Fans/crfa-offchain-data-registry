@@ -1,0 +1,47 @@
+{
+    "id": "xTpzxAXC",
+    "projectName": "Wild Tangz",
+    "link": "https://www.wildtangz.com/",
+    "twitter": "https://twitter.com/WildTangz",
+    "dappDescription": "Hand-drawn, unique, orangutan NFTs that give hodlers mint services, mobile apps, chat support, and more. Built on Cardano and always open-source.",
+    "category": "COLLECTION",
+    "subCategory": "NFT",    
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "56VymA",
+                    "version": 1
+                }                
+            ],
+         "contractId": "IR1r"          
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/thaddeusdiamond/cardano-nft-mint-frontend/blob/master/src/js/pages/voting.js",
+         "contractId": "IR1r"
+        }
+    ],  
+    
+    "scripts": [
+        {
+            "id": "56VymA",
+            "name": "On-chain NFT collection voting machine",          
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "717c662e710adf2dd0343c53259977b8e573ab784c72bc4d98ea9d750a",                      
+                    "scriptHash": "7c662e710adf2dd0343c53259977b8e573ab784c72bc4d98ea9d750a",
+                    "contractAddress": "addr1w97xvtn3pt0jm5p583fjtxthhrjh82mcf3etcnvca2wh2zsu9nehq"
+                }
+            ]
+        }        
+    ]
+}

@@ -5,7 +5,8 @@
     "twitter": "https://twitter.com/adax_pro",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
-    "features": ["SWAP", "LIQUIDITY_MINING", "YIELD_FARMING"],    
+    "dappDescription": "Decentralized Exchange Protocol Built on the Cardano Network",	
+    "features": ["SWAP", "LIQUIDITY_MINING", "YIELD_FARMING", "STAKING"],    
     
     "releases": [
         {

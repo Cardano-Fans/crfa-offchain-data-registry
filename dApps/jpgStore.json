@@ -5,7 +5,8 @@
 	    "twitter": "https://twitter.com/jpgstoreNFT",
 	    "category": "MARKETPLACE",
             "subCategory": "NFT",
-
+            "dappDescription": "JPG store is a Cardano NFT marketplace that allows users to discover artwork, support creators and join communities on a decentralized blockchain",	
+	
 	    "releases": [
 			{
 				"releaseNumber": 0.1,

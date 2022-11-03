@@ -1,10 +1,11 @@
 {
     "id": "T2jx7gIi",
     "projectName": "Fluid Tokens",
-    "link": "https://fluidtokens.com/",
+    "link": "https://fluidtokens.com",
     "twitter": "https://twitter.com/FluidTokens",
     "category": "DEFI",
-    "subCategory": "LENDING_BORROWING",       
+    "subCategory": "LENDING_BORROWING", 
+    "dappDescription": "Lending and borrowing protocol using NFTs on Cardano's first NFT-DeFi bridge.",	
 
     "releases": [
         {
@@ -26,8 +27,8 @@
             "versions": [
                 {
                     "version": 1,
-		            "plutusVersion": 1, 
-	                "fullScriptHash": "7184017e78c2e887e8fac3fdf270110464aebd67f9cfc73453714b62f6",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7184017e78c2e887e8fac3fdf270110464aebd67f9cfc73453714b62f6",                     
                     "scriptHash": "84017e78c2e887e8fac3fdf270110464aebd67f9cfc73453714b62f6",
                     "contractAddress": "addr1wxzqzlncct5g0686c07lyuq3q3j2a0t8l88uwdznw99k9asz6z0hq"
                 }    

@@ -5,6 +5,7 @@
     "twitter": "https://twitter.com/SundaeSwap",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
+    "dappDescription": "SundaeSwap is a native, scalable decentralized exchange, automated liquidity provision protocol and the first AMM Dex on Cardano blockchain",	
     "features": ["SWAP", "LIQUIDITY_MINING", "YIELD_FARMING"], 
     
     "releases": [
@@ -82,15 +83,15 @@
             "versions": [
                 {
                     "version": 0,
- 		            "plutusVersion": 1,  
-	                "fullScriptHash": "713776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",                      
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "713776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",                      
                     "scriptHash": "3776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",
                     "contractAddress": "addr1wymhd0xyunu2qm8cuxx42pahstzt2w0uh26xenqzmy9y0dqs9fdtx"
                 },    
                 {
                     "version": 1,
- 		            "plutusVersion": 1,  
-	                "fullScriptHash": "71295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",                     
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "71295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",                     
                     "scriptHash": "295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",
                     "contractAddress": "addr1wy547pr3u8y7tpj6cxvddpwradkestryqwtwnuhyd4ufyzqw56p7p"
                 }                
@@ -103,8 +104,8 @@
             "versions": [
                 {
                     "version": 1,
- 		            "plutusVersion": 1,  
-	                "fullScriptHash": "71ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",                     
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "71ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",                     
                     "scriptHash": "ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",
                     "contractAddress": "addr1wxaptpmxcxawvr3pzlhgnpmzz3ql43n2tc8mn3av5kx0yzs09tqh8"
                 }
@@ -117,8 +118,8 @@
             "versions": [
                 {
                     "version": 1,
- 		            "plutusVersion": 1,  
-	                "fullScriptHash": "714020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",                    
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "714020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",                    
                     "scriptHash": "4020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
                     "contractAddress": "addr1w9qzpelu9hn45pefc0xr4ac4kdxeswq7pndul2vuj59u8tqaxdznu"
                 }
@@ -131,7 +132,7 @@
             "versions": [
                 {
                     "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
- 		            "plutusVersion": 1,                    
+ 		    "plutusVersion": 1,                    
                     "version": 1
                 }
             ]
@@ -143,8 +144,8 @@
             "versions": [
                 {
                     "version": 1,
- 		            "plutusVersion": 1,  
-	                "fullScriptHash": "71d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",                     
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "71d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",                     
                     "scriptHash": "d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",
                     "contractAddress": "addr1w82z6yrftsxz77el0ce2q4vuspcym2x0xgpgneurrwvasfge778fd"
                 }
@@ -157,8 +158,8 @@
             "versions": [
                 {
                     "version": 1,
- 		            "plutusVersion": 1,  
-	                "fullScriptHash": "71646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",                    
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "71646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",                    
                     "scriptHash": "646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",
                     "contractAddress": "addr1w9jx45flh83z6wuqypyash54mszwmdj8r64fydafxtfc6jgrw4rm3"
                 }
@@ -171,8 +172,8 @@
             "versions": [
                 {
                     "version": 1,
- 		            "plutusVersion": 1,  
-	                "fullScriptHash": "7174db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",                    
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "7174db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",                    
                     "scriptHash": "74db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",
                     "contractAddress": "addr1w96dh8r6yds9et9wfmnrtg267mnrck3ej9wysyj5a6uhtzchkcr5d"
                 }
@@ -185,7 +186,7 @@
             "versions": [
                 {
                     "mintPolicyID": "e8a447d4e19016ca2aa74d20b4c4de87adb1f21dfb5493bf2d7281a6",
- 		            "plutusVersion": 1,                    
+ 		    "plutusVersion": 1,                    
                     "version": 1
                 }
             ]

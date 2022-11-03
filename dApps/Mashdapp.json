@@ -5,7 +5,8 @@
     "twitter": "https://twitter.com/Mashdapp",
     "category": "MARKETPLACE",    
     "subCategory": "WRAPPED_ASSETS",    
-
+    "dappDescription": "An NFT wrapping smart contract platform on Cardano blockchain",
+	
     "releases": [
         {
             "releaseNumber": 0,

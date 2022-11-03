@@ -5,6 +5,7 @@
     "twitter": "https://twitter.com/AadaFinance",
     "category": "DEFI",
     "subCategory": "LENDING_BORROWING",
+    "dappDescription": "Fully decentralized lending and borrowing protocol backed with NFT’s and built on Cardano blockchain. Borrowers and lenders lock their loans and deposits into NFT-Bonds redeemable by anyone who provides the underlying NFT and fulfills the loan conditions.",
     "features": [
         "LEND",
         "BORROW",
