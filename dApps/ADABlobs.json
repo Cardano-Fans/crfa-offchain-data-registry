@@ -5,7 +5,10 @@
     "twitter": "https://twitter.com/TheAvatarNick",
     "category": "COLLECTION",
     "subCategory": "NFT",
-
+    "description": {
+                   "short": "ADA Blobs is a collection of 300 Blob NFTs and is the first auction NFT project on the Cardano Blockchain"
+    },	
+	
     "releases": [
         {
             "releaseNumber": 1,
