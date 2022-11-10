@@ -5,7 +5,10 @@
     "twitter": "https://twitter.com/Oraclecharli3",
     "category": "DEFI",    
     "subCategory": "ORACLE",    
-
+    "description": {
+                   "short": "Charli3 is a decentralized Oracle designed from the ground up for the Cardano network"
+    },
+	
     "releases": [
         {
             "releaseNumber": 1,
@@ -26,6 +29,11 @@
             ]
         }
     ],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],	
 
     "scripts": [
         {
