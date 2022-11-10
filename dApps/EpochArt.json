@@ -5,7 +5,10 @@
     "twitter": "https://twitter.com/epoch_art",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
-    
+    "description": {
+                   "short": "A community-driven NFT marketplace on Cardano blockchain"
+    },
+	
     "releases": [
 			{
 				"releaseNumber": 1,
@@ -46,6 +49,11 @@
 				]
 			}
 		],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],	
 
     "scripts": [
         {
