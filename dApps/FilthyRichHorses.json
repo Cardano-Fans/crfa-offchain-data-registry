@@ -5,7 +5,10 @@
     "twitter": "https://twitter.com/FRHorses",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
-
+    "description": {
+                   "short": "An NFT collection and one of the first projects to implement a smart contract marketplace"
+    },
+	
     "releases": [
         {
             "releaseNumber": 1,
@@ -18,6 +21,11 @@
             ]
         }
     ],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],		
 
     "scripts": [
         {
