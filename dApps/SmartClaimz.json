@@ -4,6 +4,10 @@
    "link":"https://smartclaimz.io",
    "twitter":"https://twitter.com/Freeloaderz2022",
    "category":"VARIA",
+    "description": {
+                   "short": "FreeLoaderz SmartClaimz is a reward distribution platform"
+    },	
+   
    "releases":[
       {
          "releaseNumber":1,
