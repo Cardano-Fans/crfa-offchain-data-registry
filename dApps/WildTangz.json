@@ -1,11 +1,13 @@
 {
     "id": "xTpzxAXC",
     "projectName": "Wild Tangz",
-    "link": "https://www.wildtangz.com/",
+    "link": "https://www.wildtangz.com",
     "twitter": "https://twitter.com/WildTangz",
-    "dappDescription": "Hand-drawn, unique, orangutan NFTs that give hodlers mint services, mobile apps, chat support, and more. Built on Cardano and always open-source.",
     "category": "COLLECTION",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",   
+    "description": {
+                   "short": "A hand-drawn, unique, orangutan NFT collection that give hodlers additional services (minting, mobile app and more)"
+    },		
 
     "releases": [
         {
@@ -36,8 +38,8 @@
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "717c662e710adf2dd0343c53259977b8e573ab784c72bc4d98ea9d750a",                      
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "717c662e710adf2dd0343c53259977b8e573ab784c72bc4d98ea9d750a",                      
                     "scriptHash": "7c662e710adf2dd0343c53259977b8e573ab784c72bc4d98ea9d750a",
                     "contractAddress": "addr1w97xvtn3pt0jm5p583fjtxthhrjh82mcf3etcnvca2wh2zsu9nehq"
                 }
