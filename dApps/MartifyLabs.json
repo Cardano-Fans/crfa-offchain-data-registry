@@ -5,7 +5,10 @@
 	"twitter": "https://twitter.com/MartifyLabs",
 	"category": "MARKETPLACE",
         "subCategory": "NFT",
-
+        "description": {
+                   "short": "A NFT Marketplace on the Cardano Blockchain"
+        },	
+	
 		"releases": [
 			{
 				"releaseNumber": 1,
