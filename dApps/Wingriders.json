@@ -4,11 +4,13 @@
     "link": "https://www.wingriders.com",
     "twitter": "https://twitter.com/wingriderscom",
     "category": "DEFI",     
-    "subCategory": "AMM_DEX",
-    "dappDescription": "Native and fast AMM decentralized exchange platform on Cardano blockchain",	
+    "subCategory": "AMM_DEX",	
+    "description": {
+                   "short": "Native and fast AMM decentralized exchange platform on Cardano blockchain"
+    },		
     "features": ["SWAP", "LIQUIDITY_MINING", "ADA_STAKING", "YIELD_FARMING"], 
     
-	"releases": [
+    "releases": [
 			{
 				"releaseNumber": 1,
 				"releaseName": "V1",
