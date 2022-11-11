@@ -21,17 +21,22 @@
                 {
                     "id": "nnT2dh",
                     "version": 1
-                }              
+                },
+                {
+                    "id": "xOGF7Q",
+                    "version": 1
+                } 		    
             ],
-        "contractId": "f6Oj"            
+        "contractId": "f6Oj"	
         }
     ],
     "contracts": [
         {
          "openSource": true,
          "contractLink": "https://github.com/berry-pool/matrix",
+         "contractLink": "https://github.com/rodrigomd94/matrix-berry-update",		
          "contractId": "f6Oj"
-        }
+        }	    
     ],
 
     "scripts": [
@@ -48,6 +53,19 @@
                 }    
             ]
         },
+        {
+            "id": "xOGF7Q",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71997392e0c6e62ebe8202be078bbe59a9254e7d209192ed99717ceaa9",                     
+                    "scriptHash": "997392e0c6e62ebe8202be078bbe59a9254e7d209192ed99717ceaa9",
+                    "contractAddress": "addr1wxvh8yhqcmnza05zq2lq0za7tx5j2nnayzge9mvew97w42g9hzfeg"
+                }    
+            ]
+        },	    
         {
             "id": "nnT2dh",
             "purpose": "MINT",
