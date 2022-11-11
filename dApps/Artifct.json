@@ -5,6 +5,9 @@
     "twitter": "https://twitter.com/ArtifctApp",
     "category": "MARKETPLACE",
     "subCategory": "NFT",
+    "description": {
+                   "short": "A feature rich marketplace for NFTs with seamless listings and auctions"
+    },	
 
     "releases": [
         {

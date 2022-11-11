@@ -5,6 +5,9 @@
 	"twitter": "https://twitter.com/artano__io",
 	"category": "MARKETPLACE",
         "subCategory": "NFT",
+        "description": {
+                   "short": "Artano is a community-curated NFT marketplace on Cardano"
+        },	
 
 		"releases": [
 			{

@@ -5,7 +5,9 @@
     "twitter": "https://twitter.com/MinswapDEX",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
-    "dappDescription": "The first multi-pool decentralized exchange on Cardano blockchain",	
+    "description": {
+                   "short": "The first multi-pool decentralized exchange on Cardano blockchain"
+    },		
     "features": ["SWAP", "LIMIT_ORDERS", "LIQUIDITY_MINING", "YIELD_FARMING", "ZAP"], 
     
     "releases": [

@@ -4,7 +4,10 @@
     "link": "https://oracle.pigytoken.com",
     "twitter": "https://twitter.com/pigytoken",
     "category": "DEFI",     
-    "subCategory": "ORACLE",     
+    "subCategory": "ORACLE",    
+    "description": {
+                   "short": "A community-driven, minimal-cost oracle to benefit PIGY SPOs"
+    },	
 
     "releases": [
         {
@@ -15,9 +18,17 @@
                     "id": "PM9B3w",
                     "version": 1
                 }
-            ]
+            ],
+         "contractId": "BSgb"		
         }
     ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/pigytoken/pigy-delegation/tree/main/oracle",
+         "contractId": "BSgb"
+        }
+    ],	
 
     "scripts": [
         {
@@ -26,8 +37,8 @@
             "versions": [
                 {
                     "version": 1,
-		            "plutusVersion": 1,  
-	                "fullScriptHash": "71e265b741cd9ac2c4d695402f7bb4cb49cbe0d9e33eec9a26dbfa9e59",                    
+		    "plutusVersion": 1,  
+	            "fullScriptHash": "71e265b741cd9ac2c4d695402f7bb4cb49cbe0d9e33eec9a26dbfa9e59",                    
                     "scriptHash": "e265b741cd9ac2c4d695402f7bb4cb49cbe0d9e33eec9a26dbfa9e59",
                     "contractAddress": "addr1w83xtd6pekdv93xkj4qz77a5edyuhcxeuvlwex3xm0afukgj73l65"
                 }    

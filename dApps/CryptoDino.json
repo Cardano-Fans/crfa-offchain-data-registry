@@ -4,7 +4,10 @@
     "link": "https://www.cryptodino.io",
     "twitter": "https://twitter.com/cryptodino_io",
     "category": "GAMING",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",  
+    "description": {
+                   "short": "An idle based strategy game built on the Cardano Blockchain. The CryptoDino/Dino Savior NFTs are employed within the game."
+    },	
 
     "releases": [
         {
@@ -26,6 +29,11 @@
             ]
         }
     ],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],		
     
     "scripts": [
         {
@@ -34,8 +42,8 @@
             "versions": [
                 {
                     "version": 1,
-		            "plutusVersion": 1, 
-	                "fullScriptHash": "71aab69a551fc931c565f5262bf9b2ccea846551d952e98535309e3f39",                      
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71aab69a551fc931c565f5262bf9b2ccea846551d952e98535309e3f39",                      
                     "scriptHash": "aab69a551fc931c565f5262bf9b2ccea846551d952e98535309e3f39",
                     "contractAddress": "addr1wx4tdxj4rlynr3t975nzh7djen4gge23m9fwnpf4xz0r7wg8hf7ea"
                 }
@@ -47,8 +55,8 @@
             "versions": [           
                 {
                     "version": 1,
-		            "plutusVersion": 1, 
-	                "fullScriptHash": "71316cc14be31d1daab683c0b7ca400a5ae887cf3ea76df12b79312161",                      
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71316cc14be31d1daab683c0b7ca400a5ae887cf3ea76df12b79312161",                      
                     "scriptHash": "316cc14be31d1daab683c0b7ca400a5ae887cf3ea76df12b79312161",
                     "contractAddress": "addr1wyckes2tuvw3m24ks0qt0jjqpfdw3p7086nkmuft0ycjzcg7wun70"
                 }                 
@@ -61,7 +69,7 @@
             "versions": [
                 {
                     "mintPolicyID": "7f863dbd7faa4c27dd9cadd1f512e7acee6634a6fd79a02eb832175e",
-		            "plutusVersion": 1,                     
+		    "plutusVersion": 1,                     
                     "version": 1
                 }
             ]

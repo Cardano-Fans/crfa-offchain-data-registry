@@ -5,6 +5,9 @@
     "twitter": "https://twitter.com/cardahubio",
     "category": "MARKETPLACE",
     "subCategory": "NFT",
+    "description": {
+                   "short": "Cardahub provides advanced NFT Services on Cardano Blockchain: On-chain/Off-chain smart contract NFT minting and a NFT marketplace powered by Plutus Smart Contract"
+    },	
     
      "releases": [
         {

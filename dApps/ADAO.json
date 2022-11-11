@@ -4,6 +4,9 @@
     "link": "https://www.theadao.io",
     "twitter": "https://twitter.com/ADAOcommunity",
     "category": "COMMUNITY",
+    "description": {
+                   "short": "A DAO (decentralized autonomous organization) who is providing open source tools to support DAO infrastructure and promote decentralization on the Cardano blockchain"
+    },		
 
     "releases": [
         {

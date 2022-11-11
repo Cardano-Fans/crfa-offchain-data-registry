@@ -4,7 +4,10 @@
     "link": "https://www.worldofpirates.io",
     "twitter": "https://twitter.com/worldofpirates_",
     "category": "GAMING",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",   
+    "description": {
+                   "short": "A fast-paced turn-based strategy card game on the Cardano Blockchain"
+    },	    
 
     "releases": [
         {

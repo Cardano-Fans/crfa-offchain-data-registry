@@ -4,8 +4,10 @@
     "link": "https://lendingpond.app",
     "twitter": "https://twitter.com/lendingpond_ada",
     "category": "DEFI",
-    "subCategory": "LENDING_BORROWING",       
-    "dappDescription": "Users can provide or receive ADA through a smart contract driven P2P lending marketplace using Cardano NFTs as collateral.",		
+    "subCategory": "LENDING_BORROWING",  
+    "description": {
+                   "short": "Provide or receive ADA through a smart contract driven P2P lending marketplace using Cardano NFTs as collateral"
+    },		
 
     "releases": [
         {

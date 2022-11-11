@@ -5,6 +5,9 @@
     "twitter": "https://twitter.com/JamOnBread_com",
     "category": "MARKETPLACE",
     "subCategory": "NFT",    
+    "description": {
+                   "short": "An NFT Marketplace on Cardano blockchain"
+    },	
 
     "releases": [
         {

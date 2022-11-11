@@ -5,7 +5,10 @@
     "twitter": "https://twitter.com/CNFT_IO",
     "category": "MARKETPLACE",
     "subCategory": "NFT",
-    
+    "description": {
+                   "short": "CNFT is a marketplace for Cardano Non-Fungible Tokens, launched in July 2021, the first marketplace on Cardano blockchain"
+    },	
+	
     "releases": [
         {
             "releaseNumber": 1,

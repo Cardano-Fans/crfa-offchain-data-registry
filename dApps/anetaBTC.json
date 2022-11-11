@@ -3,7 +3,11 @@
     "projectName": "anetaBTC",
     "link": "https://anetabtc.io",
     "twitter": "https://twitter.com/anetaBTC",
-    "category": "DEFI",       
+    "category": "DEFI", 
+    "subCategory": "WRAPPED_ASSETS",    
+    "description": {
+                   "short": "A decentralized, secure protocol that allows users to unlock the value of their Bitcoin on Ergo and Cardano blockchains"
+    },	
 
     "releases": [
         {
@@ -32,7 +36,7 @@
                 {
                     "version": 1,
                     "plutusVersion": 1,
-	                  "fullScriptHash": "71c3e28f360738ea5b6d45451d10a80cf673da97e35ae07f962ee52c81",                        
+	            "fullScriptHash": "71c3e28f360738ea5b6d45451d10a80cf673da97e35ae07f962ee52c81",                        
                     "scriptHash": "c3e28f360738ea5b6d45451d10a80cf673da97e35ae07f962ee52c81",
                     "contractAddress": "addr1w8p79rekquuw5kmdg4z36y9gpnm88k5huddwqluk9mjjeqgc3xmss"
                 }                

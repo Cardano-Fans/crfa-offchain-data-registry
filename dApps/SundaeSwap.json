@@ -5,7 +5,9 @@
     "twitter": "https://twitter.com/SundaeSwap",
     "category": "DEFI",    
     "subCategory": "AMM_DEX",
-    "dappDescription": "SundaeSwap is a native, scalable decentralized exchange, automated liquidity provision protocol and the first AMM Dex on Cardano blockchain",	
+    "description": {
+                   "short": "SundaeSwap is a native, scalable decentralized exchange, automated liquidity provision protocol and the first AMM Dex on Cardano blockchain"
+    },			
     "features": ["SWAP", "LIQUIDITY_MINING", "YIELD_FARMING"], 
     
     "releases": [

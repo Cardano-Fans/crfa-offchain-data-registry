@@ -5,7 +5,9 @@
     "twitter": "https://twitter.com/FluidTokens",
     "category": "DEFI",
     "subCategory": "LENDING_BORROWING", 
-    "dappDescription": "Lending and borrowing protocol using NFTs on Cardano's first NFT-DeFi bridge.",	
+    "description": {
+                   "short": "Lending and borrowing protocol using NFTs on Cardano's first NFT-DeFi bridge"
+    },	
 
     "releases": [
         {
@@ -19,6 +21,11 @@
             ]
         }
     ],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],		
 
     "scripts": [
         {
