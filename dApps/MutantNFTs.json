@@ -1,10 +1,13 @@
 {
     "id": "vz5SAzfT",
     "projectName": "MutantNFTs",
-    "link": "https://mutant-nft.com",
-    "twitter": "https://mobile.twitter.com/mutantnfts",
+    "link": "https://labs.mutant-nft.com",
+    "twitter": "https://twitter.com/MutantNFTs",
     "category": "COLLECTION",
     "subCategory": "NFT",    
+    "description": {
+                   "short": "A platform with a variety of utilities for NFT projects offering: raffles, staking and whitelist management services for Cardano NFT projects"
+    },	
     
     "releases": [
 			{
