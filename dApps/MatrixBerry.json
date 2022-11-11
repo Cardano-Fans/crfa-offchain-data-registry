@@ -5,7 +5,9 @@
     "twitter": "https://twitter.com/berry_ales",
     "category": "COLLECTION",
     "subCategory": "NFT",
-    "dappDescription": "The first CIP-0068 compliant NFT collection on Cardano blockchain",   	
+    "description": {
+                   "short": "The first CIP-0068 compliant NFT collection on Cardano blockchain"
+    },	 	
 
     "releases": [
         {
@@ -39,8 +41,8 @@
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",                     
                     "scriptHash": "a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",
                     "contractAddress": "addr1wxj4h8mcz4kpgx6nux0e7wqf3zmj9sm29n3tt0qxht542qc9xsv2z"
                 }    
@@ -52,7 +54,7 @@
             "versions": [
                 {
                     "mintPolicyID": "01cecfaeda9d846c08675902b55a6371f593d9239744867462c5382e",
-		                "plutusVersion": 2,                    
+		    "plutusVersion": 2,                    
                     "version": 1
                 }
             ]
