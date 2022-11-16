@@ -1,0 +1,45 @@
+{
+    "id": "J30sIiGM",
+    "projectName": "Milkomeda C1",
+    "link": "https://www.milkomeda.com",
+    "twitter": "https://twitter.com/Milkomeda_com",
+    "category": "SIDECHAIN",
+    "description": {
+                   "short": "Cardano EVM compatible sidechain"
+    },	 	
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "mETwBb",
+                    "version": 1
+                }		    
+            ]	
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }	    
+    ],
+
+    "scripts": [
+        {
+            "id": "mETwBb",
+            "name": "Cardano-C1 bridge",          
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "71c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",                     
+                    "scriptHash": "c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",
+                    "contractAddress": "addr1w8pydstdswmdqmg2rdt59dzql3zgfp9pt8sulnjgalycwdsj9js7w"
+                }    
+            ]
+        }      
+    ]
+}
