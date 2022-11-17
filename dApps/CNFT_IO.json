@@ -35,9 +35,17 @@
             "releaseName": "V3",
             "scripts": [
                 {
-                    "id": "0j8R8c",
-                    "version": 3
+                    "id": "0fm9UZ",
+                    "version": 1
                 },
+                {
+                    "id": "70V28B",
+                    "version": 1
+                },	
+                {
+                    "id": "VCuTLw",
+                    "version": 1
+                },		    
                 {
                     "id": "116Z4E",
                     "version": 3
@@ -73,9 +81,16 @@
 	            "fullScriptHash": "71483788748bd6129043bfc87fba9c0b5bc7e49b892efdc9dd783e3285",                     
                     "scriptHash": "483788748bd6129043bfc87fba9c0b5bc7e49b892efdc9dd783e3285",
                     "contractAddress": "addr1w9yr0zr530tp9yzrhly8lw5upddu0eym3yh0mjwa0qlr9pgmkzgv0"
-                },
+                }                
+            ]
+        },
+        {
+            "id": "0fm9UZ",
+            "name": "Direct sale",
+            "purpose": "SPEND",
+            "versions": [
                 {
-                    "version": 3,
+                    "version": 1,
 	            "plutusVersion": 1, 
 	            "fullScriptHash": "71cb08fd2cf22dc45b23a7ff9c03468d94c93133606ba2abfdc833a76a",                      
                     "scriptHash": "cb08fd2cf22dc45b23a7ff9c03468d94c93133606ba2abfdc833a76a",
@@ -83,6 +98,34 @@
                 }                
             ]
         },
+        {
+            "id": "70V28B",
+            "name": "Escrow",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+	            "plutusVersion": 1, 
+	            "fullScriptHash": "718ea445f8c91b71a539d276d4fa6002ca2df1d9edac3ceff987d8c7b4",                      
+                    "scriptHash": "8ea445f8c91b71a539d276d4fa6002ca2df1d9edac3ceff987d8c7b4",
+                    "contractAddress": "addr1wx82g30ceydhrffe6fmdf7nqqt9zmuweakkremleslvv0dqw3qmft"
+                }                
+            ]
+        },
+        {
+            "id": "VCuTLw",
+            "name": "Exchanger",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+	            "plutusVersion": 1, 
+	            "fullScriptHash": "71438a0728b3fa87565f2afd0d97e3eba82471d98da138cdffb5fe9121",                      
+                    "scriptHash": "438a0728b3fa87565f2afd0d97e3eba82471d98da138cdffb5fe9121",
+                    "contractAddress": "addr1w9pc5pegk0agw4jl9t7sm9lraw5zguwe3ksn3n0lkhlfzggtt48g9"
+                }                
+            ]
+        },	    
         {
             "id": "116Z4E",
             "purpose": "MINT",
