@@ -1,11 +1,11 @@
 {
-    "id": "J30sIiGM",
+    "id": "c0Q5nBdu",
     "projectName": "Milkomeda C1",
     "link": "https://www.milkomeda.com",
     "twitter": "https://twitter.com/Milkomeda_com",
-    "category": "SIDECHAIN",
+    "category": "BLOCKCHAIN",
     "description": {
-                   "short": "Cardano EVM compatible sidechain"
+                   "short": "EVM-based sidechain connected to Cardano"
     },	 	
 
     "releases": [
@@ -14,10 +14,11 @@
             "releaseName": "V1",
             "scripts": [
                 {
-                    "id": "mETwBb",
+                    "id": "ND0xfk",
                     "version": 1
                 }		    
-            ]	
+            ],
+            "auditId": "mNSN"		
         }
     ],
     "contracts": [
@@ -25,17 +26,25 @@
          "openSource": false
         }	    
     ],
+    "audits": [
+        {
+            "auditId": "mNSN",
+            "auditor": "Arbitrary Execution",
+            "auditLink": "https://www.milkomeda.com/docs/Milkomeda-audit-by-ArbitraryExecution.pdf",
+            "auditType": "MANUAL"
+        }
+    ],	
 
     "scripts": [
         {
-            "id": "mETwBb",
+            "id": "ND0xfk",
             "name": "Cardano-C1 bridge",          
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "71c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",                     
                     "scriptHash": "c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",
                     "contractAddress": "addr1w8pydstdswmdqmg2rdt59dzql3zgfp9pt8sulnjgalycwdsj9js7w"
                 }    
