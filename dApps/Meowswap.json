@@ -1,0 +1,225 @@
+{
+    "id": "eRkBaDIz",
+    "projectName": "Meowswap",
+    "link": "https://meowswap.fi",
+    "twitter": "https://twitter.com/Meow_Swap",
+    "category": "DEFI",
+    "subCategory": "DEX",
+    "description": {
+                   "short": "Layer 2 DEX"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "crBoeQ",
+                    "version": 1
+                },
+                {
+                    "id": "LmuCUN",
+                    "version": 1
+                },
+                {
+                    "id": "G3pfPz",
+                    "version": 1
+                },
+                {
+                    "id": "sHVA1Q",
+                    "version": 1
+                },
+                {
+                    "id": "OOMEJj",
+                    "version": 1
+                },
+                {
+                    "id": "H1lDWu",
+                    "version": 1
+                },
+                {
+                    "id": "UWR6HX",
+                    "version": 1
+                },
+                {
+                    "id": "gZD32i",
+                    "version": 1
+                },
+                {
+                    "id": "pA54Sj",
+                    "version": 1
+                },
+                {
+                    "id": "wyQjCh",
+                    "version": 1
+                },
+                {
+                    "id": "hl4423",
+                    "version": 1
+                }               
+            ]            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "crBoeQ",
+            "name": "CLAP/ADA pair",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "718488bce70cd25c575b0ea0161ab639d4fb6597568db8946894c2caf4",                     
+                    "scriptHash": "8488bce70cd25c575b0ea0161ab639d4fb6597568db8946894c2caf4",
+                    "contractAddress": "addr1wxzg3088pnf9c46mp6spvx4k8820kevh26xm39rgjnpv4aqvz0e6c"
+                }    
+            ]
+        },
+        {
+            "id": "LmuCUN",
+            "name": "BLUES/ADA pair",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "710e63cd6f315a8529d9929f77771695e309cef7eef6273d1304bec41b",                     
+                    "scriptHash": "0e63cd6f315a8529d9929f77771695e309cef7eef6273d1304bec41b",
+                    "contractAddress": "addr1wy8x8nt0x9dg22wej20hwackjh3snnhhammzw0gnqjlvgxcj0ytyy"
+                }    
+            ]
+        },
+        {
+            "id": "G3pfPz",
+            "name": "SUNDAE/ADA pair",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "710c7bacc746d874f7d2c45874ec398dd3506484504b55590eeb2d3e1b",                     
+                    "scriptHash": "0c7bacc746d874f7d2c45874ec398dd3506484504b55590eeb2d3e1b",
+                    "contractAddress": "addr1wyx8htx8gmv8fa7jc3v8fmpe3hf4qeyy2p942kgwavknuxc6kmh2p"
+                }    
+            ]
+        },
+        {
+            "id": "sHVA1Q",
+            "name": "DANA/ADA pair",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "7144d599158d58277682f3e67bbf93e298ed39e6491c7616d371cfb1f1",                     
+                    "scriptHash": "44d599158d58277682f3e67bbf93e298ed39e6491c7616d371cfb1f1",
+                    "contractAddress": "addr1w9zdtxg434vzwa5z70n8h0unu2vw6w0xfyw8v9knw88mrugz24z0h"
+                }    
+            ]
+        },
+        {
+            "id": "OOMEJj",
+            "name": "MEOW/ADA pair",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "717b1e0c64af38e90557975df02785f810c167ad8ec510afd6fe68374d",                     
+                    "scriptHash": "7b1e0c64af38e90557975df02785f810c167ad8ec510afd6fe68374d",
+                    "contractAddress": "addr1w9a3urry4uuwjp2hjawlqfu9lqgvzead3mz3pt7kle5rwng6gu8yl"
+                }    
+            ]
+        },
+        {
+            "id": "H1lDWu",
+            "name": "BISON/ADA pair",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "71e96a394a59b0db995646ae24d20ca517ada4f039e36be3ed17580c03",                     
+                    "scriptHash": "e96a394a59b0db995646ae24d20ca517ada4f039e36be3ed17580c03",
+                    "contractAddress": "addr1w85k5w22txcdhx2kg6hzf5sv55t6mf8s883khcldzavqcqccq34y5"
+                }    
+            ]
+        },
+        {
+            "id": "UWR6HX",
+            "name": "LPtmwADA",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "716e60bd68ed0ed68c100ac2196dfff880cc55140f8e4f3bcd2bf452ea",                     
+                    "scriptHash": "6e60bd68ed0ed68c100ac2196dfff880cc55140f8e4f3bcd2bf452ea",
+                    "contractAddress": "addr1w9hxp0tga58ddrqsptppjm0llzqvc4g5p78y7w7d906996srg7m7w"
+                }    
+            ]
+        },
+        {
+            "id": "gZD32i",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "7120b40872d45fc49da1317cf43517d2f5a741553f6b35a09a54a9628e",                     
+                    "scriptHash": "20b40872d45fc49da1317cf43517d2f5a741553f6b35a09a54a9628e",
+                    "contractAddress": "addr1wystgzrj630uf8dpx970gdgh6t66ws248a4ntgy62j5k9rsxmrvt3"
+                }    
+            ]
+        },
+        {
+            "id": "pA54Sj",
+            "name": "cdswap-meow-stake-return",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "71d5c3613244bbe19467d1d7ddfdf3ed740856ffc7f38e8205bc0bb0b9",                     
+                    "scriptHash": "d5c3613244bbe19467d1d7ddfdf3ed740856ffc7f38e8205bc0bb0b9",
+                    "contractAddress": "addr1w82uxcfjgja7r9r868taml0na46qs4hlclecaqs9hs9mpwgdw4zzl"
+                }    
+            ]
+        },
+        {
+            "id": "wyQjCh",
+            "name": "OCC/ADA pair",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "7103bb77b17574588615b5dd776377b5f6a33b713a19f25674b8416c37",                     
+                    "scriptHash": "03bb77b17574588615b5dd776377b5f6a33b713a19f25674b8416c37",
+                    "contractAddress": "addr1wypmkaa3w4693ps4khwhwcmhkhm2xwm38gvly4n5hpqkcdcen8asp"
+                }    
+            ]
+        },
+        {
+            "id": "hl4423",
+            "name": "meowswap-create",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "71e63f1a033b4fe59ff6be7e1737c9c4b94e63b512c2da5b5916e1bb9b",                     
+                    "scriptHash": "e63f1a033b4fe59ff6be7e1737c9c4b94e63b512c2da5b5916e1bb9b",
+                    "contractAddress": "addr1w8nr7xsr8d87t8lkhelpwd7fcju5uca4ztpd5k6ezmsmhxcvc7gpa"
+                }    
+            ]
+        }       
+    ]
+}
