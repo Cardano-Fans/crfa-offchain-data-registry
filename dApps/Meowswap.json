@@ -76,11 +76,12 @@
             "id": "crBoeQ",
             "name": "CLAP/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "718488bce70cd25c575b0ea0161ab639d4fb6597568db8946894c2caf4",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "718488bce70cd25c575b0ea0161ab639d4fb6597568db8946894c2caf4",                     
                     "scriptHash": "8488bce70cd25c575b0ea0161ab639d4fb6597568db8946894c2caf4",
                     "contractAddress": "addr1wxzg3088pnf9c46mp6spvx4k8820kevh26xm39rgjnpv4aqvz0e6c"
                 }    
@@ -90,6 +91,7 @@
             "id": "LmuCUN",
             "name": "BLUES/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -104,6 +106,7 @@
             "id": "G3pfPz",
             "name": "SUNDAE/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -118,6 +121,7 @@
             "id": "sHVA1Q",
             "name": "DANA/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -132,6 +136,7 @@
             "id": "OOMEJj",
             "name": "MEOW/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -146,6 +151,7 @@
             "id": "H1lDWu",
             "name": "BISON/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -160,6 +166,7 @@
             "id": "UWR6HX",
             "name": "LPtmwADA",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -173,6 +180,7 @@
         {
             "id": "gZD32i",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -187,6 +195,7 @@
             "id": "pA54Sj",
             "name": "cdswap-meow-stake-return",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -201,6 +210,7 @@
             "id": "wyQjCh",
             "name": "OCC/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -215,6 +225,7 @@
             "id": "hl4423",
             "name": "meowswap-create",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
@@ -229,6 +240,7 @@
             "id": "tB2wRN",
             "name": "cbTHC/ADA pair",
             "purpose": "SPEND",
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "version": 1,
