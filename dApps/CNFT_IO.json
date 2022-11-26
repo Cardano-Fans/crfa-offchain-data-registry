@@ -67,6 +67,7 @@
             "id": "0j8R8c",
             "name": "Marketplace",
             "purpose": "SPEND",
+	    "type": "PLUTUS",			
             "versions": [
                 {
                     "version": 1,
@@ -88,6 +89,7 @@
             "id": "0fm9UZ",
             "name": "Direct sale",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -102,6 +104,7 @@
             "id": "70V28B",
             "name": "Escrow",
             "purpose": "SPEND",
+	    "type": "PLUTUS",			
             "versions": [
                 {
                     "version": 1,
@@ -116,6 +119,7 @@
             "id": "VCuTLw",
             "name": "Exchanger",
             "purpose": "SPEND",
+	    "type": "PLUTUS",			
             "versions": [
                 {
                     "version": 1,
@@ -129,6 +133,7 @@
         {
             "id": "116Z4E",
             "purpose": "MINT",
+	    "type": "PLUTUS",			
             "versions": [
                 {
                     "mintPolicyID": "9902279d9e834859a5fca5b9a334d070aa1ae686be2f49407aae5ea9",
