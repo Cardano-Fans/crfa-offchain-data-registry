@@ -44,6 +44,7 @@
         {
             "id": "9X8Tf6",
             "purpose": "SPEND",
+	    "type": "PLUTUS",			
             "versions": [
                 {
                     "version": 1,
@@ -64,6 +65,7 @@
         {
             "id": "n7J7jM",
             "purpose": "MINT",
+	    "type": "PLUTUS",			
             "versions": [
                 {
                     "mintPolicyID": "3f997b68b1f491c7c2f10af4e2bf9566c5d25bd61df0343065d4fe1c",

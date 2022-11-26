@@ -1,0 +1,238 @@
+{
+    "id": "attcq2NE",
+    "projectName": "Indigo Protocol",
+    "link": "https://indigoprotocol.io",
+    "twitter": "https://twitter.com/Indigo_protocol",
+    "category": "DEFI",
+    "subCategory": "SYNTHETICS",
+    "description": {
+                   "short": "An autonomous synthetics protocol for on-chain price exposure to real-world assets, built on Cardano blockchain"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "IGx8dF",
+                    "version": 1
+                },
+                {
+                    "id": "KuAAJc",
+                    "version": 1
+                },
+                {
+                    "id": "YMLObk",
+                    "version": 1
+                },
+                {
+                    "id": "HWzqk7",
+                    "version": 1
+                },
+                {
+                    "id": "BWdicZ",
+                    "version": 1
+                },
+                {
+                    "id": "U1TRVE",
+                    "version": 1
+                },
+                {
+                    "id": "WlL90Y",
+                    "version": 1
+                },
+                {
+                    "id": "RK7zDV",
+                    "version": 1
+                },
+                {
+                    "id": "VRlabJ",
+                    "version": 1
+                },
+                {
+                    "id": "f2YMd8",
+                    "version": 1
+                },
+                {
+                    "id": "346xYx",
+                    "version": 1
+                }              
+            ],
+            "auditId": "Vxhx"		
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+    "audits": [
+        {
+            "auditId": "Vxhx",
+            "auditor": "Tweag",
+            "auditLink": "https://indigoprotocol1.medium.com/indigo-protocol-tweag-security-audit-report-949b3c359f17",
+            "auditType": "MANUAL"
+        }
+    ],	
+
+    "scripts": [
+        {
+            "id": "IGx8dF",
+            "name": "Stability pool",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71de1585e046f16fdf79767300233c1affbe9d30340656acfde45e9142",                     
+                    "scriptHash": "de1585e046f16fdf79767300233c1affbe9d30340656acfde45e9142",
+                    "contractAddress": "addr1w80ptp0qgmcklhmeweesqgeurtlma8fsxsr9dt8au30fzss0czhl9"
+                }    
+            ]
+        },
+        {
+            "id": "KuAAJc",
+            "name": "iUSD",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "711042576d1de963437bd4bb50dcd91459756e6812b7c06dd543a332c8",                     
+                    "scriptHash": "1042576d1de963437bd4bb50dcd91459756e6812b7c06dd543a332c8",
+                    "contractAddress": "addr1wygyy4mdrh5kxsmm6ja4phxez3vh2mngz2muqmw4gw3n9jqdu67a0"
+                }    
+            ]
+        },
+        {
+            "id": "YMLObk",
+            "name": "iBTC",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71d27ad3ed7b073018d429e57c2f8d1f52445aa241e280e6da149a91b4",                     
+                    "scriptHash": "d27ad3ed7b073018d429e57c2f8d1f52445aa241e280e6da149a91b4",
+                    "contractAddress": "addr1w8f845ld0vrnqxx598jhctudrafygk4zg83gpek6zjdfrdq6le7ag"
+                }    
+            ]
+        },
+        {
+            "id": "HWzqk7",
+            "name": "Indy staking",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7154e8d424816f5bbd423353009ff7c31ada2cbdefe651175014117f46",                     
+                    "scriptHash": "54e8d424816f5bbd423353009ff7c31ada2cbdefe651175014117f46",
+                    "contractAddress": "addr1w92w34pys9h4h02zxdfsp8lhcvdd5t9aaln9z96szsgh73scty4aj"
+                }    
+            ]
+        },
+        {
+            "id": "BWdicZ",
+            "name": "CDP",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71e4d2fb0b8d275852103fd75801e2c7dcf6ed3e276c74cabadbe5b8b6",                     
+                    "scriptHash": "e4d2fb0b8d275852103fd75801e2c7dcf6ed3e276c74cabadbe5b8b6",
+                    "contractAddress": "addr1w8jd97ct35n4s5ss8lt4sq0zclw0dmf7yak8fj46m0jm3dsca5as8"
+                }    
+            ]
+        },
+        {
+            "id": "U1TRVE",
+            "name": "Stability pool account",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71a473cb8eb0b61c03b8696fceab1c1a89fa3ec834572850e7c2abe783",                     
+                    "scriptHash": "a473cb8eb0b61c03b8696fceab1c1a89fa3ec834572850e7c2abe783",
+                    "contractAddress": "addr1wxj88juwkzmpcqacd9hua2cur2yl50kgx3tjs588c2470qc2ftfae"
+                }    
+            ]
+        },
+        {
+            "id": "WlL90Y",
+            "name": "CDP creator",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71ea5358d9fe82cc7ad8de0e76b4eabd851526408e51daa9d8bb4b137d",                     
+                    "scriptHash": "ea5358d9fe82cc7ad8de0e76b4eabd851526408e51daa9d8bb4b137d",
+                    "contractAddress": "addr1w849xkxel6pvc7kcmc88dd82hkz32fjq3ega42wchd93xlgqxxpv5"
+                }    
+            ]
+        },
+        {
+            "id": "RK7zDV",
+            "name": "iAssets minting policy",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b69880",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        }, 
+        {
+            "id": "VRlabJ",
+            "name": "CDP minting policy",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "708f5e6d597fc038d09a738d7be32edd6ea779d6feb32a53668d9050",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        }, 
+        {
+            "id": "f2YMd8",
+            "name": "SP Account minting policy",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "443c51db609bba8b2aa4c8af248bf797cbfcfa1e413c443296a50813",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        }, 
+        {
+            "id": "346xYx",
+            "name": "Staking position minting policy",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "fd0d72fafee1d230a74c31ac503a192abd5b71888ae3f94128c1e634",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        }      
+    ]
+}
