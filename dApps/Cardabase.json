@@ -22,6 +22,7 @@
         {
             "id": "0F8CjA",
             "purpose": "MINT",
+	        "type": "PLUTUS",	            
             "versions": [
                 {
                     "mintPolicyID": "98d0f940d22382ade1163d76e5045447f05918a8647890949c84f347",
