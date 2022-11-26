@@ -45,7 +45,9 @@
 	    "scripts": [
 	        {
 		    "id": "I4LajT",
+		    "name": "Marketplace",
 	            "purpose": "SPEND",
+	            "type": "PLUTUS",			
 	            "versions": [
 	                {
 	                    "version": 1,
