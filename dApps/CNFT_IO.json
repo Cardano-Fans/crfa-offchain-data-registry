@@ -1,12 +1,12 @@
 {
     "id": "hv3JuDGx",
-    "projectName": "CNFT.IO",
+    "projectName": "Explosif",
     "link": "https://cnft.io",
-    "twitter": "https://twitter.com/CNFT_IO",
+    "twitter": "https://twitter.com/Explosif_io",
     "category": "MARKETPLACE",
     "subCategory": "NFT",
     "description": {
-                   "short": "CNFT is a marketplace for Cardano Non-Fungible Tokens, launched in July 2021, the first marketplace on Cardano blockchain"
+                   "short": "Explosif (formely CNFT.IO) is a marketplace for Cardano Non-Fungible Tokens, launched in July 2021, the first marketplace on Cardano blockchain"
     },	
 	
     "releases": [
