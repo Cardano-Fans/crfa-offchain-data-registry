@@ -23,9 +23,13 @@
                     "version": 1
                 },
                 {
+                    "id": "1uZuya",
+                    "version": 1
+                },
+                {
                     "id": "BBIKI7",
                     "version": 1
-                }                
+                }		    
             ]
         }
     ],
@@ -62,6 +66,19 @@
                 }                 
             ]
         },
+        {
+            "id": "1uZuya",
+            "purpose": "SPEND",
+            "versions": [           
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71966c1c96b7dfbdd975a4d43b08c7938a24c8941fd10fae86f2c18c59",                      
+                    "scriptHash": "966c1c96b7dfbdd975a4d43b08c7938a24c8941fd10fae86f2c18c59",
+                    "contractAddress": "addr1wxtxc8ykkl0mmkt45n2rkzx8jw9zfjy5rlgslt5x7tqcckge9mhwn"
+                }                 
+            ]
+        },	    
         {
             "id": "BBIKI7",
             "name": "Dino Coin",
