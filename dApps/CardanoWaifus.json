@@ -1,0 +1,47 @@
+{
+    "id": "CINfHF0Z",
+    "projectName": "Cardano Waifus",
+    "link": "https://cardanowaifus.digital",
+    "twitter": "https://twitter.com/cardano_waifus",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "The first platform for Waifus NFT on Cardano Blockchain. Each Waifus is a one-only limited and personalized art piece."
+                    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "ZwZkrw",
+                    "version": 1
+                }
+            ]           
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "ZwZkrw",
+            "name": "Staking - $ARIGATOken",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71aa41444f2ec9b828523a6bd6bde3c512a3feb32db1c04caf5d3c3814",                     
+                    "scriptHash": "aa41444f2ec9b828523a6bd6bde3c512a3feb32db1c04caf5d3c3814",
+                    "contractAddress": "addr1wx4yz3z09myms2zj8f4ad00rc5f28l4n9kcuqn90t57rs9qvadlkg"
+                }    
+            ]
+        }
+    ]
+}
