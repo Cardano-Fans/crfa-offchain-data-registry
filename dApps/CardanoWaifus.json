@@ -30,7 +30,7 @@
     "scripts": [
         {
             "id": "ZwZkrw",
-            "name": "$ARIGATOken",
+            "name": "Staking - $ARIGATOken",
             "purpose": "SPEND",
 	          "type": "PLUTUS",
             "versions": [
