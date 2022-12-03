@@ -36,6 +36,7 @@
             "id": "b5VLuS",
             "name": "aw0k3n offspring",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "2b4ac45ffa2c8dca38354121bb581ce582819106c48920b4bcf3a109",
@@ -47,7 +48,8 @@
         {
             "id": "shgwuZ",
             "name": "aw0k3n breeding",
-            "purpose": "SPEND",            
+            "purpose": "SPEND",   
+	    "type": "PLUTUS",			
             "versions": [
                 {
                     "version": 1,
