@@ -43,6 +43,10 @@
                     "version": 1
                 },
                 {
+                    "id": "xRcvDg",
+                    "version": 1
+                },		    
+                {
                     "id": "RK7zDV",
                     "version": 1
                 },
@@ -183,6 +187,21 @@
             ]
         },
         {
+            "id": "xRcvDg",
+            "name": "Poll Manager",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71c1af46643698bc73f9857a0cc21ec949ce6919974b435d057dc448b8",                     
+                    "scriptHash": "c1af46643698bc73f9857a0cc21ec949ce6919974b435d057dc448b8",
+                    "contractAddress": "addr1w8q673nyx6vtcules4aqess7e9yuu6geja95xhg90hzy3wqpsjzzz"
+                }    
+            ]
+        },	    
+        {
             "id": "RK7zDV",
             "name": "iAssets minting policy",
             "purpose": "MINT",
@@ -233,6 +252,6 @@
                     "version": 1
                 }
             ]
-        }      
+        }	    
     ]
 }
