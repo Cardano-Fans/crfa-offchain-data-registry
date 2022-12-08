@@ -249,6 +249,7 @@
             "versions": [
                 {
                     "mintPolicyID": "708f5e6d597fc038d09a738d7be32edd6ea779d6feb32a53668d9050",
+	            "includeScriptBalanceFromAsset": "CDP",			
 		    "plutusVersion": 2,                    
                     "version": 1
                 }
