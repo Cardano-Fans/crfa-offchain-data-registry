@@ -45,6 +45,10 @@
                 {
                     "id": "xRcvDg",
                     "version": 1
+                },
+                {
+                    "id": "Kee1gS",
+                    "version": 1
                 },		    
                 {
                     "id": "RK7zDV",
@@ -61,7 +65,15 @@
                 {
                     "id": "346xYx",
                     "version": 1
-                }              
+                },
+                {
+                    "id": "bLo0Tq",
+                    "version": 1
+                },
+                {
+                    "id": "dinq5r",
+                    "version": 1
+                } 		    
             ],
             "auditId": "Vxhx"		
         }
@@ -200,6 +212,21 @@
                     "contractAddress": "addr1w8q673nyx6vtcules4aqess7e9yuu6geja95xhg90hzy3wqpsjzzz"
                 }    
             ]
+        },
+        {
+            "id": "Kee1gS",
+            "name": "Poll Manager upgrade",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",                     
+                    "scriptHash": "127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",
+                    "contractAddress": "addr1wyf8jyjf8eancd4x32jd3yt0hyrkk3865hs4zsjgdcch4aqrpmple"
+                }    
+            ]
         },	    
         {
             "id": "RK7zDV",
@@ -248,6 +275,32 @@
             "versions": [
                 {
                     "mintPolicyID": "fd0d72fafee1d230a74c31ac503a192abd5b71888ae3f94128c1e634",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "bLo0Tq",
+            "name": "Poll Manager minting policy",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "f9b162ea9529e639a083595294006a833473883a75d6df1e4c22dd4f",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "dinq5r",
+            "name": "Upgrade minting policy",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "ca72f111cc130ac311259181e0720516c044cee30704706a0299c2a8",
 		    "plutusVersion": 2,                    
                     "version": 1
                 }
