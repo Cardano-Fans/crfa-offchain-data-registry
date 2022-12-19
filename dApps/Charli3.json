@@ -40,11 +40,12 @@
             "id": "t5sNH6",
             "name": "C3 Tubural",            
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
                     "plutusVersion": 1,
-	                "fullScriptHash": "71e24268acb75d8613becf77027b810028d17c776fbdb8ec97b0a69b8e",                        
+	            "fullScriptHash": "71e24268acb75d8613becf77027b810028d17c776fbdb8ec97b0a69b8e",                        
                     "scriptHash": "e24268acb75d8613becf77027b810028d17c776fbdb8ec97b0a69b8e",
                     "contractAddress": "addr1w83yy69vkawcvya7eamsy7upqq5dzlrhd77m3myhkznfhrszj6emw"
                 }                
@@ -54,11 +55,12 @@
             "id": "GNyMn8",
             "name": "Oracle",             
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
                     "plutusVersion": 1,
-	                "fullScriptHash": "71755a2328e135e2b584f47685e86cc54c4bc8269560f71a4b6ea0e637",                        
+	            "fullScriptHash": "71755a2328e135e2b584f47685e86cc54c4bc8269560f71a4b6ea0e637",                        
                     "scriptHash": "755a2328e135e2b584f47685e86cc54c4bc8269560f71a4b6ea0e637",
                     "contractAddress": "addr1w9645geguy679dvy73mgt6rvc4xyhjpxj4s0wxjtd6swvdc5dxgc3"
                 }                
@@ -68,10 +70,11 @@
             "id": "EUazXZ",
             "name": "Oracle Feed",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "adb6f28429c860672e877f15f505a39899c1cdef9c68b2081a172736",
-		            "plutusVersion": 1,                    
+		    "plutusVersion": 1,                    
                     "version": 1
                 }
             ]
