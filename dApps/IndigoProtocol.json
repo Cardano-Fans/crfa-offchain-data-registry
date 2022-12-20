@@ -49,6 +49,14 @@
                 {
                     "id": "Kee1gS",
                     "version": 1
+                },
+                {
+                    "id": "NtoDPR",
+                    "version": 1
+                },
+                {
+                    "id": "5x7zd1",
+                    "version": 1
                 },		    
                 {
                     "id": "RK7zDV",
@@ -225,6 +233,36 @@
 	            "fullScriptHash": "71127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",                     
                     "scriptHash": "127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",
                     "contractAddress": "addr1wyf8jyjf8eancd4x32jd3yt0hyrkk3865hs4zsjgdcch4aqrpmple"
+                }    
+            ]
+        },
+        {
+            "id": "NtoDPR",
+            "name": "DEX LP token staking",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7110c36e9a15dc7843c47f57ad294d0a5187ab599961270ec9f5d2c993",                     
+                    "scriptHash": "10c36e9a15dc7843c47f57ad294d0a5187ab599961270ec9f5d2c993",
+                    "contractAddress": "addr1wygvxm56zhw8ss7y0at6622dpfgc026en9sjwrkf7hfvnycl8qekh"
+                }    
+            ]
+        },
+        {
+            "id": "5x7zd1",
+            "name": "Upgrade",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7121a8e689ae9628b84e1767e5871c8a2d30f430579bc14fd863ffe720",                     
+                    "scriptHash": "21a8e689ae9628b84e1767e5871c8a2d30f430579bc14fd863ffe720",
+                    "contractAddress": "addr1wys63e5f46tz3wzwzan7tpcu3gknpaps27duzn7cv0l7wgqkcm9fv"
                 }    
             ]
         },	    
