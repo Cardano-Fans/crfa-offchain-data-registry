@@ -31,6 +31,7 @@
         {
             "id": "tdQMoM",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,

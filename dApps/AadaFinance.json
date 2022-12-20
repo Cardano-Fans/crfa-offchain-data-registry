@@ -53,6 +53,10 @@
                     "version": 1
                 },
                 {
+                    "id": "E9CzOt",
+                    "version": 1
+                },		    
+                {
                     "id": "TLvqM1",
                     "version": 1
                 }
@@ -178,6 +182,21 @@
                 }
             ]
         },
+        {
+            "id": "E9CzOt",
+            "name": "Debt request",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1116ecc417c3ec9a58e4ef07a7e277c1a48289896cd2b0bc69e2b0208d69962602a7025d4163233855c5a379313b27239b8623ad53540815cb",                      
+                    "scriptHash": "16ecc417c3ec9a58e4ef07a7e277c1a48289896cd2b0bc69e2b0208d69962602a7025d4163233855c5a379313b27239b8623ad53540815cb",
+                    "contractAddress": "addr1zytwe3qhc0kf5k8yaur60cnhcxjg9zvfdnftp0rfu2czprtfjcnq9fczt4qkxgec2hz6x7f38vnj8xuxywk4x4qgzh9sgzwepc"
+                }
+            ]
+        },	    
         {
             "id": "TLvqM1",
             "name": "AADA staking",

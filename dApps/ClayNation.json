@@ -32,11 +32,11 @@
             "id": "HwbaY7",
             "name": "$CLAY Baking",             
             "purpose": "SPEND",
+	    "type": "NATIVE",	
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "11d7fdfde63c02950082867c075df7bd401a3d3736b6ab6c7174199146af4eebfac93f82ffeb8bdcc429e2c5021a8be46bc1834c76c20d4e8f",                     
+	            "fullScriptHash": "11d7fdfde63c02950082867c075df7bd401a3d3736b6ab6c7174199146af4eebfac93f82ffeb8bdcc429e2c5021a8be46bc1834c76c20d4e8f",                     
                     "scriptHash": "d7fdfde63c02950082867c075df7bd401a3d3736b6ab6c7174199146af4eebfac93f82ffeb8bdcc429e2c5021a8be46bc1834c76c20d4e8f",
                     "contractAddress": "addr1z8tlml0x8spf2qyzse7qwh0hh4qp50fhx6m2kmr3wsvez340fm4l4jflstl7hz7ucs5793gzr297g67psdx8dssdf68ssh59m2"
                 }    

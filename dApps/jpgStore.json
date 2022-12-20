@@ -58,7 +58,11 @@
 					{
 						"id": "Ejwj3a",
 						"version": 1
-					}
+					},
+					{
+						"id": "Ejwj3a",
+						"version": 2
+					}					
 				],
 				"contractId": "JN3E"
 			}
@@ -83,6 +87,7 @@
 	        {
 		    "id": "1Ezcv7",
 	            "purpose": "SPEND",
+	            "type": "PLUTUS",			
 	            "versions": [
 	                {
 	                    "version": 1,
@@ -110,8 +115,9 @@
 	        {
 		"id": "LcIgfO",
                 "name": "Offers",			
-	            "purpose": "SPEND",
-	            "versions": [		    
+	        "purpose": "SPEND",
+	        "type": "PLUTUS",			
+	        "versions": [		    
 	                {
 	                    "version": 1,
 			    "plutusVersion": 1, 
@@ -123,15 +129,23 @@
 	        },
 	        {
 		"id": "Ejwj3a",		
-	            "purpose": "SPEND",
-	            "versions": [		    
+	        "purpose": "SPEND",
+	        "type": "PLUTUS",			
+	        "versions": [		    
 	                {
 	                    "version": 1,
 			    "plutusVersion": 2, 
 			    "fullScriptHash": "119068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad81728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",				
 	                    "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad81728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
 	                    "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tvpw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspks905plm"
-	                }
+	                },
+	                {
+	                    "version": 2,
+			    "plutusVersion": 2, 
+			    "fullScriptHash": "119068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",				
+	                    "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",
+	                    "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tgvp7yludr26w44pjv927202tt7ayffdwxjj688k690f03sr4chmz"
+	                }			
 	            ]
 	        }	    
 	    ]
