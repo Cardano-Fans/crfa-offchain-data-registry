@@ -1,0 +1,100 @@
+{
+    "id": "75pv7uKL",
+    "projectName": "Genius Yield",
+    "link": "https://www.geniusyield.co",
+    "twitter": "https://twitter.com/GeniusyieldO",
+    "category": "DEFI",
+    "subCategory": "CONCENTRATED_LIQUIDITY_DEX",
+    "description": {
+                   "short": "A concentrated liquidity DEX with an automated yield optimizer on Cardano blockchain"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "1uRi4p",
+                    "version": 1
+                },
+                {
+                    "id": "hPqYev",
+                    "version": 1
+                },
+                {
+                    "id": "H3AIH7",
+                    "version": 1
+                },
+                {
+                    "id": "FPYSks",
+                    "version": 1
+                }               
+            ]           
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "1uRi4p",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "7112d6e1808dc019408cefe273a0b04701038f4aa96f733d8f44cb9817",                     
+                    "scriptHash": "12d6e1808dc019408cefe273a0b04701038f4aa96f733d8f44cb9817",
+                    "contractAddress": "addr1wyfddcvq3hqpjsyval388g9sguqs8r6249hhx0v0gn9es9ckxzfgr"
+                }    
+            ]
+        },
+        {
+            "id": "hPqYev",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "710d530d9b5ceaf073aafd6007c7ddaa69480dee14f2f700b5716bf11b",                     
+                    "scriptHash": "0d530d9b5ceaf073aafd6007c7ddaa69480dee14f2f700b5716bf11b",
+                    "contractAddress": "addr1wyx4xrvmtn40qua2l4sq037a4f55sr0wzne0wq94w94lzxc8anwyq"
+                }    
+            ]
+        },
+        {
+            "id": "H3AIH7",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "7136c8808b0d90be2ae2e5bd8b2974f74839956ab0b3865686b6bdca7b",                     
+                    "scriptHash": "36c8808b0d90be2ae2e5bd8b2974f74839956ab0b3865686b6bdca7b",
+                    "contractAddress": "addr1wymv3qytpkgtu2hzuk7ck2t57ayrn9t2kzecv45xk67u57c4x6vjw"
+                }    
+            ]
+        },
+        {
+            "id": "FPYSks",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "719ef926cd980f72e5b7eaea4d6ddecc4d3898d78c84944cd6fa0f83c9",                     
+                    "scriptHash": "9ef926cd980f72e5b7eaea4d6ddecc4d3898d78c84944cd6fa0f83c9",
+                    "contractAddress": "addr1wx00jfkdnq8h9edhat4y6mw7e3xn3xxh3jzfgnxklg8c8jggns2vn"
+                }    
+            ]
+        }      
+    ]
+}
