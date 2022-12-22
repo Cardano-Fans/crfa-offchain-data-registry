@@ -16,7 +16,15 @@
                 {
                     "id": "9lmYAr",
                     "version": 1
-                }
+                },
+                {
+                    "id": "Y894hx",
+                    "version": 1
+                },
+                {
+                    "id": "INUstP",
+                    "version": 1
+                }		    
             ]         
         }
     ],
@@ -30,16 +38,44 @@
         {
             "id": "9lmYAr",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "710791485f4764194651dbbe75423117b77cd3bdf6aa64300a1881fb0e",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "710791485f4764194651dbbe75423117b77cd3bdf6aa64300a1881fb0e",                     
                     "scriptHash": "0791485f4764194651dbbe75423117b77cd3bdf6aa64300a1881fb0e",
                     "contractAddress": "addr1wyrezjzlgajpj3j3mwl82s33z7mhe5aa764xgvq2rzqlkrs8mrxfa"
                 }    
             ]
-        }
+        },
+        {
+            "id": "Y894hx",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71e9f3f13b3d896b52462f7a65ee13626007148c1e0319f4adc59081b8",                     
+                    "scriptHash": "e9f3f13b3d896b52462f7a65ee13626007148c1e0319f4adc59081b8",
+                    "contractAddress": "addr1w85l8ufm8kykk5jx9aaxtmsnvfsqw9yvrcp3na9dckggrwq2gjvjd"
+                }    
+            ]
+        },
+        {
+            "id": "INUstP",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71cd97e58d1cdc1515dae994dd60e62220450f85a141e67366c000891c",                     
+                    "scriptHash": "cd97e58d1cdc1515dae994dd60e62220450f85a141e67366c000891c",
+                    "contractAddress": "addr1w8xe0evdrnwp29w6ax2d6c8xygsy2ru959q7vumxcqqgj8qn4a8kd"
+                }    
+            ]
+        }	    
     ]
 }
