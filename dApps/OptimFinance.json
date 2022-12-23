@@ -58,7 +58,8 @@
                     "id": "qpQbAj",
                     "version": 1
                 }              
-            ]           
+            ],
+            "auditId": "K0a3"		
         }
     ],
     "contracts": [
@@ -66,7 +67,14 @@
          "openSource": false
         }
     ],
-
+    "audits": [
+        {
+         "auditId": "K0a3",
+         "auditor": "Tweag & Mlabs",
+         "auditLink": "https://optim-finance.gitbook.io/optim-finance/products/liquidity-bonds/audit-reports",
+         "auditType": "MANUAL"     
+        }
+    ],
     "scripts": [    
         {
             "id": "bhnVl3",
