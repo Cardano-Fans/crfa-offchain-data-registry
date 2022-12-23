@@ -1,0 +1,218 @@
+{
+    "id": "7jMX9SFU",
+    "projectName": "Optim Finance",
+    "link": "https://www.optim.finance",
+    "twitter": "https://twitter.com/OptimFi",
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",
+    "description": {
+                   "short": "Optim Finance creates and enables broad access to yield generation products such as Liquidity Bonds and Strategy Vaults"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "bhnVl3",
+                    "version": 1
+                },
+                {
+                    "id": "naUqTf",
+                    "version": 1
+                },
+                {
+                    "id": "XeriB3",
+                    "version": 1
+                },       
+                {
+                    "id": "cOfyDi",
+                    "version": 1
+                },
+                {
+                    "id": "29injf",
+                    "version": 1
+                }, 
+                {
+                    "id": "tqSMqC",
+                    "version": 1
+                },               
+                {
+                    "id": "3ZgFYM",
+                    "version": 1
+                },
+                {
+                    "id": "r2TbXW",
+                    "version": 1
+                },
+                {
+                    "id": "B94208",
+                    "version": 1
+                },
+                {
+                    "id": "UnBzFA",
+                    "version": 1
+                },
+                {
+                    "id": "qpQbAj",
+                    "version": 1
+                }              
+            ]           
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [    
+        {
+            "id": "bhnVl3",
+            "name": "Optim EQT",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "4702f1ff21a54f728a59b3f5f0f351891c99015a2158b816c721ea72",
+		                "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "naUqTf",
+            "name": "Optim Borrower Token",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "68fa031807f52dfea48be90d3ba788935386126b63463c84c31baac0",
+		                "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "XeriB3",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "5f1dd3192cbdaa2c1a91560a6147466efb18d33a5d6516b266ce6b6f",
+		                "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "cOfyDi",
+            "name": "Optim EQT",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "fa5c32107aeb17a87a8145776e02193611fae5a19719910ef5f7b83f",
+		                "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "29injf",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "53fb41609e208f1cd3cae467c0b9abfc69f1a552bf9a90d51665a4d6",
+		                "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        }, 
+        {
+            "id": "tqSMqC",
+            "name": "Optim EQT",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "5fb0abdfd1b8d096da6ffd7d3f5a8212a318447528f91a925e7fcd0f",
+		                "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },      
+        {
+            "id": "3ZgFYM",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "11a4af487cf64baeb2b6c398a4112fa9f2f4c8466a60bf77245dc92be1e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "a4af487cf64baeb2b6c398a4112fa9f2f4c8466a60bf77245dc92be1e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1zxj27jru7e96av4kcwv2gyf048e0fjzxdfst7aeythyjhc08ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7q8rgkm5"
+                }    
+            ]
+        },      
+        {
+            "id": "r2TbXW",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "119b1caab1926f575887c8c7a93d9d3181ee5c8aeb8c8fba6a64f41456e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "9b1caab1926f575887c8c7a93d9d3181ee5c8aeb8c8fba6a64f41456e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1zxd3e243jfh4wky8err6j0vaxxq7uhy2awxglwn2vn6pg4h8ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7qlqcx34"
+                }    
+            ]
+        },
+        {
+            "id": "B94208",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "11515a216c87846970aecb9d5605014c53ae2a7e8c5c5ef517eb1f60ece7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "515a216c87846970aecb9d5605014c53ae2a7e8c5c5ef517eb1f60ece7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1z9g45gtvs7zxju9weww4vpgpf3f6u2n733w9aaghav0kpm88ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7qf4zrg6"
+                }    
+            ]
+        },  
+        {
+            "id": "UnBzFA",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "1182a78b81ad2328074e640e0ee1e351be8ff7bad601cc81c6b93c6bbbe7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "82a78b81ad2328074e640e0ee1e351be8ff7bad601cc81c6b93c6bbbe7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1zxp20zup453jsp6wvs8qac0r2xlglaa66cqueqwxhy7xhwl8ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7qlj97a4"
+                }    
+            ]
+        },
+        {
+            "id": "qpQbAj",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "11229ecc1a0dc72964f5cfd537a9556a99e2d34e7a186aef53294bbff7e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "229ecc1a0dc72964f5cfd537a9556a99e2d34e7a186aef53294bbff7e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1zy3fanq6phrjje84el2n0224d2v7956w0gvx4m6n999mlal8ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7q6tyyjy"
+                }    
+            ]
+        }      
+    ]
+}
