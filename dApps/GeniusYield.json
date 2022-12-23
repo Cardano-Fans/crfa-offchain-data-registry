@@ -29,7 +29,23 @@
                 {
                     "id": "FPYSks",
                     "version": 1
-                }               
+                },
+                {
+                    "id": "piMIfX",
+                    "version": 1
+                },		    
+                {
+                    "id": "gMuikB",
+                    "version": 1
+                },
+                {
+                    "id": "PH0rJH",
+                    "version": 1
+                },
+                {
+                    "id": "wXPBSp",
+                    "version": 1
+                }		    
             ]           
         }
     ],
@@ -43,12 +59,12 @@
         {
             "id": "1uRi4p",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "7112d6e1808dc019408cefe273a0b04701038f4aa96f733d8f44cb9817",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7112d6e1808dc019408cefe273a0b04701038f4aa96f733d8f44cb9817",                     
                     "scriptHash": "12d6e1808dc019408cefe273a0b04701038f4aa96f733d8f44cb9817",
                     "contractAddress": "addr1wyfddcvq3hqpjsyval388g9sguqs8r6249hhx0v0gn9es9ckxzfgr"
                 }    
@@ -57,12 +73,12 @@
         {
             "id": "hPqYev",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "710d530d9b5ceaf073aafd6007c7ddaa69480dee14f2f700b5716bf11b",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "710d530d9b5ceaf073aafd6007c7ddaa69480dee14f2f700b5716bf11b",                     
                     "scriptHash": "0d530d9b5ceaf073aafd6007c7ddaa69480dee14f2f700b5716bf11b",
                     "contractAddress": "addr1wyx4xrvmtn40qua2l4sq037a4f55sr0wzne0wq94w94lzxc8anwyq"
                 }    
@@ -71,12 +87,12 @@
         {
             "id": "H3AIH7",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "7136c8808b0d90be2ae2e5bd8b2974f74839956ab0b3865686b6bdca7b",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7136c8808b0d90be2ae2e5bd8b2974f74839956ab0b3865686b6bdca7b",                     
                     "scriptHash": "36c8808b0d90be2ae2e5bd8b2974f74839956ab0b3865686b6bdca7b",
                     "contractAddress": "addr1wymv3qytpkgtu2hzuk7ck2t57ayrn9t2kzecv45xk67u57c4x6vjw"
                 }    
@@ -85,16 +101,67 @@
         {
             "id": "FPYSks",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "719ef926cd980f72e5b7eaea4d6ddecc4d3898d78c84944cd6fa0f83c9",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "719ef926cd980f72e5b7eaea4d6ddecc4d3898d78c84944cd6fa0f83c9",                     
                     "scriptHash": "9ef926cd980f72e5b7eaea4d6ddecc4d3898d78c84944cd6fa0f83c9",
                     "contractAddress": "addr1wx00jfkdnq8h9edhat4y6mw7e3xn3xxh3jzfgnxklg8c8jggns2vn"
                 }    
             ]
-        }      
+        },
+        {
+            "id": "piMIfX",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "77e800622d05045a1f973f291bc71dd8607544fd2b8cb9d841507d56",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	    
+        {
+            "id": "gMuikB",
+	    "name": "Staking",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71c652c19ea10ab025a2b0880682f96a2794d7cea9bc4782645c0e114c",                     
+                    "scriptHash": "c652c19ea10ab025a2b0880682f96a2794d7cea9bc4782645c0e114c",
+                    "contractAddress": "addr1w8r99sv75y9tqfdzkzyqdqhedgnef47w4x7y0qnyts8pznq87e4wh"
+                }    
+            ]
+        },
+        {
+            "id": "PH0rJH",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "dda5fdb1002f7389b33e036b6afee82a8189becb6cba852e8b79b4fb",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "wXPBSp",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "45505028e69c6bef5db72b657a8011a61a30bb48e1b955f806c417b0",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        }	    
     ]
 }
