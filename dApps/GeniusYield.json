@@ -154,7 +154,7 @@
         {
             "id": "wXPBSp",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "NATIVE",		
             "versions": [
                 {
                     "mintPolicyID": "45505028e69c6bef5db72b657a8011a61a30bb48e1b955f806c417b0",
