@@ -85,6 +85,22 @@
                 {
                     "id": "KNm4sC",
                     "version": 1
+                },
+                {
+                    "id": "CCPgJ6",
+                    "version": 1
+                },
+                {
+                    "id": "NAnoBJ",
+                    "version": 1
+                },
+                {
+                    "id": "VwWDs6",
+                    "version": 1
+                },
+                {
+                    "id": "PbsdZT",
+                    "version": 1
                 }		    
             ]          
         }
@@ -356,6 +372,54 @@
                     "scriptHash": "7e43587541a7f80326ffabb4977327e83f9fcb4097a471024c23fdca",
                     "contractAddress": "addr1w9lyxkr4gxnlsqexl74mf9mnyl5rl87tgzt6gugzfs3lmjs07llx2"
                 }    
+            ]
+        },
+        {
+            "id": "CCPgJ6",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "2960fe7a50e78948eb7219079c39b8169e34a4464a3f1aea9328d87c",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "NAnoBJ",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "b7a1726422f816523fdfdf104f22585b8d3d5d47fd6037c3f5c730ba",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "VwWDs6",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "8d1eebfb7948248299d0cee23b85c18ee42c5fa64198e9aef5d5dd7e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "PbsdZT",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "af94fd5abb1b0cb4b2979404db7f34d123c9e1bd304a96441d6e2510",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
             ]
         }	    
     ]
