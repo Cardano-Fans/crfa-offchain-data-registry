@@ -43,6 +43,10 @@
                     "version": 1
                 },
                 {
+                    "id": "RWMuK1",
+                    "version": 1
+                },		    
+                {
                     "id": "wXPBSp",
                     "version": 1
                 }		    
@@ -151,6 +155,19 @@
                 }
             ]
         },
+        {
+            "id": "RWMuK1",
+	    "name": "GY",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "3fe59383acf7788d43b3b4c84bff0a837376f9c004b6f600ec49716d",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	    
         {
             "id": "wXPBSp",
             "purpose": "MINT",
