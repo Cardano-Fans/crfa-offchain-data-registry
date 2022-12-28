@@ -118,6 +118,7 @@
         },
         {
             "id": "piMIfX",
+	    "name": "GY",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
             "versions": [
@@ -170,6 +171,7 @@
         },	    
         {
             "id": "wXPBSp",
+	    "name": "Genius",
             "purpose": "MINT",
 	    "type": "NATIVE",		
             "versions": [
