@@ -61,6 +61,14 @@
                 {
                     "id": "EdPrDc",
                     "version": 1
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 2
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 3
                 } 		    
             ],
             "auditId": "K0a3"		
@@ -237,7 +245,21 @@
 	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8f65ec25f1d86c262f3de693b2b2853c2af455ebe06a1557f2e877793",                     
                     "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8f65ec25f1d86c262f3de693b2b2853c2af455ebe06a1557f2e877793",
                     "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hj8ktmp978vxcf308hnf8v4js57z4az4a0sx592h7t58w7fsqz6x77"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc86b2e348b27dc3ba3d697a9f8a0cc64c05f2a260ccfb67154685d8e93",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc86b2e348b27dc3ba3d697a9f8a0cc64c05f2a260ccfb67154685d8e93",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjrt9c6gkf7u8w3ad9aflzsvcexqtu4zvrx0kec4g6za36fs822ayc"
+                },
+                {
+                    "version": 3,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc83442547091e89bfab73a3ebd104e17aa9790a210fd2e2bb8e8b3ae23",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc83442547091e89bfab73a3ebd104e17aa9790a210fd2e2bb8e8b3ae23",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjp5gf28py0gn0atww37h5gyu9a2j7g2yy8a9c4m369n4c3sjzpftt"
+                }		    
             ]
         }	    
     ]
