@@ -48,7 +48,11 @@
 					{
 						"id": "0zi8YI",
 						"version": 1
-					}                    
+					},
+					{
+						"id": "Wts2nr",
+						"version": 1
+					}  					
 				],
                 "auditId": "9oS7"
 			}		
@@ -72,6 +76,7 @@
             "id": "d3DENr",
             "name": "Factory",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -86,6 +91,7 @@
             "id": "jSztuJ",
             "name": "Pool payment credential",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -100,6 +106,7 @@
             "id": "sWS42P",
             "name": "Request",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -114,6 +121,7 @@
             "id": "tjt7ua",
             "name": "Vesting",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -128,6 +136,7 @@
             "id": "QPPiOs",
             "name": "Farm/Voting",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -149,6 +158,7 @@
             "id": "0zi8YI",
             "name": "Factory/Liquidity token",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "026a18d04a0c642759bb3d83b12e3344894e5c1c7b2aeb1a2113a570",
@@ -157,6 +167,18 @@
         	    "version": 1
                 }
             ]
-        }
+        },
+        {
+            "id": "Wts2nr",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "0ceaab7c2cec8f93c38b7c3598fa239f50bc14fcc6da9f016adb035c",
+ 		    "plutusVersion": 1, 			
+        	    "version": 1
+                }
+            ]
+        }	    
     ]
 }

@@ -28,6 +28,10 @@
                 {
                     "id": "qw22WA",
                     "version": 1
+                },
+                {
+                    "id": "cce2nq",
+                    "version": 1
                 }		    
             ]         
         }
@@ -92,6 +96,20 @@
 	            "fullScriptHash": "7151dfd3a3c71127cb1cea8225f701caae12489d343fbc89a388a21a9b",                     
                     "scriptHash": "51dfd3a3c71127cb1cea8225f701caae12489d343fbc89a388a21a9b",
                     "contractAddress": "addr1w9gal5arcugj0jcua2pztacpe2hpyjyaxslmezdr3z3p4xcn7a29y"
+                }    
+            ]
+        },
+        {
+            "id": "cce2nq",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71fa238b80d50b9a92484ef5c4e5ecde892810bb2d107fcd8dd68f5fbc",                     
+                    "scriptHash": "fa238b80d50b9a92484ef5c4e5ecde892810bb2d107fcd8dd68f5fbc",
+                    "contractAddress": "addr1w8az8zuq659e4yjgfm6ufe0vm6yjsy9m95g8lnvd6684l0qttz6c8"
                 }    
             ]
         }	    

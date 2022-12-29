@@ -101,6 +101,18 @@
                 {
                     "id": "PbsdZT",
                     "version": 1
+                },
+                {
+                    "id": "0SWGD7",
+                    "version": 1
+                },
+                {
+                    "id": "yNYksa",
+                    "version": 1
+                },
+                {
+                    "id": "frqmwo",
+                    "version": 1
                 }		    
             ]          
         }
@@ -417,6 +429,42 @@
             "versions": [
                 {
                     "mintPolicyID": "af94fd5abb1b0cb4b2979404db7f34d123c9e1bd304a96441d6e2510",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "0SWGD7",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "9d64c1a58b16e2cdb82443e416100f6da9cda54f6d6d49018a8af77e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "yNYksa",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "db443dd157b9c64b043501a2c41d0f729b7e959a34ac861af78c79d2",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "frqmwo",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "f625064c6819032dd20b6d8fd61a430be62bf68f45e9164ae1e6a880",
 		    "plutusVersion": 1,                    
                     "version": 1
                 }
