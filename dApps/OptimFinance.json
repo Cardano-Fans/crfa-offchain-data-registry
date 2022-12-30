@@ -240,6 +240,7 @@
         },
         {
             "id": "EdPrDc",
+            "name": "Active bond",		
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
