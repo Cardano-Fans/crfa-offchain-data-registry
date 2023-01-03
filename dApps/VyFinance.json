@@ -39,6 +39,10 @@
                     "version": 1
                 },
                 {
+                    "id": "FVbMWi",
+                    "version": 1
+                },		    
+                {
                     "id": "JNTI1O",
                     "version": 1
                 },
@@ -111,7 +115,19 @@
                     "version": 1
                 },
                 {
+                    "id": "TkQz9J",
+                    "version": 1
+                },
+                {
+                    "id": "uxNZfw",
+                    "version": 1
+                },
+                {
                     "id": "frqmwo",
+                    "version": 1
+                },
+                {
+                    "id": "C1A7Mi",
                     "version": 1
                 }		    
             ]          
@@ -214,6 +230,21 @@
                 }    
             ]
         },
+        {
+            "id": "FVbMWi",
+            "name": "VyFi: Vault Stake - TOKEN-1000007",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7119de0676b08753cc17620002e43e8a89da237f8fffb29332a38253b8",                     
+                    "scriptHash": "19de0676b08753cc17620002e43e8a89da237f8fffb29332a38253b8",
+                    "contractAddress": "addr1wyvaupnkkzr48nqhvgqq9ep732ya5gml3llm9yej5wp98wqjse79j"
+                }    
+            ]
+        },	    
         {
             "id": "JNTI1O",
             "name": "VyFi: Vault Stake - NFT-1000001",
@@ -465,6 +496,42 @@
             "versions": [
                 {
                     "mintPolicyID": "f625064c6819032dd20b6d8fd61a430be62bf68f45e9164ae1e6a880",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "uxNZfw",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "d28d0a8b80af23c395dc92d16b1891f415a530ef16f08be0322dee29",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "TkQz9J",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "c7a362b91ce14f767aa7916bcc210aa94cb70cc22044247906cefa17",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "C1A7Mi",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "77e59f13958e0e2352a4ddfba11b47e389fd01e196d8fc7a83af264e",
 		    "plutusVersion": 1,                    
                     "version": 1
                 }
