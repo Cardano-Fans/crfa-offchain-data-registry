@@ -29,6 +29,10 @@
                 {
                     "id": "BBIKI7",
                     "version": 1
+                },
+                {
+                    "id": "gMOMu4",
+                    "version": 1
                 }		    
             ]
         }
@@ -43,6 +47,7 @@
         {
             "id": "w7rmkL",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -56,6 +61,7 @@
         {
             "id": "Da073y",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [           
                 {
                     "version": 1,
@@ -69,6 +75,7 @@
         {
             "id": "1uZuya",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [           
                 {
                     "version": 1,
@@ -83,6 +90,7 @@
             "id": "BBIKI7",
             "name": "Dino Coin",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "7f863dbd7faa4c27dd9cadd1f512e7acee6634a6fd79a02eb832175e",
@@ -90,6 +98,19 @@
                     "version": 1
                 }
             ]
-        }        
+        },
+        {
+            "id": "gMOMu4",
+            "name": "Dino",
+            "purpose": "MINT",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "mintPolicyID": "85d87212f6096732ac1cdbf604a12aa8cfd1fd0b66ab28fc77d3764c",
+		    "plutusVersion": 1,                     
+                    "version": 1
+                }
+            ]
+        } 	    
     ]
 }
