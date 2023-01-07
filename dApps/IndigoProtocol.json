@@ -27,6 +27,10 @@
                     "version": 1
                 },
                 {
+                    "id": "TvFLk3",
+                    "version": 1
+                },		    
+                {
                     "id": "HWzqk7",
                     "version": 1
                 },
@@ -146,6 +150,21 @@
                 }    
             ]
         },
+        {
+            "id": "TvFLk3",
+            "name": "iETH",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f350350cd40d0d8e8744f2c6cad54a0abc9d51f107f57fb95c181a3f",                     
+                    "scriptHash": "f350350cd40d0d8e8744f2c6cad54a0abc9d51f107f57fb95c181a3f",
+                    "contractAddress": "addr1w8e4qdgv6sxsmr58gnevdjk4fg9te8237yrl2laetsvp50c7c0grw"
+                }    
+            ]
+        },	    
         {
             "id": "HWzqk7",
             "name": "Indy staking",
