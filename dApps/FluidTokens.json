@@ -117,7 +117,7 @@
             "versions": [
                 {
                     "mintPolicyID": "4aef6e0795e1f8241eb19ade6221a85d610523714e4d59d4e9095091",
-		    "plutusVersion": 1, 			
+		    "plutusVersion": 2, 			
                     "version": 1
                 }               
             ]
@@ -130,7 +130,7 @@
             "versions": [
                 {
                     "mintPolicyID": "41223b3ecf502363dc465dce5ad6671b83ac790e229d3f49e68c3353",
-		    "plutusVersion": 1, 			
+		    "plutusVersion": 2, 			
                     "version": 1
                 }               
             ]
