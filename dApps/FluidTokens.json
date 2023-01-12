@@ -19,7 +19,33 @@
                     "version": 1
                 }
             ]
-        }
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "aN4U4Y",
+                    "version": 1
+                },
+                {
+                    "id": "W5RWkJ",
+                    "version": 1
+                },
+                {
+                    "id": "rwM0Cl",
+                    "version": 1
+                },
+                {
+                    "id": "1FuVeV",
+                    "version": 1
+                },
+                {
+                    "id": "PWTs8e",
+                    "version": 1
+                }		    
+            ]
+        }	    
     ],
     "contracts": [
         {
@@ -40,6 +66,74 @@
                     "contractAddress": "addr1wxzqzlncct5g0686c07lyuq3q3j2a0t8l88uwdznw99k9asz6z0hq"
                 }    
             ]
-        }
+        },
+        {
+            "id": "aN4U4Y",
+	    "name": "loan requests",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7174f5a268f20a464b086baca44fd4ac4e2dc3c54914e4f1d9212c3f02",                     
+                    "scriptHash": "74f5a268f20a464b086baca44fd4ac4e2dc3c54914e4f1d9212c3f02",
+                    "contractAddress": "addr1w960tgng7g9yvjcgdwk2gn75438zms79fy2wfuweyykr7qsqgx3wf"
+                }    
+            ]
+        },
+        {
+            "id": "W5RWkJ",
+	    "name": "repayments",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "714dd522fb07d1f895ee63270b040e8b6434aa848a9c48ee16a7903aad",                     
+                    "scriptHash": "4dd522fb07d1f895ee63270b040e8b6434aa848a9c48ee16a7903aad",
+                    "contractAddress": "addr1w9xa2ghmqlgl390wvvnskpqw3djrf25y32wy3msk57gr4tg3m6se5"
+                }    
+            ]
+        },
+        {
+            "id": "rwM0Cl",
+	    "name": "active requests script",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71afae293f6a7de61f8b3faf28e4309ba8072da9d7acd1d293787cef0f",                     
+                    "scriptHash": "afae293f6a7de61f8b3faf28e4309ba8072da9d7acd1d293787cef0f",
+                    "contractAddress": "addr1wxh6u2fldf77v8ut87hj3epsnw5qwtdf67kdr55n0p7w7rce2s8uw"
+                }    
+            ]
+        },
+        {
+            "id": "1FuVeV",
+	    "name": "lender nft mint script",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "4aef6e0795e1f8241eb19ade6221a85d610523714e4d59d4e9095091",
+		    "plutusVersion": 2, 			
+                    "version": 1
+                }               
+            ]
+        },
+        {
+            "id": "PWTs8e",
+	    "name": "borrower nft mint script",
+            "purpose": "MINT",
+	    "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "41223b3ecf502363dc465dce5ad6671b83ac790e229d3f49e68c3353",
+		    "plutusVersion": 2, 			
+                    "version": 1
+                }               
+            ]
+        }	    
     ]
 }
