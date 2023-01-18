@@ -99,7 +99,11 @@
                 {
                     "id": "jQrRKz",
                     "version": 2
-                }                
+                },
+                {
+                    "id": "ysMoTh",
+                    "version": 1
+                } 		    
              ],
              "auditId": "o53W"
         }                
@@ -131,6 +135,7 @@
             "id": "xj1qXo",
             "name": "Mainnet load test",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 0,
@@ -152,6 +157,7 @@
             "id": "9jjJmO",
             "name": "Batch Order",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -173,6 +179,7 @@
             "id": "H70LnQ",
             "name": "Liquidity Pool",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -193,6 +200,7 @@
         {
             "id": "9ojpkm",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -207,6 +215,7 @@
             "id": "yxzJ3o",
             "name": "Liquidity Provider Token",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "e0baa1f0887a766daf5196f92c88728e356e71255c5ad00866607484",
@@ -224,6 +233,7 @@
             "id": "QfHO7v",
             "name": "Factory PolicyID",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "3f6092645942a54a75186b25e0975b79e1f50895ad958b42015eb6d2",
@@ -241,6 +251,7 @@
             "id": "BADbuv",
             "name": "NFT PolicyID",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "5178cc70a14405d3248e415d1a120c61d2aa74b4cee716d475b1495e",
@@ -256,8 +267,9 @@
         },
         {
             "id": "G0M90z",
-            "name": "Harvest",
+            "name": "Harvest v1",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 2,
@@ -270,8 +282,9 @@
         },          
         {
             "id": "Yzlw3b",
-            "name": "Staking",
+            "name": "Yield Farming v1",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 2,
@@ -286,6 +299,7 @@
             "id": "GrVPm4",
             "name": "MINt staking liquidity",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 2,
@@ -300,6 +314,7 @@
             "id": "jQrRKz",
             "name": "Withdraw vesting",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 2,
@@ -309,6 +324,21 @@
                     "contractAddress": "addr1wx5p836jswavyfd3nuwscz53fkyu43kmn2wwje73qhf48mqw02kqx"
                 }
             ]
-        }         
+        },
+        {
+            "id": "ysMoTh",
+            "name": "Yield Farming v2",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 2, 
+	            "fullScriptHash": "71b15a1a010843e8afb6f963b03d452be815b533dad0cd23d819c2d201",                    
+                    "scriptHash": "b15a1a010843e8afb6f963b03d452be815b533dad0cd23d819c2d201",
+                    "contractAddress": "addr1wxc45xspppp73takl93mq029905ptdfnmtgv6g7cr8pdyqgvks3s8"
+                }
+            ]
+        } 	    
     ]
 }

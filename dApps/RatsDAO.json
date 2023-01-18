@@ -1,0 +1,47 @@
+{
+    "id": "rlIzjq73",
+    "projectName": "RatsDAO",
+    "link": "https://staking.ratsdao.io",
+    "twitter": "https://twitter.com/RatsDao",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "1st Multi-Sig Blue Chip NFT Purchasing DAO on Cardano blockchain"
+    },	
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "DwhOA1",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],	
+	
+    "scripts": [
+        {
+            "id": "DwhOA1",
+            "name": "Staking",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "7157ab777cbae4d1c778fa816979812dcdcb0e41d7ebab59b82009ff98",                    
+                    "scriptHash": "57ab777cbae4d1c778fa816979812dcdcb0e41d7ebab59b82009ff98",
+                    "contractAddress": "addr1w9t6kamuhtjdr3mcl2qkj7vp9hxukrjp6l46kkdcyqyllxqwgts5p"
+                }    
+            ]
+        }
+    ]
+}
