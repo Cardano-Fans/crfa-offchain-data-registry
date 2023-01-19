@@ -77,7 +77,11 @@
                 {
                     "id": "EdPrDc",
                     "version": 5
-                } 		    		    
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 6
+                }		    
             ],
             "auditId": "K0a3"		
         }
@@ -282,6 +286,13 @@
 	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8bff6f9201a87cf247f468781bf49f675647136034251b4bffdc315cf",                     
                     "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8bff6f9201a87cf247f468781bf49f675647136034251b4bffdc315cf",
                     "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hj9l7mujqx58euj87358sxl5nan4v3cnvq6z2x6tllwrzh8strzd7n"
+                },
+                {
+                    "version": 6,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc803884749942c5efddf612187e8687a42a26b0f6f4b429a26fece94c7",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc803884749942c5efddf612187e8687a42a26b0f6f4b429a26fece94c7",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjqr3pr5n9pvtm7a7cfpsl5xs7jz5f4s7m6tg2dzdlkwjnrs9z3wgt"
                 }		    
             ]
         }	    
