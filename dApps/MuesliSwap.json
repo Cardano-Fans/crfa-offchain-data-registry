@@ -8,7 +8,7 @@
     "description": {
                    "short": "The first decentralized exchange for Cardano and Milkomeda and the first Hybrid DEX on Cardano"
     },		
-    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "STAKING", "LIQUIDITY_MINING", "YIELD_FARMING"],
+    "features": ["PARTIAL_ORDERS", "DEX_AGGREGATOR", "STAKING", "LIQUIDITY_MINING", "YIELD_FARMING", "CONCENTRATED_POOLS"],
     
     "releases": [
         {
@@ -61,7 +61,7 @@
         {
             "releaseNumber": 3,
             "releaseName": "V3",
-            "description": "latest versions of PlutusV2 scripts used by the Dapp plus staking script",
+            "description": "latest versions of PlutusV2 scripts used by the Dapp plus staking script and concentrated pools",
             "scripts": [
                 {
                     "id": "MtEFqz",
@@ -94,6 +94,14 @@
                 {
                     "id": "nKNWz0",
                     "version": 1
+                },
+                {
+                    "id": "9OKo2a",
+                    "version": 1
+                },
+                {
+                    "id": "nZS7Wf",
+                    "version": 1
                 },		    
                 {
                     "id": "mJkBqv",
@@ -106,7 +114,15 @@
                 {
                     "id": "pigoar",
                     "version": 2
-                }                
+                },
+                {
+                    "id": "YVgHjq",
+                    "version": 1
+                },
+                {
+                    "id": "R1ivqT",
+                    "version": 1
+                }		    
             ],
             "contractId": "MnBY" 		
         }        
@@ -131,6 +147,7 @@
             "id": "b9XDbe",
             "name": "Order Book",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 0,
@@ -152,6 +169,7 @@
             "id": "MtEFqz",
             "name": "Staking Order",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -166,6 +184,7 @@
             "id": "hGPSoP",
             "name": "Partial Match Order",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -194,6 +213,7 @@
             "id": "5WPmd6",
             "name": "Pool Contract",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -222,6 +242,7 @@
             "id": "Fn09Al",
             "name": "Batch Order",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -243,6 +264,7 @@
             "id": "TtC52p",
             "name": "Farming",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -257,6 +279,7 @@
             "id": "nKNWz0",
             "name": "Yield",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -266,11 +289,42 @@
                     "contractAddress": "addr1w89wq77ksj7t9ch32dtgst02cxmvc7ptqfwuyw4wzp6cgugwa8fj4"
                 }
             ]
+        },
+        {
+            "id": "9OKo2a",
+            "name": "Concentrated pool batcher",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2,          
+	            "fullScriptHash": "71fc8fbdf64f25e04ec78052aa1a997b93867608951608fd74ca2fa83b", 			
+                    "scriptHash": "fc8fbdf64f25e04ec78052aa1a997b93867608951608fd74ca2fa83b",
+                    "contractAddress": "addr1w87gl00kfuj7qnk8spf25x5e0wfcvasgj5tq3lt5egh6swc4aa5lh"
+                }
+            ]
+        },
+        {
+            "id": "nZS7Wf",
+            "name": "Concentrated pool contract",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2,          
+	            "fullScriptHash": "114136eeede1a49030451ee3a09d900959bafeafd9b536e59345ac780f6a3f3029eb19d09b49994d40d50174ba9701e88055e5e0d3741eaa2f", 			
+                    "scriptHash": "4136eeede1a49030451ee3a09d900959bafeafd9b536e59345ac780f6a3f3029eb19d09b49994d40d50174ba9701e88055e5e0d3741eaa2f",
+                    "contractAddress": "addr1z9qndmhduxjfqvz9rm36p8vsp9vm4l40mx6ndevngkk8srm28uczn6ce6zd5nx2dgr2sza96juq73qz4uhsdxaq74ghs3mz5fw"
+                }
+            ]
         },	    
         {
             "id": "mJkBqv",
             "name": "Liquidity Pool Token",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "8c9a2d459d2d8dc7c11192f971ab647fac65833121b7e8181e583c64",
@@ -288,6 +342,7 @@
             "id": "7kfq6a",
             "name": "Factory Policy",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "ffcdbb9155da0602280c04d8b36efde35e3416567f9241aff0955269",
@@ -305,6 +360,7 @@
             "id": "pigoar",
             "name": "NFT Policy",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "7a8041a0693e6605d010d5185b034d55c79eaf7ef878aae3bdcdbf67",
@@ -317,6 +373,32 @@
                     "version": 2
                 }                
             ]
-        }         
+        },
+        {
+            "id": "YVgHjq",
+            "name": "Concentrated pool Liquidity Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "6e3af9667763e915c9b3a901d3092625d515c2ad6d575eac92582aa8",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }                
+            ]
+        },
+        {
+            "id": "R1ivqT",
+            "name": "Concentrated pool factory",
+            "purpose": "MINT",
+	    "type": "PLUTUS",	
+            "versions": [
+                {
+                    "mintPolicyID": "f33bf12af1c23d660e29ebb0d3206b0bfc56ffd87ffafe2d36c42a45",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }                
+            ]
+        }	    
     ]
 }
