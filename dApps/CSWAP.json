@@ -1,0 +1,47 @@
+{
+    "id": "EoGbb01K",
+    "projectName": "CSWAP DEX",
+    "link": "https://www.cswap.fi",
+    "twitter": "https://twitter.com/CswapDEX",
+    "category": "DEFI",
+    "subCategory": "DEX",
+    "description": {
+                   "short": "The Progressive Protocol that merges DEX with NFTfi"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "xdDk9R",
+                    "version": 1
+                }
+            ]            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "xdDk9R",
+            "name": "Origins Staking",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "11a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",                     
+                    "scriptHash": "a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
+                    "contractAddress": "addr1zxjar4sm4vx82xhcqtnk05h6jvv5nr2r2cwmuferq0yc7faf0924s2rfv0k2zvncgs7nxyd6ym55ar9x0hplm98arw6qca728h"
+                }    
+            ]
+        }
+    ]
+}
