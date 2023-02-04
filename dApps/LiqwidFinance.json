@@ -1,0 +1,363 @@
+{
+    "id": "XzGa6No8",
+    "projectName": "Liqwid Finance",
+    "link": "https://www.liqwid.finance",
+    "twitter": "https://twitter.com/liqwidfinance",
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",
+    "description": {
+                   "short": "Liqwid is a decentralized interest rate protocol for lending on Cardano blockchain"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "nG2Mtr",
+                    "version": 1
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 2
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 3
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 4
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 5
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 6
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 7
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 8
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 9
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 10
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 11
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 12
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 13
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 14
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 15
+                },
+                {
+                    "id": "nG2Mtr",
+                    "version": 16
+                },
+                {
+                    "id": "DbNNh9",
+                    "version": 1
+                },
+                {
+                    "id": "18sjyW",
+                    "version": 1
+                },
+                {
+                    "id": "eofH0V",
+                    "version": 1
+                },
+                {
+                    "id": "lSzPLw",
+                    "version": 1
+                },
+                {
+                    "id": "CXswDp",
+                    "version": 1
+                },
+                {
+                    "id": "m9mzPs",
+                    "version": 1
+                },
+                {
+                    "id": "zBRFSF",
+                    "version": 1
+                },
+                {
+                    "id": "S1fqUy",
+                    "version": 1
+                }              
+            ],
+        "auditId": "iV1y"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+    "audits": [
+        {
+            "auditId": "iV1y",
+            "auditor": "Vaccuumlabs",
+            "auditLink": "https://liqwidfinance.substack.com/p/liqwid-v1-security-audit-code-review",
+            "auditType": "MANUAL"
+        }
+    ],
+    "scripts": [
+        {
+            "id": "nG2Mtr",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13090daf80c177304234d4bf6248a95d1da6c880a712a83a40a456dde7",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13090daf80c177304234d4bf6248a95d1da6c880a712a83a40a456dde7",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuycfpkhcpsthxpprf49lvfy2jhga5mygpfcj4qaypfzkmhns6uy3lu"
+                },
+                {
+                    "version": 2,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13f3862fbe79aeca777b35fe3fa34e600a25caf27ec230f33117043f1b",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13f3862fbe79aeca777b35fe3fa34e600a25caf27ec230f33117043f1b",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuylnschmu7dwefmhkd078735ucq2yh90ylkzxrenz9cy8uds939akt"
+                },
+                {
+                    "version": 3,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13ee6b9483c3ab7dc6a0b56ac2d5e9c6227bb4d14124d1ebc5aaa89260",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13ee6b9483c3ab7dc6a0b56ac2d5e9c6227bb4d14124d1ebc5aaa89260",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuylwdw2g8sat0hr2pdt2ct27n33z0w6dzsfy684ut24gjfsqxlmc6x"
+                },
+                {
+                    "version": 4,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13cffa9d6b81e11f9528346c55a676442098d6f012c10152e1a9d37e05",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13cffa9d6b81e11f9528346c55a676442098d6f012c10152e1a9d37e05",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuy70l2wkhq0pr72jsdrv2kn8v3pqnrt0qykpq9fwr2wn0czs6qy47a"
+                },
+                {
+                    "version": 5,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13648520089b3d89f5aa94adc0ad0b911f97677c8700925c4be6290f5b",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13648520089b3d89f5aa94adc0ad0b911f97677c8700925c4be6290f5b",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuymys5sq3xea3866499dczkshygljanhepcqjfwyhe3fpadsfdfar8"
+                },
+                {
+                    "version": 6,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13c7958044e73c1537a8258af20aceb0ee3c7f0e832e900d30cc32695d",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13c7958044e73c1537a8258af20aceb0ee3c7f0e832e900d30cc32695d",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuy78jkqyfeeuz5m6sfv27g9vav8w83lsaqewjqxnpnpjd9ws02090l"
+                },
+                {
+                    "version": 7,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e1330ebb5f76e7fb684fee6e2cf4b37258d676682b2aa213eb3c49b3880",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e1330ebb5f76e7fb684fee6e2cf4b37258d676682b2aa213eb3c49b3880",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuyesaw6lwmnlk6z0aehzea9nwfvdvang9v42yylt83ym8zqqhts4k5"
+                },
+                {
+                    "version": 8,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e137c0c2f947629a136f48f3c985e1ae878b85776408b244a74ddfb811d",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e137c0c2f947629a136f48f3c985e1ae878b85776408b244a74ddfb811d",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuymupshega3f5ym0freunp0p46rchpthvsyty398fh0msyws2h3kay"
+                },
+                {
+                    "version": 9,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e135d79bdf7c3106bdcc4ee3f9710d0c395b616e4c89c6ea864e6eba708",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e135d79bdf7c3106bdcc4ee3f9710d0c395b616e4c89c6ea864e6eba708",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuy6a0x7l0scsd0wvfm3ljugdpsu4kctwfjyud65xfeht5uyqhkd0yk"
+                },
+                {
+                    "version": 10,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13503bf265b929d8aa4ea18d3307ac05a79ee209e5ea7fa25979fabc64",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13503bf265b929d8aa4ea18d3307ac05a79ee209e5ea7fa25979fabc64",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuy6s80extwffmz4yagvdxvr6cpd8nm3qne020739j706h3jqy5gusg"
+                },
+                {
+                    "version": 11,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e135112947b8a6b78c4acccc915d7652bcf467f07dd65e312576c86814a",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e135112947b8a6b78c4acccc915d7652bcf467f07dd65e312576c86814a",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuy63z228hznt0rz2enxfzhtk2270gels0ht9uvf9wmyxs99quh3xsg"
+                },
+                {
+                    "version": 12,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13b10144c36699ba48b21325dc5a08da6ce09496cfa6f7ef796eac6490",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13b10144c36699ba48b21325dc5a08da6ce09496cfa6f7ef796eac6490",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuya3q9zvxe5ehfytyye9m3dq3knvuz2fdnax7lhhjm4vvjgqt3y2hj"
+                },
+                {
+                    "version": 13,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13f8c746bfbd35add98ab0079c5f55642060007c36a828a61fd2cdc903",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13f8c746bfbd35add98ab0079c5f55642060007c36a828a61fd2cdc903",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuylccartl0f44hvc4vq8n3042epqvqq8cd4g9znpl5kdeyps2sy73m"
+                },
+                {
+                    "version": 14,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e133f13b8c57ac5b64920f511507662ed3a8ae7ef27210b37e6be149b67",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e133f13b8c57ac5b64920f511507662ed3a8ae7ef27210b37e6be149b67",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuyelzwuv27k9keyjpag32pmx9mf63tn77feppvm7d0s5ndnsvjn4yj"
+                },
+                {
+                    "version": 15,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13440815e8750032eb272e9edb6194c45cd5268a8b62377aaaea05f4cd",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13440815e8750032eb272e9edb6194c45cd5268a8b62377aaaea05f4cd",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuy6ypq27sagqxt4jwt57mdsef3zu65ng4zmzxaa246s97nxs6t7anc"
+                },
+                {
+                    "version": 16,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "310faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13ef8251dfa08c465bf9dd3ff714fa15b625c35a46fb3ebc5f0f7405fb",                     
+                    "scriptHash": "0faa4f20b9d810205f89b42896e693ffc89c3ee4e307f4f0a4893e13ef8251dfa08c465bf9dd3ff714fa15b625c35a46fb3ebc5f0f7405fb",
+                    "contractAddress": "addr1xy865neqh8vpqgzl3x6z39hxj0lu38p7un3s0a8s5jynuyl0sfgalgyvgedlnhfl7u2059dkyhp453hm86797rm5qhassy6xk0"
+                }              
+            ]
+        },
+        {
+            "id": "DbNNh9",
+            "name": "Batch",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "717a9946acc68e06efd7cf05ecc3633c25ed383dad17e6de3d41cc10fd",                     
+                    "scriptHash": "7a9946acc68e06efd7cf05ecc3633c25ed383dad17e6de3d41cc10fd",
+                    "contractAddress": "addr1w9afj34vc68qdm7heuz7esmr8sj76wpa45t7dh3ag8xpplgml3zuk"
+                }              
+            ]
+        },
+        {
+            "id": "18sjyW",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "7171391f18fb131f28a230fa7f3b6c6099e447602b2bd2df5d046c5e99",                     
+                    "scriptHash": "71391f18fb131f28a230fa7f3b6c6099e447602b2bd2df5d046c5e99",
+                    "contractAddress": "addr1w9cnj8cclvf3729zxra87wmvvzv7g3mq9v4a9h6aq3k9axgfq4hx9"
+                }              
+            ]
+        },
+        {
+            "id": "eofH0V",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71c0588460f21b1474de8f7621b3c90572ce05ee08e22b006bb2f21f64",                     
+                    "scriptHash": "c0588460f21b1474de8f7621b3c90572ce05ee08e22b006bb2f21f64",
+                    "contractAddress": "addr1w8q93prq7gd3gax73amzrv7fq4evup0wpr3zkqrtktep7eqy26922"
+                }              
+            ]
+        },
+        {
+            "id": "lSzPLw",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "710fd1b854729d2e29290d47fe2173319aae3c4c885a955dc203f72759",                     
+                    "scriptHash": "0fd1b854729d2e29290d47fe2173319aae3c4c885a955dc203f72759",
+                    "contractAddress": "addr1wy8arwz5w2wju2ffp4rlugtnxxd2u0zv3pdf2hwzq0mjwkg77hygh"
+                }              
+            ]
+        },
+        {
+            "id": "CXswDp",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71b575da974ec756ba2afdccdc07cbd1839acaf0a24c4f80afd81d3fb6",                     
+                    "scriptHash": "b575da974ec756ba2afdccdc07cbd1839acaf0a24c4f80afd81d3fb6",
+                    "contractAddress": "addr1wx6htk5hfmr4dw32lhxdcp7t6xpe4jhs5fxylq90mqwnldsvr87c6"
+                }              
+            ]
+        },
+        {
+            "id": "m9mzPs",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "7151936f3c98a04b6609aa9b5c832ba1182cf43a58e534fcc05db09d69",                     
+                    "scriptHash": "51936f3c98a04b6609aa9b5c832ba1182cf43a58e534fcc05db09d69",
+                    "contractAddress": "addr1w9gexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g5740fw"
+                }              
+            ]
+        },
+        {
+            "id": "zBRFSF",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "7121bd8c2e0df2fbe92137f78dbaba48f62308e52303049f0d628b6c4c",                     
+                    "scriptHash": "21bd8c2e0df2fbe92137f78dbaba48f62308e52303049f0d628b6c4c",
+                    "contractAddress": "addr1wysmmrpwphe0h6fpxlmcmw46frmzxz89yvpsf8cdv29kcnqsw3vw6"
+                }              
+            ]
+        },
+        {
+            "id": "S1fqUy",
+            "name": "qAda",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "a04ce7a52545e5e33c2867e148898d9e667a69602285f6a1298f9d68",
+		                "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        }     
+    ]
+}
