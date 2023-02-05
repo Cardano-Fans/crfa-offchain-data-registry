@@ -15,6 +15,16 @@
 				"releaseName": "V1",
 				"scripts": [
 					{
+						"id": "lSRWJ0",
+						"version": 1
+					}  					
+				]
+			},
+			{
+				"releaseNumber": 2,
+				"releaseName": "V2",
+				"scripts": [
+					{
 						"id": "BxrNX1",
 						"version": 1
 					},
@@ -24,14 +34,14 @@
 					},
 					{
 						"id": "lSRWJ0",
-						"version": 1
+						"version": 2
 					},
 					{
 						"id": "MiC79C",
 						"version": 1
 					}  					
 				]
-			}
+			}	    
     ],
 
     "scripts": [        
@@ -39,6 +49,7 @@
             "id": "BxrNX1",
             "name": "Mutant staking",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -53,6 +64,7 @@
             "id": "SxL0mO",
             "name": "Mutant token",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -67,6 +79,7 @@
             "id": "lSRWJ0",
             "name": "onchain raffle",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -74,13 +87,21 @@
 	            "fullScriptHash": "7122f12548a9b1e61fca4b5d9cb87f947f757d0b5e7fb2366fc32e40fe", 			
                     "scriptHash": "22f12548a9b1e61fca4b5d9cb87f947f757d0b5e7fb2366fc32e40fe",
                     "contractAddress": "addr1wy30zf2g4xc7v872fdweewrlj3lh2lgttelmydn0cvhyplsg3vnkq"
-                }             
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "71f0c16278fb2dceaa8c32b52f282d6f57ccb6068077a56c7a8f0707a7", 			
+                    "scriptHash": "f0c16278fb2dceaa8c32b52f282d6f57ccb6068077a56c7a8f0707a7",
+                    "contractAddress": "addr1w8cvzcnclvkua25vx26j72pddatuedsxspm62mr63urs0fctuuzfv"
+                }		    
             ]
         },
         {
             "id": "MiC79C",
             "name": "Mutant staking service",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
