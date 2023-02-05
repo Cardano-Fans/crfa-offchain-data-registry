@@ -55,6 +55,62 @@
                     "version": 1
                 },
                 {
+                    "id": "LlPTGl",
+                    "version": 1
+                },
+                {
+                    "id": "CRiJ1L",
+                    "version": 1
+                },
+                {
+                    "id": "lHrDnc",
+                    "version": 1
+                },
+                {
+                    "id": "Ogi9Xv",
+                    "version": 1
+                },
+                {
+                    "id": "eiTvu4",
+                    "version": 1
+                },	
+                {
+                    "id": "rBBiGA",
+                    "version": 1
+                },
+                {
+                    "id": "gPwDG6",
+                    "version": 1
+                },	
+                {
+                    "id": "oUKO4V",
+                    "version": 1
+                },
+                {
+                    "id": "7t9efz",
+                    "version": 1
+                },
+                {
+                    "id": "UA9XDD",
+                    "version": 1
+                },
+                {
+                    "id": "wHm9MN",
+                    "version": 1
+                },
+                {
+                    "id": "BQu8H1",
+                    "version": 1
+                },
+                {
+                    "id": "qUpXau",
+                    "version": 1
+                },
+                {
+                    "id": "xB38z2",
+                    "version": 1
+                },		    
+                {
                     "id": "Lg4ylU",
                     "version": 1
                 },
@@ -66,6 +122,10 @@
                     "id": "tDvfGn",
                     "version": 1
                 },
+                {
+                    "id": "Rzu2lO",
+                    "version": 1
+                },		    
                 {
                     "id": "7EnT1S",
                     "version": 1
@@ -83,6 +143,10 @@
                     "version": 1
                 },
                 {
+                    "id": "OdyOl1",
+                    "version": 1
+                },		    
+                {
                     "id": "auyurT",
                     "version": 1
                 },
@@ -90,6 +154,10 @@
                     "id": "KNm4sC",
                     "version": 1
                 },
+                {
+                    "id": "WwpCtX",
+                    "version": 1
+                },		    
                 {
                     "id": "CCPgJ6",
                     "version": 1
@@ -291,6 +359,216 @@
             ]
         },
         {
+            "id": "LlPTGl",
+            "name": "VyFi: Vault Stake - NFT-1000004",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71b7d7e6591b10d7f6afb013907460a280fd8b616227d3387464e1d7ea",                     
+                    "scriptHash": "b7d7e6591b10d7f6afb013907460a280fd8b616227d3387464e1d7ea",
+                    "contractAddress": "addr1wxma0ejervgd0a40kqfeqarq52q0mzmpvgnaxwr5vnsa06s6mptx5"
+                }    
+            ]
+        },
+        {
+            "id": "CRiJ1L",
+            "name": "VyFi: Vault Stake - NFT-1000005",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71285d99ff36deddaae006a9259d1281c4de95a8a6c7381324e1cfacb6",                     
+                    "scriptHash": "285d99ff36deddaae006a9259d1281c4de95a8a6c7381324e1cfacb6",
+                    "contractAddress": "addr1wy59mx0lxm0dm2hqq65jt8gjs8zda9dg5mrnsyeyu886edsqrt7lm"
+                }    
+            ]
+        },
+        {
+            "id": "lHrDnc",
+            "name": "VyFi: Vault Stake - NFT-1000006",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "710a10665f6ec6726a0b443b21598257b789980b4dadbcba69eb722b86",                     
+                    "scriptHash": "0a10665f6ec6726a0b443b21598257b789980b4dadbcba69eb722b86",
+                    "contractAddress": "addr1wy9pqejldmr8y6stgsajzkvz27mcnxqtfkkmewnfadezhps2w8jzh"
+                }    
+            ]
+        },
+        {
+            "id": "Ogi9Xv",
+            "name": "VyFi: Vault Stake - NFT-1000007",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7112b08d1b16a93a504ae8ccbf196e185b53c9830025b5309322f85a84",                     
+                    "scriptHash": "12b08d1b16a93a504ae8ccbf196e185b53c9830025b5309322f85a84",
+                    "contractAddress": "addr1wyftprgmz65n55z2arxt7xtwrpd48jvrqqjm2vynytu94pq3l8wg6"
+                }    
+            ]
+        },
+        {
+            "id": "eiTvu4",
+            "name": "VyFi: Vault Stake - NFT-1000008",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7107bfeaa0e108557a76c838a4d66025487b53e2b590e0cdf539f7563b",                     
+                    "scriptHash": "07bfeaa0e108557a76c838a4d66025487b53e2b590e0cdf539f7563b",
+                    "contractAddress": "addr1wyrml64quyy927nkequ2f4nqy4y8k5lzkkgwpn0488m4vwcw8qxwn"
+                }    
+            ]
+        },
+        {
+            "id": "rBBiGA",
+            "name": "VyFi: Vault Stake - NFT-1000009",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71b87429bc214ad7f63fc214dabf46201a436dacbab90c8e7a729219e2",                     
+                    "scriptHash": "b87429bc214ad7f63fc214dabf46201a436dacbab90c8e7a729219e2",
+                    "contractAddress": "addr1wxu8g2duy99d0a3lcg2d406xyqdyxmdvh2usern6w2fpncszpla94"
+                }    
+            ]
+        },	
+        {
+            "id": "gPwDG6",
+            "name": "VyFi: Vault Stake - NFT-1000011",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71f335097a207d209539a935fbdd5c0ce0b4f25dd45602140a11f057ae",                     
+                    "scriptHash": "f335097a207d209539a935fbdd5c0ce0b4f25dd45602140a11f057ae",
+                    "contractAddress": "addr1w8en2zt6yp7jp9fe4y6lhh2upnstfuja63tqy9q2z8c90tsp0mfux"
+                }    
+            ]
+        },
+        {
+            "id": "oUKO4V",
+            "name": "VyFi: Vault Stake - NFT-1000012",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "715b30cb2a715c7a366ce43ff5bac1d0fad2b07140a669c7089aef9a77",                     
+                    "scriptHash": "5b30cb2a715c7a366ce43ff5bac1d0fad2b07140a669c7089aef9a77",
+                    "contractAddress": "addr1w9dnpje2w9w85dnvuslltwkp6rad9vr3gznxn3cgnthe5acxmwq0u"
+                }    
+            ]
+        },
+        {
+            "id": "7t9efz",
+            "name": "VyFi: Vault Stake - NFT-1000013",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71a9fadeee3de97f71e8adf187d0f56d43f8aa5f2644e3f153a65ff501",                     
+                    "scriptHash": "a9fadeee3de97f71e8adf187d0f56d43f8aa5f2644e3f153a65ff501",
+                    "contractAddress": "addr1wx5l4hhw8h5h7u0g4hcc0584d4pl32jlyezw8u2n5e0l2qghx0dqd"
+                }    
+            ]
+        },
+        {
+            "id": "UA9XDD",
+            "name": "VyFi: Vault Stake - NFT-1000014",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7109b1b2d3ff12f3057572076fddcd737dfc630a92667c392e3bdf6271",                     
+                    "scriptHash": "09b1b2d3ff12f3057572076fddcd737dfc630a92667c392e3bdf6271",
+                    "contractAddress": "addr1wyymrvknluf0xpt4wgrklhwdwd7lccc2jfn8cwfw800kyuggaecn7"
+                }    
+            ]
+        },
+        {
+            "id": "wHm9MN",
+            "name": "VyFi: Vault Stake - NFT-1000016",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "714a71028d62c8eb479a30eaf705ba5ecd1529e1d2a4ecd6273ef416c7",                     
+                    "scriptHash": "4a71028d62c8eb479a30eaf705ba5ecd1529e1d2a4ecd6273ef416c7",
+                    "contractAddress": "addr1w998zq5dvtywk3u6xr40wpd6tmx3220p62jwe4388m6pd3c6ks5lc"
+                }    
+            ]
+        },
+        {
+            "id": "BQu8H1",
+            "name": "VyFi: Vault Stake - NFT-1000017",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71b0762738826d38af0cd7b89dc9211cb738d457960d892f79094d58d1",                     
+                    "scriptHash": "b0762738826d38af0cd7b89dc9211cb738d457960d892f79094d58d1",
+                    "contractAddress": "addr1wxc8vfecsfkn3tcv67ufmjfprjmn34zhjcxcjtmep9x435gzzafmy"
+                }    
+            ]
+        },
+        {
+            "id": "qUpXau",
+            "name": "VyFi: Vault Stake - NFT-1000020",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7119841a76d60afee0c1a0f02772b6022560372977a8d811849542e456",                     
+                    "scriptHash": "19841a76d60afee0c1a0f02772b6022560372977a8d811849542e456",
+                    "contractAddress": "addr1wyvcgxnk6c90acxp5rczwu4kqgjkqdefw75dsyvyj4pwg4s09zh28"
+                }    
+            ]
+        },
+        {
+            "id": "xB38z2",
+            "name": "VyFi: Vault Stake - NFT-1000022",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71d311849a0c2a10b1d5cd268813ebc87d0f6594e34d641d8d987a431f",                     
+                    "scriptHash": "d311849a0c2a10b1d5cd268813ebc87d0f6594e34d641d8d987a431f",
+                    "contractAddress": "addr1w8f3rpy6ps4ppvw4e5ngsyltep7s7ev5udxkg8vdnpayx8c2vu38w"
+                }    
+            ]
+        },	    
+        {
             "id": "Lg4ylU",
             "name": "VyFi: Vault Harvest Process - NFT-1000001",
             "purpose": "SPEND",
@@ -335,6 +613,21 @@
                 }    
             ]
         },
+        {
+            "id": "Rzu2lO",
+            "name": "VyFi: Vault Harvest Process - NFT-1000005",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "716d9a555ec6ac73fa0ba43bdffca4d8f80d1808815d82109a90f729b1",                     
+                    "scriptHash": "6d9a555ec6ac73fa0ba43bdffca4d8f80d1808815d82109a90f729b1",
+                    "contractAddress": "addr1w9ke5427c6k887st5saall9ymruq6xqgs9wcyyy6jrmjnvgcfplhv"
+                }    
+            ]
+        },	    
         {
             "id": "7EnT1S",
             "name": "VyFi: Vault Harvest Process - TOKEN-1000001",
@@ -388,6 +681,21 @@
             ]
         },
         {
+            "id": "OdyOl1",
+            "name": "VyFi: Vault Harvest Process - TOKEN-1000004",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "711905acd41fe7efb58d15f647bb8c4689c3bb65d3b809b40eed59ba2f",                     
+                    "scriptHash": "1905acd41fe7efb58d15f647bb8c4689c3bb65d3b809b40eed59ba2f",
+                    "contractAddress": "addr1wyvsttx5rln7ldvdzhmy0wuvg6yu8wm96wuqndqwa4vm5tcv6v74w"
+                }    
+            ]
+        },	    
+        {
             "id": "auyurT",
             "name": "VyFi: Vault Harvest Process - TOKEN-1000005",
             "purpose": "SPEND",
@@ -417,6 +725,21 @@
                 }    
             ]
         },
+        {
+            "id": "WwpCtX",
+            "name": "VyFi: Vault Harvest Process - TOKEN-1000007",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7137dddafce6f01e2251e97cb18d48a7550f4e48f27bf7586a12908d41",                     
+                    "scriptHash": "37dddafce6f01e2251e97cb18d48a7550f4e48f27bf7586a12908d41",
+                    "contractAddress": "addr1wymamkhuumcpugj3a97trr2g5a2s7njg7falwkr2z2gg6sgw64s5z"
+                }    
+            ]
+        },	    
         {
             "id": "CCPgJ6",
             "purpose": "MINT",
