@@ -8,7 +8,7 @@
     "description": {
                    "short": "Native and fast AMM decentralized exchange platform on Cardano blockchain"
     },		
-    "features": ["SWAP", "LIQUIDITY_MINING", "ADA_STAKING", "YIELD_FARMING"], 
+    "features": ["SWAP", "LIQUIDITY_MINING", "ADA_STAKING", "YIELD_FARMING", "STABLESWAP"], 
     
     "releases": [
 			{
@@ -52,7 +52,23 @@
 					{
 						"id": "Wts2nr",
 						"version": 1
-					}  					
+					},
+					{
+						"id": "mMZT4E",
+						"version": 1
+					},
+					{
+						"id": "jqh1iy",
+						"version": 1
+					},
+					{
+						"id": "a80Ji3",
+						"version": 1
+					},
+					{
+						"id": "A7WBK3",
+						"version": 1
+					}					
 				],
                 "auditId": "9oS7"
 			}		
@@ -177,6 +193,61 @@
                     "mintPolicyID": "0ceaab7c2cec8f93c38b7c3598fa239f50bc14fcc6da9f016adb035c",
  		    "plutusVersion": 1, 			
         	    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "mMZT4E",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "980e8c567670d34d4ec13a0c3b6de6199f260ae5dc9dc9e867bc5c93",
+ 		    "plutusVersion": 1, 			
+        	    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "jqh1iy",
+	    "name": "X Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "13e9940c94572eafef8b391b64b4a2e898b6a7008ece9064631e6fd2",
+ 		    "plutusVersion": 1, 			
+        	    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "a80Ji3",
+            "name": "Stableswap contract 1",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "71c5e0385012d5f010b1dc7ab42ba632944052de232051ec6ce3bfd72e",			
+                    "scriptHash": "c5e0385012d5f010b1dc7ab42ba632944052de232051ec6ce3bfd72e",
+                    "contractAddress": "addr1w8z7qwzszt2lqy93m3atg2axx22yq5k7yvs9rmrvuwlawts2wzadz"
+                }
+            ]
+        },
+        {
+            "id": "A7WBK3",
+            "name": "Stableswap contract 2",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 1,  
+	            "fullScriptHash": "719868d58fbfcc2b14cfc7d9eec0b765e7e6fc4e950c9c2748ace9ce61",			
+                    "scriptHash": "9868d58fbfcc2b14cfc7d9eec0b765e7e6fc4e950c9c2748ace9ce61",
+                    "contractAddress": "addr1wxvx34v0hlxzk9x0clv7as9hvhn7dlzwj5xfcf6g4n5uucg4tkd7w"
                 }
             ]
         }	    
