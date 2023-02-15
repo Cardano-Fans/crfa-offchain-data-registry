@@ -59,6 +59,10 @@
                     "version": 1
                 },
                 {
+                    "id": "betnR9",
+                    "version": 1
+                },		    
+                {
                     "id": "EdPrDc",
                     "version": 1
                 },
@@ -169,6 +173,7 @@
         },
         {
             "id": "29injf",
+	    "name": "Optim Bond Tokens",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
             "versions": [
@@ -262,6 +267,20 @@
                 }    
             ]
         },
+        {
+            "id": "betnR9",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "11fb41125d010b1efa222eeab45d52328f40c9691947c967e4bda09f5ae7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "fb41125d010b1efa222eeab45d52328f40c9691947c967e4bda09f5ae7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1z8a5zyjaqy93a73z9m4tgh2jx285pjtfr9rujelyhksf7kh8ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7qnklmlr"
+                }    
+            ]
+        },	    
         {
             "id": "EdPrDc",
             "name": "Active bond",		
