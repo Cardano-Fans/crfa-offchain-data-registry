@@ -16,9 +16,9 @@
 			"id": "5YBHES",
 			"version": 1
 		}, {
-            "id": "FC9h8Y",
-            "version": 1
-        }]
+			"id": "FC9h8Y",
+			"version": 1
+		}]
 	}],
 	"contracts": [{
 		"openSource": false
@@ -35,14 +35,18 @@
 			"scriptHash": "399ff24008da11f2e34369825ac8d660a846b0216865c080e366e5d0",
 			"contractAddress": "addr1wyuelujqprdpruhrgd5cykkg6es2s34sy95xtsyqudnwt5q2nftxc"
 		}]
-	}, {
-        "id": "FC9h8Y",
-        "name": "RagAlley Auction",
-        "purpose": "SPEND",
-        "versions": 1,
-        "plutusVersion": 2,
-        "fullScriptHash": "719ecdb2d51c1c0d124e1ae90ae2db61fa7f4d0d7491cc626bd2a469c1",
-        "scriptHash": "9ecdb2d51c1c0d124e1ae90ae2db61fa7f4d0d7491cc626bd2a469c1",
-        "contractAddress": "addr1wx0vmvk4rswq6yjwrt5s4ckmv8a87ngdwjguccnt62jxnsgrgfkm2"
-    }]
+		},
+		{
+			"id": "FC9h8Y",
+			"name": "RagAlley Auction",
+			"purpose": "SPEND",
+			"versions": [{
+				"version": 1,
+				"plutusVersion": 2,
+				"fullScriptHash": "719ecdb2d51c1c0d124e1ae90ae2db61fa7f4d0d7491cc626bd2a469c1",
+				"scriptHash": "9ecdb2d51c1c0d124e1ae90ae2db61fa7f4d0d7491cc626bd2a469c1",
+				"contractAddress": "addr1wx0vmvk4rswq6yjwrt5s4ckmv8a87ngdwjguccnt62jxnsgrgfkm2"
+			}]
+		}
+	]
 }
