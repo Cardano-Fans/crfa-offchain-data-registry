@@ -1,0 +1,80 @@
+{
+    "id": "oAjWWxbN",
+    "projectName": "Plutus.Art",
+    "link": "https://www.plutus.art",
+    "twitter": "https://twitter.com/plutus_art",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "A highly-curated platform for creating, collecting and trading unique NFTs on Cardano blockchain."
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "qdCSie",
+                    "version": 1
+                },
+                {
+                    "id": "tGTw6i",
+                    "version": 1
+                },
+                {
+                    "id": "SerMlk",
+                    "version": 1
+                }               
+            ]           
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "qdCSie",
+            "name": "Marketplace",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "11b2b837d414f9a25899e8e8a8c8d4e0c3aedf61fd819db60cf4f2f96f8c1d8b49ff1ffe46d4386b7ac858fff8ff27cb6fb159d7da90c93d5e",                     
+                    "scriptHash": "b2b837d414f9a25899e8e8a8c8d4e0c3aedf61fd819db60cf4f2f96f8c1d8b49ff1ffe46d4386b7ac858fff8ff27cb6fb159d7da90c93d5e",
+                    "contractAddress": "addr1zxetsd75znu6ykyear523jx5urp6ahmplkqemdsv7ne0jmuvrk95nlcllerdgwrt0ty93llclunukma3t8ta4yxf840qqklyer"
+                }    
+            ]
+        },
+        {
+            "id": "tGTw6i",
+            "name": "TREASURYWITNESS",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "fd674aef17ba01a780ed9607a36af8f599c0ccd42ad19be4e95d8d92",
+                    "plutusVersion": 1,                     
+                    "version": 1
+                }
+            ]
+        }, 
+        {
+            "id": "SerMlk",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "e74efba5a59213aa38fbbd7585e8fc69277f0081e750fc6ed4c33354",
+                    "plutusVersion": 1,                     
+                    "version": 1
+                }
+            ]
+        }      
+    ]
+}
