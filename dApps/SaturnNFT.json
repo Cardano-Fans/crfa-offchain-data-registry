@@ -19,7 +19,17 @@
                     "version": 1
                 }
             ]            
-        }
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "ciBIR8",
+                    "version": 2
+                }
+            ]            
+        }	    
     ],
     "contracts": [
         {
@@ -32,15 +42,22 @@
             "id": "ciBIR8",
             "name": "Upgrade contract",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "31d3f00c944c02e92d01373ba8401a0845ad9b2b98df54ad826c5858a25ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "31d3f00c944c02e92d01373ba8401a0845ad9b2b98df54ad826c5858a25ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",                     
                     "scriptHash": "d3f00c944c02e92d01373ba8401a0845ad9b2b98df54ad826c5858a25ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",
                     "contractAddress": "addr1x8flqry5fspwjtgpxua6ssq6ppz6mxetnr04ftvzd3v93gj75jq4yvpskgayj55xegdp30g5rfynax66r8vgn9fldnds8z9xmu"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11d3f00c944c02e92d01373ba8401a0845ad9b2b98df54ad826c5858a25ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",                     
+                    "scriptHash": "d3f00c944c02e92d01373ba8401a0845ad9b2b98df54ad826c5858a25ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",
+                    "contractAddress": "addr1z8flqry5fspwjtgpxua6ssq6ppz6mxetnr04ftvzd3v93gj75jq4yvpskgayj55xegdp30g5rfynax66r8vgn9fldndseu7ewa"
+                }  		    
             ]
         }
     ]
