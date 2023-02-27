@@ -82,8 +82,7 @@
                     "id": "m9mzPs",
                     "version": 1
                 }            
-            ],
-        "auditId": "iV1y"            
+            ]           
         },
         {
             "releaseNumber": 2,
@@ -181,7 +180,8 @@
                     "id": "S1fqUy",
                     "version": 1
                 }              
-            ]           
+            ],
+        "auditId": "iV1y"            
         }	    
     ],
     "contracts": [
