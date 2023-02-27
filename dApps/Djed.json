@@ -13,6 +13,16 @@
             "releaseName": "V1",
             "scripts": [
                 {
+                    "id": "zkyaH2",
+                    "version": 1
+                }
+	    ]    
+	},	    
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
                     "id": "wyZ2ht",
                     "version": 1
                 },
@@ -26,7 +36,7 @@
                 },
                 {
                     "id": "zkyaH2",
-                    "version": 1
+                    "version": 2
                 },
                 {
                     "id": "zMY4d8",
@@ -75,12 +85,12 @@
             "id": "wyZ2ht",
             "name": "Djed Oracle NFT",          
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "718c6a730759f61b9089f0370cf986a2775d143cbf75c1f1fa6c932ab0",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "718c6a730759f61b9089f0370cf986a2775d143cbf75c1f1fa6c932ab0",                     
                     "scriptHash": "8c6a730759f61b9089f0370cf986a2775d143cbf75c1f1fa6c932ab0",
                     "contractAddress": "addr1wxxx5uc8t8mphyyf7qmse7vx5fm469puha6uru06djfj4vql8unkl"
                 }    
@@ -90,12 +100,12 @@
             "id": "Mm16d4",   
             "name": "Djed Order Ticket",           
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "718952dc463eb173e8f71c78229fe071c3eca694968c71f61ee3491ebd",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "718952dc463eb173e8f71c78229fe071c3eca694968c71f61ee3491ebd",                     
                     "scriptHash": "8952dc463eb173e8f71c78229fe071c3eca694968c71f61ee3491ebd",
                     "contractAddress": "addr1wxy49hzx86ch868hr3uz98lqw8p7ef55j6x8ras7udy3a0gm8cdla"
                 }    
@@ -104,12 +114,12 @@
         {
             "id": "KJKwfW",            
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "718ec464861107b2839a970a9bd790ce708e9e72fb97b07551a7bfc947",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "718ec464861107b2839a970a9bd790ce708e9e72fb97b07551a7bfc947",                     
                     "scriptHash": "8ec464861107b2839a970a9bd790ce708e9e72fb97b07551a7bfc947",
                     "contractAddress": "addr1wx8vgeyxzyrm9qu6ju9fh4useecga8njlwtmqa2357luj3clkzzzx"
                 }    
@@ -119,26 +129,33 @@
             "id": "zkyaH2",   
             "name": "Reserves",           
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "11d45f74956ff0d9a37d59f4f3bfad99d2797d8ccf77bcdc7c984da7f41ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "11d45f74956ff0d9a37d59f4f3bfad99d2797d8ccf77bcdc7c984da7f41ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
                     "scriptHash": "d45f74956ff0d9a37d59f4f3bfad99d2797d8ccf77bcdc7c984da7f41ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",
                     "contractAddress": "addr1z8297ay4dlcdngmat86080adn8f8jlvveammehrunpx60aqm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0qnm8ly0"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1161161584261621d4dd4307d238fe23043ce8180780e5718048a692a81ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
+                    "scriptHash": "61161584261621d4dd4307d238fe23043ce8180780e5718048a692a81ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",
+                    "contractAddress": "addr1z9s3v9vyyctzr4xagvrayw87yvzre6qcq7qw2uvqfznf92qm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0q2jjlf4"
+                }		    
             ]
         },
         {
             "id": "zMY4d8",              
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "1126642ebb66bc7475a48d7e6939861b9f8a61af39f8a807bd9b38e03b1ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1126642ebb66bc7475a48d7e6939861b9f8a61af39f8a807bd9b38e03b1ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
                     "scriptHash": "26642ebb66bc7475a48d7e6939861b9f8a61af39f8a807bd9b38e03b1ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",
                     "contractAddress": "addr1zynxgt4mv678gady34lxjwvxrw0c5cd088u2spaanvuwqwcm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0qncd9wl"
                 }    
@@ -147,12 +164,12 @@
         {
             "id": "nzudAX",              
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "11c7c55ab902dc34968966d06e3ea1e2322178c83fe3218c05ddd17a751ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "11c7c55ab902dc34968966d06e3ea1e2322178c83fe3218c05ddd17a751ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
                     "scriptHash": "c7c55ab902dc34968966d06e3ea1e2322178c83fe3218c05ddd17a751ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",
                     "contractAddress": "addr1z8ru2k4eqtwrf95fvmgxu04pugezz7xg8l3jrrq9mhgh5agm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0q4jak04"
                 }    
@@ -161,12 +178,12 @@
         {
             "id": "qIWDN3",              
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "115d8efd9c3cdb083697b682ab06f4f2659e8f1716329e77b27f22e0441ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "115d8efd9c3cdb083697b682ab06f4f2659e8f1716329e77b27f22e0441ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
                     "scriptHash": "5d8efd9c3cdb083697b682ab06f4f2659e8f1716329e77b27f22e0441ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",
                     "contractAddress": "addr1z9wcalvu8ndssd5hk6p2kph57fjearchzcefuaaj0u3wq3qm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0q7gc6e9"
                 }    
@@ -176,11 +193,11 @@
             "id": "YmnZDY",
             "name": "DjedOrderTicket",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "b7bf238c97a8f1b292b4e86416ae8496ecc2aac9b67c47360a0ef05e",
-		                "plutusVersion": 1,                    
+		    "plutusVersion": 1,                    
                     "version": 1
                 }
             ]
@@ -189,11 +206,11 @@
             "id": "IOjKkb",
             "name": "Djed/Shen",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "8db269c3ec630e06ae29f74bc39edd1f87c819f1056206e879a1cd61",
-		                "plutusVersion": 1,                    
+		    "plutusVersion": 1,                    
                     "version": 1
                 }
             ]
@@ -202,11 +219,11 @@
             "id": "ckfUIV",
             "name": "DjedOracleNFT",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "5b8495ec9f44c040e83c8bb91fdddd22ee6f28e06712f23561645f4d",
-		                "plutusVersion": 1,                    
+		    "plutusVersion": 1,                    
                     "version": 1
                 }
             ]
