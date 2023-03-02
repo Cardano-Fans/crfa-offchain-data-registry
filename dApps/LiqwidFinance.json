@@ -179,7 +179,31 @@
                 {
                     "id": "S1fqUy",
                     "version": 1
-                }              
+                },
+                {
+                    "id": "wdyudz",
+                    "version": 1
+                },
+                {
+                    "id": "uiLJId",
+                    "version": 1
+                },
+                {
+                    "id": "wZbYtz",
+                    "version": 1
+                },
+                {
+                    "id": "YkXhQc",
+                    "version": 1
+                },
+                {
+                    "id": "9wiPPX",
+                    "version": 1
+                },
+                {
+                    "id": "dMLwPc",
+                    "version": 1
+                }		    
             ],
         "auditId": "iV1y"            
         }	    
@@ -540,6 +564,94 @@
                     "version": 1
                 }
             ]
-        }     
+        },
+        {
+            "id": "wdyudz",
+	    "name": "Djed contract 1",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71da11a50969a7f77225a9e9e2c86e43d391a69dd47f339a4fd830d165",                     
+                    "scriptHash": "da11a50969a7f77225a9e9e2c86e43d391a69dd47f339a4fd830d165",
+                    "contractAddress": "addr1w8dprfgfdxnlwu3948579jrwg0ferf5a63ln8xj0mqcdzegayxmqq"
+                }              
+            ]
+        },
+        {
+            "id": "uiLJId",
+	    "name": "Djed contract 2",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71d3eb5055c7606be1828b134bfe6bf26e85d14f2ae97dc741685bc668",                     
+                    "scriptHash": "d3eb5055c7606be1828b134bfe6bf26e85d14f2ae97dc741685bc668",
+                    "contractAddress": "addr1w8f7k5z4casxhcvz3vf5hlnt7fhgt5209t5hm36pdpduv6qdwf8ny"
+                }              
+            ]
+        },
+        {
+            "id": "wZbYtz",
+	    "name": "Djed contract 3",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7163d65418f841e9901d5ee634cc07377cca2be7fb2b797e3f0e0d8334",                     
+                    "scriptHash": "63d65418f841e9901d5ee634cc07377cca2be7fb2b797e3f0e0d8334",
+                    "contractAddress": "addr1w93av4qclpq7nyqatmnrfnq8xa7v52l8lv4hjl3lpcxcxdqfjuerl"
+                }              
+            ]
+        },
+        {
+            "id": "YkXhQc",
+	    "name": "Djed contract 4",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "715d211d7259fc8fb6eae43875d369cd676dfe680c5fd89fd73c0b5491",                     
+                    "scriptHash": "5d211d7259fc8fb6eae43875d369cd676dfe680c5fd89fd73c0b5491",
+                    "contractAddress": "addr1w9wjz8tjt87gldh2usu8t5mfe4nkmlngp30a387h8s94fyg5uup5n"
+                }              
+            ]
+        },
+        {
+            "id": "9wiPPX",
+	    "name": "Djed contract 5",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "717bf8d17b4ea7a5abb5ed56f70cea83f2c6055180dd5dbae86a458595",                     
+                    "scriptHash": "7bf8d17b4ea7a5abb5ed56f70cea83f2c6055180dd5dbae86a458595",
+                    "contractAddress": "addr1w9al35tmf6n6t2a4a4t0wr82s0evvp23srw4mwhgdfzct9getn2u0"
+                }              
+            ]
+        },
+        {
+            "id": "dMLwPc",
+            "name": "qDjed",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "6df63e2fdde8b2c3b3396265b0cc824aa4fb999396b1c154280f6b0c",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        }
     ]
 }
