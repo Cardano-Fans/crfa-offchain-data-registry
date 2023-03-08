@@ -19,9 +19,13 @@
             "releaseName": "V0",
             "scripts": [
                 {
+                    "id": "UoncvR",
+                    "version": 1
+                },
+                {
                     "id": "dvP7mm",
                     "version": 1
-                }
+                }		    
                 ]
         },        
         {
@@ -100,8 +104,23 @@
     ],
     "scripts": [
         {
+            "id": "UoncvR",
+            "name": "Old AADA token burn",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71c0c671fba483641a71bb92d3a8b7c52c90bf1c01e2b83116ad7d4536",                     
+                    "scriptHash": "c0c671fba483641a71bb92d3a8b7c52c90bf1c01e2b83116ad7d4536",
+                    "contractAddress": "addr1w8qvvu0m5jpkgxn3hwfd829hc5kfp0cuq83tsvgk44752dsea0svn"
+                }
+            ]
+        },  
+        {
             "id": "dvP7mm",
-            "name": "Swap smart contract",
+            "name": "Burn validator",
             "purpose": "SPEND",
 	    "type": "PLUTUS",		
             "versions": [
@@ -113,7 +132,7 @@
                     "contractAddress": "addr1w9xryv0kf6g5pgtewlnwvd9njn74nd7l7r2mu6jnhrnyxjcgsfjq5"
                 }
             ]
-        },       
+        }, 	    
         {
             "id": "yaaJ3o",
             "name": "Borrower NFT-Bond token",
