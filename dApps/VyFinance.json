@@ -159,7 +159,7 @@
                     "version": 1
                 },
                 {
-                    "id": "bHzrju",
+                    "id": "bHzrja",
                     "version": 2
                 },	
                 {
@@ -797,7 +797,7 @@
             ]
         },	
         {
-            "id": "bHzrju",
+            "id": "bHzrja",
             "name": "VyFi: Vault Harvest Process - NFT-1000015",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
