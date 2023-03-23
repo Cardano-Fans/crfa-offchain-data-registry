@@ -13,28 +13,42 @@
 		"releaseNumber": 1,
 		"releaseName": "V1",
 		"scripts": [{
-			"id": "5YBHES",
-			"version": 1
-		}, {
-			"id": "FC9h8Y",
-			"version": 1
-		}]
+				"id": "5YBHES",
+				"version": 1
+			},
+			{
+				"id": "5YBHES",
+				"version": 2
+			},
+			{
+				"id": "FC9h8Y",
+				"version": 1
+			}
+		]
 	}],
 	"contracts": [{
 		"openSource": false
 	}],
 
 	"scripts": [{
-		"id": "5YBHES",
-		"name": "RagAlley Listing",
-		"purpose": "SPEND",
-		"versions": [{
-			"version": 1,
-			"plutusVersion": 2,
-			"fullScriptHash": "71399ff24008da11f2e34369825ac8d660a846b0216865c080e366e5d0",
-			"scriptHash": "399ff24008da11f2e34369825ac8d660a846b0216865c080e366e5d0",
-			"contractAddress": "addr1wyuelujqprdpruhrgd5cykkg6es2s34sy95xtsyqudnwt5q2nftxc"
-		}]
+			"id": "5YBHES",
+			"name": "RagAlley Listing",
+			"purpose": "SPEND",
+			"versions": [{
+					"version": 1,
+					"plutusVersion": 2,
+					"fullScriptHash": "71399ff24008da11f2e34369825ac8d660a846b0216865c080e366e5d0",
+					"scriptHash": "399ff24008da11f2e34369825ac8d660a846b0216865c080e366e5d0",
+					"contractAddress": "addr1wyuelujqprdpruhrgd5cykkg6es2s34sy95xtsyqudnwt5q2nftxc"
+				},
+				{
+					"version": 2,
+					"plutusVersion": 2,
+					"fullScriptHash": "715f045d874e0891c8d0423e869ecfa542a7043458613f7f6c0e522013",
+					"scriptHash": "5f045d874e0891c8d0423e869ecfa542a7043458613f7f6c0e522013",
+					"contractAddress": "addr1w90sghv8fcyfrjxsgglgd8k054p2wpp5tpsn7lmvpefzqyc9y8l32"
+				}
+			]
 		},
 		{
 			"id": "FC9h8Y",
