@@ -1,0 +1,84 @@
+{
+    "id": "8ckltR7K",
+    "projectName": "Hydra",
+    "link": "https://hydraw.ncoding.at",
+    "category": "LAYER_2",
+    "description": {
+                   "short": "Hydra is the layer-two scalability solution for Cardano, which aims to increase the speed of transactions (low latency, high throughput) and minimize transaction cost."
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "0wQT16",
+                    "version": 1
+                },
+                {
+                    "id": "p9gM8d",
+                    "version": 1
+                },
+                {
+                    "id": "QU7mYd",
+                    "version": 1
+                }              
+            ],
+        "contractId": "366j"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/input-output-hk/hydra",
+         "contractId": "366j"
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "0wQT16",
+            "name": "Hydra Head demo app 1",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "715d3f107aaa56d06188cf231941cf8163e777236a9cfdc48fd4bbfa23",                     
+                    "scriptHash": "5d3f107aaa56d06188cf231941cf8163e777236a9cfdc48fd4bbfa23",
+                    "contractAddress": "addr1w9wn7yr64ftdqcvgeu33jsw0s937waerd2w0m3y06jal5gc2chps2"
+                }    
+            ]
+        },
+        {
+            "id": "p9gM8d",
+            "name": "Hydra Head demo app 2",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "7182f16b51e2d81c6f4d42dd7398b4713a445464902f63dfd86ffe754e",                     
+                    "scriptHash": "82f16b51e2d81c6f4d42dd7398b4713a445464902f63dfd86ffe754e",
+                    "contractAddress": "addr1wxp0z663utvpcm6dgtwh8x95wyayg4ryjqhk8h7cdll82ns7u4znj"
+                }    
+            ]
+        },
+        {
+            "id": "QU7mYd",
+            "name": "Hydra Head V1",
+            "purpose": "MINT",
+	          "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "6a7b9c0e9454f95cb3aeda9e95b700945a8e796b7e017e2160f14848",
+		                "plutusVersion": 1, 			
+                    "version": 1
+                }               
+            ]
+        }      
+    ]
+}
