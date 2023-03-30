@@ -162,6 +162,38 @@
                 {
                     "id": "4Vwv3Y",
                     "version": 32
+                },	
+                {
+                    "id": "4Vwv3Y",
+                    "version": 33
+                },	
+                {
+                    "id": "4Vwv3Y",
+                    "version": 34
+                },
+                {
+                    "id": "4Vwv3Y",
+                    "version": 35
+                },
+                {
+                    "id": "4Vwv3Y",
+                    "version": 36
+                },	
+                {
+                    "id": "4Vwv3Y",
+                    "version": 37
+                },
+                {
+                    "id": "4Vwv3Y",
+                    "version": 38
+                },	
+                {
+                    "id": "4Vwv3Y",
+                    "version": 39
+                },	
+                {
+                    "id": "4Vwv3Y",
+                    "version": 40
                 },		    
                 {
                     "id": "ZEz6b3",
@@ -428,6 +460,62 @@
 	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d90e3c9359beba2066dbeb75c32c58460adf2a4d9ca034ab6393d3388",                      
                     "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d90e3c9359beba2066dbeb75c32c58460adf2a4d9ca034ab6393d3388",
                     "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t8vsu0yntxlt5grxm04htsevtprq4he2fkw2qd9tvwfaxwyqt809qd"
+                },
+                {
+                    "version": 33,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59de6e99ec58d052a28cd5d2a3be874ef0104a38c343ddd75485eb3b329",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59de6e99ec58d052a28cd5d2a3be874ef0104a38c343ddd75485eb3b329",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t80xax0vtrg99g5v6hf28058fmcpqj3ccdpam465sh4nkv5sp67kl0"
+                },
+                {
+                    "version": 34,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d0a97d0b7deccfc12c951b8c05e6a69cdc57d5d4ca0878de6767c8cc5",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d0a97d0b7deccfc12c951b8c05e6a69cdc57d5d4ca0878de6767c8cc5",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t8g2jlgt0hkvlsfvj5dccp0x56wdc4746n9qs7x7vanu3nzs022f27"
+                },
+                {
+                    "version": 35,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59df97e235f2ad50181648f5530854f4beb5544c8206273edd7c583b3e5",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59df97e235f2ad50181648f5530854f4beb5544c8206273edd7c583b3e5",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t80e0c3472k4qxqkfr64xzz57jlt24zvsgrzw0ka03vrk0jsxzr0wn"
+                },
+                {
+                    "version": 36,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d1c19e89793ea89bfe7950b338c2832f60ebf10dc401d25ff58e650f8",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d1c19e89793ea89bfe7950b338c2832f60ebf10dc401d25ff58e650f8",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t8gur85f0yl23xl709gtxwxzsvhkp6l3phzqr5jl7k8x2ruqhwqxuj"
+                },
+                {
+                    "version": 37,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59da61326221554f571f4cd6fd6fa8e410b3c1b4354af7220af02084fc3",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59da61326221554f571f4cd6fd6fa8e410b3c1b4354af7220af02084fc3",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t8dxzvnzy92574clfnt06magusgt8sd5x490wgs27qsgflpsauufhr"
+                },
+                {
+                    "version": 38,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59dc78bf84590b7e84b46de447c1967ee4f39c570943246e001fc949fe0",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59dc78bf84590b7e84b46de447c1967ee4f39c570943246e001fc949fe0",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t8w830uyty9hap95dhjy0svk0mj088zhp9pjgmsqrly5nlsqvs6q4c"
+                },
+                {
+                    "version": 39,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d3a753a9dd68852dfbfe56c0d081a33bf57647f8dd9ce7ac20e426623",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d3a753a9dd68852dfbfe56c0d081a33bf57647f8dd9ce7ac20e426623",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t8f6w5afm45g2t0mletvp5yp5val2aj8lrweeeavyrjzvc3sedgpaq"
+                },
+                {
+                    "version": 40,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "116b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d97d4a4957268b4af3b5b3b0780dea21ea16d74e6a967492801ac2370",                      
+                    "scriptHash": "6b5d9fa53ca28b537b7f61ef8321f6a2ba620df844ce769d2aafe59d97d4a4957268b4af3b5b3b0780dea21ea16d74e6a967492801ac2370",
+                    "contractAddress": "addr1z944m8a98j3gk5mm0as7lqep763t5csdlpzvua5a92h7t8vh6jjf2ungkjhnkkemq7qdags759khfe4fvayjsqdvydcq90drxt"
                 }		    
             ]
         },
