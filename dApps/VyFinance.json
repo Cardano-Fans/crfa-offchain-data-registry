@@ -205,6 +205,14 @@
                 {
                     "id": "YsZhDd",
                     "version": 1
+                },
+                {
+                    "id": "UTggVw",
+                    "version": 1
+                },
+                {
+                    "id": "w9ofyd",
+                    "version": 1
                 },		    
                 {
                     "id": "7EnT1S",
@@ -1005,6 +1013,36 @@
 	            "fullScriptHash": "7133fee9a1632853958ed7857a0306931a487073ae93ed30ba71b5c3fd",                     
                     "scriptHash": "33fee9a1632853958ed7857a0306931a487073ae93ed30ba71b5c3fd",
                     "contractAddress": "addr1wyela6dpvv5989vw67zh5qcxjvdysurn46f76v96wx6u8lgflazee"
+                }    
+            ]
+        },
+        {
+            "id": "UTggVw",
+            "name": "VyFi: Vault Harvest Process - NFT-1000020",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71e6a52ddd6054f6578913cc7a0a3e362b0d1c73b817880a31da6483a1",                     
+                    "scriptHash": "e6a52ddd6054f6578913cc7a0a3e362b0d1c73b817880a31da6483a1",
+                    "contractAddress": "addr1w8n22twavp20v4ufz0x85z37xc4s68rnhqtcsz33mfjg8ggsnrs75"
+                }    
+            ]
+        },	
+        {
+            "id": "w9ofyd",
+            "name": "VyFi: Vault Harvest Process - NFT-1000022",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71e64483a613b7b9797f2a0804efac0cf2e15049e392e997fb54746358",                     
+                    "scriptHash": "e64483a613b7b9797f2a0804efac0cf2e15049e392e997fb54746358",
+                    "contractAddress": "addr1w8nyfqaxzwmmj7tl9gyqfmavpnewz5zfuwfwn9lm236xxkqwgxz3d"
                 }    
             ]
         },	    
