@@ -10,7 +10,7 @@
     },
 	
     "releases": [
-        {
+          {
             "releaseNumber": 1,
             "releaseName": "V1",
             "scripts": [
@@ -21,19 +21,33 @@
                 {
                     "id": "GNyMn8",
                     "version": 1
-                },
-                {
-                    "id": "GNyMn8",
-                    "version": 2
                 },		    
                 {
                     "id": "EUazXZ",
                     "version": 1
+                }		    
+            ]
+            },      
+	    {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "GNyMn8",
+                    "version": 2
                 },
+                {
+                    "id": "GNyMn8",
+                    "version": 3
+                },		    
                 {
                     "id": "EUazXZ",
                     "version": 2
-                } 		    
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 3
+                }		    
             ]
         }
     ],
@@ -78,6 +92,13 @@
 	            "fullScriptHash": "711a7c64521bd1849e693730558db5bc3d9c514f96eceb004471b5fa49",                        
                     "scriptHash": "1a7c64521bd1849e693730558db5bc3d9c514f96eceb004471b5fa49",
                     "contractAddress": "addr1wyd8cezjr0gcf8nfxuc9trd4hs7ec520jmkwkqzywx6l5jg0al0ya"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "71687df05d58764c7d98c9602871e1276aa5f028b9695369f40f430865",                        
+                    "scriptHash": "687df05d58764c7d98c9602871e1276aa5f028b9695369f40f430865",
+                    "contractAddress": "addr1w958muzatpmyclvce9szsu0pya42tupgh954x605papssegtpnpu3"
                 } 		    
             ]
         },
@@ -96,6 +117,11 @@
                     "mintPolicyID": "3d0d75aad1eb32f0ce78fb1ebc101b6b51de5d8f13c12daa88017624",
 		    "plutusVersion": 1,                    
                     "version": 2
+                },
+                {
+                    "mintPolicyID": "30d7c4da385a1f5044261d27b6a22d46b645ca3567636df5edeb303d",
+		    "plutusVersion": 1,                    
+                    "version": 3
                 }		    
             ]
         }
