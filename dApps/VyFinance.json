@@ -293,6 +293,10 @@
                 {
                     "id": "C1A7Mi",
                     "version": 1
+                },
+                {
+                    "id": "Sbk4TH",
+                    "version": 1
                 }		    
             ]          
         }
@@ -1303,6 +1307,18 @@
             "versions": [
                 {
                     "mintPolicyID": "77e59f13958e0e2352a4ddfba11b47e389fd01e196d8fc7a83af264e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "Sbk4TH",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "77ae00a442a070c5f712c62e1dd0300c846078a512be3498ec85663c",
 		    "plutusVersion": 1,                    
                     "version": 1
                 }
