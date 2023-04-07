@@ -177,9 +177,33 @@
                     "version": 1
                 },
                 {
+                    "id": "f2eu0F",
+                    "version": 1
+                },		    
+                {
                     "id": "S1fqUy",
                     "version": 1
                 },
+                {
+                    "id": "3km8x4",
+                    "version": 1
+                },	
+                {
+                    "id": "CwpAcz",
+                    "version": 1
+                },	
+                {
+                    "id": "NtKeIe",
+                    "version": 1
+                },	
+                {
+                    "id": "hvhery",
+                    "version": 1
+                },	
+                {
+                    "id": "YGLrBj",
+                    "version": 1
+                },		    
                 {
                     "id": "wdyudz",
                     "version": 1
@@ -203,6 +227,78 @@
                 {
                     "id": "dMLwPc",
                     "version": 1
+                },
+                {
+                    "id": "PmznAd",
+                    "version": 1
+                },
+                {
+                    "id": "m07nez",
+                    "version": 1
+                },
+                {
+                    "id": "rAfH67",
+                    "version": 1
+                },
+                {
+                    "id": "2Bzbwd",
+                    "version": 1
+                },
+                {
+                    "id": "hGMvQd",
+                    "version": 1
+                },
+                {
+                    "id": "xncOTO",
+                    "version": 1
+                },
+                {
+                    "id": "0nDVnI",
+                    "version": 1
+                },
+                {
+                    "id": "r7YUaN",
+                    "version": 1
+                },
+                {
+                    "id": "jjCiW9",
+                    "version": 1
+                },
+                {
+                    "id": "ytSS9n",
+                    "version": 1
+                },
+                {
+                    "id": "ymvnIT",
+                    "version": 1
+                },
+                {
+                    "id": "aHFtLC",
+                    "version": 1
+                },
+                {
+                    "id": "DjE81q",
+                    "version": 1
+                },
+                {
+                    "id": "zugIKQ",
+                    "version": 1
+                },
+                {
+                    "id": "Ph6iMI",
+                    "version": 1
+                },
+                {
+                    "id": "J3tsci",
+                    "version": 1
+                },
+                {
+                    "id": "SWyQux",
+                    "version": 1
+                },
+                {
+                    "id": "gWeOtZ",
+                    "version": 1
                 }		    
             ],
         "auditId": "iV1y"            
@@ -224,6 +320,7 @@
     "scripts": [
         {
             "id": "nG2Mtr",
+	    "name": "Ada markets action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -455,7 +552,7 @@
         },
         {
             "id": "DbNNh9",
-            "name": "Batch",
+            "name": "Ada markets batch final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -470,6 +567,7 @@
         },
         {
             "id": "18sjyW",
+	    "name": "Ada markets loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -484,6 +582,7 @@
         },
         {
             "id": "eofH0V",
+	    "name": "Ada markets batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -498,6 +597,7 @@
         },
         {
             "id": "lSzPLw",
+	    "name": "Ada market state",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -540,6 +640,7 @@
         },
         {
             "id": "zBRFSF",
+	    "name": "Oracle Validator",	
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -552,6 +653,19 @@
                 }              
             ]
         },
+        {
+            "id": "f2eu0F",
+            "name": "Oracle Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "0fde77a0ea0833502b386d34e33d78f86c754bad309ee8bf008d7a9d",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	    
         {
             "id": "S1fqUy",
             "name": "qAda",
@@ -566,8 +680,73 @@
             ]
         },
         {
+            "id": "3km8x4",
+            "name": "Ada action token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "7807209cec9f79c9f6cf5bea2ab7826e6e46b6a7583a337b7e20fb36",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "CwpAcz",
+            "name": "Ada batch token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "15706915432bf92ea3585aa468b507b90e427dc4effeae31ee5cf40e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "NtKeIe",
+            "name": "Ada borrow token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "ee944b56bab503197bdfb929509a177c3ef9e5083ca7e65ffa1469c8",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "hvhery",
+            "name": "Ada market params",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "24f51a8308b4e47b9d1438ec1e91da4ee063c38c704b530cba4adc5b",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "YGLrBj",
+            "name": "Ada market state",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "5a3cb4f52fb3a00ab5abe62080618623811ccafab9c760d0b686e44c",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	    
+        {
             "id": "wdyudz",
-	    "name": "Djed contract 1",
+	    "name": "Djed action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -582,7 +761,7 @@
         },
         {
             "id": "uiLJId",
-	    "name": "Djed contract 2",
+	    "name": "Djed batch final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -597,7 +776,7 @@
         },
         {
             "id": "wZbYtz",
-	    "name": "Djed contract 3",
+	    "name": "Djed market state",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -612,7 +791,7 @@
         },
         {
             "id": "YkXhQc",
-	    "name": "Djed contract 4",
+	    "name": "Djed batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -627,7 +806,7 @@
         },
         {
             "id": "9wiPPX",
-	    "name": "Djed contract 5",
+	    "name": "Djed loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -652,6 +831,252 @@
                     "version": 1
                 }
             ]
-        }
+        },
+        {
+            "id": "PmznAd",
+            "name": "Djed action token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "9e432ad7f92337287c0b68cb82d9e89413ee9e24c43bb4e91fe3a1ee",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "m07nez",
+            "name": "Djed batch token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "f013b0f786caa20044734e346e7858b53563fa6dde8c45c60e76cac7",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "rAfH67",
+            "name": "Djed borrow token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "5409708a3eff94524d978ca12f97c318bd011308f71eee232575eb9e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "2Bzbwd",
+            "name": "Djed liquidation token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "1ee678e1031bd8cdea9357b2bb953bd086ffc868d9e3ffb74e3c3e7b",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "hGMvQd",
+            "name": "Djed market params",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "9f61f4563c3037017d768c34c392976e6f7c5fd080d9a0b315cc9b8d",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "xncOTO",
+            "name": "Djed market state",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "43c4bdac04537dbd338935d00a8a0746a078d4f03d7ac302a4bf5d3d",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "0nDVnI",
+	    "name": "Shen action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "711d1e863afcf2182c32eb5c83e11e8ffecdcb95216b6da7ed547f6149",                     
+                    "scriptHash": "1d1e863afcf2182c32eb5c83e11e8ffecdcb95216b6da7ed547f6149",
+                    "contractAddress": "addr1wyw3ap36lnepstpjadwg8cg73llvmju4y94kmfld23lkzjggq4hyj"
+                }              
+            ]
+        },
+        {
+            "id": "r7YUaN",
+	    "name": "Shen batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71866ec79823a71f803617c9cc76cfefbbd65b8dbd4a902dfa261f483a",                     
+                    "scriptHash": "866ec79823a71f803617c9cc76cfefbbd65b8dbd4a902dfa261f483a",
+                    "contractAddress": "addr1wxrxa3ucywn3lqpkzlyucak0a7aavkudh49fqt06yc05sws4l4zs2"
+                }              
+            ]
+        },
+        {
+            "id": "jjCiW9",
+	    "name": "Shen batch final",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "713592cb9699d2137ad980c3be8613d89f84035f9c2dc4a5e6c3e5c9a1",                     
+                    "scriptHash": "3592cb9699d2137ad980c3be8613d89f84035f9c2dc4a5e6c3e5c9a1",
+                    "contractAddress": "addr1wy6e9jukn8fpx7kesrpmapsnmz0cgq6lnskuff0xc0junggv6gd8l"
+                }              
+            ]
+        },
+        {
+            "id": "ytSS9n",
+	    "name": "Shen loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71359ae06da4dbdd92c63743803f6be1bf1d24477645cddea07a5efb1b",                     
+                    "scriptHash": "359ae06da4dbdd92c63743803f6be1bf1d24477645cddea07a5efb1b",
+                    "contractAddress": "addr1wy6e4crd5ndamykxxapcq0mtuxl36fz8wezumh4q0f00kxcpq94y0"
+                }              
+            ]
+        },
+        {
+            "id": "ymvnIT",
+	    "name": "Shen market state",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7189ea1358d8147feb5ef1875fbad449f65719ced6102ce1600bf093a7",                     
+                    "scriptHash": "89ea1358d8147feb5ef1875fbad449f65719ced6102ce1600bf093a7",
+                    "contractAddress": "addr1wxy75y6cmq28l6677xr4lwk5f8m9wxww6cgzectqp0cf8fcv6qvgw"
+                }              
+            ]
+        },
+        {
+            "id": "aHFtLC",
+            "name": "qShen",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "e1ff3557106fe13042ba0f772af6a2e43903ccfaaf03295048882c93",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "DjE81q",
+            "name": "Shen action token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "f84eeef0f241e3a5e3eaaa2c16c99f91fd683c37bbb0dffc21c3fada",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "zugIKQ",
+            "name": "Shen batch token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "79b46b6be9f544b6ceace2d90c9078896e993ad0c462fe233b5537d2",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "Ph6iMI",
+            "name": "Shen borrow token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "98cccc642a74eeb1fe7a22f43a814068b54f9f9afa583a73b74e36ba",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "J3tsci",
+            "name": "Shen market param",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "45b67f59d98ba5af58aadcbdcc641fa480a39e7dca68c0af2174b0ea",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "SWyQux",
+            "name": "Shen market state",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "7bff651a687fd87f2f6ffe705f7a36c39941248e80ecf8b0b10a4949",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "gWeOtZ",
+	    "name": "LQ staking",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71fa3603d2283e3dadee0b5810faf590ea9da6c7fea91095657f98a9c2",                     
+                    "scriptHash": "fa3603d2283e3dadee0b5810faf590ea9da6c7fea91095657f98a9c2",
+                    "contractAddress": "addr1w8arvq7j9qlrmt0wpdvpp7h4jr4fmfk8l653p9t907v2nsss7w7r4"
+                }              
+            ]
+        }	    
     ]
 }
