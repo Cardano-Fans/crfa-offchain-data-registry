@@ -61,6 +61,10 @@
                 {
                     "id": "ASaM1H",
                     "version": 1
+                },	
+                {
+                    "id": "E7zGwN",
+                    "version": 1
                 },		    
                 {
                     "id": "JNTI1O",
@@ -140,6 +144,10 @@
                 },
                 {
                     "id": "HZj2ls",
+                    "version": 1
+                },	
+                {
+                    "id": "xHcW36",
                     "version": 1
                 },		    
                 {
@@ -491,6 +499,21 @@
                     "contractAddress": "addr1w8dlgf6r2rld9sl48fdek598s86mhs48p5g34jc65hp52rse7ne5h"
                 }    
             ]
+        },
+        {
+            "id": "E7zGwN",
+            "name": "VyFi: Vault Stake - TOKEN-1000013",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "717d271f21ab013f0590e79f63c5a6ca285650d2e14dcd10cf90e35222",                     
+                    "scriptHash": "7d271f21ab013f0590e79f63c5a6ca285650d2e14dcd10cf90e35222",
+                    "contractAddress": "addr1w97jw8ep4vqn7pvsu70k83dxeg59v5xju9xu6yx0jr34ygsf3g36d"
+                }    
+            ]
         },	    
         {
             "id": "JNTI1O",
@@ -791,7 +814,22 @@
                     "contractAddress": "addr1w9djlmzmj2gexrt3cddv8ylvysejg2gxh436h0zc278g04qug9tne"
                 }    
             ]
-        },		    
+        },
+        {
+            "id": "xHcW36",
+            "name": "VyFi: Vault Stake - LP-1000001",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71e8191d57b95140cbdbf06ff9035b22551c1fa7374908aa4b5ed0667e",                     
+                    "scriptHash": "e8191d57b95140cbdbf06ff9035b22551c1fa7374908aa4b5ed0667e",
+                    "contractAddress": "addr1w85pj82hh9g5pj7m7phljq6myf23c8a8xays32jttmgxvlsxh9f93"
+                }    
+            ]
+        },	    
         {
             "id": "Lg4ylU",
             "name": "VyFi: Vault Harvest Process - NFT-1000001",
