@@ -265,6 +265,10 @@
                 {
                     "id": "vtp2ZF",
                     "version": 1
+                },
+                {
+                    "id": "Z6imXt",
+                    "version": 1
                 },		    
                 {
                     "id": "CCPgJ6",
@@ -1246,6 +1250,21 @@
 	            "fullScriptHash": "71b2ab495fa01e38340117857441994e1fcad852b43edd41bff2d7bf75",                     
                     "scriptHash": "b2ab495fa01e38340117857441994e1fcad852b43edd41bff2d7bf75",
                     "contractAddress": "addr1wxe2kj2l5q0rsdqpz7zhgsvefc0u4kzjksld6sdl7ttm7agevm0n3"
+                }    
+            ]
+        },
+        {
+            "id": "Z6imXt",
+            "name": "VyFi: Vault Harvest Process - TOKEN-1000013",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71feeee914eacbd06a7d1d42eaa4a503b6cbcb7234bda42715036efc29",                     
+                    "scriptHash": "feeee914eacbd06a7d1d42eaa4a503b6cbcb7234bda42715036efc29",
+                    "contractAddress": "addr1w8lwa6g5at9aq6nar4pw4f99qwmvhjmjxj76gfc4qdh0c2gnvf68l"
                 }    
             ]
         },	    
