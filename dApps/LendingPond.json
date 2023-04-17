@@ -29,6 +29,16 @@
                     "version": 2
                 }
             ]
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "scripts": [
+                {
+                    "id": "4dyRmd",
+                    "version": 3
+                }
+            ]
         }	    
     ],
 
@@ -50,6 +60,13 @@
 	            "fullScriptHash": "716c154a998931770ef5e0240d92528796d30c4191c93ee147e22ff89c",                    
                     "scriptHash": "6c154a998931770ef5e0240d92528796d30c4191c93ee147e22ff89c",
                     "contractAddress": "addr1w9kp2j5e3ychwrh4uqjqmyjjs7tdxrzpj8ynac28ughl38qva7nu3"
+                },
+                {
+                    "version": 3,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71ca7a72daa773f302c2024343400fa8041055d772b0b0501b00ff42f5",                    
+                    "scriptHash": "ca7a72daa773f302c2024343400fa8041055d772b0b0501b00ff42f5",
+                    "contractAddress": "addr1w8985uk65aelxqkzqfp5xsq04qzpq4whw2ctq5qmqrl59agc09h9m"
                 }		    
             ]
         }
