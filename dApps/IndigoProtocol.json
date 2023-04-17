@@ -87,12 +87,15 @@
                     "version": 1
                 } 		    
             ],
-            "auditId": "Vxhx"		
+            "auditId": "Vxhx",
+            "contractId": "JjHL"		
         }
     ],
     "contracts": [
         {
-         "openSource": false
+         "openSource": true,
+         "contractLink": "https://github.com/IndigoProtocol/indigo-smart-contracts",
+         "contractId": "JjHL"		
         }
     ],
     "audits": [
