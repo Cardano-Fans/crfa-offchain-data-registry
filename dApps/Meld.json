@@ -68,12 +68,15 @@
                     "version": 1
                 }                   
             ],
-            "auditId": "eelU"    
+            "auditId": "eelU",
+            "contractId": "315S"		
         }        
     ],
     "contracts": [
         {
-         "openSource": false
+         "openSource": true,
+         "contractLink": "https://github.com/MELD-labs/cardano-defi-public",
+         "contractId": "315S"		
         }
     ],
     "audits": [
