@@ -267,6 +267,10 @@
                     "version": 1
                 },
                 {
+                    "id": "dDdELd",
+                    "version": 1
+                },		    
+                {
                     "id": "noh7Ym",
                     "version": 1
                 },
@@ -280,6 +284,10 @@
                 },		    
                 {
                     "id": "Z6imXt",
+                    "version": 1
+                },
+                {
+                    "id": "bQIeDa",
                     "version": 1
                 },		    
                 {
@@ -1266,6 +1274,21 @@
             ]
         },
         {
+            "id": "dDdELd",
+            "name": "VyFi: Vault Harvest Process - TOKEN-1000008",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71d7e16294c4b078fd3e1dcddda9f466d2ae8c0b5ca3e90493e777299a",                     
+                    "scriptHash": "d7e16294c4b078fd3e1dcddda9f466d2ae8c0b5ca3e90493e777299a",
+                    "contractAddress": "addr1w8t7zc55cjc83lf7rhxam205vmf2arqttj37jpynuamjnxsk60vzs"
+                }    
+            ]
+        },	    
+        {
             "id": "noh7Ym",
             "name": "VyFi: Vault Harvest Process - TOKEN-1000009",
             "purpose": "SPEND",
@@ -1322,6 +1345,21 @@
 	            "fullScriptHash": "71feeee914eacbd06a7d1d42eaa4a503b6cbcb7234bda42715036efc29",                     
                     "scriptHash": "feeee914eacbd06a7d1d42eaa4a503b6cbcb7234bda42715036efc29",
                     "contractAddress": "addr1w8lwa6g5at9aq6nar4pw4f99qwmvhjmjxj76gfc4qdh0c2gnvf68l"
+                }    
+            ]
+        },	
+        {
+            "id": "bQIeDa",
+            "name": "VyFi: Vault Harvest Process - TOKEN-1000014",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "717d8c362812c5ec10e9cb56ac4509eaaf8531d4e20386ebddf3249548",                     
+                    "scriptHash": "7d8c362812c5ec10e9cb56ac4509eaaf8531d4e20386ebddf3249548",
+                    "contractAddress": "addr1w97ccd3gztz7cy8fedt2c3gfa2hc2vw5ugpcd67a7vjf2jq0vesn3"
                 }    
             ]
         },	    
