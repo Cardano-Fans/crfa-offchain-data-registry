@@ -153,6 +153,10 @@
                 {
                     "id": "xHcW36",
                     "version": 1
+                },
+                {
+                    "id": "zLoYVq",
+                    "version": 1
                 },		    
                 {
                     "id": "Lg4ylU",
@@ -218,6 +222,10 @@
                     "id": "YsZhDd",
                     "version": 1
                 },
+                {
+                    "id": "69OxTh",
+                    "version": 1
+                },		    
                 {
                     "id": "cPzqcg",
                     "version": 1
@@ -289,6 +297,18 @@
                 {
                     "id": "bQIeDa",
                     "version": 1
+                },
+                {
+                    "id": "bQIeDa",
+                    "version": 2
+                },
+                {
+                    "id": "BibgmC",
+                    "version": 1
+                },
+                {
+                    "id": "BibgmC",
+                    "version": 2
                 },		    
                 {
                     "id": "CCPgJ6",
@@ -868,6 +888,21 @@
                     "contractAddress": "addr1w85pj82hh9g5pj7m7phljq6myf23c8a8xays32jttmgxvlsxh9f93"
                 }    
             ]
+        },
+        {
+            "id": "zLoYVq",
+            "name": "VyFi: Vault Harvest Process - LP-1000002",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "718e7b9e6dff45178aff36bf1057a41acc73c17593d9f84d49a65b57f8",                     
+                    "scriptHash": "8e7b9e6dff45178aff36bf1057a41acc73c17593d9f84d49a65b57f8",
+                    "contractAddress": "addr1wx88h8ndlaz30zhlx6l3q4ayrtx88st4j0vlsn2f5ed407qe2l9nn"
+                }    
+            ]
         },	    
         {
             "id": "Lg4ylU",
@@ -1101,6 +1136,21 @@
                 }    
             ]
         },
+        {
+            "id": "69OxTh",
+            "name": "VyFi: Vault Harvest Process - NFT-1000017",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71b9cd9c8bcfd186738e1baf77d1c4764b2920b763938b9d357d67ec5e",                     
+                    "scriptHash": "b9cd9c8bcfd186738e1baf77d1c4764b2920b763938b9d357d67ec5e",
+                    "contractAddress": "addr1wxuum8ytelgcvuuwrwhh05wywe9jjg9hvwfch8f404n7chste6lwa"
+                }    
+            ]
+        },	    
         {
             "id": "cPzqcg",
             "name": "VyFi: Vault Harvest Process - NFT-1000018",
@@ -1360,7 +1410,36 @@
 	            "fullScriptHash": "717d8c362812c5ec10e9cb56ac4509eaaf8531d4e20386ebddf3249548",                     
                     "scriptHash": "7d8c362812c5ec10e9cb56ac4509eaaf8531d4e20386ebddf3249548",
                     "contractAddress": "addr1w97ccd3gztz7cy8fedt2c3gfa2hc2vw5ugpcd67a7vjf2jq0vesn3"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71c87d425b50cbf23a73c6bba34fde1d9921b0beeeed0b99f6b62190cd",                     
+                    "scriptHash": "c87d425b50cbf23a73c6bba34fde1d9921b0beeeed0b99f6b62190cd",
+                    "contractAddress": "addr1w8y86sjm2r9lywnnc6a6xn77rkvjrv97amkshx0kkcsepnghje7et"
+                }		    
+            ]
+        },
+        {
+            "id": "BibgmC",
+            "name": "VyFi: Vault Harvest Process - TOKEN-1000015",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71850bd383dc5fb2dd4ad647892d80a7e16692c7e567faf073cb6673eb",                     
+                    "scriptHash": "850bd383dc5fb2dd4ad647892d80a7e16692c7e567faf073cb6673eb",
+                    "contractAddress": "addr1wxzsh5urm30m9h226ercjtvq5lskdyk8u4nl4urnedn886c2vuxz4"
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71bbfb5f5d81ff57842628d144703fde0535e871787d7990d5f82302f8",                     
+                    "scriptHash": "bbfb5f5d81ff57842628d144703fde0535e871787d7990d5f82302f8",
+                    "contractAddress": "addr1wxalkh6as8l40ppx9rg5guplmcznt6r30p7hnyx4lq3s97qq8jrgx"
+                }		    
             ]
         },	    
         {
