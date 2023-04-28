@@ -247,6 +247,14 @@
                     "version": 1
                 },
                 {
+                    "id": "qWOVUO",
+                    "version": 1
+                },
+                {
+                    "id": "0a1dr0",
+                    "version": 1
+                },		    
+                {
                     "id": "zBRFSF",
                     "version": 1
                 },
@@ -805,6 +813,7 @@
         },
         {
             "id": "CXswDp",
+	    "name": "Agora validators freeMultisig",		
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "versions": [
@@ -817,6 +826,36 @@
                 }              
             ]
         },
+        {
+            "id": "qWOVUO",
+	    "name": "Agora validators proposal",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7126aea7e03a53e374c1d82c560a91b4147b8954d2ec4ecbd128e0c18c",                     
+                    "scriptHash": "26aea7e03a53e374c1d82c560a91b4147b8954d2ec4ecbd128e0c18c",
+                    "contractAddress": "addr1wyn2aflq8ff7xaxpmqk9vz53ks28hz256tkyaj739rsvrrq3u5ft3"
+                }              
+            ]
+        },
+        {
+            "id": "0a1dr0",
+	    "name": "Agora validators governor",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71d062d56e91347e47d9e8d7587722e394bded511a693cd0b09d0a8e16",                     
+                    "scriptHash": "d062d56e91347e47d9e8d7587722e394bded511a693cd0b09d0a8e16",
+                    "contractAddress": "addr1w8gx94twjy68u37eart4saezuw2tmm23rf5ne59sn59gu9stp0dcy"
+                }              
+            ]
+        },	    
         {
             "id": "m9mzPs",
             "purpose": "SPEND",
