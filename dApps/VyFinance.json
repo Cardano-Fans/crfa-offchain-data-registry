@@ -353,6 +353,10 @@
                 {
                     "id": "Sbk4TH",
                     "version": 1
+                },
+                {
+                    "id": "BBVUDM",
+                    "version": 1
                 }		    
             ]          
         }
@@ -1571,6 +1575,21 @@
                     "mintPolicyID": "77ae00a442a070c5f712c62e1dd0300c846078a512be3498ec85663c",
 		    "plutusVersion": 1,                    
                     "version": 1
+                }
+            ]
+        },
+        {
+            "id": "BBVUDM",
+            "name": "VyFi: Vault Add Rewards",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "71ba8baaa16d49c9fe0f719035917618172d97c6fc5f5fce56cee4e179",                     
+                    "scriptHash": "ba8baaa16d49c9fe0f719035917618172d97c6fc5f5fce56cee4e179",
+                    "contractAddress": "addr1wxagh24pd4yunls0wxgrtytkrqtjm97xl304lnjkemjwz7g8gwagj"                   
                 }
             ]
         }	    
