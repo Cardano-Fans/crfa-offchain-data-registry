@@ -37,7 +37,11 @@
                 {
                     "id": "tqSMqC",
                     "version": 1
-                },               
+                }, 
+                {
+                    "id": "cbrF3L",
+                    "version": 1
+                },  		    
                 {
                     "id": "3ZgFYM",
                     "version": 1
@@ -105,6 +109,10 @@
                 {
                     "id": "EdPrDc",
                     "version": 11
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 12
                 }		    
             ],
             "auditId": "K0a3"		
@@ -200,7 +208,20 @@
                     "version": 1
                 }
             ]
-        },      
+        },  
+        {
+            "id": "cbrF3L",
+            "name": "Optim EQT",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "9a3ed6b29dda73af0a4fb34c4134abf6621b415cdffc6102e9d9f4d0",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        }, 	    
         {
             "id": "3ZgFYM",
             "purpose": "SPEND",
@@ -367,6 +388,13 @@
 	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc81fdde75a6096e21f86a415a5840187b46fd4cf9532cf7bd80443d02c",                     
                     "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc81fdde75a6096e21f86a415a5840187b46fd4cf9532cf7bd80443d02c",
                     "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjqlmhn45cykug0cdfq45kzqrpa5dl2vl9fjeaaaspzr6qkqzzagw9"
+                },
+                {
+                    "version": 12,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8b37c54535a44866a0934e8644c612af56ee748fa7948b64351d862c6",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8b37c54535a44866a0934e8644c612af56ee748fa7948b64351d862c6",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hj9n0329xkjyse4qjd8gv3xxz2h4dmn537nefzmyx5wcvtrq38mzh2"
                 }		    
             ]
         }	    
