@@ -570,6 +570,26 @@
                 {
                     "id": "SDPI0v",
                     "version": 1
+                },	
+                {
+                    "id": "2SwkUT",
+                    "version": 1
+                },	
+                {
+                    "id": "8WRrhX",
+                    "version": 1
+                },
+                {
+                    "id": "2pVKZX",
+                    "version": 1
+                },
+                {
+                    "id": "a3xtwz",
+                    "version": 1
+                },
+                {
+                    "id": "wZwlE7",
+                    "version": 1
                 },		    
                 {
                     "id": "2IncxF",
@@ -2620,6 +2640,81 @@
 	            "fullScriptHash": "71731826f947c5d458552fcfa5c447241044a961d9ba2e4bf24dff17d0",                     
                     "scriptHash": "731826f947c5d458552fcfa5c447241044a961d9ba2e4bf24dff17d0",
                     "contractAddress": "addr1w9e3sfheglzagkz49l86t3z8ysgyf2tpmxazujljfhl305qz7l2rm"                   
+                }
+            ]
+        },	
+        {
+            "id": "2SwkUT",
+            "name": "VyFi: LP Order Process 44",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "71ad31c15c334d34c152003a6c33aa34cb4c3e19fb7411135d1ceacbb3",                     
+                    "scriptHash": "ad31c15c334d34c152003a6c33aa34cb4c3e19fb7411135d1ceacbb3",
+                    "contractAddress": "addr1wxknrs2uxdxnfs2jqqaxcva2xn95c0seld6pzy6arn4vhvcx7ufuk"                   
+                }
+            ]
+        },
+        {
+            "id": "8WRrhX",
+            "name": "VyFi: LP Order Process 45",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "1123a6849c4f7edf7b55b7a0b2c6979719bef1dda0db79e09d9733388a6e279d536da8cd9b8d38fe39c45e974fc022b8cb9d25d433f5b4e6d5",                     
+                    "scriptHash": "23a6849c4f7edf7b55b7a0b2c6979719bef1dda0db79e09d9733388a6e279d536da8cd9b8d38fe39c45e974fc022b8cb9d25d433f5b4e6d5",
+                    "contractAddress": "addr1zy36dpyufald7764k7st935hjuvmauwa5rdhncyajuen3znwy7w4xmdgekdc6w8788z9a960cq3t3juayh2r8ad5um2sr488jg"                   
+                }
+            ]
+        },	
+        {
+            "id": "2pVKZX",
+            "name": "VyFi: LP Order Process 46",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "71f8c2ea6de1d4243b16dc1362ad34c6bf93edec7a49d057107172b402",                     
+                    "scriptHash": "f8c2ea6de1d4243b16dc1362ad34c6bf93edec7a49d057107172b402",
+                    "contractAddress": "addr1w8uv96ndu82zgwckmsfk9tf5c6le8m0v0fyaq4csw9etgqswuk5w2"                   
+                }
+            ]
+        },	
+        {
+            "id": "a3xtwz",
+            "name": "VyFi: LP Order Process 47",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "71e7ab683624654f2dc47e2221f4adbd2893440a6a03399500fc6fb1cc",                     
+                    "scriptHash": "e7ab683624654f2dc47e2221f4adbd2893440a6a03399500fc6fb1cc",
+                    "contractAddress": "addr1w8n6k6pky3j57twy0c3zra9dh55fx3q2dgpnn9gql3hmrnq6n5lm3"                   
+                }
+            ]
+        },
+        {
+            "id": "wZwlE7",
+            "name": "VyFi: LP Order Process 48",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "11e93ec0e79a07e6b3f30c8c9f1e6f463e86363848f5a96d66a5c25ba8cf3d7cf9676a146d4274354b5ab330963198a5ec67899fa65beca309",                     
+                    "scriptHash": "e93ec0e79a07e6b3f30c8c9f1e6f463e86363848f5a96d66a5c25ba8cf3d7cf9676a146d4274354b5ab330963198a5ec67899fa65beca309",
+                    "contractAddress": "addr1z85nas88ngr7dvlnpjxf78n0gclgvd3cfr66jmtx5hp9h2x08470jem2z3k5yap4fddtxvykxxv2tmr83x06vklv5vysntgj0h"                   
                 }
             ]
         },	    
