@@ -1,0 +1,46 @@
+{
+    "id": "MgjGWmx3",
+    "projectName": "Chilled Kongs",
+    "link": "https://chilledkongs.com",
+    "twitter": "https://twitter.com/ChilledKongs",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "The Chilled Kongs OG is a limited collection of 8,888 NFTS on Cardano Blockchain"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "3OE8Ic",
+                    "version": 1
+                }
+            ]           
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "3OE8Ic",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71c1b35bb893529376effc4083dc0a0ed90a1c07fe09550885b37aa27f",                     
+                    "scriptHash": "c1b35bb893529376effc4083dc0a0ed90a1c07fe09550885b37aa27f",
+                    "contractAddress": "addr1w8qmxkacjdffxah0l3qg8hq2pmvs58q8lcy42zy9kda2ylc6dy5r4"
+                }    
+            ]
+        }
+    ]
+}
