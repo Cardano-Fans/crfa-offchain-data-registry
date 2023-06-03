@@ -253,6 +253,22 @@
                 {
                     "id": "0a1dr0",
                     "version": 1
+                },
+                {
+                    "id": "0sZoOE",
+                    "version": 1
+                },	
+                {
+                    "id": "nDOKiy",
+                    "version": 1
+                },
+                {
+                    "id": "6EDZQ0",
+                    "version": 1
+                },
+                {
+                    "id": "4JJ9Aw",
+                    "version": 1
                 },		    
                 {
                     "id": "zBRFSF",
@@ -284,6 +300,14 @@
                 },	
                 {
                     "id": "YGLrBj",
+                    "version": 1
+                },
+                {
+                    "id": "By1mqp",
+                    "version": 1
+                },
+                {
+                    "id": "HTnEll",
                     "version": 1
                 },		    
                 {
@@ -335,6 +359,10 @@
                     "version": 1
                 },
                 {
+                    "id": "2xW6D8",
+                    "version": 1
+                },		    
+                {
                     "id": "0nDVnI",
                     "version": 1
                 },
@@ -379,7 +407,67 @@
                     "version": 1
                 },
                 {
+                    "id": "EwQIN9",
+                    "version": 1
+                },		    
+                {
                     "id": "gWeOtZ",
+                    "version": 1
+                },
+                {
+                    "id": "N3F8kG",
+                    "version": 1
+                },
+                {
+                    "id": "ppCdRH",
+                    "version": 1
+                },
+                {
+                    "id": "Af0GUZ",
+                    "version": 1
+                },
+                {
+                    "id": "Jqvwsi",
+                    "version": 1
+                },
+                {
+                    "id": "R8e2O1",
+                    "version": 1
+                },
+                {
+                    "id": "dPxmhc",
+                    "version": 1
+                },
+                {
+                    "id": "QUFFD9",
+                    "version": 1
+                },
+                {
+                    "id": "orlv0a",
+                    "version": 1
+                },
+                {
+                    "id": "mQphNN",
+                    "version": 1
+                },
+                {
+                    "id": "ChKHKm",
+                    "version": 1
+                },
+                {
+                    "id": "GbgrYY",
+                    "version": 1
+                },
+                {
+                    "id": "OO4421",
+                    "version": 1
+                },
+                {
+                    "id": "xRJ2ko",
+                    "version": 1
+                },
+                {
+                    "id": "OU1tlx",
                     "version": 1
                 }		    
             ],
@@ -855,6 +943,58 @@
                     "contractAddress": "addr1w8gx94twjy68u37eart4saezuw2tmm23rf5ne59sn59gu9stp0dcy"
                 }              
             ]
+        },	
+        {
+            "id": "0sZoOE",
+            "name": "Agora Stake Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "5785b71b54365b450c048b5721860ea0477f0f890421b7d503d1ea89",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "nDOKiy",
+            "name": "Agora Proposal Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "34293de1784ad1dec6f8c975e220c5dab93e636c8d877f99d89c42ce",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "6EDZQ0",
+            "name": "Agora MultiSig Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "9cae3d41ae05882f5f357f0042d71842f1cc8a8e5230411ddb4daf17",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "4JJ9Aw",
+            "name": "Agora Governor Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "ac07d4fad3bc9982009880f6d6272d25a12d435ca95a8c7d209baa4e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
         },	    
         {
             "id": "m9mzPs",
@@ -971,6 +1111,32 @@
             "versions": [
                 {
                     "mintPolicyID": "5a3cb4f52fb3a00ab5abe62080618623811ccafab9c760d0b686e44c",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "By1mqp",
+            "name": "Ada Liquidation",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "3c9ee71d8f14b386df802f4121d82746df5508e29198744bea7552ef",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "HTnEll",
+            "name": "Ada CollateralParamsToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "1d571de72e964aea48d278475c48e2a6fded81014bf621413b04b6c1",
 		    "plutusVersion": 1,                    
                     "version": 1
                 }
@@ -1143,6 +1309,19 @@
             ]
         },
         {
+            "id": "2xW6D8",
+            "name": "DJED CollateralParamsToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "576ab56fdbf3cad439a8f1cfefb712ddb5b2864515e0e001139d96cc",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	    
+        {
             "id": "0nDVnI",
 	    "name": "Shen action",
             "purpose": "SPEND",
@@ -1296,6 +1475,19 @@
             ]
         },
         {
+            "id": "EwQIN9",
+            "name": "SHEN Collateral ParamsToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "8bb4c1ccb51cd38e0d1da266112eda5b40957f43221d47962d62aaa3",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },	    
+        {
             "id": "gWeOtZ",
 	    "name": "LQ staking",
             "purpose": "SPEND",
@@ -1308,6 +1500,202 @@
                     "scriptHash": "fa3603d2283e3dadee0b5810faf590ea9da6c7fea91095657f98a9c2",
                     "contractAddress": "addr1w8arvq7j9qlrmt0wpdvpp7h4jr4fmfk8l653p9t907v2nsss7w7r4"
                 }              
+            ]
+        },
+        {
+            "id": "N3F8kG",
+	    "name": "Liqwid IUSD Action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7121f07a4f016c05332a390494328968ab3127a4d638150f51a8874134",                     
+                    "scriptHash": "21f07a4f016c05332a390494328968ab3127a4d638150f51a8874134",
+                    "contractAddress": "addr1wyslq7j0q9kq2ve28yzfgv5fdz4nzfay6cup2r634zr5zdqlhptgt"
+                }              
+            ]
+        },
+        {
+            "id": "ppCdRH",
+	    "name": "Liqwid IUSD Batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "719ce90fdadd7089ebda384bf921521a1e7cb2e365dee681e0d3e2af0c",                     
+                    "scriptHash": "9ce90fdadd7089ebda384bf921521a1e7cb2e365dee681e0d3e2af0c",
+                    "contractAddress": "addr1wxwwjr76m4cgn6768p9ljg2jrg08evhrvh0wdq0q60327rqfenh4g"
+                }              
+            ]
+        },
+        {
+            "id": "Af0GUZ",
+	    "name": "Liqwid IUSD BatchFinal",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7143e348ee331014ca148aba79ef99d1452f46c7d56a2cc3ccda3d8f2a",                     
+                    "scriptHash": "43e348ee331014ca148aba79ef99d1452f46c7d56a2cc3ccda3d8f2a",
+                    "contractAddress": "addr1w9p7xj8wxvgpfjs532a8nmue69zj73k8644zes7vmg7c72s8symwu"
+                }              
+            ]
+        },
+        {
+            "id": "Jqvwsi",
+	    "name": "Liqwid IUSD Loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71854c7b463dca50b52be7448e586387200557a3feae51676aa855e77a",                     
+                    "scriptHash": "854c7b463dca50b52be7448e586387200557a3feae51676aa855e77a",
+                    "contractAddress": "addr1wxz5c76x8h99pdftuazgukrrsusq24arl6h9zem24p27w7sf4ulr9"
+                }              
+            ]
+        },
+        {
+            "id": "R8e2O1",
+	    "name": "Liqwid IUSD MarketState",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "719885c2bc619cb1e09d63c59eebef3c27e7b796cdca3ff89fdbfb4fa1",                     
+                    "scriptHash": "9885c2bc619cb1e09d63c59eebef3c27e7b796cdca3ff89fdbfb4fa1",
+                    "contractAddress": "addr1wxvgts4uvxwtrcyav0zea6l08sn70dukeh9rl7ylm0a5lgg9ur7gp"
+                }              
+            ]
+        },
+        {
+            "id": "dPxmhc",
+	    "name": "Liqwid Script Credential",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7184ba5f03abefa84a86c32c3c4203bb5f5593536776e1abc905f2eff9",                     
+                    "scriptHash": "84ba5f03abefa84a86c32c3c4203bb5f5593536776e1abc905f2eff9",
+                    "contractAddress": "addr1wxzt5hcr40h6sj5xcvkrcssrhd04ty6nvamwr27fqhewl7glyd5e0"
+                }              
+            ]
+        },
+        {
+            "id": "QUFFD9",
+	    "name": "Reference Locker",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71b61670381f47934a9f0aac56ba067733ccabe718b1dd8d6d0b469032",                     
+                    "scriptHash": "b61670381f47934a9f0aac56ba067733ccabe718b1dd8d6d0b469032",
+                    "contractAddress": "addr1wxmpvupcrarexj5lp2k9dwsxwueue2l8rzcamrtdpdrfqvs6jk8k9"
+                }              
+            ]
+        },
+        {
+            "id": "orlv0a",
+            "name": "Liqwid IUSD ActionToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "1cc1aceaf5c7df55e270864a60600b9f52383fe418164574ffdeeed0",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "mQphNN",
+            "name": "Liqwid IUSD BatchToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "c0e5564cf5786031d9053f567ec78b8383a0f2bc01318e690e0503f4",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "ChKHKm",
+            "name": "Liqwid IUSD BorrowToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "19312587e1c18ba062038d2f87d04da9021d247fda2a7f0d76496ad1",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "GbgrYY",
+            "name": "Liqwid IUSD CollateralParamsToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "6237228939cb4c1b4c212bfcaecdf2188ca9d8f8de5632c2acec010e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "OO4421",
+            "name": "Liqwid IUSD MarketParamsToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "f967b3a86a9880c876851fa64b352a4d3887d6436904190b698f232e",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "xRJ2ko",
+            "name": "Liqwid IUSD MarketStateToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "416109f322b43051b80e83075b4baa8c5af14c88acaca47d5c251820",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "OU1tlx",
+            "name": "Liqwid IUSD QToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "d15c36d6dec655677acb3318294f116ce01d8d9def3cc54cdd78909b",
+		    "plutusVersion": 1,                    
+                    "version": 1
+                }
             ]
         }	    
     ]
