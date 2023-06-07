@@ -39,7 +39,15 @@
 					{
 						"id": "MiC79C",
 						"version": 1
-					}  					
+					},
+					{
+						"id": "uPvccj",
+						"version": 1
+					},
+					{
+						"id": "wfAh5o",
+						"version": 1
+					}					
 				]
 			}	    
     ],
@@ -109,6 +117,36 @@
 	            "fullScriptHash": "716c59481b23efbdc48b5ead4f31e5a9bc73609b220f25191634b94244", 			
                     "scriptHash": "6c59481b23efbdc48b5ead4f31e5a9bc73609b220f25191634b94244",
                     "contractAddress": "addr1w9k9jjqmy0hmm3ytt6k57v094x78xcymyg8j2xgkxju5y3qxz4y0w"
+                }             
+            ]
+        },
+        {
+            "id": "uPvccj",
+            "name": "Burned NFT validator",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "71571562b26410dfd95b8d6c64003784134b48cf17cf9910080386bf1c", 			
+                    "scriptHash": "571562b26410dfd95b8d6c64003784134b48cf17cf9910080386bf1c",
+                    "contractAddress": "addr1w9t32c4jvsgdlk2m34kxgqphssf5kjx0zl8ejyqgqwrt78q32l68q"
+                }             
+            ]
+        },
+        {
+            "id": "wfAh5o",
+            "name": "New NFT metadata reference",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "710a1a65227bd351cf9e87f3dd9bcbc5e809a716d8e9edaa66af152933", 			
+                    "scriptHash": "0a1a65227bd351cf9e87f3dd9bcbc5e809a716d8e9edaa66af152933",
+                    "contractAddress": "addr1wy9p5efz00f4rnu7sleamx7tch5qnfckmr57m2nx4u2jjvce9seq2"
                 }             
             ]
         }	    
