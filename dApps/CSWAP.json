@@ -17,7 +17,11 @@
                 {
                     "id": "xdDk9R",
                     "version": 1
-                }
+                },
+                {
+                    "id": "G01OBI",
+                    "version": 1
+                }		    
             ]            
         }
     ],
@@ -32,16 +36,30 @@
             "id": "xdDk9R",
             "name": "Origins Staking",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "11a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",                     
                     "scriptHash": "a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
                     "contractAddress": "addr1zxjar4sm4vx82xhcqtnk05h6jvv5nr2r2cwmuferq0yc7faf0924s2rfv0k2zvncgs7nxyd6ym55ar9x0hplm98arw6qca728h"
                 }    
             ]
-        }
+        },
+        {
+            "id": "G01OBI",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "116cf2aacc7c91d8af79ffdffafac18e66d9fd6733ea758d549bd7104ca9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",                     
+                    "scriptHash": "6cf2aacc7c91d8af79ffdffafac18e66d9fd6733ea758d549bd7104ca9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
+                    "contractAddress": "addr1z9k092kv0jga3tmell0l47kp3endnlt8x048tr25n0t3qn9f0924s2rfv0k2zvncgs7nxyd6ym55ar9x0hplm98arw6qt9q42l"
+                }    
+            ]
+        }	    
     ]
 }
