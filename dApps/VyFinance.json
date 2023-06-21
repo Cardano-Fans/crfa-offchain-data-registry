@@ -74,15 +74,31 @@
                 {
                     "id": "UYOIc3",
                     "version": 1
-                },	
+                },
+                {
+                    "id": "qjKPoB",
+                    "version": 1
+                },		    
                 {
                     "id": "8tgtRb",
                     "version": 1
                 },
                 {
-                    "id": "guuo3J",
+                    "id": "57xznx",
+                    "version": 1
+                },
+                {
+                    "id": "ySxs74",
                     "version": 1
                 },		    
+                {
+                    "id": "guuo3J",
+                    "version": 1
+                },	
+                {
+                    "id": "gfyRzi",
+                    "version": 1
+                },			    
                 {
                     "id": "JNTI1O",
                     "version": 1
@@ -1189,6 +1205,21 @@
             ]
         },
         {
+            "id": "qjKPoB",
+            "name": "VyFi: Vault Stake - TOKEN-1000021",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7165345e30d16a6660d0391f511364da09a9d6b3ba896aa375b8d9ba43",                     
+                    "scriptHash": "65345e30d16a6660d0391f511364da09a9d6b3ba896aa375b8d9ba43",
+                    "contractAddress": "addr1w9jngh3s694xvcxs8y04zymymgy6n44nh2yk4gm4hrvm5sctn8x00"
+                }    
+            ]
+        },	    
+        {
             "id": "8tgtRb",
             "name": "VyFi: Vault Stake - TOKEN-1000022",
             "purpose": "SPEND",
@@ -1204,6 +1235,36 @@
             ]
         },	
         {
+            "id": "57xznx",
+            "name": "VyFi: Vault Stake - TOKEN-1000024",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71907f113405fe8f4e7d93c045c313b4665ba4b0861fcec178404af647",                     
+                    "scriptHash": "907f113405fe8f4e7d93c045c313b4665ba4b0861fcec178404af647",
+                    "contractAddress": "addr1wxg87yf5qhlg7nnaj0qytscnk3n9hf9ssc0uastcgp90v3cjera2e"
+                }    
+            ]
+        },
+        {
+            "id": "ySxs74",
+            "name": "VyFi: Vault Stake - TOKEN-1000026",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71dcffa6e6a797f560a295aaaec576a884e79128108d42859ce605148c",                     
+                    "scriptHash": "dcffa6e6a797f560a295aaaec576a884e79128108d42859ce605148c",
+                    "contractAddress": "addr1w8w0lfhx57tl2c9zjk42a3tk4zzw0yfgzzx59pvuucz3frqc8zdwx"
+                }    
+            ]
+        },	    
+        {
             "id": "guuo3J",
             "name": "VyFi: Vault Stake - TOKEN-1000027",
             "purpose": "SPEND",
@@ -1215,6 +1276,21 @@
 	            "fullScriptHash": "71b1cdf0bb4e41fe1e2e446a557ca73c7731e842e183c68e7a1e221b46",                     
                     "scriptHash": "b1cdf0bb4e41fe1e2e446a557ca73c7731e842e183c68e7a1e221b46",
                     "contractAddress": "addr1wxcumu9mfeqlu83wg3492l9883mnr6zzuxpudrn6rc3pk3sdctc9e"
+                }    
+            ]
+        },
+        {
+            "id": "gfyRzi",
+            "name": "VyFi: Vault Stake - TOKEN-1000028",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7146be1aace2e97a201da52717e158c9087e21a34a02f87c23eea56557",                     
+                    "scriptHash": "46be1aace2e97a201da52717e158c9087e21a34a02f87c23eea56557",
+                    "contractAddress": "addr1w9rtux4vut5h5gqa55n30c2ceyy8ugdrfgp0slpra6jk24cddx3vn"
                 }    
             ]
         },	    
