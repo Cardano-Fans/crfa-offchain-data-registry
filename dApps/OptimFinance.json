@@ -113,6 +113,38 @@
                 {
                     "id": "EdPrDc",
                     "version": 12
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 13
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 14
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 15
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 16
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 17
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 18
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 19
+                },
+                {
+                    "id": "EdPrDc",
+                    "version": 20
                 }		    
             ],
             "auditId": "K0a3"		
@@ -395,6 +427,62 @@
 	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8b37c54535a44866a0934e8644c612af56ee748fa7948b64351d862c6",                     
                     "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8b37c54535a44866a0934e8644c612af56ee748fa7948b64351d862c6",
                     "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hj9n0329xkjyse4qjd8gv3xxz2h4dmn537nefzmyx5wcvtrq38mzh2"
+                },
+                {
+                    "version": 13,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc82b2d6aa0d3c4a28f7c1e952892c8ff5ce39dad77345a413dea168b0d",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc82b2d6aa0d3c4a28f7c1e952892c8ff5ce39dad77345a413dea168b0d",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjpt9442p57y528hc8549zfv3l6uuww66ae5tfqnm6sk3vxsj3dcm2"
+                },
+                {
+                    "version": 14,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8742e89f4d9950728e85d7ce66e25314ada838188ddf75b0fdbc3481c",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8742e89f4d9950728e85d7ce66e25314ada838188ddf75b0fdbc3481c",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjr596ylfkv4qu5wshtuuehz2v22m2pcrzxa7adslk7rfqwqh965th"
+                },
+                {
+                    "version": 15,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc81a4d41a45fd1ae76fbd9507e31a3353aadac93b0cb6686d2ef3f1107",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc81a4d41a45fd1ae76fbd9507e31a3353aadac93b0cb6686d2ef3f1107",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjq6f4q6gh734em0hk2s0cc6xdf64kkf8vxtv6rd9melzyrsm27nn7"
+                },
+                {
+                    "version": 16,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc80baba1d677046a03a8742f47b7c562ec8cb4fde4ca7a0bbdefe94e64",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc80baba1d677046a03a8742f47b7c562ec8cb4fde4ca7a0bbdefe94e64",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjqt4wsavacydgp6sap0g7mu2chv3j60mex20g9mmmlffejqr9hd2h"
+                },
+                {
+                    "version": 17,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc899131af4d4feb8f077ba026aa39faa69b32a21cca69681eeeba846c0",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc899131af4d4feb8f077ba026aa39faa69b32a21cca69681eeeba846c0",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjyezvd0f487hrc80wszd23el2nfkv4zrn9xj6q7a6aggmqqpsmy9w"
+                },
+                {
+                    "version": 18,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc883c7a3fe6c411999cdf5889299c65b4ccf693583e0d1d7b4b3bb8e6e",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc883c7a3fe6c411999cdf5889299c65b4ccf693583e0d1d7b4b3bb8e6e",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjyrc73lumzprxvumavgj2vuvk6vea5ntqlq68tmfvam3ehq29a2lv"
+                },
+                {
+                    "version": 19,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8843b53640dd5657518e384f7233c67f61fb13a1b797da93365f08653",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8843b53640dd5657518e384f7233c67f61fb13a1b797da93365f08653",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hjyy8dfkgrw4v4633cuy7u3ncelkr7cn5xme0k5nxe0ssefsfdad0n"
+                },
+                {
+                    "version": 20,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1152c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8a9112f5477b965e78b5497884b2efc030ae45feecc66094a335fe04d",                     
+                    "scriptHash": "52c3116ed9dac7f6eb898f83657b8af954d7d6e81a834f243ef9abc8a9112f5477b965e78b5497884b2efc030ae45feecc66094a335fe04d",
+                    "contractAddress": "addr1z9fvxytwm8dv0aht3x8cxetm3tu4f47kaqdgxney8mu6hj9fzyh4gaaevhnck4yh3p9jalqrptj9lmkvvcy55v6lupxs2glksv"
                 }		    
             ]
         }	    
