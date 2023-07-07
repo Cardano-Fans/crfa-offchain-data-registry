@@ -1,0 +1,85 @@
+{
+    "id": "7GpkLl3i",
+    "projectName": "Book.io",
+    "link": "https://book.io",
+    "twitter": "https://twitter.com/book_io",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "http://Book.io is a Web3 marketplace for buying, reading, and selling decentralized eBooks and Audiobooks."
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "PYWj0G",
+                    "version": 1
+                },
+                {
+                    "id": "mKbftr",
+                    "version": 1
+                },
+                {
+                    "id": "dFUsFG",
+                    "version": 1
+                }              
+            ]          
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "PYWj0G",
+            "name": "Time-Lock validator",
+            "purpose": "SPEND",
+	          "type": "AIKEN",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "7154a8ac62c311ea39dfee423fc0a2761279f0ffa10aa596d6577ff548",                     
+                    "scriptHash": "54a8ac62c311ea39dfee423fc0a2761279f0ffa10aa596d6577ff548",
+                    "contractAddress": "addr1w9223trzcvg75wwlaeprls9zwcf8nu8l5y92t9kk2all2jqk6sg93"
+                }    
+            ]
+        },
+        {
+            "id": "mKbftr",
+            "name": "Archive",
+            "purpose": "SPEND",
+	          "type": "AIKEN",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "7146afcc024d90db382187d637b0749f1dab783e9d113ff494637dd2ed",                     
+                    "scriptHash": "46afcc024d90db382187d637b0749f1dab783e9d113ff494637dd2ed",
+                    "contractAddress": "addr1w9r2lnqzfkgdkwppsltr0vr5nuw6k7p7n5gnlay5vd7a9mg94qfda"
+                }    
+            ]
+        },
+        {
+            "id": "dFUsFG",
+            "name": "Swap validator",
+            "purpose": "SPEND",
+	          "type": "AIKEN",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 1, 
+	                  "fullScriptHash": "714a84b71b33b2aedf259e259b4d73526f80f212a50feaa2bbf26b8f58",                     
+                    "scriptHash": "4a84b71b33b2aedf259e259b4d73526f80f212a50feaa2bbf26b8f58",
+                    "contractAddress": "addr1w99gfdcmxwe2ahe9ncjekntn2fhcpusj55874g4m7f4c7kqy3rq23"
+                }    
+            ]
+        }      
+    ]
+}
