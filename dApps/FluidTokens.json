@@ -25,6 +25,16 @@
             "releaseName": "V2",
             "scripts": [
                 {
+                    "id": "Um6JoQ",
+                    "version": 1
+                }		   		    
+            ]
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "scripts": [
+                {
                     "id": "aN4U4Y",
                     "version": 1
                 },
@@ -37,7 +47,7 @@
                     "version": 1
                 },
                 {
-                    "id": "Um6JoQ",
+                    "id": "KJHi7p",
                     "version": 1
                 },		    
                 {
@@ -124,6 +134,20 @@
 	            "fullScriptHash": "11524f0f51ab31de9b3bb5804f459dfaaad10828a76ec6320bfef68adb20ae4c21b972dc6fc4446a9c878c4a40f3db5c2581d212f7f9ea2d31",                     
                     "scriptHash": "524f0f51ab31de9b3bb5804f459dfaaad10828a76ec6320bfef68adb20ae4c21b972dc6fc4446a9c878c4a40f3db5c2581d212f7f9ea2d31",
                     "contractAddress": "addr1z9fy7r634vcaaxemkkqy73val24dzzpg5ahvvvstlmmg4keq4exzrwtjm3hug3r2njrccjjq70d4cfvp6gf0070295csz06qmm"
+                }    
+            ]
+        },
+        {
+            "id": "KJHi7p",
+	    "name": "pools lending",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11eb3d2871e51927d7a38c454cba504a9446429085382a7f29607d52c920ae4c21b972dc6fc4446a9c878c4a40f3db5c2581d212f7f9ea2d31",                     
+                    "scriptHash": "eb3d2871e51927d7a38c454cba504a9446429085382a7f29607d52c920ae4c21b972dc6fc4446a9c878c4a40f3db5c2581d212f7f9ea2d31",
+                    "contractAddress": "addr1z84n62r3u5vj04ar33z5ewjsf22yvs5ss5uz5lefvp749jfq4exzrwtjm3hug3r2njrccjjq70d4cfvp6gf0070295cs80zxst"
                 }    
             ]
         },	    
