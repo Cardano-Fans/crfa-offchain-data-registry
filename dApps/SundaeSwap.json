@@ -29,6 +29,17 @@
         {
             "releaseNumber": 1,
             "releaseName": "V1",
+            "description": "old farming contract",
+            "scripts": [ 
+                {
+                    "id": "Xwh0rZ",
+                    "version": 1
+                }
+            ]
+        },	    
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
             "description": "new versions of all scripts used by the Dapp",
             "scripts": [
                 {
@@ -52,7 +63,7 @@
                     "version": 1
                 },   
                 {
-                    "id": "Xwh0rZ",
+                    "id": "xrMhRL",
                     "version": 1
                 },
                 {
@@ -60,13 +71,16 @@
                     "version": 1
                 }
             ],
-            "auditId": "pUrR"
+            "auditId": "pUrR",
+            "contractId": "5LAW"		
         }
     ],
 
     "contracts": [
         {
-         "openSource": false
+         "openSource": true,
+         "contractLink": "https://github.com/SundaeSwap-finance/sundae-yield-v2",
+         "contractId": "5LAW"
         }
     ],
     "audits": [
@@ -82,6 +96,7 @@
             "id": "EEHvb6",
             "name": "Mainnet load test",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 0,
@@ -103,6 +118,7 @@
             "id": "aM07TS",
             "name": "Order Book / Escrow",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -117,6 +133,7 @@
             "id": "aX10UZ",
             "name": "Liquidity Pool",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -131,6 +148,7 @@
             "id": "wZvAWT",
             "name": "Liquidity Provider Token",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
@@ -143,6 +161,7 @@
             "id": "Uq7zqE",
             "name": "SundaeSwap Factory",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -157,6 +176,7 @@
             "id": "NZGaoj",
             "name": "Scooper Rewards",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -171,6 +191,7 @@
             "id": "Xwh0rZ",
             "name": "Farming",
             "purpose": "SPEND",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
@@ -182,9 +203,25 @@
             ]
         },
         {
+            "id": "xrMhRL",
+            "name": "Yield Farming",
+            "purpose": "SPEND",
+	    "type": "AIKEN",
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 2,  
+	            "fullScriptHash": "1173275b9e267fd927bfc14cf653d904d1538ad8869260ab638bf73f5cd7244b4a8777b7dc6909f4640cf02ea4757a557a99fb483b05f87dfe",                    
+                    "scriptHash": "73275b9e267fd927bfc14cf653d904d1538ad8869260ab638bf73f5cd7244b4a8777b7dc6909f4640cf02ea4757a557a99fb483b05f87dfe",
+                    "contractAddress": "addr1z9ejwku7yelajfalc9x0v57eqng48zkcs6fxp2mr30mn7hxhy3954pmhklwxjz05vsx0qt4yw4a9275eldyrkp0c0hlq4gdz8r"
+                }
+            ]
+        },	    
+        {
             "id": "I4bGnp",
             "name": "Scooper License",
             "purpose": "MINT",
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "e8a447d4e19016ca2aa74d20b4c4de87adb1f21dfb5493bf2d7281a6",
