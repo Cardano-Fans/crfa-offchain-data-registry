@@ -98,7 +98,11 @@
                 {
                     "id": "gfyRzi",
                     "version": 1
-                },			    
+                },
+                {
+                    "id": "RMRFXJ",
+                    "version": 1
+                },		    
                 {
                     "id": "JNTI1O",
                     "version": 1
@@ -202,6 +206,14 @@
                 {
                     "id": "eataQK",
                     "version": 1
+                },
+                {
+                    "id": "muVoiO",
+                    "version": 1
+                },
+                {
+                    "id": "GEeHMM",
+                    "version": 1
                 },		    
                 {
                     "id": "xHcW36",
@@ -213,6 +225,10 @@
                 },	
                 {
                     "id": "L1Npjn",
+                    "version": 1
+                },
+                {
+                    "id": "lbu1hE",
                     "version": 1
                 },		    
                 {
@@ -402,6 +418,10 @@
                 {
                     "id": "8AnoSr",
                     "version": 2
+                },
+                {
+                    "id": "16x0z5",
+                    "version": 1
                 },		    
                 {
                     "id": "CCPgJ6",
@@ -1122,6 +1142,22 @@
                 {
                     "id": "pxLkTZ",
                     "version": 1
+                },
+                {
+                    "id": "peeyN2",
+                    "version": 1
+                },
+                {
+                    "id": "IFNlWL",
+                    "version": 1
+                },
+                {
+                    "id": "vpW7l0",
+                    "version": 1
+                },
+                {
+                    "id": "wxIsfZ",
+                    "version": 1
                 },		    
                 {
                     "id": "Rjaiop",
@@ -1471,6 +1507,21 @@
 	            "fullScriptHash": "7146be1aace2e97a201da52717e158c9087e21a34a02f87c23eea56557",                     
                     "scriptHash": "46be1aace2e97a201da52717e158c9087e21a34a02f87c23eea56557",
                     "contractAddress": "addr1w9rtux4vut5h5gqa55n30c2ceyy8ugdrfgp0slpra6jk24cddx3vn"
+                }    
+            ]
+        },
+        {
+            "id": "RMRFXJ",
+            "name": "VyFi: Vault Stake - TOKEN-1000030",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71aad548e14abcc1245ab9bdf987450c495e8d0def8010cbbf3cfd3acc",                     
+                    "scriptHash": "aad548e14abcc1245ab9bdf987450c495e8d0def8010cbbf3cfd3acc",
+                    "contractAddress": "addr1wx4d2j8pf27vzfz6hx7lnp69p3y4argda7qppjal8n7n4nqmremgy"
                 }    
             ]
         },	    
@@ -1863,6 +1914,36 @@
                     "contractAddress": "addr1wxettjk6papzj6c02xfjvcwmrr9vutxgr9jnxlk36rnmwwsg7f5v0"
                 }    
             ]
+        },	
+        {
+            "id": "muVoiO",
+            "name": "VyFi: Vault Stake - NFT-1000031",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71b56838500bfefcba32d69a6dc280ea1887c950a8be4e4d991f8d1415",                     
+                    "scriptHash": "b56838500bfefcba32d69a6dc280ea1887c950a8be4e4d991f8d1415",
+                    "contractAddress": "addr1wx6kswzsp0l0ew3j66dxms5qagvg0j2s4zlyunver7x3g9gg2jewk"
+                }    
+            ]
+        },
+        {
+            "id": "GEeHMM",
+            "name": "VyFi: Vault Stake - NFT-1000032",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7140f9f0d4efc9cb9269f256a40f4585c275f20ec07f2dd115ecc33cc6",                     
+                    "scriptHash": "40f9f0d4efc9cb9269f256a40f4585c275f20ec07f2dd115ecc33cc6",
+                    "contractAddress": "addr1w9q0nux5alyuhynf7ft2gr69shp8tuswcpljm5g4anpne3s53upxj"
+                }    
+            ]
         },	    
         {
             "id": "xHcW36",
@@ -1906,6 +1987,21 @@
 	            "fullScriptHash": "71bd43f9b50ef9c8a2e38b473b5ad70b0daa61ba3021cd60b35ee19fc7",                     
                     "scriptHash": "bd43f9b50ef9c8a2e38b473b5ad70b0daa61ba3021cd60b35ee19fc7",
                     "contractAddress": "addr1wx7587d4pmuu3ghr3drnkkkhpvx65cd6xqsu6c9ntmsel3cchpd5k"
+                }    
+            ]
+        },	
+        {
+            "id": "lbu1hE",
+            "name": "VyFi: Vault Harvest Process - LP-1000001",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71dba58f78f8426bbed35979b12afb1c25596ae9270b62851cc9e8dcc8",                     
+                    "scriptHash": "dba58f78f8426bbed35979b12afb1c25596ae9270b62851cc9e8dcc8",
+                    "contractAddress": "addr1w8d6trmclppxh0knt9umz2hmrsj4j6hfyu9k9pgue85dejq5sh39s"
                 }    
             ]
         },	    
@@ -2564,6 +2660,21 @@
                     "scriptHash": "d3031891e4434d45252ac010861c8bf5cf31912cbdf64eb60f4659b9",
                     "contractAddress": "addr1w8fsxxy3u3p563f99tqpppsu306u7vv39j7lvn4kpar9nwg6qqr0g"
                 }		    
+            ]
+        },
+        {
+            "id": "16x0z5",
+            "name": "VyFi: Vault Harvest Process - TOKEN-1000030",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "71c01451c693787dded4ca0e15e9a1ffebe842bcc1379f23be3f5ccc7f",                     
+                    "scriptHash": "c01451c693787dded4ca0e15e9a1ffebe842bcc1379f23be3f5ccc7f",
+                    "contractAddress": "addr1w8qpg5wxjdu8mhk5eg8pt6dpll47ss4ucyme7ga78awvclcxrsa43"
+                }    
             ]
         },	    
         {
@@ -5230,6 +5341,66 @@
 	            "fullScriptHash": "11b5708350056c00edd49313d309b59171ce7b5761c1862d3120a7fcd2e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe",                     
                     "scriptHash": "b5708350056c00edd49313d309b59171ce7b5761c1862d3120a7fcd2e023d4ef74967fc841a5e77fe82e41a1b20f0c94de4e2d9d33a2aabe",
                     "contractAddress": "addr1zx6hpq6sq4kqpmw5jvfaxzd4j9cuu76hv8qcvtf3yznle5hqy02w7ayk0lyyrf080l5zusdpkg8se9x7fcke6vaz42lq898j3l"                   
+                }
+            ]
+        },
+        {
+            "id": "peeyN2",
+            "name": "VyFi: LP Order Process 169",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "1103a0617f9d5ae4d0b1b156b6980c27e4726379065c0efd1934d13770799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",                     
+                    "scriptHash": "03a0617f9d5ae4d0b1b156b6980c27e4726379065c0efd1934d13770799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",
+                    "contractAddress": "addr1zyp6qctln4dwf593k9ttdxqvylj8ycmeqewqalgexngnwurend0q3h5twed567pu236a0sf6vfgruxgpr4rkxryyx0zq0dgqph"                   
+                }
+            ]
+        },
+        {
+            "id": "IFNlWL",
+            "name": "VyFi: LP Order Process 170",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "118478d2a4b41296f15815e3a51afc3266b8696d44d053ce88b456cb51799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",                     
+                    "scriptHash": "8478d2a4b41296f15815e3a51afc3266b8696d44d053ce88b456cb51799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",
+                    "contractAddress": "addr1zxz8354yksffdu2czh362xhuxfnts6tdgng98n5gk3tvk5tend0q3h5twed567pu236a0sf6vfgruxgpr4rkxryyx0zq7f4l9h"                   
+                }
+            ]
+        },
+        {
+            "id": "vpW7l0",
+            "name": "VyFi: LP Order Process 171",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "11507c8823bd315df87ec128b770354b7a8ecca9f16e6e8ed345d9e31c799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",                     
+                    "scriptHash": "507c8823bd315df87ec128b770354b7a8ecca9f16e6e8ed345d9e31c799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",
+                    "contractAddress": "addr1z9g8ezprh5c4m7r7cy5twup4fdagan9f79hxarknghv7x8rend0q3h5twed567pu236a0sf6vfgruxgpr4rkxryyx0zqgxp0wc"                   
+                }
+            ]
+        },	
+        {
+            "id": "wxIsfZ",
+            "name": "VyFi: LP Order Process 172",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "717729547ff6c8bedc254c501617fc4a66b3fb8b4c9320caaf4aaaa1f9",                     
+                    "scriptHash": "7729547ff6c8bedc254c501617fc4a66b3fb8b4c9320caaf4aaaa1f9",
+                    "contractAddress": "addr1w9mjj4rl7mytahp9f3gpv9luffnt87utfjfjpj40f242r7gnu6g0m"                   
                 }
             ]
         },	    
