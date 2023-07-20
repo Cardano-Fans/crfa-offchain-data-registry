@@ -245,6 +245,34 @@
                 {
                     "id": "eCth3m",
                     "version": 1
+                },
+                {
+                    "id": "N7c5p1",
+                    "version": 1
+                },
+                {
+                    "id": "trc43j",
+                    "version": 1
+                },
+                {
+                    "id": "dVwT4P",
+                    "version": 1
+                },
+                {
+                    "id": "KJEUQx",
+                    "version": 1
+                },
+                {
+                    "id": "uE67AC",
+                    "version": 1
+                },
+                {
+                    "id": "mYjN8C",
+                    "version": 1
+                },
+                {
+                    "id": "KdJmNY",
+                    "version": 1
                 }		    
             ],
          "auditId": "JTKq"          
@@ -1132,6 +1160,111 @@
 	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61ab1caa8f7d3d4e7cc5fa3e3ad991190379ba3c0ce428fe5e9435c4b1",                     
                     "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61ab1caa8f7d3d4e7cc5fa3e3ad991190379ba3c0ce428fe5e9435c4b1",
                     "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36cdtrj4g7lfafe7vt7378tvezxgr0xarcr8y9rl9a9p4cjcszuszkn"
+                }    
+            ]
+        },
+        {
+            "id": "N7c5p1",
+            "name": "Lending contract 58",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61be8e830749f9ee9a795338f53848070d34788a3d584895e0286a6d97",                     
+                    "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61be8e830749f9ee9a795338f53848070d34788a3d584895e0286a6d97",
+                    "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36cd736pswj0ea6d8j5ec75uyspcdx3ug502cfz27q2r2dkts0pd7c0"
+                }    
+            ]
+        },
+        {
+            "id": "trc43j",
+            "name": "Lending contract 59",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61c234949cdfb8087cc911f154a74dd3beaf6ec1e5f8fdd1c2935735ce",                     
+                    "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61c234949cdfb8087cc911f154a74dd3beaf6ec1e5f8fdd1c2935735ce",
+                    "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36cwzxj2fehacpp7vjy032jn5m5a74ahvre0clhgu9y6hxh8qf9qyqj"
+                }    
+            ]
+        },
+        {
+            "id": "dVwT4P",
+            "name": "Lending contract 60",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61391e74fb95e06acc4e90dea62b280d8c832c71e61d1eb0e9f00e3ab7",                     
+                    "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61391e74fb95e06acc4e90dea62b280d8c832c71e61d1eb0e9f00e3ab7",
+                    "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36cfere60h90qdtxyayx75c4jsrvvsvk8resar6cwnuqw82mswzwh67"
+                }    
+            ]
+        },
+        {
+            "id": "KJEUQx",
+            "name": "Lending contract 61",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61019c321f288e7010810d188d76d0697ddb809d689c6fccb0045a40e7",                     
+                    "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61019c321f288e7010810d188d76d0697ddb809d689c6fccb0045a40e7",
+                    "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36cgpnsep72ywwqggzrgc34mdq6tamwqf66yudlxtqpz6grnsat23m7"
+                }    
+            ]
+        },
+        {
+            "id": "uE67AC",
+            "name": "Lending contract 62",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61520b7545edc5f5f1a5413177da2c5b2a048fa6aa74c17628ee181b29",                     
+                    "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61520b7545edc5f5f1a5413177da2c5b2a048fa6aa74c17628ee181b29",
+                    "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36c2jpd65tmw97hc62sf3wldzcke2qj86d2n5c9mz3mscrv5shljw3m"
+                }    
+            ]
+        },
+        {
+            "id": "mYjN8C",
+            "name": "Lending contract 63",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d618717c7d5c43c2a903712ed611d807b857e7092132addabb9e23d53dd",                     
+                    "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d618717c7d5c43c2a903712ed611d807b857e7092132addabb9e23d53dd",
+                    "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36cv8zlrat3pu92grwyhdvywcq7u90ecfyye2mk4mnc3a20wslmwnjf"
+                }    
+            ]
+        },
+        {
+            "id": "KdJmNY",
+            "name": "Lending contract 64",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61dc48ce3fba791a267a0485baa67c2bdeba351211ad19dfb15dcc0f46",                     
+                    "scriptHash": "9d28a9ff246270bb141962fd6d0741190349a329ebc861f0667f1d61dc48ce3fba791a267a0485baa67c2bdeba351211ad19dfb15dcc0f46",
+                    "contractAddress": "addr1zxwj320ly338pwc5r9306mg8gyvsxjdr984usc0svel36cwufr8rlwnergn85py9h2n8c277hg63yyddr80mzhwvparqz07jye"
                 }    
             ]
         }	    
