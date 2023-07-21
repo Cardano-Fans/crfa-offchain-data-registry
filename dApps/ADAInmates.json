@@ -17,7 +17,11 @@
                 {
                     "id": "MHi2xc",
                     "version": 1
-                }
+                },
+                {
+                    "id": "sSxYux",
+                    "version": 1
+                }		    
             ]            
         }
     ],
@@ -30,18 +34,33 @@
     "scripts": [
         {
             "id": "MHi2xc",
-            "name": "Commissary",
+            "name": "Listing",
             "purpose": "SPEND",
 	          "type": "PLUTUS",
-            "versions": [
+                  "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71b7d0a5fd66bfd7a76aefb9e421067b2dbe6a577453cb3df535d9386a",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71b7d0a5fd66bfd7a76aefb9e421067b2dbe6a577453cb3df535d9386a",                     
                     "scriptHash": "b7d0a5fd66bfd7a76aefb9e421067b2dbe6a577453cb3df535d9386a",
                     "contractAddress": "addr1wxmapf0av6la0fm2a7u7gggx0vkmu6jhw3fuk004xhvns6stxc088"
                 }    
             ]
-        }
+        },
+        {
+            "id": "sSxYux",
+            "name": "Delisting",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+                  "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7141e0190ba7342a3aeec273fab59719de025abd094266d056c52ad404",                     
+                    "scriptHash": "41e0190ba7342a3aeec273fab59719de025abd094266d056c52ad404",
+                    "contractAddress": "addr1w9q7qxgt5u6z5whwcfel4dvhr80qyk4ap9pxd5zkc54dgpqz96kvm"
+                }    
+            ]
+        }	    
     ]
 }
