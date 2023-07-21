@@ -1,0 +1,47 @@
+{
+    "id": "3ldflTQe",
+    "projectName": "ADA Inmates",
+    "link": "https://www.adainmates.io",
+    "twitter": "https://twitter.com/InmatesOTWT",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "ADA Inmates is a prison ecosystem NFT project on the Cardano Blockchain"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "MHi2xc",
+                    "version": 1
+                }
+            ]            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "MHi2xc",
+            "name": "Commissary",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71b7d0a5fd66bfd7a76aefb9e421067b2dbe6a577453cb3df535d9386a",                     
+                    "scriptHash": "b7d0a5fd66bfd7a76aefb9e421067b2dbe6a577453cb3df535d9386a",
+                    "contractAddress": "addr1wxmapf0av6la0fm2a7u7gggx0vkmu6jhw3fuk004xhvns6stxc088"
+                }    
+            ]
+        }
+    ]
+}
