@@ -206,7 +206,8 @@
             "id": "xrMhRL",
             "name": "Yield Farming",
             "purpose": "SPEND",
-	    "type": "AIKEN",
+            "type": "PLUTUS",
+	        "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
