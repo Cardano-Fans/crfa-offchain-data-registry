@@ -76,7 +76,8 @@
             "id": "uXIBWd",
             "name": "Swap Validator",
             "purpose": "SPEND",
-            "type": "AIKEN",
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
@@ -126,7 +127,8 @@
             "id": "DyMyJK",
             "name": "Swap Validator",
             "purpose": "SPEND",
-            "type": "AIKEN",
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
