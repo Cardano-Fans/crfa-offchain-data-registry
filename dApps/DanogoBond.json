@@ -1,0 +1,171 @@
+{
+    "id": "agwnXzew",
+    "projectName": "Danogo Bond",
+    "link": "https://bond.danogo.io",
+    "twitter": "https://twitter.com/danogo_2023",
+    "category": "DEFI",
+    "subCategory": "DEX",
+    "features": [
+        "SWAP",
+        "LIMIT_ORDERS"
+    ],
+    "description": {
+        "short": "The first DEX trading Optim Bond tokens on Cardano"
+    },
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "uXIBWd",
+                    "version": 1
+                },
+                {
+                    "id": "uXIBWd",
+                    "version": 2
+                },
+                {
+                    "id": "uXIBWd",
+                    "version": 3
+                },
+                {
+                    "id": "uXIBWd",
+                    "version": 4
+                },
+                {
+                    "id": "uXIBWd",
+                    "version": 5
+                },
+                {
+                    "id": "uXIBWd",
+                    "version": 6
+                },
+                {
+                    "id": "DyMyJK",
+                    "version": 1
+                },
+                {
+                    "id": "DyMyJK",
+                    "version": 2
+                },
+                {
+                    "id": "DyMyJK",
+                    "version": 3
+                },
+                {
+                    "id": "DyMyJK",
+                    "version": 4
+                },
+                {
+                    "id": "DyMyJK",
+                    "version": 5
+                }
+            ]
+        }
+    ],
+    "contracts": [
+        {
+            "openSource": true,
+            "contractLink": "https://github.com/Danogo2023/bonds-dex",
+            "contractId": "KDmn"
+        }
+    ],
+    "scripts": [
+        {
+            "id": "uXIBWd",
+            "name": "Swap Validator",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71537071da0b93b2c126ffeb754e9147f816d6da1ef13e72aba4d22523",
+                    "scriptHash": "537071da0b93b2c126ffeb754e9147f816d6da1ef13e72aba4d22523",
+                    "contractAddress": "addr1w9fhquw6pwfm9sfxll4h2n53glupd4k6rmcnuu4t5nfz2gc7xyhxj"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71e1e60f758e3215e2bfc2cd6d8d143566a8cae27d48e16e7f8ab4195e",
+                    "scriptHash": "e1e60f758e3215e2bfc2cd6d8d143566a8cae27d48e16e7f8ab4195e",
+                    "contractAddress": "addr1w8s7vrm43ceptc4lctxkmrg5x4n23jhz04ywzmnl326pjhs64z2hm"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71c72a1aa3e4568cbe681734582d660383b2cabf3f27289643021e89c6",
+                    "scriptHash": "c72a1aa3e4568cbe681734582d660383b2cabf3f27289643021e89c6",
+                    "contractAddress": "addr1w8rj5x4ru3tge0ngzu69sttxqwpm9j4l8unj39jrqg0gn3s4enrlc"
+                },
+                {
+                    "version": 4,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71e99bdbaa35c8adb221ce6feafcab06cd33575f7518ba5f970c7eb702",
+                    "scriptHash": "e99bdbaa35c8adb221ce6feafcab06cd33575f7518ba5f970c7eb702",
+                    "contractAddress": "addr1w85ehka2xhy2mv3peeh74l9tqmxnx46lw5vt5huhp3ltwqsyvjjre"
+                },
+                {
+                    "version": 5,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71122904fda33efe3bfbb60626e363d468300c79338f57540d9d3d9607",
+                    "scriptHash": "122904fda33efe3bfbb60626e363d468300c79338f57540d9d3d9607",
+                    "contractAddress": "addr1wyfzjp8a5vl0uwlmkcrzdcmr635rqrrexw84w4qdn57evpcx6c23h"
+                },
+                {
+                    "version": 6,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71003a6fb5d426c5f1db82a40f3dad0435b745365f80881efe7bc89ec6",
+                    "scriptHash": "003a6fb5d426c5f1db82a40f3dad0435b745365f80881efe7bc89ec6",
+                    "contractAddress": "addr1wyqr5ma46snvtuwms2jq70ddqs6mw3fkt7qgs8h700yfa3sy07cvf"
+                }
+            ]
+        },
+        {
+            "id": "DyMyJK",
+            "name": "Swap Validator",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7167adaa1f0c90925d42ac1d444f6b18f695370deb0b270a3f08cc40be",
+                    "scriptHash": "67adaa1f0c90925d42ac1d444f6b18f695370deb0b270a3f08cc40be",
+                    "contractAddress": "addr1w9n6m2slpjgfyh2z4sw5gnmtrrmf2dcdav9jwz3lprxyp0s7dxhhh"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7193e8809888a2ee78edb41151c1460eccd1c4e89f65b69aab636f4d53",
+                    "scriptHash": "93e8809888a2ee78edb41151c1460eccd1c4e89f65b69aab636f4d53",
+                    "contractAddress": "addr1wxf73qyc3z3wu78dksg4rs2xpmxdr38gnajmdx4tvdh565ckl6pdn"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a59752e18abd49e8c795d553c3a6abf8453d8479d6af631335992fd6",
+                    "scriptHash": "a59752e18abd49e8c795d553c3a6abf8453d8479d6af631335992fd6",
+                    "contractAddress": "addr1wxjew5hp3275n6x8jh248sax40uy20vy08t27ccnxkvjl4sc3w9vx"
+                },
+                {
+                    "version": 4,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a950bd8041cf8c9ca4522373fccfcf6b0c7fe070461668513fe8aa9a",
+                    "scriptHash": "a950bd8041cf8c9ca4522373fccfcf6b0c7fe070461668513fe8aa9a",
+                    "contractAddress": "addr1wx54p0vqg88ce89y2g3h8lx0ea4scllqwprpv6z38l524xsj9fzzu"
+                },
+                {
+                    "version": 5,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "718bffef8c538fbe549269e86f56fd5174ad3128828befeabc4e7df9bf",
+                    "scriptHash": "8bffef8c538fbe549269e86f56fd5174ad3128828befeabc4e7df9bf",
+                    "contractAddress": "addr1wx9llmuv2w8mu4yjd85x74ha29626vfgs297l64ufe7ln0caxf7hr"
+                }
+            ]
+        }
+    ]
+}
