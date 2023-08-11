@@ -17,7 +17,11 @@
                 {
                     "id": "gZzToQ",
                     "version": 1
-                }
+                },
+                {
+                    "id": "lkbfza",
+                    "version": 1
+                }		    
             ],
          "contractId": "wV5p"          
         }
@@ -32,18 +36,33 @@
     "scripts": [
         {
             "id": "gZzToQ",
-	          "name": "Marketplace",
+	    "name": "Marketplace",
             "purpose": "SPEND",
-	          "type": "PLUTUS",		
+	    "type": "PLUTUS",		
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71b9650b4852014da86328f9720229a6e660a53bc0660204cbe88cbc46",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71b9650b4852014da86328f9720229a6e660a53bc0660204cbe88cbc46",                     
                     "scriptHash": "b9650b4852014da86328f9720229a6e660a53bc0660204cbe88cbc46",
                     "contractAddress": "addr1wxuk2z6g2gq5m2rr9ruhyq3f5mnxpffmcpnqypxtazxtc3sq24p4k"
                 }    
             ]
-        }
+        },
+        {
+            "id": "lkbfza",
+	    "name": "Offer/Reservation",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7176226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",                     
+                    "scriptHash": "76226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",
+                    "contractAddress": "addr1w9mzy6clxkvzvrqey334why009uwuhwha09w8flm56v8vcqnxgpqr"
+                }    
+            ]
+        }	    
     ]
 }
