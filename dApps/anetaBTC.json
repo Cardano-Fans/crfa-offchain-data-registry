@@ -17,13 +17,32 @@
                 {
                     "id": "fgpMhc",
                     "version": 1
-                }                 
-            ]
+                },
+                {
+                    "id": "cCyaNF",
+                    "version": 1
+                },
+                {
+                    "id": "Qru0GK",
+                    "version": 1
+                },
+                {
+                    "id": "HuzuI5",
+                    "version": 1
+                },
+                {
+                    "id": "ZaTuzr",
+                    "version": 1
+                }		    
+            ],
+            "contractId": "QpsO"		
         }
     ],
     "contracts": [
         {
-         "openSource": false
+         "openSource": true,
+         "contractLink": "https://github.com/anetabtc/cbtc",
+         "contractId": "QpsO"
         }
     ],
 
@@ -41,6 +60,66 @@
                     "contractAddress": "addr1w8p79rekquuw5kmdg4z36y9gpnm88k5huddwqluk9mjjeqgc3xmss"
                 }                
             ]
-        }
+        },
+        {
+            "id": "cCyaNF",
+            "name": "Guardian validator",            
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",		
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "71587f135fe465a024ba5b920343d6602825f4761b17a8d067724ef5e5",                        
+                    "scriptHash": "587f135fe465a024ba5b920343d6602825f4761b17a8d067724ef5e5",
+                    "contractAddress": "addr1w9v87y6lu3j6qf96twfqxs7kvq5ztarkrvt635r8wf80teg4phkrl"
+                }                
+            ]
+        },
+        {
+            "id": "Qru0GK",
+            "name": "Multisig validator",            
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",		
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "71b8fc731821e2dea9a197349399d7a012a227994ccf04c46e7db2f491",                        
+                    "scriptHash": "b8fc731821e2dea9a197349399d7a012a227994ccf04c46e7db2f491",
+                    "contractAddress": "addr1wxu0cuccy83da2dpju6f8xwh5qf2yfuefn8sf3rw0ke0fygsxw8p8"
+                }                
+            ]
+        },
+        {
+            "id": "HuzuI5",
+            "name": "cBTC",
+            "purpose": "MINT",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
+            "versions": [
+                {
+                    "mintPolicyID": "4190b2941d9be04acc69c39739bd5acc66d60ccab480d8e20bc87e37",
+                    "plutusVersion": 2,                     
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "ZaTuzr",
+            "name": "MultiSigCert",
+            "purpose": "MINT",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
+            "versions": [
+                {
+                    "mintPolicyID": "3d63f52950245d5f4419f3da3e70009b6de3b01161fa74f846f82755",
+                    "plutusVersion": 2,                     
+                    "version": 1
+                }
+            ]
+        }	    
      ]
 }
