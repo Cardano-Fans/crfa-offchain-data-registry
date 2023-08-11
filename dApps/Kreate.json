@@ -38,7 +38,8 @@
             "id": "gZzToQ",
 	    "name": "Marketplace",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "HELIOS",		
             "versions": [
                 {
                     "version": 1,
@@ -53,7 +54,8 @@
             "id": "lkbfza",
 	    "name": "Offer/Reservation",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "HELIOS",		
             "versions": [
                 {
                     "version": 1,
