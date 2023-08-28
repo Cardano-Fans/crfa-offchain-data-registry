@@ -52,6 +52,10 @@
                 {
                     "id": "1bNZBL",
                     "version": 1
+                },
+                {
+                    "id": "yXicHh",
+                    "version": 1
                 }		    
             ]         
         }
@@ -200,6 +204,20 @@
 	            "fullScriptHash": "710bde1af1e5584af8cc3c85e8eb7b0edc63ba64ea2be3c278a77fe5f5",                     
                     "scriptHash": "0bde1af1e5584af8cc3c85e8eb7b0edc63ba64ea2be3c278a77fe5f5",
                     "contractAddress": "addr1wy9auxh3u4vy47xv8jz736mmpmwx8wnyag478snc5al7tagqwsxac"
+                }    
+            ]
+        },
+        {
+            "id": "yXicHh",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71af37a656d60f99157e5d50cc419a9ec6103121ac85a447672e2f66a5",                     
+                    "scriptHash": "af37a656d60f99157e5d50cc419a9ec6103121ac85a447672e2f66a5",
+                    "contractAddress": "addr1wxhn0fjk6c8ej9t7t4gvcsv6nmrpqvfp4jz6g3m89chkdfgjrnlp9"
                 }    
             ]
         }	    
