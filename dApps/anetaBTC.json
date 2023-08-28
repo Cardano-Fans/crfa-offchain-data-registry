@@ -35,7 +35,8 @@
                     "version": 1
                 }		    
             ],
-            "contractId": "QpsO"		
+            "contractId": "QpsO",
+            "auditId": "GOp9"		
         }
     ],
     "contracts": [
@@ -45,6 +46,14 @@
          "contractId": "QpsO"
         }
     ],
+    "audits": [
+        {
+            "auditId": "GOp9",
+            "auditor": "IKIGAI",
+            "auditLink": "https://medium.com/@anetaBTC/anetabtc-v1-audit-c234104997d9",
+            "auditType": "MANUAL"
+        }
+    ],	
 
     "scripts": [
         {
