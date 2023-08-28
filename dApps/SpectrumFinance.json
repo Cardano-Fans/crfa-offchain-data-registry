@@ -21,6 +21,10 @@
                     "version": 1
                 },
                 {
+                    "id": "UoOep0",
+                    "version": 2
+                },		    
+                {
                     "id": "ej9O8S",
                     "version": 1
                 },
@@ -49,16 +53,23 @@
             "id": "UoOep0",
             "name": "liquidity pool",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "contractLang": "PLUTARCH",          
             "versions": [
                 {
                     "version": 1,
- 		                "plutusVersion": 2,  
-	                  "fullScriptHash": "31e628bfd68c07a7a38fcd7d8df650812a9dfdbee54b1ed4c25c87ffbfb2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",                      
+ 		    "plutusVersion": 2,  
+	            "fullScriptHash": "31e628bfd68c07a7a38fcd7d8df650812a9dfdbee54b1ed4c25c87ffbfb2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",                      
                     "scriptHash": "e628bfd68c07a7a38fcd7d8df650812a9dfdbee54b1ed4c25c87ffbfb2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",
                     "contractAddress": "addr1x8nz307k3sr60gu0e47cmajssy4fmld7u493a4xztjrll0aj764lvrxdayh2ux30fl0ktuh27csgmpevdu89jlxppvrswgxsta"
-                }              
+                },
+                {
+                    "version": 2,
+ 		    "plutusVersion": 2,  
+	            "fullScriptHash": "316b9c456aa650cb808a9ab54326e039d5235ed69f069c9664a8fe5b69b2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",                      
+                    "scriptHash": "6b9c456aa650cb808a9ab54326e039d5235ed69f069c9664a8fe5b69b2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",
+                    "contractAddress": "addr1x94ec3t25egvhqy2n265xfhq882jxhkknurfe9ny4rl9k6dj764lvrxdayh2ux30fl0ktuh27csgmpevdu89jlxppvrst84slu"
+                } 		    
             ]
         }, 
         {
