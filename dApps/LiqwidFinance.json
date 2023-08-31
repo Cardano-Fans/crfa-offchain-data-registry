@@ -615,7 +615,63 @@
 	        {
                     "id": "SkeVsA",
                     "version": 1
-                }		    
+                },
+	        {
+                    "id": "rFheRs",
+                    "version": 1
+                },       
+	        {
+                    "id": "iEBzUp",
+                    "version": 1
+                },
+	        {
+                    "id": "BNdtnc",
+                    "version": 1
+                },
+	        {
+                    "id": "c6DdBR",
+                    "version": 1
+                },
+	        {
+                    "id": "qs0aTf",
+                    "version": 1
+                },
+	        {
+                    "id": "ON6jDb",
+                    "version": 1
+                },
+	        {
+                    "id": "5l8WCu",
+                    "version": 1
+                },
+	        {
+                    "id": "1Xtjkj",
+                    "version": 1
+                }, 
+	        {
+                    "id": "bKpxo1",
+                    "version": 1
+                }, 
+	        {
+                    "id": "MaEB8R",
+                    "version": 1
+                }, 
+	        {
+                    "id": "2U5GoE",
+                    "version": 1
+                },
+	        {
+                    "id": "MCnEr3",
+                    "version": 1
+                }, 
+	        {
+                    "id": "0gEfaq",
+                    "version": 1
+                },
+	        {
+                    "id": "th1hNU",
+                    "version": 1
+                }  
             ],
         "auditId": "iV1y"            
         }	    
@@ -2119,6 +2175,202 @@
                     "scriptHash": "c63f80127de4782c341171f9b2a3da087d99504e815718ca03943b45",
                     "contractAddress": "addr1w8rrlqqj0hj8stp5z9clnv4rmgy8mx2sf6q4wxx2qw2rk3gky7m59"
                 }              
+            ]
+        },
+        {
+            "id": "rFheRs",
+	    "name": "USDC Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71a50ecf6e4d5621d034f0a09714da50cea8e94fcd77388954654d0479",                     
+                    "scriptHash": "a50ecf6e4d5621d034f0a09714da50cea8e94fcd77388954654d0479",
+                    "contractAddress": "addr1wxjsanmwf4tzr5p57zsfw9x62r823620e4mn3z25v4xsg7g8ftcc8"
+                }              
+            ]
+        },	    
+        {
+            "id": "iEBzUp",
+	    "name": "USDC Action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71b2effcce85662fbd52ea6517fcae417a9cd85db752f0f94c1c91a266",                     
+                    "scriptHash": "b2effcce85662fbd52ea6517fcae417a9cd85db752f0f94c1c91a266",
+                    "contractAddress": "addr1wxewllxws4nzl02jafj30l9wg9afekzakaf0p72vrjg6yesj90h4m"
+                }              
+            ]
+        },
+        {
+            "id": "BNdtnc",
+	    "name": "USDC Batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "716bb0851fa2bf40c6729c9d5df97a4201fdea2b3ae169ad5242bfe47a",                     
+                    "scriptHash": "6bb0851fa2bf40c6729c9d5df97a4201fdea2b3ae169ad5242bfe47a",
+                    "contractAddress": "addr1w94mppgl52l5p3njnjw4m7t6ggqlm63t8tsknt2jg2l7g7s2f3sdq"
+                }              
+            ]
+        },
+        {
+            "id": "c6DdBR",
+	    "name": "USDC Batch Final",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "718c5a532c6332f85e6a927750e129aba954eec6ead209cd72d08f5a32",                     
+                    "scriptHash": "8c5a532c6332f85e6a927750e129aba954eec6ead209cd72d08f5a32",
+                    "contractAddress": "addr1wxx955evvve0shn2jfm4pcff4w54fmkxatfqnntj6z845vsk0nq0d"
+                }              
+            ]
+        },
+        {
+            "id": "qs0aTf",
+	    "name": "USDC Market State",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "711579f32be90cf3825e7194568240dae5e0b87c7c40108ed7cdfe89f8",                     
+                    "scriptHash": "1579f32be90cf3825e7194568240dae5e0b87c7c40108ed7cdfe89f8",
+                    "contractAddress": "addr1wy2hnuetayx08qj7wx29dqjqmtj7pwru03qpprkhehlgn7qqqv8r0"
+                }              
+            ]
+        },
+        {
+            "id": "ON6jDb",
+	    "name": "USDC Loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "714986257bffd6bc8bda0e56fd7796c5d125fe496deb3a00c5196068a3",                     
+                    "scriptHash": "4986257bffd6bc8bda0e56fd7796c5d125fe496deb3a00c5196068a3",
+                    "contractAddress": "addr1w9ycvftmllttez76pet06aukchgjtljfdh4n5qx9r9sx3gc0pec6q"
+                }              
+            ]
+        },
+        {
+            "id": "5l8WCu",
+	    "name": "USDC Dividends Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "717fc0d659f74debe817faa6487f0cbc7d8cec93997adaad543fbfff98",                     
+                    "scriptHash": "7fc0d659f74debe817faa6487f0cbc7d8cec93997adaad543fbfff98",
+                    "contractAddress": "addr1w9lup4je7ax7h6qhl2nyslcvh37cemynn9ad4t2587lllxqre57st"
+                }              
+            ]
+        },	    
+        {
+            "id": "1Xtjkj",
+            "name": "USDC QToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "aebcb6eaba17dea962008a9d693e39a3160b02b5b89b1c83e537c599",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "bKpxo1",
+            "name": "USDC Action Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "f37e16045a5aa79503c1e3a36c0892a04a6f4471e4a097c9c98d3854",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "MaEB8R",
+            "name": "USDC Market State Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "191f768460713989c5ae88821f208522df7800f6b5572ca7905a7a60",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "2U5GoE",
+            "name": "USDC Market Params Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "1847265fd9019209f837113ec1753a4b0de657987e66f89ebcee47e6",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "MCnEr3",
+            "name": "USDC Collateral Params Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "a80b9489e5a8e5e5eadcc0c2856f46c5883f5c3d88676ce5559d8cdc",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "0gEfaq",
+            "name": "USDC Borrow Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "43c0cf8e50e96599534ee86ebc6fd5da0f8160c86dd8147aa67b73df",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "th1hNU",
+            "name": "USDC Batch Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "bb9cf64bfca2c8611aefb81b5341ec5f7dba39ec2b6464a4e8a13e51",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
             ]
         }	    
     ]
