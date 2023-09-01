@@ -1,0 +1,84 @@
+{
+    "id": "KixkvJ4y",
+    "projectName": "Wanchain",
+    "link": "https://www.wanchain.org",
+    "twitter": "https://twitter.com/wanchain_org",
+    "category": "DEFI", 
+    "subCategory": "WRAPPED_ASSETS",    
+    "description": {
+                   "short": "Driving blockchain adoption through crosschain interoperability by building fully decentralised direct bridges that connect the world’s blockchain networks"
+    },	
+
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "WSPbu5",
+                    "version": 1
+                },
+                {
+                    "id": "MFCClH",
+                    "version": 1
+                },
+                {
+                    "id": "IjMgvL",
+                    "version": 1
+                }	    
+            ],
+            "contractId": "wTxz"	
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/wanchain/cardano-crosschain-contracts",
+         "contractId": "wTxz"
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "WSPbu5",
+            "name": "Cross chain bridge",            
+            "purpose": "SPEND",
+	          "type": "PLUTUS",          
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+	                  "fullScriptHash": "31520b2576e83cfd074de6d0a300bfc4abc2c9eef6e02465eebc853f2d259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",                        
+                    "scriptHash": "520b2576e83cfd074de6d0a300bfc4abc2c9eef6e02465eebc853f2d259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",
+                    "contractAddress": "addr1x9fqkftkaq706p6dumg2xq9lcj4u9j0w7mszge0whjzn7tf9nvv84g58ykxqh90xx6j8ywgjst0dkt430w9lxgdmzncsfw6yzt"
+                }                
+            ]
+        },
+        {
+            "id": "MFCClH",
+            "purpose": "MINT",
+	          "type": "PLUTUS",			
+            "versions": [
+                {
+                    "mintPolicyID": "25c5de5f5b286073c593edfd77b48abc7a48e5a4f3d4cd9d428ff935",
+                    "plutusVersion": 2,                     
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "IjMgvL",          
+            "purpose": "SPEND",
+ 	          "type": "PLUTUS",         
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+	                  "fullScriptHash": "7160ec1132e41b27b94a69b679a67041c8b6ea30643f0130cd4f08bd73",                        
+                    "scriptHash": "60ec1132e41b27b94a69b679a67041c8b6ea30643f0130cd4f08bd73",
+                    "contractAddress": "addr1w9swcyfjusdj0w22dxm8nfnsg8ytd63svslszvxdfuyt6uc38zn0x"
+                }                
+            ]
+        }	    
+     ]
+}
