@@ -352,6 +352,10 @@
                     "version": 1
                 },
                 {
+                    "id": "I2g5Fw",
+                    "version": 1
+                }, 
+                {
                     "id": "4B9ghs",
                     "version": 1
                 },		    
@@ -2547,6 +2551,21 @@
                 }    
             ]
         },
+        {
+            "id": "I2g5Fw",
+            "name": "VyFi: Vault Harvest Process - NFT-1000031",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "719c81804c3204209c505cf6fd8c91b77a93813c523cb86e6d7de71b65",                     
+                    "scriptHash": "9c81804c3204209c505cf6fd8c91b77a93813c523cb86e6d7de71b65",
+                    "contractAddress": "addr1wxwgrqzvxgzzp8zstnm0mry3kaaf8qfu2g7tsmnd0hn3kegqrg2xr"
+                }    
+            ]
+        },	    
         {
             "id": "4B9ghs",
             "name": "VyFi: Vault Harvest Process - NFT-1000032",
