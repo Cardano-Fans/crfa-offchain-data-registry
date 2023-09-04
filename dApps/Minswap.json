@@ -223,7 +223,27 @@
                 {
                     "id": "H70LnQ",
                     "version": 39
-                },		    
+                },
+                {
+                    "id": "H70LnQ",
+                    "version": 40
+                },
+                {
+                    "id": "H70LnQ",
+                    "version": 41
+                },	
+                {
+                    "id": "H70LnQ",
+                    "version": 42
+                },
+                {
+                    "id": "H70LnQ",
+                    "version": 43
+                },	
+                {
+                    "id": "H70LnQ",
+                    "version": 44
+                },			    
                 {
                     "id": "yxzJ3o",
                     "version": 2
@@ -612,6 +632,41 @@
 	            "fullScriptHash": "11e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec133098fa6b569e84e0253e32c23f6c0dae1611e1299b1bb85a2baad984897",                     
                     "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec133098fa6b569e84e0253e32c23f6c0dae1611e1299b1bb85a2baad984897",
                     "contractAddress": "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxzv0566kn6zwqff7xtpr7mqd4ctprcffnvdmsk3t4tvcfztsvalv3y"
+                },
+                {
+                    "version": 40,
+ 		    "plutusVersion": 1, 
+	            "fullScriptHash": "11e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec133098ebb5f8f7381652644e15c3e734787e6e0ec469ba08a2edc592164c8",                     
+                    "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec133098ebb5f8f7381652644e15c3e734787e6e0ec469ba08a2edc592164c8",
+                    "contractAddress": "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxzvwhd0c7uupv5nyfc2u8ee50plxurkydxaq3ghdckfpvnyqwd9fm9"
+                },
+                {
+                    "version": 41,
+ 		    "plutusVersion": 1, 
+	            "fullScriptHash": "11e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec133099e57121d783a350c5d4464d28d6ebe024e1e4c62e363aa4a8d96359f",                     
+                    "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec133099e57121d783a350c5d4464d28d6ebe024e1e4c62e363aa4a8d96359f",
+                    "contractAddress": "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxzv72ufp67p6x5x963ry62xka0szfc0ycchrvw4y4rvkxk0sp4eyac"
+                },
+                {
+                    "version": 42,
+ 		    "plutusVersion": 1, 
+	            "fullScriptHash": "11e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec1330987c9874fe06ef6eb8e0615fb9e4e62ab0d5f0b2662f8cb54cdae6c13",                     
+                    "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec1330987c9874fe06ef6eb8e0615fb9e4e62ab0d5f0b2662f8cb54cdae6c13",
+                    "contractAddress": "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxzv8exr5lcrw7m4cups4lw0yuc4tp40skfnzlr94fndwdsfsatrhh6"
+                },
+                {
+                    "version": 43,
+ 		    "plutusVersion": 1, 
+	            "fullScriptHash": "11e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec1330967bf27c939cc5e495c45030e7766cccf17da63b92488e7e1b2217af5",                     
+                    "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec1330967bf27c939cc5e495c45030e7766cccf17da63b92488e7e1b2217af5",
+                    "contractAddress": "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxzt8hunujwwvtey4c3grpemkdnx0zldx8wfy3rn7rv3p0t6sknn2we"
+                },
+                {
+                    "version": 44,
+ 		    "plutusVersion": 1, 
+	            "fullScriptHash": "11e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec13309e833c926ebe17fc66c42379913ce6581e1cffc8c97f9698ae6d66bfd",                     
+                    "scriptHash": "e1317b152faac13426e6a83e06ff88a4d62cce3c1634ab0a5ec13309e833c926ebe17fc66c42379913ce6581e1cffc8c97f9698ae6d66bfd",
+                    "contractAddress": "addr1z8snz7c4974vzdpxu65ruphl3zjdvtxw8strf2c2tmqnxz0gx0yjd6lp0lrxcs3hnyfuuevpu88leryhl95c4ekkd07s5ehxm6"
                 }		    
             ]
         },         
