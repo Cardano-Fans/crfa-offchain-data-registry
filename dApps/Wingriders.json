@@ -6,9 +6,8 @@
     "category": "DEFI",     
     "subCategory": "AMM_DEX",	
     "description": {
-                   "short": "Native and fast AMM decentralized exchange platform on Cardano blockchain"
-    },		
-    "features": ["SWAP", "LIQUIDITY_MINING", "ADA_STAKING", "YIELD_FARMING", "STABLESWAP"], 
+                   "short": "Native and fast AMM decentralized exchange platform on Cardano blockchain" },		
+    "features": ["SWAP", "LIQUIDITY_MINING", "ADA_STAKING", "YIELD_FARMING", "STABLESWAP", "LAUNCHPAD"], 
     
     "releases": [
 			{
@@ -68,6 +67,14 @@
 					{
 						"id": "A7WBK3",
 						"version": 1
+					},
+					{
+						"id": "f7c0LB",
+						"version": 1
+					},
+					{
+						"id": "f7c0LB",
+						"version": 2
 					}					
 				],
                 "auditId": "9oS7"
@@ -249,6 +256,29 @@
                     "scriptHash": "9868d58fbfcc2b14cfc7d9eec0b765e7e6fc4e950c9c2748ace9ce61",
                     "contractAddress": "addr1wxvx34v0hlxzk9x0clv7as9hvhn7dlzwj5xfcf6g4n5uucg4tkd7w"
                 }
+            ]
+        },
+        {
+            "id": "f7c0LB",
+            "name": "Launchpad",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",		
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 2,  
+	            "fullScriptHash": "716a6a56501ff2647758ec9d1f7d3efae1084188d76fe9061f9d9b43e4",			
+                    "scriptHash": "6a6a56501ff2647758ec9d1f7d3efae1084188d76fe9061f9d9b43e4",
+                    "contractAddress": "addr1w94x54jsrlexga6cajw37lf7ltssssvg6ah7jpslnkd58eq6vc878"
+                },
+                {
+                    "version": 2,
+ 		    "plutusVersion": 2,  
+	            "fullScriptHash": "7192b489c6eb1186c8fd5d7ad1efb0b86eec61bf6e0d27b111a212a05d",			
+                    "scriptHash": "92b489c6eb1186c8fd5d7ad1efb0b86eec61bf6e0d27b111a212a05d",
+                    "contractAddress": "addr1wxftfzwxavgcdj8at4adrmashphwccdldcxj0vg35gf2qhgmavq67"
+                }		    
             ]
         }	    
     ]
