@@ -671,7 +671,67 @@
 	        {
                     "id": "th1hNU",
                     "version": 1
-                }  
+                },
+	        {
+                    "id": "MHCMjZ",
+                    "version": 1
+                },
+	        {
+                    "id": "G9LZ5v",
+                    "version": 1
+                },
+	        {
+                    "id": "05Cz8n",
+                    "version": 1
+                },
+	        {
+                    "id": "yrHyYN",
+                    "version": 1
+                },
+	        {
+                    "id": "A3c1jI",
+                    "version": 1
+                },
+	        {
+                    "id": "bxyu5R",
+                    "version": 1
+                },
+	        {
+                    "id": "Xvz1jm",
+                    "version": 1
+                },
+	        {
+                    "id": "kReIjR",
+                    "version": 1
+                },
+	        {
+                    "id": "cJWjCu",
+                    "version": 1
+                },
+	        {
+                    "id": "CNvYGO",
+                    "version": 1
+                },
+	        {
+                    "id": "5btHJb",
+                    "version": 1
+                },
+	        {
+                    "id": "smfev1",
+                    "version": 1
+                },
+	        {
+                    "id": "EcXqAU",
+                    "version": 1
+                },
+	        {
+                    "id": "x8uXeT",
+                    "version": 1
+                },
+	        {
+                    "id": "mQTEDT",
+                    "version": 1
+                }		    
             ],
         "auditId": "iV1y"            
         }	    
@@ -2368,6 +2428,217 @@
             "versions": [
                 {
                     "mintPolicyID": "bb9cf64bfca2c8611aefb81b5341ec5f7dba39ec2b6464a4e8a13e51",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "MHCMjZ",
+	    "name": "USDT Action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71fe4ee3dc2ebe6d57cffda8f896ce93c56d094e26607d6823b1ddd3e8",                     
+                    "scriptHash": "fe4ee3dc2ebe6d57cffda8f896ce93c56d094e26607d6823b1ddd3e8",
+                    "contractAddress": "addr1w8lyac7u96lx6470lk5039kwj0zk6z2wyes866prk8wa86q679jd6"
+                }              
+            ]
+        },
+        {
+            "id": "G9LZ5v",
+	    "name": "USDT Batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71301d6ffb386dc89d2257968d6c8503f40a1cf81f12e778aa83b6a3f8",                     
+                    "scriptHash": "301d6ffb386dc89d2257968d6c8503f40a1cf81f12e778aa83b6a3f8",
+                    "contractAddress": "addr1wycp6mlm8pku38fz27tg6my9q06q588crufww792swm287q5jcatj"
+                }              
+            ]
+        },
+        {
+            "id": "05Cz8n",
+	    "name": "USDT Batch Final",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71bbbc2587e04ec1a574d6fc287ea57ef279dd9e970bebc36193ad50d2",                     
+                    "scriptHash": "bbbc2587e04ec1a574d6fc287ea57ef279dd9e970bebc36193ad50d2",
+                    "contractAddress": "addr1wxamcfv8up8vrft56m7zsl490me8nhv7ju97hsmpjwk4p5shqckvz"
+                }              
+            ]
+        },
+        {
+            "id": "yrHyYN",
+	    "name": "USDT Loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f2538e1341feef79c6314d571118a95a988a433a7e0dd70ba5cddb18",                     
+                    "scriptHash": "f2538e1341feef79c6314d571118a95a988a433a7e0dd70ba5cddb18",
+                    "contractAddress": "addr1w8e98rsng8lw77wxx9x4wygc49df3zjr8flqm4ct5hxakxqpztqr9"
+                }              
+            ]
+        },
+        {
+            "id": "A3c1jI",
+	    "name": "USDT Liquidation",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "711e417fb7b39650586f5bcd5b1fce5afc3b0fd2d8feefa61866b39f7d",                     
+                    "scriptHash": "1e417fb7b39650586f5bcd5b1fce5afc3b0fd2d8feefa61866b39f7d",
+                    "contractAddress": "addr1wy0yzlahkwt9qkr0t0x4k87wtt7rkr7jmrlwlfscv6ee7lgvscg9e"
+                }              
+            ]
+        },
+        {
+            "id": "bxyu5R",
+	    "name": "USDT Market State",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "712b48af6fd01c49d05ddee3badaba999c4cf8c41ca69c71928a3a6986",                     
+                    "scriptHash": "2b48af6fd01c49d05ddee3badaba999c4cf8c41ca69c71928a3a6986",
+                    "contractAddress": "addr1wy453tm06qwyn5zamm3m4k46nxwye7xyrjnfcuvj3gaxnpsdlsmtg"
+                }              
+            ]
+        },
+        {
+            "id": "Xvz1jm",
+	    "name": "USDT Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7119e609260d10c8b7c01024dd8e5c51cc3d1fda824eccac19e9f45d69",                     
+                    "scriptHash": "19e609260d10c8b7c01024dd8e5c51cc3d1fda824eccac19e9f45d69",
+                    "contractAddress": "addr1wyv7vzfxp5gv3d7qzqjdmrju28xr6876sf8vetqea86966g8yw2h7"
+                }              
+            ]
+        },
+        {
+            "id": "kReIjR",
+	    "name": "USDT Dividends Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7169da1f447abecc8493fb629c23c5df4ed9c8841aaf86b46b62991ed7",                     
+                    "scriptHash": "69da1f447abecc8493fb629c23c5df4ed9c8841aaf86b46b62991ed7",
+                    "contractAddress": "addr1w95a586y02lvepynld3fcg79ma8dnjyyr2hcddrtv2v3a4cq7lhfp"
+                }              
+            ]
+        },
+        {
+            "id": "cJWjCu",
+            "name": "USDT Collateral Params Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "84b4d2685752e6e6ec7f21b89c7351659d93f30e64c828f8058d4cac",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "CNvYGO",
+            "name": "USDT Borrow Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "41c2316fd1586fc9fd4fbaca47306b4f2d79dc382d0d70c44436430b",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "5btHJb",
+            "name": "USDT Action Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "7d1e07d943bd7b64d448634910d56578de5f1c8a1d3ea88e3cd27476",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "smfev1",
+            "name": "USDT QToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "7a4d45e6b4e6835c4cea3968f291fab3704949cfd2f2dc1997c4eeec",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "EcXqAU",
+            "name": "USDT Market Params Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "db176459c6cb8ff1d45e517da641021939c4e2999c834bc4c4547e0d",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "x8uXeT",
+            "name": "USDT Batch Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "2e2b9dba413c97e15cf006963f8ac92220d2fa5f240076727a758a70",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "mQTEDT",
+            "name": "USDT Market State Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "a5667ec9e9334143dd828e260e1270be265dd84e9e46e4333d76ea57",
 		    "plutusVersion": 2,                    
                     "version": 1
                 }
