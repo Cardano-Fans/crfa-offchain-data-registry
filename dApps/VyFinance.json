@@ -126,6 +126,10 @@
                 {
                     "id": "6sLqMK",
                     "version": 1
+                },
+                {
+                    "id": "e2Za5a",
+                    "version": 1
                 },		    
                 {
                     "id": "JNTI1O",
@@ -490,6 +494,10 @@
                 {
                     "id": "tvWLNb",
                     "version": 1
+                },
+                {
+                    "id": "tvWLNb",
+                    "version": 2
                 },		    
                 {
                     "id": "CCPgJ6",
@@ -1290,6 +1298,14 @@
                 {
                     "id": "DAHBaX",
                     "version": 1
+                },
+                {
+                    "id": "2cMthA",
+                    "version": 1
+                },
+                {
+                    "id": "YFJ7eV",
+                    "version": 1
                 },		    
                 {
                     "id": "Rjaiop",
@@ -1748,6 +1764,21 @@
 	            "fullScriptHash": "71b422fb141db846e830b50632bd2d8c4b71c556556ba4a7d586a70a65",                     
                     "scriptHash": "b422fb141db846e830b50632bd2d8c4b71c556556ba4a7d586a70a65",
                     "contractAddress": "addr1wx6z97c5rkuyd6psk5rr90fd339hr32k2446ff74s6ns5egjkankq"
+                }    
+            ]
+        },
+        {
+            "id": "e2Za5a",
+            "name": "VyFi: Vault Stake - TOKEN-1000041",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "718f164646a96b68eafc2581130a6bcb8e7630ba068cfbe98116cab2de",                     
+                    "scriptHash": "8f164646a96b68eafc2581130a6bcb8e7630ba068cfbe98116cab2de",
+                    "contractAddress": "addr1wx83v3jx494k36huykq3xzntew88vv96q6x0h6vpzm9t9hss0hgwk"
                 }    
             ]
         },	    
@@ -3065,7 +3096,14 @@
 	            "fullScriptHash": "71aeca5ba48d3bdf9e48c016f0fabc13389e30c2cc491b8191c4c8c33c",                     
                     "scriptHash": "aeca5ba48d3bdf9e48c016f0fabc13389e30c2cc491b8191c4c8c33c",
                     "contractAddress": "addr1wxhv5kay35aal8jgcqt0p74uzvufuvxze3y3hqv3cnyvx0qf3v2de"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7176c214c62f5a37353a311786348bf3891d67d1f85577f9c5938cc2be",                     
+                    "scriptHash": "76c214c62f5a37353a311786348bf3891d67d1f85577f9c5938cc2be",
+                    "contractAddress": "addr1w9mvy9xx9adrwdf6xytcvdyt7wy36e73lp2h07w9jwxv90st9ept4"
+                } 		    
             ]
         },	    
         {
@@ -6032,6 +6070,36 @@
 	            "fullScriptHash": "11f66a17775f86ffdd87895f7a3ef19fae27db7e7bd6a002161900d073799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",                     
                     "scriptHash": "f66a17775f86ffdd87895f7a3ef19fae27db7e7bd6a002161900d073799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",
                     "contractAddress": "addr1z8mx59mht7r0lhv8390h50h3n7hz0km700t2qqskryqdqumend0q3h5twed567pu236a0sf6vfgruxgpr4rkxryyx0zqx9cs76"                   
+                }
+            ]
+        },
+        {
+            "id": "2cMthA",
+            "name": "VyFi: LP Order Process 189",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "71c4dc7b358b42a246b005c216d90b699af3fc3949daa633d5007a38cc",                     
+                    "scriptHash": "c4dc7b358b42a246b005c216d90b699af3fc3949daa633d5007a38cc",
+                    "contractAddress": "addr1w8zdc7e43dp2y34sqhppdkgtdxd08lpef8d2vv74qpar3nq3rjd9r"                   
+                }
+            ]
+        },
+        {
+            "id": "YFJ7eV",
+            "name": "VyFi: LP Order Process 190",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1,			
+	            "fullScriptHash": "117d7fe01e6a51fb14f0dcbd9a99ea3375c0dd4daeb4fd0429714a4709799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",                     
+                    "scriptHash": "7d7fe01e6a51fb14f0dcbd9a99ea3375c0dd4daeb4fd0429714a4709799b5e08de8b765b4d783c5475d7c13a62503e19011d47630c8433c4",
+                    "contractAddress": "addr1z97hlcq7dfglk98smj7e4x02xd6uph2d46606ppfw99ywztend0q3h5twed567pu236a0sf6vfgruxgpr4rkxryyx0zqt4kte3"                   
                 }
             ]
         },	    
