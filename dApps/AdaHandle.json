@@ -1,0 +1,47 @@
+{
+    "id": "Y03Kb14c",
+    "projectName": "ADA Handle",
+    "link": "https://mint.handle.me",
+    "twitter": "https://twitter.com/adahandle",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "NFT-powered naming solution for your Cardano wallet address, secured entirely on-chain."
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "tKAvB8",
+                    "version": 1
+                }
+            ]           
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "tKAvB8",
+            "name": "Personalization",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "716c043fc9e3f4dfbabe01e07a54fcf8aa3eaa38e82777b10f9461859c",                     
+                    "scriptHash": "6c043fc9e3f4dfbabe01e07a54fcf8aa3eaa38e82777b10f9461859c",
+                    "contractAddress": "addr1w9kqg07fu06dlw47q8s8548ulz4ra23caqnh0vg0j3sct8qrsqrpc"
+                }    
+            ]
+        }
+    ]
+}
