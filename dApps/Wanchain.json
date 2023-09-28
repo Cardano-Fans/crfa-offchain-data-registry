@@ -19,6 +19,14 @@
                     "version": 1
                 },
                 {
+                    "id": "WSPbu5",
+                    "version": 2
+                },
+                {
+                    "id": "WSPbu5",
+                    "version": 3
+                },		    
+                {
                     "id": "MFCClH",
                     "version": 1
                 },
@@ -43,15 +51,29 @@
             "id": "WSPbu5",
             "name": "Cross chain bridge",            
             "purpose": "SPEND",
-	          "type": "PLUTUS",          
+	    "type": "PLUTUS",          
             "versions": [
                 {
                     "version": 1,
                     "plutusVersion": 2,
-	                  "fullScriptHash": "31520b2576e83cfd074de6d0a300bfc4abc2c9eef6e02465eebc853f2d259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",                        
+	            "fullScriptHash": "31520b2576e83cfd074de6d0a300bfc4abc2c9eef6e02465eebc853f2d259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",                        
                     "scriptHash": "520b2576e83cfd074de6d0a300bfc4abc2c9eef6e02465eebc853f2d259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",
                     "contractAddress": "addr1x9fqkftkaq706p6dumg2xq9lcj4u9j0w7mszge0whjzn7tf9nvv84g58ykxqh90xx6j8ywgjst0dkt430w9lxgdmzncsfw6yzt"
-                }                
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "311cfb41dc0b8d13fe53600e17059dcbcda2d8647347ec25288b4f5234259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",                        
+                    "scriptHash": "1cfb41dc0b8d13fe53600e17059dcbcda2d8647347ec25288b4f5234259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",
+                    "contractAddress": "addr1xyw0kswupwx38ljnvq8pwpvae0x69krywdr7cffg3d84ydp9nvv84g58ykxqh90xx6j8ywgjst0dkt430w9lxgdmzncsw5rzpd"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "318d4c43c5a72fe731513ebecf5f44d717164d254e08eb4a57ee234bb7259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",                        
+                    "scriptHash": "8d4c43c5a72fe731513ebecf5f44d717164d254e08eb4a57ee234bb7259b187aa287258c0b95e636a472391282dedb2eb17b8bf321bb14f1",
+                    "contractAddress": "addr1xxx5cs795uh7wv2386lv7h6y6ut3vnf9fcywkjjhac35hde9nvv84g58ykxqh90xx6j8ywgjst0dkt430w9lxgdmzncsnpvtt2"
+                }		    
             ]
         },
         {
