@@ -21,6 +21,10 @@
                 {
                     "id": "lkbfza",
                     "version": 1
+                },
+                {
+                    "id": "jFJFTn",
+                    "version": 1
                 }		    
             ],
          "contractId": "wV5p"          
@@ -63,6 +67,21 @@
 	            "fullScriptHash": "7176226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",                     
                     "scriptHash": "76226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",
                     "contractAddress": "addr1w9mzy6clxkvzvrqey334why009uwuhwha09w8flm56v8vcqnxgpqr"
+                }    
+            ]
+        },
+        {
+            "id": "jFJFTn",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",	
+            "contractLang": "HELIOS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "719464a57b5f92a6089488abfc7137baf301d0dd3456bdeebb6dbcf77f",                     
+                    "scriptHash": "9464a57b5f92a6089488abfc7137baf301d0dd3456bdeebb6dbcf77f",
+                    "contractAddress": "addr1wx2xfftmt7f2vzy53z4lcufhhtesr5xax3ttmm4mdk70wlc03t45m"
                 }    
             ]
         }	    
