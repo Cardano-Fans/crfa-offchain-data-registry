@@ -307,6 +307,10 @@
                 {
                     "id": "ysMoTh",
                     "version": 1
+                },
+                {
+                    "id": "HqeIC7",
+                    "version": 1
                 } 		    
              ],
              "auditId": "o53W"
@@ -900,6 +904,21 @@
                     "contractAddress": "addr1wxc45xspppp73takl93mq029905ptdfnmtgv6g7cr8pdyqgvks3s8"
                 }
             ]
-        } 	    
+        },
+        {
+            "id": "HqeIC7",
+            "name": "Min staking",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 2, 
+	            "fullScriptHash": "71229863ae8694da16da002e889a1d19bcc82c581225b6dcca95fd69da",                    
+                    "scriptHash": "229863ae8694da16da002e889a1d19bcc82c581225b6dcca95fd69da",
+                    "contractAddress": "addr1wy3fscaws62d59k6qqhg3xsarx7vstzczgjmdhx2jh7knksj7w3y7"
+                }
+            ]
+        }	    
     ]
 }
