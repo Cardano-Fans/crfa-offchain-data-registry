@@ -17,10 +17,24 @@
                     "version": 1
                 }
 	    ]    
-	},	    
+	},
         {
             "releaseNumber": 2,
             "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "zkyaH2",
+                    "version": 2
+                },
+                {
+                    "id": "YmnZDY",
+                    "version": 1
+                }		    
+	    ]    
+	},	    
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
             "scripts": [
                 {
                     "id": "wyZ2ht",
@@ -36,7 +50,7 @@
                 },
                 {
                     "id": "zkyaH2",
-                    "version": 2
+                    "version": 3
                 },
                 {
                     "id": "zMY4d8",
@@ -52,7 +66,7 @@
                 },
                 {
                     "id": "YmnZDY",
-                    "version": 1
+                    "version": 2
                 },
                 {
                     "id": "IOjKkb",
@@ -144,6 +158,13 @@
 	            "fullScriptHash": "1161161584261621d4dd4307d238fe23043ce8180780e5718048a692a81ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
                     "scriptHash": "61161584261621d4dd4307d238fe23043ce8180780e5718048a692a81ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",
                     "contractAddress": "addr1z9s3v9vyyctzr4xagvrayw87yvzre6qcq7qw2uvqfznf92qm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0q2jjlf4"
+                },
+                {
+                    "version": 3,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "11b3b8c8a67790404c647ed2dbdb9e40c62e3fcff37054c34713adf9d21ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",                     
+                    "scriptHash": "b3b8c8a67790404c647ed2dbdb9e40c62e3fcff37054c34713adf9d21ba5a4dd8c3b9a1f42933fff0246391d2298ff8b5ad460edb61eb85e",
+                    "contractAddress": "addr1zxem3j9xw7gyqnry0mfdhku7grrzu0707dc9fs68zwkln5sm5kjdmrpmng059yellupyvwgay2v0lz6663swmds7hp0qul0eqc"
                 }		    
             ]
         },
@@ -199,7 +220,12 @@
                     "mintPolicyID": "b7bf238c97a8f1b292b4e86416ae8496ecc2aac9b67c47360a0ef05e",
 		    "plutusVersion": 1,                    
                     "version": 1
-                }
+                },
+                {
+                    "mintPolicyID": "0ccb659135a7098d40b5eaf97680c4d672ace8b13b750e95362f59ff",
+		    "plutusVersion": 1,                    
+                    "version": 2
+                }		    
             ]
         },
         {
