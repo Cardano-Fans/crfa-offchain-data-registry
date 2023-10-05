@@ -1,0 +1,46 @@
+{
+    "id": "u9PStLp6",
+    "projectName": "Derp Birds",
+    "link": "https://app.derpbirds.io",
+    "twitter": "https://twitter.com/DerpBirdsNFT",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "A community of memelord degens who enjoy digital collectibles"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "tMRKRj",
+                    "version": 1
+                }
+            ]           
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "tMRKRj",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "116560f382cdd26d142ebf3195feafe71e0c4325e6edc0362d4fc392452e5e642de359c5312bf6293fbaf9917062329b6cb5d5577396a57d89",                     
+                    "scriptHash": "6560f382cdd26d142ebf3195feafe71e0c4325e6edc0362d4fc392452e5e642de359c5312bf6293fbaf9917062329b6cb5d5577396a57d89",
+                    "contractAddress": "addr1z9jkpuuzehfx69pwhucetl40uu0qcse9umkuqd3dflpey3fwtejzmc6ec5cjha3f87a0nytsvgefkm9464th89490kys384ccv"
+                }    
+            ]
+        }
+    ]
+}
