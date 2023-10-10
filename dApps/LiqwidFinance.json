@@ -461,6 +461,10 @@
                     "version": 1
                 },
                 {
+                    "id": "ZTaMMX",
+                    "version": 1
+                },		    
+                {
                     "id": "dMLwPc",
                     "version": 1
                 },
@@ -1640,6 +1644,21 @@
                 }              
             ]
         },
+        {
+            "id": "ZTaMMX",
+	    "name": "Djed Treasury Income Script",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71edc97eac064185d20abf8cf21d2260566adeda888bc70bb68bb8201e",                     
+                    "scriptHash": "edc97eac064185d20abf8cf21d2260566adeda888bc70bb68bb8201e",
+                    "contractAddress": "addr1w8kujl4vqeqct5s2h7x0y8fzvptx4hk63z9uwzak3wuzq8szm5aqd"
+                }              
+            ]
+        },	    
         {
             "id": "dMLwPc",
             "name": "qDjed",
