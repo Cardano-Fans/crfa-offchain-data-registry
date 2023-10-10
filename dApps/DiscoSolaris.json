@@ -1,0 +1,46 @@
+{
+    "id": "uwRqaKNo",
+    "projectName": "Disco Solaris",
+    "link": "https://discosolaris.com",
+    "twitter": "https://twitter.com/discosolaris",
+    "category": "COLLECTION",
+    "subCategory": "NFT",
+    "description": {
+                   "short": "Customizable Digital Collectibles - BUILD YOUR PERFECT AVATAR AND START ANEW IN THE FIRST OFF-WORLD CITY!"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "xpekfu",
+                    "version": 1
+                }
+            ]            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "xpekfu",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71fb43ee22000fb1ffc5e825253375df1bb80d4bacccc106f4ad534f8b",                     
+                    "scriptHash": "fb43ee22000fb1ffc5e825253375df1bb80d4bacccc106f4ad534f8b",
+                    "contractAddress": "addr1w8a58m3zqq8mrl79aqjj2vm4mudmsr2t4nxvzph544f5lzcavmffg"
+                }    
+            ]
+        }
+    ]
+}
