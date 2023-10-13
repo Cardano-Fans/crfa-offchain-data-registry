@@ -1,0 +1,56 @@
+{
+    "id": "4aUNhw4Q",
+    "projectName": "DexHunter",
+    "link": "https://www.dexhunter.io",
+    "twitter": "https://twitter.com/DexHunterIO",
+    "category": "DEFI",
+    "subCategory": "DEX_AGGREGATOR",
+    "description": {
+                   "short": "A dex aggregator with the best rates, real-time alerts and an easy to use interface"
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "sZN84F",
+                    "version": 1
+                }
+            ],
+         "auditId": "rRW3"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+    "audits": [
+        {
+         "auditId": "rRW3",
+         "auditor": "TxPipe Shop",
+         "auditLink": "https://storage.googleapis.com/dexhunter-papers/dexhunter_stop_loss_audit.pdf",
+         "auditType": "MANUAL"     
+        }
+    ],
+    "scripts": [
+        {
+            "id": "sZN84F",
+            "name": "Stop Loss Contract",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "contractLang": "AIKEN",          
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "716ec4acc3fbbd570ada625f24902777cec5d7a349fa0f3c7ba87b0cff",                     
+                    "scriptHash": "6ec4acc3fbbd570ada625f24902777cec5d7a349fa0f3c7ba87b0cff",
+                    "contractAddress": "addr1w9hvftxrlw74wzk6vf0jfyp8wl8vt4arf8aq70rm4paselc46ptfq"
+                }    
+            ]
+        }
+    ]
+}
