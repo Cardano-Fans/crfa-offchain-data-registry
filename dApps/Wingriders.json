@@ -75,6 +75,10 @@
 					{
 						"id": "f7c0LB",
 						"version": 2
+					},
+					{
+						"id": "f7c0LB",
+						"version": 3
 					}					
 				],
                 "auditId": "9oS7"
@@ -278,6 +282,13 @@
 	            "fullScriptHash": "7192b489c6eb1186c8fd5d7ad1efb0b86eec61bf6e0d27b111a212a05d",			
                     "scriptHash": "92b489c6eb1186c8fd5d7ad1efb0b86eec61bf6e0d27b111a212a05d",
                     "contractAddress": "addr1wxftfzwxavgcdj8at4adrmashphwccdldcxj0vg35gf2qhgmavq67"
+                },
+                {
+                    "version": 3,
+ 		    "plutusVersion": 2,  
+	            "fullScriptHash": "71c71e7c1fc483e897b1b0bfd0afc63204ca1a88701f55c371d117850e",			
+                    "scriptHash": "c71e7c1fc483e897b1b0bfd0afc63204ca1a88701f55c371d117850e",
+                    "contractAddress": "addr1w8r3ulqlcjp739a3kzlapt7xxgzv5x5gwq04tsm36ytc2rs0vx42u"
                 }		    
             ]
         }	    
