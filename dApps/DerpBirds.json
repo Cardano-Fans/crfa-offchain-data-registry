@@ -17,7 +17,11 @@
                 {
                     "id": "tMRKRj",
                     "version": 1
-                }
+                },
+                {
+                    "id": "eik7YX",
+                    "version": 1
+                }		    
             ]           
         }
     ],
@@ -31,16 +35,31 @@
         {
             "id": "tMRKRj",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "116560f382cdd26d142ebf3195feafe71e0c4325e6edc0362d4fc392452e5e642de359c5312bf6293fbaf9917062329b6cb5d5577396a57d89",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "116560f382cdd26d142ebf3195feafe71e0c4325e6edc0362d4fc392452e5e642de359c5312bf6293fbaf9917062329b6cb5d5577396a57d89",                     
                     "scriptHash": "6560f382cdd26d142ebf3195feafe71e0c4325e6edc0362d4fc392452e5e642de359c5312bf6293fbaf9917062329b6cb5d5577396a57d89",
                     "contractAddress": "addr1z9jkpuuzehfx69pwhucetl40uu0qcse9umkuqd3dflpey3fwtejzmc6ec5cjha3f87a0nytsvgefkm9464th89490kys384ccv"
                 }    
             ]
-        }
+        },
+        {
+            "id": "eik7YX",
+	    "name": "Outpost",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11bbfd348839e9063b9194010cfd601cacd2de6744595975a7de9771426b5a8d165d57d2f691a35e952c8248eb62ff46d25741ef224492d473",                     
+                    "scriptHash": "bbfd348839e9063b9194010cfd601cacd2de6744595975a7de9771426b5a8d165d57d2f691a35e952c8248eb62ff46d25741ef224492d473",
+                    "contractAddress": "addr1zxal6dyg885svwu3jsqseltqrjkd9hn8g3v4jad8m6thzsntt2x3vh2h6tmfrg67j5kgyj8tvtl5d5jhg8hjy3yj63esskp4yy"
+                }    
+            ]
+        }	    
     ]
 }
