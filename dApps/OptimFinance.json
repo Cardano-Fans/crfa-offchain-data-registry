@@ -93,19 +93,7 @@
                 {
                     "id": "cAZIlp",
                     "version": 1
-                },		    
-                {
-                    "id": "D21qTg",
-                    "version": 1
-                },
-                {
-                    "id": "D21qTg",
-                    "version": 2
-                },
-                {
-                    "id": "D21qTg",
-                    "version": 3
-                },		    
+                },		    		    
                 {
                     "id": "EdPrDc",
                     "version": 1
@@ -791,35 +779,7 @@
                     "contractAddress": "addr1w80czwuyp37yf30w7uz6utkd0zgynvyqgy3jspy982fvaus7a07yt"
                 }    
             ]
-        },	    
-        {
-            "id": "D21qTg",
-            "purpose": "SPEND",
-	    "type": "PLUTUS",
-            "versions": [
-                {
-                    "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "111ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110250702a207213c4109b4610f2d29580a0385df279df1c9739710c3f5ed",                     
-                    "scriptHash": "1ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110250702a207213c4109b4610f2d29580a0385df279df1c9739710c3f5ed",
-                    "contractAddress": "addr1zydtr9wvxknwsstygqm807qsj6n20f9949dccnsye8c3qfg8q23qwgfugyymgcg09554szsrsh0j0803e9eewyxr7hksw65uhk"
-                },
-                {
-                    "version": 2,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "111ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110251c6b8a1f8f29ceadeca6235ceb336f3a8f7b1e3120f2bd7881608a83",                     
-                    "scriptHash": "1ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110251c6b8a1f8f29ceadeca6235ceb336f3a8f7b1e3120f2bd7881608a83",
-                    "contractAddress": "addr1zydtr9wvxknwsstygqm807qsj6n20f9949dccnsye8c3qfgudw9plrefe6k7ef3rtn4nxme63aa3uvfq727h3qtq32pskesq0f"
-                },
-                {
-                    "version": 3,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "111ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110258f3ee733f5ac86dda8582fdf4292025535f024dac5736793d6535137",                     
-                    "scriptHash": "1ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110258f3ee733f5ac86dda8582fdf4292025535f024dac5736793d6535137",
-                    "contractAddress": "addr1zydtr9wvxknwsstygqm807qsj6n20f9949dccnsye8c3qfv08mnn8advsmw6skp0mapfyqj4xhczfkk9wdne84jn2ymssu7w6z"
-                } 		    
-            ]
-        },	    
+        },	    	    
         {
             "id": "EdPrDc",
             "name": "Active bond",		
