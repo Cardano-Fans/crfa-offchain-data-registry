@@ -91,6 +91,18 @@
                     "version": 1
                 },
                 {
+                    "id": "VErJlZ",
+                    "version": 1
+                },
+                {
+                    "id": "OMF14d",
+                    "version": 1
+                },
+                {
+                    "id": "EYftSS",
+                    "version": 1
+                },		    
+                {
                     "id": "cAZIlp",
                     "version": 1
                 },		    		    
@@ -766,6 +778,48 @@
                 }    
             ]
         },
+        {
+            "id": "VErJlZ",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "1105cf16b9e73370782b72e92f33e3c8f36beed36074b5f24730aa7423e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "05cf16b9e73370782b72e92f33e3c8f36beed36074b5f24730aa7423e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1zyzu794euuehq7ptwt5j7vlrerekhmknvp6ttuj8xz48ggl8ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7qyklj40"
+                }    
+            ]
+        },
+        {
+            "id": "OMF14d",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "11f8f753c9ace9a78cddd22366aff9c3618f176fdd679231717a155bdbe7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "f8f753c9ace9a78cddd22366aff9c3618f176fdd679231717a155bdbe7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1z8u0w57f4n560rxa6g3kdtlecdsc79m0m4neyvt30g24hkl8ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7q2nv062"
+                }    
+            ]
+        },	
+        {
+            "id": "EYftSS",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "11c59ef3a0abe4dafc913723021ee3e45cd2384df37635e1c69b403296e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",                     
+                    "scriptHash": "c59ef3a0abe4dafc913723021ee3e45cd2384df37635e1c69b403296e7e620338c24165d8496444f91b949f45372d9f60dc8a79bbbdd063c",
+                    "contractAddress": "addr1z8zeauaq40jd4ly3xu3sy8hru3wdywzd7dmrtcwxndqr99h8ucsr8rpyzewcf9jyf7gmjj052dednasdeznehw7aqc7qlsn3yf"
+                }    
+            ]
+        },	    
         {
             "id": "cAZIlp",
             "purpose": "SPEND",
