@@ -805,6 +805,66 @@
 	        {
                     "id": "mQTEDT",
                     "version": 1
+                },
+	        {
+                    "id": "fxNzo0",
+                    "version": 1
+                },
+	        {
+                    "id": "5wlto8",
+                    "version": 1
+                },
+	        {
+                    "id": "nkmERb",
+                    "version": 1
+                },
+	        {
+                    "id": "rnNDkV",
+                    "version": 1
+                },
+	        {
+                    "id": "KITUzC",
+                    "version": 1
+                },
+	        {
+                    "id": "MDdlhP",
+                    "version": 1
+                },
+	        {
+                    "id": "jeqv65",
+                    "version": 1
+                },
+	        {
+                    "id": "lTKHIn",
+                    "version": 1
+                },
+	        {
+                    "id": "PvGI9Z",
+                    "version": 1
+                },
+	        {
+                    "id": "rdk4yw",
+                    "version": 1
+                },
+	        {
+                    "id": "NWBRcc",
+                    "version": 1
+                },
+	        {
+                    "id": "scJpKY",
+                    "version": 1
+                },
+	        {
+                    "id": "xVVhFx",
+                    "version": 1
+                },
+	        {
+                    "id": "o4ILWv",
+                    "version": 1
+                },
+	        {
+                    "id": "7SOLFQ",
+                    "version": 1
                 }		    
             ],
         "auditId": "iV1y"            
@@ -2840,6 +2900,219 @@
             "versions": [
                 {
                     "mintPolicyID": "a5667ec9e9334143dd828e260e1270be265dd84e9e46e4333d76ea57",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "fxNzo0",
+	    "name": "DAI Action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f42059f8bafc3cceec94eb5d09c656b5685ef179b13b55baeec765e2",                     
+                    "scriptHash": "f42059f8bafc3cceec94eb5d09c656b5685ef179b13b55baeec765e2",
+                    "contractAddress": "addr1w86zqk0cht7renhvjn446zwx266kshh30xcnk4d6amrktcsrwhssg"
+                }              
+            ]
+        },
+        {
+            "id": "5wlto8",
+	    "name": "DAI Batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71d1967e6d23962150fb25168829002049feb9133740fa738ed4ca5bd7",                     
+                    "scriptHash": "d1967e6d23962150fb25168829002049feb9133740fa738ed4ca5bd7",
+                    "contractAddress": "addr1w8gevlndywtzz58my5tgs2gqypylawgnxaq05uuw6n99h4c0lgwjl"
+                }              
+            ]
+        },
+        {
+            "id": "nkmERb",
+	    "name": "DAI Batch Final",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71a54bc78ce92e48ca736034bebeae9dc1565d639b6225f0f5fb6cc297",                     
+                    "scriptHash": "a54bc78ce92e48ca736034bebeae9dc1565d639b6225f0f5fb6cc297",
+                    "contractAddress": "addr1wxj5h3uvayhy3jnnvq6ta04wnhq4vhtrnd3ztu84ldkv99cwjmdxn"
+                }              
+            ]
+        },	
+        {
+            "id": "rnNDkV",
+	    "name": "DAI Borrow Token",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f7c838d95288aaa94fbf59211eebab72805e5980aa23c3bfb19ecff9",                     
+                    "scriptHash": "f7c838d95288aaa94fbf59211eebab72805e5980aa23c3bfb19ecff9",
+                    "contractAddress": "addr1w8muswxe22y24220havjz8ht4degqhjesz4z8salkx0vl7gmh7taf"
+                }              
+            ]
+        },	
+        {
+            "id": "KITUzC",
+	    "name": "DAI Market State",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "718e941c939dd9d78715db1d88c9b7f4b18d9af12b288e3f8f84314525",                     
+                    "scriptHash": "8e941c939dd9d78715db1d88c9b7f4b18d9af12b288e3f8f84314525",
+                    "contractAddress": "addr1wx8fg8ynnhva0pc4mvwc3jdh7jccmxh39v5gu0u0ssc52fgzxxd9y"
+                }              
+            ]
+        },
+        {
+            "id": "MDdlhP",
+	    "name": "DAI Loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71103231ad9f190abec0d7cb7cba383cea4278eb4cbb737bbc3e9bd8bf",                     
+                    "scriptHash": "103231ad9f190abec0d7cb7cba383cea4278eb4cbb737bbc3e9bd8bf",
+                    "contractAddress": "addr1wygryvddnuvs40kq6l9hew3c8n4yy78tfjahx7au86da30cuxfjan"
+                }              
+            ]
+        },
+        {
+            "id": "jeqv65",
+	    "name": "DAI Liquidation",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7148cd6201316d65ce895d6d9f255881a27986e71aba4d0af015825f19",                     
+                    "scriptHash": "48cd6201316d65ce895d6d9f255881a27986e71aba4d0af015825f19",
+                    "contractAddress": "addr1w9yv6cspx9kktn5ft4ke7f2csx38nph8r2ay6zhszkp97xgsmyp0z"
+                }              
+            ]
+        },
+        {
+            "id": "lTKHIn",
+	    "name": "DAI Dividends Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71d9a67663ab06151dab3a314311b115c992f1500e38a19ea1ec32b928",                     
+                    "scriptHash": "d9a67663ab06151dab3a314311b115c992f1500e38a19ea1ec32b928",
+                    "contractAddress": "addr1w8v6vanr4vrp28dt8gc5xyd3zhye9u2spcu2r84pasetj2qs5parw"
+                }              
+            ]
+        },
+        {
+            "id": "PvGI9Z",
+	    "name": "DAI Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71635287c717cb4b542d92e80affc3c84dafeb3cfdee3003e018f52c9b",                     
+                    "scriptHash": "635287c717cb4b542d92e80affc3c84dafeb3cfdee3003e018f52c9b",
+                    "contractAddress": "addr1w9349p78zl95k4pdjt5q4l7repx6l6eulhhrqqlqrr6jexc8qh4zj"
+                }              
+            ]
+        },
+        {
+            "id": "rdk4yw",
+            "name": "DAI Qtoken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "8996bb07509defe0be6f0c39845a736b266c85a70d87ebfb66454a78",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "NWBRcc",
+            "name": "DAI ActionToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "c5649c7f38dbf411ffae320c89ab817f640fc4b98a600f44afa95557",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "scJpKY",
+            "name": "DAI Batch Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "75020c2213c82a7b8588b27ea667eb178c7ab10e4bf8b0a476dcf449",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "xVVhFx",
+            "name": "DAI Collateral Params Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "fb016cf7260435508066d9ac5551fdc979f56d0ad35e6f782a1e3e73",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "o4ILWv",
+            "name": "DAI Market Params Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "0c5f3646b69f7001d007c98debd48689d4c1bdfe0eefc070de350c7e",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "7SOLFQ",
+            "name": "DAI Market State Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "4d79e8ef7e91551617b2dcc87261b7e119ae95c58f32642ff5101688",
 		    "plutusVersion": 2,                    
                     "version": 1
                 }
