@@ -23,6 +23,10 @@
                     "version": 1
                 },
                 {
+                    "id": "lkbfza",
+                    "version": 2
+                },		    
+                {
                     "id": "jFJFTn",
                     "version": 1
                 }		    
@@ -67,7 +71,14 @@
 	            "fullScriptHash": "7176226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",                     
                     "scriptHash": "76226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",
                     "contractAddress": "addr1w9mzy6clxkvzvrqey334why009uwuhwha09w8flm56v8vcqnxgpqr"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "110042bfae9b1a2e2bfce3b97320e0aa9c4e5c4425ed12f82319cb9ce6c4e1728a5f054404d82d78999cf5441852056452cb3a0537535c1be3",                     
+                    "scriptHash": "0042bfae9b1a2e2bfce3b97320e0aa9c4e5c4425ed12f82319cb9ce6c4e1728a5f054404d82d78999cf5441852056452cb3a0537535c1be3",
+                    "contractAddress": "addr1zyqy90awnvdzu2luuwuhxg8q42wyuhzyyhk397prr89eeekyu9eg5hc9gszdsttcnxw023qc2gzkg5kt8gznw56ur03syekwfv"
+                }		    
             ]
         },
         {
