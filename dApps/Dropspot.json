@@ -37,6 +37,10 @@
 	        {
                     "id": "SkxzLD",
                     "version": 1
+                },
+	        {
+                    "id": "IKi5Tw",
+                    "version": 1
                 },		    
                 {
                     "id": "dvNmKv",
@@ -147,6 +151,21 @@
 	            "fullScriptHash": "115f8ebaa9329deb1f7482d7cd91bf42c8127ec9f9b15b682e93ce8b96128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
                     "scriptHash": "5f8ebaa9329deb1f7482d7cd91bf42c8127ec9f9b15b682e93ce8b96128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "contractAddress": "addr1z90caw4fx2w7k8m5sttumydlgtypylkflxc4k6pwj08gh9sj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eqgtedy8"
+                }             
+            ]
+        },
+        {
+            "id": "IKi5Tw",
+            "name": "QRdano Mint Contract",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "1173fd659b865deaecd52b71c21f39cde3aae42036b7d07f0daca3fb92128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
+                    "scriptHash": "73fd659b865deaecd52b71c21f39cde3aae42036b7d07f0daca3fb92128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
+                    "contractAddress": "addr1z9el6evmsew74mx49dcuy8eeeh364epqx6maqlcd4j3lhysj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eq593lxs"
                 }             
             ]
         },	    
