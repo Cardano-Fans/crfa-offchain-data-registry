@@ -29,6 +29,14 @@
                 {
                     "id": "jFJFTn",
                     "version": 1
+                },
+                {
+                    "id": "4eU20z",
+                    "version": 1
+                },
+                {
+                    "id": "pHDZgP",
+                    "version": 1
                 }		    
             ],
          "contractId": "wV5p"          
@@ -93,6 +101,37 @@
 	            "fullScriptHash": "719464a57b5f92a6089488abfc7137baf301d0dd3456bdeebb6dbcf77f",                     
                     "scriptHash": "9464a57b5f92a6089488abfc7137baf301d0dd3456bdeebb6dbcf77f",
                     "contractAddress": "addr1wx2xfftmt7f2vzy53z4lcufhhtesr5xax3ttmm4mdk70wlc03t45m"
+                }    
+            ]
+        },
+        {
+            "id": "4eU20z",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",	
+            "contractLang": "HELIOS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "715ac9275012864fe0b78524d06ed930657ba81acdc2ccb5e49597f61c",                     
+                    "scriptHash": "5ac9275012864fe0b78524d06ed930657ba81acdc2ccb5e49597f61c",
+                    "contractAddress": "addr1w9dvjf6sz2rylc9hs5jdqmkexpjhh2q6ehpved0yjktlv8qut6xdl"
+                }    
+            ]
+        },
+        {
+            "id": "pHDZgP",
+	    "name": "Auction",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",	
+            "contractLang": "HELIOS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "710deb8864bfdb490d445d2fb10169d5e53861c319be9ff4903008bd9c",                     
+                    "scriptHash": "0deb8864bfdb490d445d2fb10169d5e53861c319be9ff4903008bd9c",
+                    "contractAddress": "addr1wyx7hzryhld5jr2yt5hmzqtf6hjnscwrrxlflaysxqytm8qewq3tu"
                 }    
             ]
         }	    
