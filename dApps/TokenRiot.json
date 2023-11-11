@@ -1,0 +1,106 @@
+{
+    "id": "R80rtGj7",
+    "projectName": "Token Riot",
+    "link": "https://tokenriot.io",
+    "twitter": "https://twitter.com/TokenRiot",
+    "category": "MARKETPLACE",
+    "description": {
+                   "short": "The Token Riot Marketplace is a decentralized platform designed for the exchange of UTxOs (Unspent Transaction Outputs) between users."
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "SsIgbp",
+                    "version": 1
+                },
+                {
+                    "id": "xKSnVJ",
+                    "version": 1
+                },
+                {
+                    "id": "VI478C",
+                    "version": 1
+                },
+                {
+                    "id": "Ndkgdb",
+                    "version": 1
+                }              
+            ],
+        "contractId": "i74t"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/TokenRiot/token-riot-contracts",
+         "contractId": "i74t"
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "SsIgbp",
+            "name": "Data Contract",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "7115b6269723881b5ab53ffaccbd142dbec125cde76abf7fc0ba70f534",                     
+                    "scriptHash": "15b6269723881b5ab53ffaccbd142dbec125cde76abf7fc0ba70f534",
+                    "contractAddress": "addr1wy2mvf5hywypkk448lave0g59klvzfwdua4t7l7qhfc02dqk6hflp"
+                }    
+            ]
+        },
+        {
+            "id": "xKSnVJ",
+            "name": "Marketplace",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "31387756888f0016dbcdf5a1d77816aca87e666002075cf2221a612cbf53e88d1d58e65f18f8a6d5803643432f19b7235aeb1858f4e48eb3ab",                     
+                    "scriptHash": "387756888f0016dbcdf5a1d77816aca87e666002075cf2221a612cbf53e88d1d58e65f18f8a6d5803643432f19b7235aeb1858f4e48eb3ab",
+                    "contractAddress": "addr1xyu8w45g3uqpdk7d7ksaw7qk4j58uenqqgr4eu3zrfsje06nazx36k8xtuv03fk4sqmyxse0rxmjxkhtrpv0feywkw4sfm7c0v"
+                }    
+            ]
+        },
+        {
+            "id": "VI478C",
+            "name": "Minter",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71e05558ba94a3cc7430fb003f5acc5e0892087fd99e585f49ab8b747d",                     
+                    "scriptHash": "e05558ba94a3cc7430fb003f5acc5e0892087fd99e585f49ab8b747d",
+                    "contractAddress": "addr1w8s92k96jj3ucapslvqr7kkvtcyfyzrlmx09sh6f4w9hglgs2jalc"
+                }    
+            ]
+        },
+        {
+            "id": "Ndkgdb",
+            "name": "CIP68",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71ee81d6c710fe8d98783c1c1e3b5a620d989b10a042feae06a552349b",                     
+                    "scriptHash": "ee81d6c710fe8d98783c1c1e3b5a620d989b10a042feae06a552349b",
+                    "contractAddress": "addr1w8hgr4k8zrlgmxrc8swpuw66vgxe3xcs5pp0atsx54frfxcxg428p"
+                }    
+            ]
+        }      
+    ]
+}
