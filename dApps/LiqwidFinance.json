@@ -895,6 +895,66 @@
 	        {
                     "id": "7SOLFQ",
                     "version": 1
+                },
+	        {
+                    "id": "CB4kdQ",
+                    "version": 1
+                },
+	        {
+                    "id": "u2V4lV",
+                    "version": 1
+                },
+	        {
+                    "id": "Ggtr4b",
+                    "version": 1
+                },
+	        {
+                    "id": "DAJTEk",
+                    "version": 1
+                },
+	        {
+                    "id": "vQnfzV",
+                    "version": 1
+                },
+	        {
+                    "id": "GOuRol",
+                    "version": 1
+                },
+	        {
+                    "id": "cYxmri",
+                    "version": 1
+                },
+	        {
+                    "id": "LkL7AW",
+                    "version": 1
+                },
+	        {
+                    "id": "mWZIUc",
+                    "version": 1
+                },
+	        {
+                    "id": "o0AjCf",
+                    "version": 1
+                },
+	        {
+                    "id": "zp60qF",
+                    "version": 1
+                },
+	        {
+                    "id": "d3Z4RX",
+                    "version": 1
+                },
+	        {
+                    "id": "7MVD1Z",
+                    "version": 1
+                },
+	        {
+                    "id": "7fO1Ja",
+                    "version": 1
+                },
+	        {
+                    "id": "4K5pLP",
+                    "version": 1
                 }		    
             ],
         "auditId": "iV1y"            
@@ -3188,6 +3248,219 @@
 		    "plutusVersion": 2,                    
                     "version": 1
                 }
+            ]
+        },
+        {
+            "id": "CB4kdQ",
+	    "name": "MIN Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71cee7be304ce9501a702fdc45cd42c724b60b99fd462a392e4b1a4553",                     
+                    "scriptHash": "cee7be304ce9501a702fdc45cd42c724b60b99fd462a392e4b1a4553",
+                    "contractAddress": "addr1w88w003sfn54qxns9lwytn2zcujtvzuel4rz5wfwfvdy25cmunmng"
+                }              
+            ]
+        },
+        {
+            "id": "u2V4lV",
+            "name": "MIN QToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "a4430a085f45bca6399bec6bd7514eb8c2fce1ed75c7554739cfc32b",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "Ggtr4b",
+            "name": "MIN MarketState Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "7211aebe5303f1a8c7905198f637099f194a3b23e841b1dcbc064017",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "DAJTEk",
+	    "name": "MIN MarketState",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71959d9b08113e0edbc48ce2c23bb293e4e47590bf574fa4f811fb736b",                     
+                    "scriptHash": "959d9b08113e0edbc48ce2c23bb293e4e47590bf574fa4f811fb736b",
+                    "contractAddress": "addr1wx2emxcgzylqak7y3n3vywajj0jwgavshat5lf8cz8ahx6csdkxud"
+                }              
+            ]
+        },
+        {
+            "id": "vQnfzV",
+            "name": "MIN MarketParams Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "413b0737013724910078491505fbd391d04b8d11f35e98c02f41ba0d",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "GOuRol",
+	    "name": "MIN Loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71eb1c62309586ed7282eb37c4ff72cd30f0cf55349b781e26df16e101",                     
+                    "scriptHash": "eb1c62309586ed7282eb37c4ff72cd30f0cf55349b781e26df16e101",
+                    "contractAddress": "addr1w843cc3sjkrw6u5zavmuflmje5c0pn64xjdhs83xmutwzqgyyncur"
+                }              
+            ]
+        },
+        {
+            "id": "cYxmri",
+	    "name": "MIN Liquidation",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f0fe71a68a750305915a43ac8efffa5f65e4b54d0bf1bcc45ca7b3e3",                     
+                    "scriptHash": "f0fe71a68a750305915a43ac8efffa5f65e4b54d0bf1bcc45ca7b3e3",
+                    "contractAddress": "addr1w8c0uudx3f6sxpv3tfp6erhllf0kte94f59lr0xytjnm8ccr8ycdz"
+                }              
+            ]
+        },
+        {
+            "id": "LkL7AW",
+	    "name": "MIN Dividends Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "717edda41b7048987d3524ae7fc447feeaa51f9296d6773692c7e94824",                     
+                    "scriptHash": "7edda41b7048987d3524ae7fc447feeaa51f9296d6773692c7e94824",
+                    "contractAddress": "addr1w9ldmfqmwpyfslf4yjh8l3z8lm4228ujjmt8wd5jcl55sfq8xne8n"
+                }              
+            ]
+        },
+        {
+            "id": "mWZIUc",
+            "name": "MIN CollateralParams Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "85ea2eeddade13b28a6588c4c723b1363e3e9dcd5e43c4d49e2986f9",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "o0AjCf",
+	    "name": "MIN BorrowToken",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "719d7fbb38fe90a58ebac1c91f37c008bd6acedab4fae76f2201072df9",                     
+                    "scriptHash": "9d7fbb38fe90a58ebac1c91f37c008bd6acedab4fae76f2201072df9",
+                    "contractAddress": "addr1wxwhlwecl6g2tr46c8y37d7qpz7k4nk6knawwmezqyrjm7g6smtq3"
+                }              
+            ]
+        },
+        {
+            "id": "zp60qF",
+            "name": "MIN Batch Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "d3c6407159ef5153f0cf95896d3af263e0ee148da7e7c6cae3a8c7ed",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "d3Z4RX",
+	    "name": "MIN BatchFinal",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71452650490499ff68be41287e08662039deb04e723d0f33c8591cde7a",                     
+                    "scriptHash": "452650490499ff68be41287e08662039deb04e723d0f33c8591cde7a",
+                    "contractAddress": "addr1w9zjv5zfqjvl7697gy58uzrxyquaavzwwg7s7v7gtywdu7s5d5wwa"
+                }              
+            ]
+        },
+        {
+            "id": "7MVD1Z",
+	    "name": "MIN Batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71c79b4145d351812445def14c3dddd04e5591e78020a7e976e805952b",                     
+                    "scriptHash": "c79b4145d351812445def14c3dddd04e5591e78020a7e976e805952b",
+                    "contractAddress": "addr1w8reks296dgczfz9mmc5c0wa6p89ty08sqs206tkaqze22cajfrka"
+                }              
+            ]
+        },
+        {
+            "id": "7fO1Ja",
+            "name": "MIN Action Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "2fd85ced99dd9f254dfe5a1cdfb807ea2b3599e6ce33fe436210353a",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "4K5pLP",
+	    "name": "MIN Action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7102652a93b8327ba64b6c0bb8dfb11a76cbb333a3fbb4243ddc0859ac",                     
+                    "scriptHash": "02652a93b8327ba64b6c0bb8dfb11a76cbb333a3fbb4243ddc0859ac",
+                    "contractAddress": "addr1wypx225nhqe8hfjtds9m3ha3rfmvhven50amgfpamsy9ntq0lhecc"
+                }              
             ]
         }	    
     ]
