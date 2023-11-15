@@ -1015,6 +1015,66 @@
 	        {
                     "id": "YAsdPe",
                     "version": 1
+                },
+	        {
+                    "id": "uPvOEj",
+                    "version": 1
+                },
+	        {
+                    "id": "6sGKzI",
+                    "version": 1
+                },
+	        {
+                    "id": "icLJBI",
+                    "version": 1
+                },
+	        {
+                    "id": "9x6eya",
+                    "version": 1
+                },
+	        {
+                    "id": "lkpnGw",
+                    "version": 1
+                },
+	        {
+                    "id": "Deex6U",
+                    "version": 1
+                },
+	        {
+                    "id": "PP7OxT",
+                    "version": 1
+                },
+	        {
+                    "id": "RFJOTD",
+                    "version": 1
+                },
+	        {
+                    "id": "Ch5xaN",
+                    "version": 1
+                },
+	        {
+                    "id": "OXw6Il",
+                    "version": 1
+                },
+	        {
+                    "id": "pHb4FF",
+                    "version": 1
+                },
+	        {
+                    "id": "PQtMyr",
+                    "version": 1
+                },
+	        {
+                    "id": "g3BmwX",
+                    "version": 1
+                },
+	        {
+                    "id": "BKbLwP",
+                    "version": 1
+                },
+	        {
+                    "id": "nCi0lD",
+                    "version": 1
                 }		    
             ],
         "auditId": "iV1y"            
@@ -3733,6 +3793,219 @@
 	            "fullScriptHash": "714811377ea9279acb8fff1d65a225e19c0eca68bb5c1d836a47584e67",                     
                     "scriptHash": "4811377ea9279acb8fff1d65a225e19c0eca68bb5c1d836a47584e67",
                     "contractAddress": "addr1w9ypzdm74yne4ju0luwktg39uxwqajnghdwpmqm2gavyuec9zu77h"
+                }              
+            ]
+        },
+        {
+            "id": "uPvOEj",
+	    "name": "AGIX Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f6578308a023f60013a5dc85651c489bcdec71326f74ad0fe5bae69c",                     
+                    "scriptHash": "f6578308a023f60013a5dc85651c489bcdec71326f74ad0fe5bae69c",
+                    "contractAddress": "addr1w8m90qcg5q3lvqqn5hwg2egufzdummr3xfhhftg0ukawd8q86ykf5"
+                }              
+            ]
+        },
+        {
+            "id": "6sGKzI",
+            "name": "AGIX QToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "d753e0d193680fe32710379d3a1ec48087ce94f3831505b922c2894b",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "icLJBI",
+            "name": "AGIX MarketState Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "f4d8fa6f00d83af913345576f06f28c5ea188366f1636a0b4521d1c0",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "9x6eya",
+	    "name": "AGIX MarketState",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7180a185e239a191ecd715c93cebefdf0babcf8b9b051dd861936975df",                     
+                    "scriptHash": "80a185e239a191ecd715c93cebefdf0babcf8b9b051dd861936975df",
+                    "contractAddress": "addr1wxq2rp0z8xsermxhzhyne6l0mu96hnutnvz3mkrpjd5hthczxv66w"
+                }              
+            ]
+        },
+        {
+            "id": "lkpnGw",
+            "name": "AGIX MarketParams Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "0edb1425a060584703f4edeee36301bf27764a8757c81d63b9d60af9",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "Deex6U",
+	    "name": "AGIX Loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71fa0a70c3944ffefda77daf6e0660f07ef477f07a705fa162cd36f7c0",                     
+                    "scriptHash": "fa0a70c3944ffefda77daf6e0660f07ef477f07a705fa162cd36f7c0",
+                    "contractAddress": "addr1w8aq5uxrj38lald80khkupnq7pl0gals0fc9lgtze5m00sqyvwxmt"
+                }              
+            ]
+        },
+        {
+            "id": "PP7OxT",
+	    "name": "AGIX Liquidation",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "719b0f13213e40bcf25850871a7cf8cfb359dd1f954b49f90cda3a5f16",                     
+                    "scriptHash": "9b0f13213e40bcf25850871a7cf8cfb359dd1f954b49f90cda3a5f16",
+                    "contractAddress": "addr1wxds7yep8eqteujc2zr35l8ce7e4nhglj495n7gvmga979svsdj2a"
+                }              
+            ]
+        },
+        {
+            "id": "RFJOTD",
+	    "name": "AGIX Dividends Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "717d1c21644ce422011b4b0c7b7129875fb79bf31e25ddfd24eb1b355d",                     
+                    "scriptHash": "7d1c21644ce422011b4b0c7b7129875fb79bf31e25ddfd24eb1b355d",
+                    "contractAddress": "addr1w973cgtyfnjzyqgmfvx8kuffsa0m0xlnrcjamlfyavdn2hgrlrx6l"
+                }              
+            ]
+        },
+        {
+            "id": "Ch5xaN",
+            "name": "AGIX CollateralParams Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "5d9f0a4e39acc894741c7bb6758be16f2673a5765af2e7d5d0b91bdc",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "OXw6Il",
+	    "name": "AGIX Borrow Token",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f73843062a63e9b882bfda8dd87360c588ce664510c22fd52bb49c4a",                     
+                    "scriptHash": "f73843062a63e9b882bfda8dd87360c588ce664510c22fd52bb49c4a",
+                    "contractAddress": "addr1w8mnsscx9f37nwyzhldgmkrnvrzc3nnxg5gvyt749w6fcjs9xkd9l"
+                }              
+            ]
+        },
+        {
+            "id": "pHb4FF",
+            "name": "AGIX Batch Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "367342c3fc92d6918612b7f472c1e39d0fe1e32572099b314eeede9a",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "PQtMyr",
+	    "name": "AGIX BatchFinal",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71bc3de5c5af5513959c205dbefbdcf81505a4c59d16ec2471c5e856c0",                     
+                    "scriptHash": "bc3de5c5af5513959c205dbefbdcf81505a4c59d16ec2471c5e856c0",
+                    "contractAddress": "addr1wx7rmew94a2389vuypwma77ulq2stfx9n5twcfr3ch59dsqvuhlzu"
+                }              
+            ]
+        },
+        {
+            "id": "g3BmwX",
+	    "name": "AGIX Batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7128dbd999eca72c7de7cbb75452fb613c56723da89e3591b821a0b52e",                     
+                    "scriptHash": "28dbd999eca72c7de7cbb75452fb613c56723da89e3591b821a0b52e",
+                    "contractAddress": "addr1wy5dhkveajnjcl08ewm4g5hmvy79vu3a4z0rtydcyxst2tsmu700m"
+                }              
+            ]
+        },
+        {
+            "id": "BKbLwP",
+            "name": "AGIX Action Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "1653b2ceb4c50ed2e3e9afd5cc6f4dfe687b03ba2f98c263d0c19d3f",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "nCi0lD",
+	    "name": "AGIX Action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71384d2b4b6279a10e1a3bc7168295ec98bbf43de17949065286f27597",                     
+                    "scriptHash": "384d2b4b6279a10e1a3bc7168295ec98bbf43de17949065286f27597",
+                    "contractAddress": "addr1wyuy626tvfu6zrs680r3dq54ajvthapau9u5jpjjsme8t9cr8l5ee"
                 }              
             ]
         }	    
