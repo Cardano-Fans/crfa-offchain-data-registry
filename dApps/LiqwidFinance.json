@@ -955,6 +955,66 @@
 	        {
                     "id": "4K5pLP",
                     "version": 1
+                },
+	        {
+                    "id": "kosxqz",
+                    "version": 1
+                },
+	        {
+                    "id": "ETArgj",
+                    "version": 1
+                },
+	        {
+                    "id": "E2FhnI",
+                    "version": 1
+                },
+	        {
+                    "id": "35uMaa",
+                    "version": 1
+                },
+	        {
+                    "id": "glbyjL",
+                    "version": 1
+                },
+	        {
+                    "id": "xzapm1",
+                    "version": 1
+                },
+	        {
+                    "id": "R0ajvG",
+                    "version": 1
+                },
+	        {
+                    "id": "U2jOO3",
+                    "version": 1
+                },
+	        {
+                    "id": "rMKOP4",
+                    "version": 1
+                },
+	        {
+                    "id": "Fej5aY",
+                    "version": 1
+                },
+	        {
+                    "id": "ezhtNF",
+                    "version": 1
+                },
+	        {
+                    "id": "4iQfZG",
+                    "version": 1
+                },
+	        {
+                    "id": "U3MxzR",
+                    "version": 1
+                },
+	        {
+                    "id": "bm4fdt",
+                    "version": 1
+                },
+	        {
+                    "id": "YAsdPe",
+                    "version": 1
                 }		    
             ],
         "auditId": "iV1y"            
@@ -3460,6 +3520,219 @@
 	            "fullScriptHash": "7102652a93b8327ba64b6c0bb8dfb11a76cbb333a3fbb4243ddc0859ac",                     
                     "scriptHash": "02652a93b8327ba64b6c0bb8dfb11a76cbb333a3fbb4243ddc0859ac",
                     "contractAddress": "addr1wypx225nhqe8hfjtds9m3ha3rfmvhven50amgfpamsy9ntq0lhecc"
+                }              
+            ]
+        },
+        {
+            "id": "kosxqz",
+	    "name": "WMT Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "718c126fd29c7a6d213b4ea46568fe60d4f405f8364105506ad47d2350",                     
+                    "scriptHash": "8c126fd29c7a6d213b4ea46568fe60d4f405f8364105506ad47d2350",
+                    "contractAddress": "addr1wxxpym7jn3ax6gfmf6jx2687vr20gp0cxeqs25r2637jx5q6dw0uy"
+                }              
+            ]
+        },
+        {
+            "id": "ETArgj",
+            "name": "WMT QToken",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "f2636c8280e49e7ed7a7b1151341130989631b45a08d1b320f016981",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "E2FhnI",
+            "name": "WMT MarketState Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "d8c6d5509d11856fe3c2cfc434e6f251f0ed6b0d54090b40656df6ae",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "35uMaa",
+	    "name": "WMT MarketState",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71f42f7a0c16e377a7313404e8880386a6f8e5725db39985d25757b6ba",                     
+                    "scriptHash": "f42f7a0c16e377a7313404e8880386a6f8e5725db39985d25757b6ba",
+                    "contractAddress": "addr1w86z77svzm3h0fe3xszw3zqrs6n03etjtkeenpwj2atmdwsks8fc7"
+                }              
+            ]
+        },	
+        {
+            "id": "glbyjL",
+            "name": "WMT MarketParams Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "ee73884453cf3c5788313ca0341f494f684c1c40bb3bc5c0df85be6d",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "xzapm1",
+	    "name": "WMT Loan",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71add1efe119a861bd883aaa8616437187d4b215425b8bbc8afdcd5610",                     
+                    "scriptHash": "add1efe119a861bd883aaa8616437187d4b215425b8bbc8afdcd5610",
+                    "contractAddress": "addr1wxkarmlprx5xr0vg824gv9jrwxrafvs4gfdch0y2lhx4vyqyfn4au"
+                }              
+            ]
+        },
+        {
+            "id": "R0ajvG",
+	    "name": "WMT Liquidation",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71652b378a21deeb568dc6d338d8b26fd9c7c134d69d1ba713408573bb",                     
+                    "scriptHash": "652b378a21deeb568dc6d338d8b26fd9c7c134d69d1ba713408573bb",
+                    "contractAddress": "addr1w9jjkdu2y80wk45dcmfn3k9jdlvu0sf566w3hfcngzzh8wc3ew2rx"
+                }              
+            ]
+        },
+        {
+            "id": "U2jOO3",
+	    "name": "WMT Dividends Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71452955e5578a59e97bd6e62071015be742cc243eac9614edff5851d9",                     
+                    "scriptHash": "452955e5578a59e97bd6e62071015be742cc243eac9614edff5851d9",
+                    "contractAddress": "addr1w9zjj4092799n6tm6mnzqugpt0n59npy86kfv98dlav9rkgz4k7s6"
+                }              
+            ]
+        },
+        {
+            "id": "rMKOP4",
+            "name": "WMT CollateralParams Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "02fa62eaba4e762cbe455aaaf9399d71d4362a90e2176f7b2d4342c3",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },	
+        {
+            "id": "Fej5aY",
+	    "name": "WMT BorrowToken",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71989f82644660e5cfc77889cbab443ad0729171973fbf8da39aaafdb5",                     
+                    "scriptHash": "989f82644660e5cfc77889cbab443ad0729171973fbf8da39aaafdb5",
+                    "contractAddress": "addr1wxvflqnygeswtn780zyuh26y8tg89yt3julmlrdrn240mdg94cldu"
+                }              
+            ]
+        },
+        {
+            "id": "ezhtNF",
+            "name": "WMT Batch Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "0e84e77a514e793a1f772bb323745f3a690e6a870960bebde1c9c0e4",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "4iQfZG",
+	    "name": "WMT BatchFinal",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "713eca957ef02d32f3ae24fe7a8a0b210522de7abe32282203eb32fe0a",                     
+                    "scriptHash": "3eca957ef02d32f3ae24fe7a8a0b210522de7abe32282203eb32fe0a",
+                    "contractAddress": "addr1wylv49t77qkn9uawynl84zstyyzj9hn6hcezsgsrave0uzs57exa8"
+                }              
+            ]
+        },
+        {
+            "id": "U3MxzR",
+	    "name": "WMT Batch",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "715bf90fe45e0f130a36947ff5ef69b162c0e19c88284ef95e830ef080",                     
+                    "scriptHash": "5bf90fe45e0f130a36947ff5ef69b162c0e19c88284ef95e830ef080",
+                    "contractAddress": "addr1w9dljrlytc83xz3kj3lltmmfk93vpcvu3q5ya727sv80pqqd0f72m"
+                }              
+            ]
+        },
+        {
+            "id": "bm4fdt",
+            "name": "WMT Action Token",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "ca873ee2bd0303b0a8bce0a5c7376ee6bf811df27f5f83163c0bdb00",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "YAsdPe",
+	    "name": "WMT Action",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "714811377ea9279acb8fff1d65a225e19c0eca68bb5c1d836a47584e67",                     
+                    "scriptHash": "4811377ea9279acb8fff1d65a225e19c0eca68bb5c1d836a47584e67",
+                    "contractAddress": "addr1w9ypzdm74yne4ju0luwktg39uxwqajnghdwpmqm2gavyuec9zu77h"
                 }              
             ]
         }	    
