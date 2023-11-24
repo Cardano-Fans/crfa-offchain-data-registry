@@ -1,0 +1,66 @@
+{
+    "id": "Hyx6ZWcr",
+    "projectName": "TeddySwap",
+    "link": "https://www.teddyswap.io",
+    "twitter": "https://twitter.com/TeddySwap",
+    "category": "DEFI",
+    "subCategory": "AMM_DEX",
+    "description": {
+                   "short": "A scalable decentralized exchange and automated liquidity provision protocol for Cardano Stablecoins and Derivatives."
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "ocbvmb",
+                    "version": 1
+                },
+                {
+                    "id": "kNj8bb",
+                    "version": 1
+                }              
+            ]         
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": false
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "ocbvmb",
+            "name": "swap",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "114ab17afc9a19a4f06b6fe229f9501e727d3968bff03acb1a8f86acf5b60abac5d101517cd99ae6c6c9ab582bc8603a07b57941df212782c5",                     
+                    "scriptHash": "4ab17afc9a19a4f06b6fe229f9501e727d3968bff03acb1a8f86acf5b60abac5d101517cd99ae6c6c9ab582bc8603a07b57941df212782c5",
+                    "contractAddress": "addr1z99tz7hungv6furtdl3zn72sree86wtghlcr4jc637r2eadkp2avt5gp297dnxhxcmy6kkptepsr5pa409qa7gf8stzs0706a3"
+                }    
+            ]
+        },
+        {
+            "id": "kNj8bb",
+            "name": "liquidity pool",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "1128bbd1f7aebb3bc59e13597f333aeefb8f5ab78eda962de1d605b388b60abac5d101517cd99ae6c6c9ab582bc8603a07b57941df212782c5",                     
+                    "scriptHash": "28bbd1f7aebb3bc59e13597f333aeefb8f5ab78eda962de1d605b388b60abac5d101517cd99ae6c6c9ab582bc8603a07b57941df212782c5",
+                    "contractAddress": "addr1zy5th50h46anh3v7zdvh7ve6amac7k4h3mdfvt0p6czm8z9kp2avt5gp297dnxhxcmy6kkptepsr5pa409qa7gf8stzsxg8sx3"
+                }    
+            ]
+        }      
+    ]
+}
