@@ -47,6 +47,10 @@
 					{
 						"id": "wfAh5o",
 						"version": 1
+					},
+					{
+						"id": "FbARx0",
+						"version": 1
 					}					
 				]
 			}	    
@@ -147,6 +151,21 @@
 	            "fullScriptHash": "710a1a65227bd351cf9e87f3dd9bcbc5e809a716d8e9edaa66af152933", 			
                     "scriptHash": "0a1a65227bd351cf9e87f3dd9bcbc5e809a716d8e9edaa66af152933",
                     "contractAddress": "addr1wy9p5efz00f4rnu7sleamx7tch5qnfckmr57m2nx4u2jjvce9seq2"
+                }             
+            ]
+        },
+        {
+            "id": "FbARx0",
+            "name": "Marketplace",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2,  
+	            "fullScriptHash": "71c561246fef7c35b6515d49dc4a0873cd32b42779aa7e621a8d03c3a9", 			
+                    "scriptHash": "c561246fef7c35b6515d49dc4a0873cd32b42779aa7e621a8d03c3a9",
+                    "contractAddress": "addr1w8zkzfr0aa7rtdj3t4yacjsgw0xn9dp80x48ucs635pu82g0mrq7t"
                 }             
             ]
         }	    
