@@ -17,7 +17,11 @@
                 {
                     "id": "Yb7hcW",
                     "version": 1
-                }
+                },
+                {
+                    "id": "5Z6jMI",
+                    "version": 1
+                }		    
             ]          
         }
     ],
@@ -32,16 +36,31 @@
             "id": "Yb7hcW",
             "name": "Market",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "7157faf8a0d82627a3efbe79a45fd5760efce5e57b1f4e8c3a65c566ca",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7157faf8a0d82627a3efbe79a45fd5760efce5e57b1f4e8c3a65c566ca",                     
                     "scriptHash": "57faf8a0d82627a3efbe79a45fd5760efce5e57b1f4e8c3a65c566ca",
                     "contractAddress": "addr1w9tl479qmqnz0gl0heu6gh74wc80ee090v05arp6vhzkdjsaz2xd9"
                 }    
             ]
-        }
+        },
+        {
+            "id": "5Z6jMI",
+            "name": "Cabins upgrade",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "114fff82b7d0bf7e1608b73bf86dcb481ad95a567b2f789e87857818a75ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",                     
+                    "scriptHash": "4fff82b7d0bf7e1608b73bf86dcb481ad95a567b2f789e87857818a75ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",
+                    "contractAddress": "addr1z98llq4h6zlhu9sgkualsmwtfqddjkjk0vhh3858s4up3f675jq4yvpskgayj55xegdp30g5rfynax66r8vgn9fldndsmyexdz"
+                }    
+            ]
+        }	    
     ]
 }
