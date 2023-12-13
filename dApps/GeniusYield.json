@@ -49,6 +49,14 @@
                 {
                     "id": "wXPBSp",
                     "version": 1
+                },
+                {
+                    "id": "KlYCSU",
+                    "version": 1
+                },		    
+                {
+                    "id": "eWcjhb",
+                    "version": 1
                 }		    
             ]           
         }
@@ -180,6 +188,34 @@
 		    "plutusVersion": 1,                    
                     "version": 1
                 }
+            ]
+        },
+        {
+            "id": "KlYCSU",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7130fe42d793d37c176e4a9df5cb9b6102719d872349a827fa81b9ff21",                     
+                    "scriptHash": "30fe42d793d37c176e4a9df5cb9b6102719d872349a827fa81b9ff21",
+                    "contractAddress": "addr1wyc0uskhj0fhc9mwf2wltjumvyp8r8v8ydy6sfl6sxul7ggal95g2"
+                }    
+            ]
+        },
+        {
+            "id": "eWcjhb",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "717665c40357deba19c8bad6d739d805e9287b30c0fa00f1a003dfcfa4",                     
+                    "scriptHash": "7665c40357deba19c8bad6d739d805e9287b30c0fa00f1a003dfcfa4",
+                    "contractAddress": "addr1w9mxt3qr2l0t5xwghttdwwwcqh5js7escraqpudqq00ulfqfnhz2e"
+                }    
             ]
         }	    
     ]
