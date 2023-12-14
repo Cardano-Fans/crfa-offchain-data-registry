@@ -57,7 +57,19 @@
                 {
                     "id": "eWcjhb",
                     "version": 1
-                }		    
+                },
+                {
+                    "id": "sTI2lg",
+                    "version": 1
+                },
+                {
+                    "id": "sTI2lg",
+                    "version": 2
+                },		    
+                {
+                    "id": "vI1yBo",
+                    "version": 1
+                }			    
             ]           
         }
     ],
@@ -216,6 +228,41 @@
                     "scriptHash": "7665c40357deba19c8bad6d739d805e9287b30c0fa00f1a003dfcfa4",
                     "contractAddress": "addr1w9mxt3qr2l0t5xwghttdwwwcqh5js7escraqpudqq00ulfqfnhz2e"
                 }    
+            ]
+        },	   
+        {
+            "id": "sTI2lg",
+	    "name": "DEX",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3",                     
+                    "scriptHash": "edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3",
+                    "contractAddress": "addr1w8kllanr6dlut7t480zzytsd52l7pz4y3kcgxlfvx2ddavcshakwd"
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3afd052b3153fd7e3b274b5fb5fb33425145f5d67d3b01a27f232c85a",                     
+                    "scriptHash": "edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3afd052b3153fd7e3b274b5fb5fb33425145f5d67d3b01a27f232c85a",
+                    "contractAddress": "addr1z8kllanr6dlut7t480zzytsd52l7pz4y3kcgxlfvx2ddava06pftx9fl6l3mya94ld0mxdp9z3046e7nkqdz0u3jepdq0r26ct"
+                } 		    
+            ]
+        },
+        {
+            "id": "vI1yBo",
+	    "name": "DEX MINT",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "22f6999d4effc0ade05f6e1a70b702c65d6b3cdf0e301e4a8267f585",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
             ]
         }	    
     ]
