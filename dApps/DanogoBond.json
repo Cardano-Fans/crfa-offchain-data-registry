@@ -344,6 +344,14 @@
                 {
                     "id": "D21qTg",
                     "version": 36
+                },
+                {
+                    "id": "D21qTg",
+                    "version": 37
+                },
+                {
+                    "id": "D21qTg",
+                    "version": 38
                 }		    
             ],
             "contractId": "KDmn"            
@@ -953,7 +961,21 @@
 	            "fullScriptHash": "11d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2ba5767368041eda014078c154c1242eb621710f7afc6acbc7c548493b6",                     
                     "scriptHash": "d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2ba5767368041eda014078c154c1242eb621710f7afc6acbc7c548493b6",
                     "contractAddress": "addr1z8g4dv3lxjkkdfgx5sqq8m6qpzlxthxagf85rq6v2emu9wjhvumgqs0d5q2q0rq4fsfy96mzzug00t7x4j78c4yyjwmq9vrngg"
-                }			    
+                },
+                {
+                    "version": 37,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2bad35517d1fd1a29087e4338176e5d786261a8e6e00079673993dcf0f3",                     
+                    "scriptHash": "d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2bad35517d1fd1a29087e4338176e5d786261a8e6e00079673993dcf0f3",
+                    "contractAddress": "addr1z8g4dv3lxjkkdfgx5sqq8m6qpzlxthxagf85rq6v2emu9wkn25tarlg69yy8useczah967rzvx5wdcqq09nnny7u7resj7axp4"
+                },
+                {
+                    "version": 38,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "111ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110253c1fe342c6e504273fd41fd601f352bd24aaad3c77a27912caa228ae",                     
+                    "scriptHash": "1ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110253c1fe342c6e504273fd41fd601f352bd24aaad3c77a27912caa228ae",
+                    "contractAddress": "addr1zydtr9wvxknwsstygqm807qsj6n20f9949dccnsye8c3qffurl3593h9qsnnl4ql6cqlx54ayj4260rh5fu39j4z9zhq96k0ms"
+                }		    
             ]
         }        
     ]
