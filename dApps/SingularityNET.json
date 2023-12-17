@@ -20,7 +20,11 @@
                 {
                     "id": "FC13hj",
                     "version": 1
-                }                
+                },
+                {
+                    "id": "tB8eRH",
+                    "version": 1
+                }  		    
             ]
         }
     ],
@@ -48,6 +52,21 @@
                     "version": 1
                 }
             ]
-        }        
+        },
+        {
+            "id": "tB8eRH",
+            "name": "AGIX staking",		
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7180cac682cc252515e96b3cd8e2c235f5a0b4c1e24b7345193269ae69",                     
+                    "scriptHash": "80cac682cc252515e96b3cd8e2c235f5a0b4c1e24b7345193269ae69",
+                    "contractAddress": "addr1wxqv435zesjj290fdv7d3ckzxh66pdxpuf9hx3gexf56u6gegh8zj"
+                }    
+            ]
+        }	    
     ]
 }
