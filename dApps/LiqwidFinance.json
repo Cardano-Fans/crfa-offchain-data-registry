@@ -1099,6 +1099,7 @@
 	    "name": "Ada markets action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1674,6 +1675,7 @@
             "name": "Ada markets batch final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1696,6 +1698,7 @@
 	    "name": "Ada markets loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1711,6 +1714,7 @@
 	    "name": "Ada markets batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1740,6 +1744,7 @@
 	    "name": "Ada market state",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1762,6 +1767,7 @@
 	    "name": "Agora validators freeMultisig",		
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1777,6 +1783,7 @@
 	    "name": "Agora validators proposal",		
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1792,6 +1799,7 @@
 	    "name": "Agora validators governor",		
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1806,7 +1814,8 @@
             "id": "0sZoOE",
             "name": "Agora Stake Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "5785b71b54365b450c048b5721860ea0477f0f890421b7d503d1ea89",
@@ -1819,7 +1828,8 @@
             "id": "nDOKiy",
             "name": "Agora Proposal Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "34293de1784ad1dec6f8c975e220c5dab93e636c8d877f99d89c42ce",
@@ -1832,7 +1842,8 @@
             "id": "6EDZQ0",
             "name": "Agora MultiSig Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "9cae3d41ae05882f5f357f0042d71842f1cc8a8e5230411ddb4daf17",
@@ -1845,7 +1856,8 @@
             "id": "4JJ9Aw",
             "name": "Agora Governor Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "ac07d4fad3bc9982009880f6d6272d25a12d435ca95a8c7d209baa4e",
@@ -1858,6 +1870,7 @@
             "id": "m9mzPs",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1873,6 +1886,7 @@
 	    "name": "Oracle Validator",	
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -1887,7 +1901,8 @@
             "id": "f2eu0F",
             "name": "Oracle Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "0fde77a0ea0833502b386d34e33d78f86c754bad309ee8bf008d7a9d",
@@ -1901,6 +1916,7 @@
             "name": "qAda",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "a04ce7a52545e5e33c2867e148898d9e667a69602285f6a1298f9d68",
@@ -1913,7 +1929,8 @@
             "id": "3km8x4",
             "name": "Ada action token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "7807209cec9f79c9f6cf5bea2ab7826e6e46b6a7583a337b7e20fb36",
@@ -1927,6 +1944,7 @@
             "name": "Ada batch token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "15706915432bf92ea3585aa468b507b90e427dc4effeae31ee5cf40e",
@@ -1939,7 +1957,8 @@
             "id": "NtKeIe",
             "name": "Ada borrow token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "ee944b56bab503197bdfb929509a177c3ef9e5083ca7e65ffa1469c8",
@@ -1952,7 +1971,8 @@
             "id": "hvhery",
             "name": "Ada market params",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "24f51a8308b4e47b9d1438ec1e91da4ee063c38c704b530cba4adc5b",
@@ -1966,6 +1986,7 @@
             "name": "Ada market state",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "5a3cb4f52fb3a00ab5abe62080618623811ccafab9c760d0b686e44c",
@@ -1978,7 +1999,8 @@
             "id": "By1mqp",
             "name": "Ada Liquidation",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "3c9ee71d8f14b386df802f4121d82746df5508e29198744bea7552ef",
@@ -1992,6 +2014,7 @@
             "name": "Ada CollateralParamsToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "1d571de72e964aea48d278475c48e2a6fded81014bf621413b04b6c1",
@@ -2005,6 +2028,7 @@
 	    "name": "Djed action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2034,6 +2058,7 @@
 	    "name": "Djed batch final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2056,6 +2081,7 @@
 	    "name": "Djed market state",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2078,6 +2104,7 @@
 	    "name": "Djed batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2100,6 +2127,7 @@
 	    "name": "Djed loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2115,6 +2143,7 @@
 	    "name": "Djed Treasury Income Script",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2129,7 +2158,8 @@
             "id": "dMLwPc",
             "name": "qDjed",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "6df63e2fdde8b2c3b3396265b0cc824aa4fb999396b1c154280f6b0c",
@@ -2143,6 +2173,7 @@
             "name": "Djed action token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "9e432ad7f92337287c0b68cb82d9e89413ee9e24c43bb4e91fe3a1ee",
@@ -2155,7 +2186,8 @@
             "id": "m07nez",
             "name": "Djed batch token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "f013b0f786caa20044734e346e7858b53563fa6dde8c45c60e76cac7",
@@ -2169,6 +2201,7 @@
             "name": "Djed borrow token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "5409708a3eff94524d978ca12f97c318bd011308f71eee232575eb9e",
@@ -2181,7 +2214,8 @@
             "id": "2Bzbwd",
             "name": "Djed liquidation token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "1ee678e1031bd8cdea9357b2bb953bd086ffc868d9e3ffb74e3c3e7b",
@@ -2194,7 +2228,8 @@
             "id": "hGMvQd",
             "name": "Djed market params",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "9f61f4563c3037017d768c34c392976e6f7c5fd080d9a0b315cc9b8d",
@@ -2208,6 +2243,7 @@
             "name": "Djed market state",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "43c4bdac04537dbd338935d00a8a0746a078d4f03d7ac302a4bf5d3d",
@@ -2220,7 +2256,8 @@
             "id": "2xW6D8",
             "name": "DJED CollateralParamsToken",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "576ab56fdbf3cad439a8f1cfefb712ddb5b2864515e0e001139d96cc",
@@ -2234,6 +2271,7 @@
 	    "name": "Shen action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2263,6 +2301,7 @@
 	    "name": "Shen batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2285,6 +2324,7 @@
 	    "name": "Shen batch final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2307,6 +2347,7 @@
 	    "name": "Shen loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2322,6 +2363,7 @@
 	    "name": "Shen market state",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2344,6 +2386,7 @@
             "name": "qShen",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "e1ff3557106fe13042ba0f772af6a2e43903ccfaaf03295048882c93",
@@ -2356,7 +2399,8 @@
             "id": "DjE81q",
             "name": "Shen action token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "f84eeef0f241e3a5e3eaaa2c16c99f91fd683c37bbb0dffc21c3fada",
@@ -2370,6 +2414,7 @@
             "name": "Shen batch token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "79b46b6be9f544b6ceace2d90c9078896e993ad0c462fe233b5537d2",
@@ -2383,6 +2428,7 @@
             "name": "Shen borrow token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "98cccc642a74eeb1fe7a22f43a814068b54f9f9afa583a73b74e36ba",
@@ -2396,6 +2442,7 @@
             "name": "Shen market param",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "45b67f59d98ba5af58aadcbdcc641fa480a39e7dca68c0af2174b0ea",
@@ -2409,6 +2456,7 @@
             "name": "Shen market state",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "7bff651a687fd87f2f6ffe705f7a36c39941248e80ecf8b0b10a4949",
@@ -2421,7 +2469,8 @@
             "id": "EwQIN9",
             "name": "SHEN Collateral ParamsToken",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "8bb4c1ccb51cd38e0d1da266112eda5b40957f43221d47962d62aaa3",
@@ -2435,6 +2484,7 @@
 	    "name": "LQ staking",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2450,6 +2500,7 @@
 	    "name": "Liqwid IUSD Action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2479,6 +2530,7 @@
 	    "name": "Liqwid IUSD Batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2501,6 +2553,7 @@
 	    "name": "Liqwid IUSD BatchFinal",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2523,6 +2576,7 @@
 	    "name": "Liqwid IUSD Loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2538,6 +2592,7 @@
 	    "name": "Liqwid IUSD MarketState",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2560,6 +2615,7 @@
 	    "name": "Liqwid Script Credential",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2575,6 +2631,7 @@
 	    "name": "Reference Locker",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2590,6 +2647,7 @@
             "name": "Liqwid IUSD ActionToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "1cc1aceaf5c7df55e270864a60600b9f52383fe418164574ffdeeed0",
@@ -2603,6 +2661,7 @@
             "name": "Liqwid IUSD BatchToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "c0e5564cf5786031d9053f567ec78b8383a0f2bc01318e690e0503f4",
@@ -2616,6 +2675,7 @@
             "name": "Liqwid IUSD BorrowToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "19312587e1c18ba062038d2f87d04da9021d247fda2a7f0d76496ad1",
@@ -2629,6 +2689,7 @@
             "name": "Liqwid IUSD CollateralParamsToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "6237228939cb4c1b4c212bfcaecdf2188ca9d8f8de5632c2acec010e",
@@ -2642,6 +2703,7 @@
             "name": "Liqwid IUSD MarketParamsToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "f967b3a86a9880c876851fa64b352a4d3887d6436904190b698f232e",
@@ -2654,7 +2716,8 @@
             "id": "xRJ2ko",
             "name": "Liqwid IUSD MarketStateToken",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "416109f322b43051b80e83075b4baa8c5af14c88acaca47d5c251820",
@@ -2668,6 +2731,7 @@
             "name": "Liqwid IUSD QToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "d15c36d6dec655677acb3318294f116ce01d8d9def3cc54cdd78909b",
@@ -2681,6 +2745,7 @@
 	    "name": "Ada Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2696,6 +2761,7 @@
 	    "name": "Djed Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2711,6 +2777,7 @@
 	    "name": "Shen Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2726,6 +2793,7 @@
 	    "name": "iUSD Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2741,6 +2809,7 @@
 	    "name": "USDC Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2756,6 +2825,7 @@
 	    "name": "USDC Action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2778,6 +2848,7 @@
 	    "name": "USDC Batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2793,6 +2864,7 @@
 	    "name": "USDC Batch Final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2808,6 +2880,7 @@
 	    "name": "USDC Market State",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2823,6 +2896,7 @@
 	    "name": "USDC Loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2838,6 +2912,7 @@
 	    "name": "USDC Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2852,7 +2927,8 @@
             "id": "1Xtjkj",
             "name": "USDC QToken",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "aebcb6eaba17dea962008a9d693e39a3160b02b5b89b1c83e537c599",
@@ -2866,6 +2942,7 @@
             "name": "USDC Action Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "f37e16045a5aa79503c1e3a36c0892a04a6f4471e4a097c9c98d3854",
@@ -2879,6 +2956,7 @@
             "name": "USDC Market State Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "191f768460713989c5ae88821f208522df7800f6b5572ca7905a7a60",
@@ -2892,6 +2970,7 @@
             "name": "USDC Market Params Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "1847265fd9019209f837113ec1753a4b0de657987e66f89ebcee47e6",
@@ -2905,6 +2984,7 @@
             "name": "USDC Collateral Params Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "a80b9489e5a8e5e5eadcc0c2856f46c5883f5c3d88676ce5559d8cdc",
@@ -2918,6 +2998,7 @@
             "name": "USDC Borrow Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "43c0cf8e50e96599534ee86ebc6fd5da0f8160c86dd8147aa67b73df",
@@ -2931,6 +3012,7 @@
             "name": "USDC Batch Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "bb9cf64bfca2c8611aefb81b5341ec5f7dba39ec2b6464a4e8a13e51",
@@ -2944,6 +3026,7 @@
 	    "name": "USDT Action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2966,6 +3049,7 @@
 	    "name": "USDT Batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2981,6 +3065,7 @@
 	    "name": "USDT Batch Final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -2996,6 +3081,7 @@
 	    "name": "USDT Loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3011,6 +3097,7 @@
 	    "name": "USDT Liquidation",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3026,6 +3113,7 @@
 	    "name": "USDT Market State",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3041,6 +3129,7 @@
 	    "name": "USDT Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3056,6 +3145,7 @@
 	    "name": "USDT Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3070,7 +3160,8 @@
             "id": "cJWjCu",
             "name": "USDT Collateral Params Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "84b4d2685752e6e6ec7f21b89c7351659d93f30e64c828f8058d4cac",
@@ -3084,6 +3175,7 @@
             "name": "USDT Borrow Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "41c2316fd1586fc9fd4fbaca47306b4f2d79dc382d0d70c44436430b",
@@ -3096,7 +3188,8 @@
             "id": "5btHJb",
             "name": "USDT Action Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "7d1e07d943bd7b64d448634910d56578de5f1c8a1d3ea88e3cd27476",
@@ -3110,6 +3203,7 @@
             "name": "USDT QToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "7a4d45e6b4e6835c4cea3968f291fab3704949cfd2f2dc1997c4eeec",
@@ -3123,6 +3217,7 @@
             "name": "USDT Market Params Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "db176459c6cb8ff1d45e517da641021939c4e2999c834bc4c4547e0d",
@@ -3136,6 +3231,7 @@
             "name": "USDT Batch Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "2e2b9dba413c97e15cf006963f8ac92220d2fa5f240076727a758a70",
@@ -3149,6 +3245,7 @@
             "name": "USDT Market State Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "a5667ec9e9334143dd828e260e1270be265dd84e9e46e4333d76ea57",
@@ -3162,6 +3259,7 @@
 	    "name": "DAI Action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3177,6 +3275,7 @@
 	    "name": "DAI Batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3192,6 +3291,7 @@
 	    "name": "DAI Batch Final",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3207,6 +3307,7 @@
 	    "name": "DAI Borrow Token",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3222,6 +3323,7 @@
 	    "name": "DAI Market State",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3237,6 +3339,7 @@
 	    "name": "DAI Loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3252,6 +3355,7 @@
 	    "name": "DAI Liquidation",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3267,6 +3371,7 @@
 	    "name": "DAI Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3282,6 +3387,7 @@
 	    "name": "DAI Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3297,6 +3403,7 @@
             "name": "DAI Qtoken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "8996bb07509defe0be6f0c39845a736b266c85a70d87ebfb66454a78",
@@ -3310,6 +3417,7 @@
             "name": "DAI ActionToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "c5649c7f38dbf411ffae320c89ab817f640fc4b98a600f44afa95557",
@@ -3323,6 +3431,7 @@
             "name": "DAI Batch Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "75020c2213c82a7b8588b27ea667eb178c7ab10e4bf8b0a476dcf449",
@@ -3336,6 +3445,7 @@
             "name": "DAI Collateral Params Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "fb016cf7260435508066d9ac5551fdc979f56d0ad35e6f782a1e3e73",
@@ -3349,6 +3459,7 @@
             "name": "DAI Market Params Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "0c5f3646b69f7001d007c98debd48689d4c1bdfe0eefc070de350c7e",
@@ -3362,6 +3473,7 @@
             "name": "DAI Market State Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "4d79e8ef7e91551617b2dcc87261b7e119ae95c58f32642ff5101688",
@@ -3375,6 +3487,7 @@
 	    "name": "MIN Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3390,6 +3503,7 @@
             "name": "MIN QToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "a4430a085f45bca6399bec6bd7514eb8c2fce1ed75c7554739cfc32b",
@@ -3403,6 +3517,7 @@
             "name": "MIN MarketState Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "7211aebe5303f1a8c7905198f637099f194a3b23e841b1dcbc064017",
@@ -3416,6 +3531,7 @@
 	    "name": "MIN MarketState",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3431,6 +3547,7 @@
             "name": "MIN MarketParams Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "413b0737013724910078491505fbd391d04b8d11f35e98c02f41ba0d",
@@ -3444,6 +3561,7 @@
 	    "name": "MIN Loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3459,6 +3577,7 @@
 	    "name": "MIN Liquidation",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3474,6 +3593,7 @@
 	    "name": "MIN Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3489,6 +3609,7 @@
             "name": "MIN CollateralParams Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "85ea2eeddade13b28a6588c4c723b1363e3e9dcd5e43c4d49e2986f9",
@@ -3502,6 +3623,7 @@
 	    "name": "MIN BorrowToken",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3517,6 +3639,7 @@
             "name": "MIN Batch Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+	    "contractLang": "PLUTARCH",		
             "versions": [
                 {
                     "mintPolicyID": "d3c6407159ef5153f0cf95896d3af263e0ee148da7e7c6cae3a8c7ed",
@@ -3530,6 +3653,7 @@
 	    "name": "MIN BatchFinal",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3545,6 +3669,7 @@
 	    "name": "MIN Batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3560,6 +3685,7 @@
             "name": "MIN Action Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "2fd85ced99dd9f254dfe5a1cdfb807ea2b3599e6ce33fe436210353a",
@@ -3573,6 +3699,7 @@
 	    "name": "MIN Action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3588,6 +3715,7 @@
 	    "name": "WMT Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+	    "contractLang": "PLUTARCH",		
             "versions": [
                 {
                     "version": 1,
@@ -3603,6 +3731,7 @@
             "name": "WMT QToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "f2636c8280e49e7ed7a7b1151341130989631b45a08d1b320f016981",
@@ -3616,6 +3745,7 @@
             "name": "WMT MarketState Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "d8c6d5509d11856fe3c2cfc434e6f251f0ed6b0d54090b40656df6ae",
@@ -3629,6 +3759,7 @@
 	    "name": "WMT MarketState",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3644,6 +3775,7 @@
             "name": "WMT MarketParams Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "ee73884453cf3c5788313ca0341f494f684c1c40bb3bc5c0df85be6d",
@@ -3657,6 +3789,7 @@
 	    "name": "WMT Loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3672,6 +3805,7 @@
 	    "name": "WMT Liquidation",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3687,6 +3821,7 @@
 	    "name": "WMT Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3702,6 +3837,7 @@
             "name": "WMT CollateralParams Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "02fa62eaba4e762cbe455aaaf9399d71d4362a90e2176f7b2d4342c3",
@@ -3715,6 +3851,7 @@
 	    "name": "WMT BorrowToken",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3730,6 +3867,7 @@
             "name": "WMT Batch Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "0e84e77a514e793a1f772bb323745f3a690e6a870960bebde1c9c0e4",
@@ -3743,6 +3881,7 @@
 	    "name": "WMT BatchFinal",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3758,6 +3897,7 @@
 	    "name": "WMT Batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3773,6 +3913,7 @@
             "name": "WMT Action Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "ca873ee2bd0303b0a8bce0a5c7376ee6bf811df27f5f83163c0bdb00",
@@ -3786,6 +3927,7 @@
 	    "name": "WMT Action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3801,6 +3943,7 @@
 	    "name": "AGIX Treasury Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3816,6 +3959,7 @@
             "name": "AGIX QToken",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "d753e0d193680fe32710379d3a1ec48087ce94f3831505b922c2894b",
@@ -3828,7 +3972,8 @@
             "id": "icLJBI",
             "name": "AGIX MarketState Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "f4d8fa6f00d83af913345576f06f28c5ea188366f1636a0b4521d1c0",
@@ -3842,6 +3987,7 @@
 	    "name": "AGIX MarketState",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3857,6 +4003,7 @@
             "name": "AGIX MarketParams Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "0edb1425a060584703f4edeee36301bf27764a8757c81d63b9d60af9",
@@ -3870,6 +4017,7 @@
 	    "name": "AGIX Loan",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3885,6 +4033,7 @@
 	    "name": "AGIX Liquidation",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3900,6 +4049,7 @@
 	    "name": "AGIX Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3915,6 +4065,7 @@
             "name": "AGIX CollateralParams Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "5d9f0a4e39acc894741c7bb6758be16f2673a5765af2e7d5d0b91bdc",
@@ -3928,6 +4079,7 @@
 	    "name": "AGIX Borrow Token",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3943,6 +4095,7 @@
             "name": "AGIX Batch Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "367342c3fc92d6918612b7f472c1e39d0fe1e32572099b314eeede9a",
@@ -3956,6 +4109,7 @@
 	    "name": "AGIX BatchFinal",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3971,6 +4125,7 @@
 	    "name": "AGIX Batch",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
@@ -3986,6 +4141,7 @@
             "name": "AGIX Action Token",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "mintPolicyID": "1653b2ceb4c50ed2e3e9afd5cc6f4dfe687b03ba2f98c263d0c19d3f",
@@ -3999,6 +4155,7 @@
 	    "name": "AGIX Action",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
             "versions": [
                 {
                     "version": 1,
