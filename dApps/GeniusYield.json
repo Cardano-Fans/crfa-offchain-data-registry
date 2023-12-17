@@ -235,6 +235,7 @@
 	    "name": "DEX",		
             "purpose": "SPEND",
 	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",		
             "versions": [
                 {
                     "version": 1,
@@ -256,7 +257,8 @@
             "id": "vI1yBo",
 	    "name": "DEX MINT",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+	    "type": "PLUTUS",	
+            "contractLang": "PLUTARCH",		
             "versions": [
                 {
                     "mintPolicyID": "22f6999d4effc0ade05f6e1a70b702c65d6b3cdf0e301e4a8267f585",
