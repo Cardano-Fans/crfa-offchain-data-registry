@@ -17,7 +17,11 @@
                 {
                     "id": "xpekfu",
                     "version": 1
-                }
+                },
+                {
+                    "id": "RtJZ6M",
+                    "version": 1
+                }		    
             ]            
         }
     ],
@@ -31,16 +35,30 @@
         {
             "id": "xpekfu",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71fb43ee22000fb1ffc5e825253375df1bb80d4bacccc106f4ad534f8b",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71fb43ee22000fb1ffc5e825253375df1bb80d4bacccc106f4ad534f8b",                     
                     "scriptHash": "fb43ee22000fb1ffc5e825253375df1bb80d4bacccc106f4ad534f8b",
                     "contractAddress": "addr1w8a58m3zqq8mrl79aqjj2vm4mudmsr2t4nxvzph544f5lzcavmffg"
                 }    
             ]
-        }
+        },
+        {
+            "id": "RtJZ6M",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "715a7a6d23f477638474c8db5d37d9f3af8edd4b160806d063add8aeed",                     
+                    "scriptHash": "5a7a6d23f477638474c8db5d37d9f3af8edd4b160806d063add8aeed",
+                    "contractAddress": "addr1w9d85mfr73mk8pr5erd46d7e7whcah2tzcyqd5rr4hv2amg9sxgl8"
+                }    
+            ]
+        }	    
     ]
 }
