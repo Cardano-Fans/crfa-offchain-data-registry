@@ -1,0 +1,62 @@
+{
+    "id": "QzTnCD0V",
+    "projectName": "OptionFlow",
+    "link": "https://app.optionflow.finance",
+    "twitter": "https://twitter.com/OptionFlowTeam",
+    "category": "DEFI",    
+    "subCategory": "OPTION",    
+    "description": {
+                   "short": "The decentralized Option protocol on Cardano"
+    },
+	
+    "releases": [
+          {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "krofMA",
+                    "version": 1
+                },	    
+                {
+                    "id": "HSEY0Y",
+                    "version": 1
+                }		    
+            ]
+            }      
+    ],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],	
+
+    "scripts": [
+        {
+            "id": "krofMA",           
+            "purpose": "SPEND",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+	                  "fullScriptHash": "114af324c932f8e2d0feaf71bef7003ca562b030c0b1c8f0530415e6c40d28bd8e9ccc1bb3308ddd4bf89957f9e97584b1bf57f70011e2d65b",                        
+                    "scriptHash": "4af324c932f8e2d0feaf71bef7003ca562b030c0b1c8f0530415e6c40d28bd8e9ccc1bb3308ddd4bf89957f9e97584b1bf57f70011e2d65b",
+                    "contractAddress": "addr1z990xfxfxtuw95874acmaacq8jjk9vpsczcu3uznqs27d3qd9z7ca8xvrwenprwaf0ufj4lea96cfvdl2lmsqy0z6edsj467mm"
+                }                
+            ]
+        },
+        {
+            "id": "HSEY0Y",
+            "purpose": "MINT",
+	          "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "4af324c932f8e2d0feaf71bef7003ca562b030c0b1c8f0530415e6c4",
+		                "plutusVersion": 2,                    
+                    "version": 1
+                }	    
+            ]
+        }
+     ]
+}
