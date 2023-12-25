@@ -74,7 +74,11 @@
                 {
                     "id": "6Ww81v",
                     "version": 1
-                }		    
+                },
+                {
+                    "id": "pyO15z",
+                    "version": 1
+                }			    
             ],
             "auditId": "eelU",
             "contractId": "315S"		
@@ -249,6 +253,19 @@
                     "contractAddress": "addr1w9dwrg2wqv4ctqcrwvz9qqtrkuhmvw99qaz8e0qqcmnw9ksu9mxcm"
                 }
             ]
-        }	    
+        },
+        {
+            "id": "pyO15z",    	
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 2, 
+	            "fullScriptHash": "7118c91bdff54ad8f4d3618818f36b99e401caa7eab153b42f51311cb0",                     
+                    "scriptHash": "18c91bdff54ad8f4d3618818f36b99e401caa7eab153b42f51311cb0",
+                    "contractAddress": "addr1wyvvjx7l749d3axnvxyp3umtn8jqrj48a2c48dp02yc3evqzypx02"
+                }
+            ]
+        }		    
     ]
 }
