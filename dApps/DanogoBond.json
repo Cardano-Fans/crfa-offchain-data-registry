@@ -352,6 +352,10 @@
                 {
                     "id": "D21qTg",
                     "version": 38
+                },
+                {
+                    "id": "D21qTg",
+                    "version": 39
                 }		    
             ],
             "contractId": "KDmn"            
@@ -975,6 +979,13 @@
 	            "fullScriptHash": "111ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110253c1fe342c6e504273fd41fd601f352bd24aaad3c77a27912caa228ae",                     
                     "scriptHash": "1ab195cc35a6e84164403677f81096a6a7a4a5a95b8c4e04c9f110253c1fe342c6e504273fd41fd601f352bd24aaad3c77a27912caa228ae",
                     "contractAddress": "addr1zydtr9wvxknwsstygqm807qsj6n20f9949dccnsye8c3qffurl3593h9qsnnl4ql6cqlx54ayj4260rh5fu39j4z9zhq96k0ms"
+                },
+                {
+                    "version": 39,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2bac259a40fbe18bb51c6ad3c8b0a1d4d256e34bb8b72bb7ee94c3addb3",                     
+                    "scriptHash": "d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2bac259a40fbe18bb51c6ad3c8b0a1d4d256e34bb8b72bb7ee94c3addb3",
+                    "contractAddress": "addr1z8g4dv3lxjkkdfgx5sqq8m6qpzlxthxagf85rq6v2emu9wkztxjql0schdgudtfu3v9p6nf9dc6thzmjhdlwjnp6mkesmpkuyx"
                 }		    
             ]
         }        
