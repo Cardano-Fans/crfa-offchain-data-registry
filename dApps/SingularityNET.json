@@ -24,7 +24,11 @@
                 {
                     "id": "tB8eRH",
                     "version": 1
-                }  		    
+                },
+                {
+                    "id": "tB8eRH",
+                    "version": 2
+                }		    
             ]
         }
     ],
@@ -65,7 +69,14 @@
 	            "fullScriptHash": "7180cac682cc252515e96b3cd8e2c235f5a0b4c1e24b7345193269ae69",                     
                     "scriptHash": "80cac682cc252515e96b3cd8e2c235f5a0b4c1e24b7345193269ae69",
                     "contractAddress": "addr1wxqv435zesjj290fdv7d3ckzxh66pdxpuf9hx3gexf56u6gegh8zj"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 1, 
+	            "fullScriptHash": "7148886999b2be126f37f53443590a5107ad2455d58f5c7ef7b0af438c",                     
+                    "scriptHash": "48886999b2be126f37f53443590a5107ad2455d58f5c7ef7b0af438c",
+                    "contractAddress": "addr1w9ygs6vek2lpymeh756yxkg22yr66fz46k84clhhkzh58rqs3hhhk"
+                }		    
             ]
         }	    
     ]
