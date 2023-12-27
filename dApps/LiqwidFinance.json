@@ -709,6 +709,10 @@
                     "version": 1
                 },
 	        {
+                    "id": "LsQ0vw",
+                    "version": 1
+                },		    
+	        {
                     "id": "6ZXMtf",
                     "version": 1
                 },
@@ -717,9 +721,17 @@
                     "version": 1
                 },
 	        {
+                    "id": "YpiI8d",
+                    "version": 1
+                },		    
+	        {
                     "id": "SkeVsA",
                     "version": 1
                 },
+	        {
+                    "id": "TW0cNz",
+                    "version": 1
+                },		    
 	        {
                     "id": "rFheRs",
                     "version": 1
@@ -2742,7 +2754,7 @@
         },
         {
             "id": "TPIdjc",
-	    "name": "Ada Treasury Income",
+	    "name": "Ada Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "contractLang": "PLUTARCH",			
@@ -2756,6 +2768,22 @@
                 }              
             ]
         },
+        {
+            "id": "LsQ0vw",
+	    "name": "Ada Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "710e82eb5f90eec1a9ed3ecc5d0c639de82a03ca6e3417bc0d0d01637e",                     
+                    "scriptHash": "0e82eb5f90eec1a9ed3ecc5d0c639de82a03ca6e3417bc0d0d01637e",
+                    "contractAddress": "addr1wy8g966ljrhvr20d8mx96rrrnh5z5q72dc6p00qdp5qkxls89s98j"
+                }              
+            ]
+        },	    
         {
             "id": "6ZXMtf",
 	    "name": "Djed Treasury Income",
@@ -2774,7 +2802,7 @@
         },
         {
             "id": "iAtrgA",
-	    "name": "Shen Treasury Income",
+	    "name": "Shen Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "contractLang": "PLUTARCH",			
@@ -2789,8 +2817,24 @@
             ]
         },
         {
+            "id": "YpiI8d",
+	    "name": "Shen Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71995f2396433ac81ec0770632e3d78971d0d9d6669921df5bb84cc86f",                     
+                    "scriptHash": "995f2396433ac81ec0770632e3d78971d0d9d6669921df5bb84cc86f",
+                    "contractAddress": "addr1wxv47gukgvavs8kqwurr9c7h39capkwkv6vjrh6mhpxvsmc5962q4"
+                }              
+            ]
+        },	    
+        {
             "id": "SkeVsA",
-	    "name": "iUSD Treasury Income",
+	    "name": "iUSD Dividends Income",
             "purpose": "SPEND",
 	    "type": "PLUTUS",
             "contractLang": "PLUTARCH",			
@@ -2804,6 +2848,22 @@
                 }              
             ]
         },
+        {
+            "id": "TW0cNz",
+	    "name": "iUSD Treasury Income",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",			
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "7139fec77302f6a898a83df189926621566b246ea4686082a6ba830566",                     
+                    "scriptHash": "39fec77302f6a898a83df189926621566b246ea4686082a6ba830566",
+                    "contractAddress": "addr1wyula3mnqtm23x9g8hccnynxy9txkfrw535xpq4xh2ps2es4dx2u5"
+                }              
+            ]
+        },	    
         {
             "id": "rFheRs",
 	    "name": "USDC Treasury Income",
