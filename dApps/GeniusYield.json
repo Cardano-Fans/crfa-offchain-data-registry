@@ -65,6 +65,10 @@
                 {
                     "id": "sTI2lg",
                     "version": 2
+                },
+                {
+                    "id": "sTI2lg",
+                    "version": 3
                 },		    
                 {
                     "id": "vI1yBo",
@@ -250,7 +254,14 @@
 	            "fullScriptHash": "11edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3afd052b3153fd7e3b274b5fb5fb33425145f5d67d3b01a27f232c85a",                     
                     "scriptHash": "edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3afd052b3153fd7e3b274b5fb5fb33425145f5d67d3b01a27f232c85a",
                     "contractAddress": "addr1z8kllanr6dlut7t480zzytsd52l7pz4y3kcgxlfvx2ddava06pftx9fl6l3mya94ld0mxdp9z3046e7nkqdz0u3jepdq0r26ct"
-                } 		    
+                },
+                {
+                    "version": 3,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3c910c1904933de0849f1073aafd6d603e9dd06143b88024fcf7b30b1",                     
+                    "scriptHash": "edfff663d37fc5f9753bc4222e0da2bfe08aa48db0837d2c329adeb3c910c1904933de0849f1073aafd6d603e9dd06143b88024fcf7b30b1",
+                    "contractAddress": "addr1z8kllanr6dlut7t480zzytsd52l7pz4y3kcgxlfvx2ddav7fzrqeqjfnmcyynug882had4sra8wsv9pm3qpylnmmxzcssfstle"
+                }		    
             ]
         },
         {
