@@ -711,6 +711,10 @@
 	        {
                     "id": "LsQ0vw",
                     "version": 1
+                },
+	        {
+                    "id": "LsQ0vw",
+                    "version": 2
                 },		    
 	        {
                     "id": "6ZXMtf",
@@ -2781,7 +2785,14 @@
 	            "fullScriptHash": "710e82eb5f90eec1a9ed3ecc5d0c639de82a03ca6e3417bc0d0d01637e",                     
                     "scriptHash": "0e82eb5f90eec1a9ed3ecc5d0c639de82a03ca6e3417bc0d0d01637e",
                     "contractAddress": "addr1wy8g966ljrhvr20d8mx96rrrnh5z5q72dc6p00qdp5qkxls89s98j"
-                }              
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "310e82eb5f90eec1a9ed3ecc5d0c639de82a03ca6e3417bc0d0d01637e648520089b3d89f5aa94adc0ad0b911f97677c8700925c4be6290f5b",                     
+                    "scriptHash": "0e82eb5f90eec1a9ed3ecc5d0c639de82a03ca6e3417bc0d0d01637e648520089b3d89f5aa94adc0ad0b911f97677c8700925c4be6290f5b",
+                    "contractAddress": "addr1xy8g966ljrhvr20d8mx96rrrnh5z5q72dc6p00qdp5qkxlnys5sq3xea3866499dczkshygljanhepcqjfwyhe3fpadswte04h"
+                }		    
             ]
         },	    
         {
