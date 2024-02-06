@@ -43,6 +43,26 @@
                 {
                     "id": "GNyMn8",
                     "version": 4
+                },
+                {
+                    "id": "GNyMn8",
+                    "version": 5
+                },
+                {
+                    "id": "GNyMn8",
+                    "version": 6
+                },
+                {
+                    "id": "GNyMn8",
+                    "version": 7
+                },
+                {
+                    "id": "GNyMn8",
+                    "version": 8
+                },	
+                {
+                    "id": "GNyMn8",
+                    "version": 9
                 },		    
                 {
                     "id": "EUazXZ",
@@ -55,6 +75,26 @@
                 {
                     "id": "EUazXZ",
                     "version": 4
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 5
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 6
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 7
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 8
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 9
                 }		    
             ]
         }
@@ -114,6 +154,41 @@
 	            "fullScriptHash": "71af0e4d91894fb19a2576cf5884926c435985a1d392bc00ab59e4665c",                        
                     "scriptHash": "af0e4d91894fb19a2576cf5884926c435985a1d392bc00ab59e4665c",
                     "contractAddress": "addr1wxhsunv3398mrx39wm843pyjd3p4npdp6wftcq9tt8jxvhqh5dja0"
+                },
+                {
+                    "version": 5,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "715cab7558e66a4592f019e47447fee9445930486077574abed3429fb4",                        
+                    "scriptHash": "5cab7558e66a4592f019e47447fee9445930486077574abed3429fb4",
+                    "contractAddress": "addr1w9w2ka2cue4ytyhsr8j8g3l7a9z9jvzgvpm4wj476dpfldq2shdcx"
+                },
+                {
+                    "version": 6,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "711869c28a5c1023a10c1deb30d112226cf45130b800a22d9c2afc1c9c",                        
+                    "scriptHash": "1869c28a5c1023a10c1deb30d112226cf45130b800a22d9c2afc1c9c",
+                    "contractAddress": "addr1wyvxns52tsgz8ggvrh4np5gjyfk0g5fshqq2ytvu9t7pe8qp3adw6"
+                },
+                {
+                    "version": 7,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "71e647c49dc3cf8479304775c8333d4545d52deebed2293409f822ce50",                        
+                    "scriptHash": "e647c49dc3cf8479304775c8333d4545d52deebed2293409f822ce50",
+                    "contractAddress": "addr1w8ny03yac08cg7fsga6usveag4za2t0whmfzjdqflq3vu5qxarwzw"
+                },
+                {
+                    "version": 8,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "710ce885f663dc693951104d0f5931b8d2c0e5ee656b2b39f9244d8192",                        
+                    "scriptHash": "0ce885f663dc693951104d0f5931b8d2c0e5ee656b2b39f9244d8192",
+                    "contractAddress": "addr1wyxw3p0kv0wxjw23zpxs7kf3hrfvpe0wv44jkw0ey3xcrysustx3f"
+                },
+                {
+                    "version": 9,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "71712118c809009b34b747d43c781b11751982bbfabfa8aca2107722b2",                        
+                    "scriptHash": "712118c809009b34b747d43c781b11751982bbfabfa8aca2107722b2",
+                    "contractAddress": "addr1w9cjzxxgpyqfkd9hgl2rc7qmz963nq4ml2l63t9zzpmj9vsf3pldw"
                 }		    
             ]
         },
@@ -142,6 +217,31 @@
                     "mintPolicyID": "e2ee3c439d71d22a77ccf019953459368b4d35e6184c115d67e1c735",
 		    "plutusVersion": 1,                    
                     "version": 4
+                },
+                {
+                    "mintPolicyID": "a665bb42594646eaaed8ed59ada592fb8300775df916a4a5406ffa96",
+		    "plutusVersion": 1,                    
+                    "version": 5
+                },
+                {
+                    "mintPolicyID": "08c56c0fa73748a23c3bc1d9e6a60a4187416fc4ff8fe3475506990e",
+		    "plutusVersion": 1,                    
+                    "version": 6
+                },
+                {
+                    "mintPolicyID": "ba0b98665d9a18c04c50793768780dff7826e2bcff2ff0909b708fa0",
+		    "plutusVersion": 1,                    
+                    "version": 7
+                },
+                {
+                    "mintPolicyID": "de640fa36c56ca8eab2ff97dbeb5c3a297452fd133a1f77d7c9d3dbc",
+		    "plutusVersion": 1,                    
+                    "version": 8
+                },
+                {
+                    "mintPolicyID": "6167e3550a74ead031eaebe9ebddbf4d8fb9d9398568261d41bc9e97",
+		    "plutusVersion": 1,                    
+                    "version": 9
                 }		    
             ]
         }
