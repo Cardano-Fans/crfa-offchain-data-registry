@@ -19,7 +19,17 @@
                     "version": 1
                 }
             ]           
-        }
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "tKAvB8",
+                    "version": 2
+                }
+            ]           
+        }	    
     ],
     "contracts": [
         {
@@ -32,15 +42,22 @@
             "id": "tKAvB8",
             "name": "Personalization",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+	    "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "716c043fc9e3f4dfbabe01e07a54fcf8aa3eaa38e82777b10f9461859c",                     
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "716c043fc9e3f4dfbabe01e07a54fcf8aa3eaa38e82777b10f9461859c",                     
                     "scriptHash": "6c043fc9e3f4dfbabe01e07a54fcf8aa3eaa38e82777b10f9461859c",
                     "contractAddress": "addr1w9kqg07fu06dlw47q8s8548ulz4ra23caqnh0vg0j3sct8qrsqrpc"
-                }    
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71d84e5bd5394b96cb61104439732fdf31fe272275f4a3235c105bc332",                     
+                    "scriptHash": "d84e5bd5394b96cb61104439732fdf31fe272275f4a3235c105bc332",
+                    "contractAddress": "addr1w8vyuk74899edjmpzpzrjue0muclufezwh62xg6uzpduxvsszgvr0"
+                }		    
             ]
         }
     ]
