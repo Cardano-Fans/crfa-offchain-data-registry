@@ -62,7 +62,15 @@
         {
           "id": "Ejwj3a",
           "version": 2
-        }
+        },
+        {
+          "id": "Ejwj3a",
+          "version": 3
+        },        
+        {
+          "id": "iX9cQG",
+          "version": 1
+        }        
       ],
       "contractId": "JN3E"
     }
@@ -147,7 +155,14 @@
           "fullScriptHash": "319068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
           "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
           "contractAddress": "addr1xxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tfvjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8eks2utwdd"
-        }
+        },
+        {
+          "version": 3,
+          "plutusVersion": 2,
+          "fullScriptHash": "119068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",
+          "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",
+          "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tgvp7yludr26w44pjv927202tt7ayffdwxjj688k690f03sr4chmz"
+        }        
       ]
     },
     {
@@ -159,9 +174,9 @@
         {
           "version": 1,
           "plutusVersion": 2,
-          "fullScriptHash": "3184cc25ea4c29951d40b443b95bbc5676bc425470f96376d1984af9ab2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
-          "scriptHash": "84cc25ea4c29951d40b443b95bbc5676bc425470f96376d1984af9ab2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
-          "contractAddress": "addr1xxzvcf02fs5e282qk3pmjkau2emtcsj5wrukxak3np90n2evjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8eksg6pw3p"
+          "fullScriptHash": "31c727443d77df6cff95dca383994f4c3024d03ff56b02ecc22b0f3f652c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
+          "scriptHash": "c727443d77df6cff95dca383994f4c3024d03ff56b02ecc22b0f3f652c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
+          "contractAddress": "addr1x8rjw3pawl0kelu4mj3c8x20fsczf5pl744s9mxz9v8n7efvjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8ekstg4qrx"
         }
       ]
     }
