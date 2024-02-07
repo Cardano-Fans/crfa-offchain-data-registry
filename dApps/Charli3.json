@@ -63,6 +63,14 @@
                 {
                     "id": "GNyMn8",
                     "version": 9
+                },	
+                {
+                    "id": "GNyMn8",
+                    "version": 10
+                },
+                {
+                    "id": "GNyMn8",
+                    "version": 11
                 },		    
                 {
                     "id": "EUazXZ",
@@ -95,6 +103,14 @@
                 {
                     "id": "EUazXZ",
                     "version": 9
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 10
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 11
                 }		    
             ]
         }
@@ -189,6 +205,20 @@
 	            "fullScriptHash": "71712118c809009b34b747d43c781b11751982bbfabfa8aca2107722b2",                        
                     "scriptHash": "712118c809009b34b747d43c781b11751982bbfabfa8aca2107722b2",
                     "contractAddress": "addr1w9cjzxxgpyqfkd9hgl2rc7qmz963nq4ml2l63t9zzpmj9vsf3pldw"
+                },
+                {
+                    "version": 10,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "71363614aa3bd37dc0ec4b7b91c38fe15424a20f7a36d1044a4967aa5e",                        
+                    "scriptHash": "363614aa3bd37dc0ec4b7b91c38fe15424a20f7a36d1044a4967aa5e",
+                    "contractAddress": "addr1wymrv99280fhms8vfdaersu0u92zfgs00gmdzpz2f9n65hsyx9fuw"
+                },
+                {
+                    "version": 11,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "715d8c5b94b0f7b9ebd60d0fdaa50e61039ded490c2d7a7da1088d1607",                        
+                    "scriptHash": "5d8c5b94b0f7b9ebd60d0fdaa50e61039ded490c2d7a7da1088d1607",
+                    "contractAddress": "addr1w9wccku5krmmn67kp58a4fgwvypemm2fpskh5ldppzx3vpcdkck62"
                 }		    
             ]
         },
@@ -242,6 +272,16 @@
                     "mintPolicyID": "6167e3550a74ead031eaebe9ebddbf4d8fb9d9398568261d41bc9e97",
 		    "plutusVersion": 1,                    
                     "version": 9
+                },
+                {
+                    "mintPolicyID": "aaff38a4fd17c66f66e0ac7d578d0ff30b2b1ec0d7638eb007db04cc",
+		    "plutusVersion": 1,                    
+                    "version": 10
+                },
+                {
+                    "mintPolicyID": "696e58d4453c525cb032a325ea8cde6499ff31ffdec05d3ca8dbaea0",
+		    "plutusVersion": 1,                    
+                    "version": 11
                 }		    
             ]
         }
