@@ -1,0 +1,51 @@
+{
+    "id": "uXfLQigM",
+    "projectName": "Iagon",
+    "link": "https://iagon.com",
+    "twitter": "https://twitter.com/IagonOfficial",
+    "category": "MARKETPLACE",
+    "subCategory": "-",
+    "description": {
+                   "short": "IAGON is bridging decentralization with compliance for Web 3.0"
+                   },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "g2xEBt",
+                    "version": 1
+                }
+            ],
+        "contractId": "OdAP"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/Iagonorg/staking-and-rewards-contract",
+         "contractId": "OdAP"
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "g2xEBt",
+            "name": "Staking",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "contractLang": "AIKEN",          
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "716caa3ba78ac89b51aad2d06ab8a5cd097334faba23127fc6f665e272",                     
+                    "scriptHash": "6caa3ba78ac89b51aad2d06ab8a5cd097334faba23127fc6f665e272",
+                    "contractAddress": "addr1w9k25wa83tyfk5d26tgx4w99e5yhxd86hg33yl7x7ej7yusggvmu3"
+                }    
+            ]
+        }
+    ]
+}
