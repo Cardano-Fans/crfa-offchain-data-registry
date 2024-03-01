@@ -161,6 +161,14 @@
                 {
                     "id": "McxCka",
                     "version": 1
+                },
+                {
+                    "id": "Q9NqMF",
+                    "version": 1
+                },
+                {
+                    "id": "GgdQfT",
+                    "version": 1
                 }		    
             ]          
         }
@@ -548,6 +556,36 @@
 	            "fullScriptHash": "1144a60cf71ed31d64caa65911fd30c419cc9e077ed1cc467dbccd03bf3b7c7e26e13a3248ba7b67e45a9b6f423e77222c649e6beaaf456e53",                     
                     "scriptHash": "44a60cf71ed31d64caa65911fd30c419cc9e077ed1cc467dbccd03bf3b7c7e26e13a3248ba7b67e45a9b6f423e77222c649e6beaaf456e53",
                     "contractAddress": "addr1z9z2vr8hrmf36ex25ev3rlfscsvue8s80mguc3nahnxs80em03lzdcf6xfyt57m8u3dfkm6z8emjytryne474t69defsajxd6c"
+                }    
+            ]
+        },
+        {
+            "id": "Q9NqMF",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",           
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "119ecbddbe663a6cb48b12674d75d10804283e967d1e091b5d053e008d3b7c7e26e13a3248ba7b67e45a9b6f423e77222c649e6beaaf456e53",                     
+                    "scriptHash": "9ecbddbe663a6cb48b12674d75d10804283e967d1e091b5d053e008d3b7c7e26e13a3248ba7b67e45a9b6f423e77222c649e6beaaf456e53",
+                    "contractAddress": "addr1zx0vhhd7vcaxedytzfn56aw3pqzzs05k050qjx6aq5lqprfm03lzdcf6xfyt57m8u3dfkm6z8emjytryne474t69defsxxmfsv"
+                }    
+            ]
+        },
+        {
+            "id": "GgdQfT",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",           
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "11e1d522b61956233f2616215b496a42045402818b348a2a96d34ca3321a582e982228ba186050a0632611c839438a0f397ea8e9d54064d317",                     
+                    "scriptHash": "e1d522b61956233f2616215b496a42045402818b348a2a96d34ca3321a582e982228ba186050a0632611c839438a0f397ea8e9d54064d317",
+                    "contractAddress": "addr1z8sa2g4kr9tzx0exzcs4kjt2ggz9gq5p3v6g525k6dx2xvs6tqhfsg3ghgvxq59qvvnprjpegw9q7wt74r5a2sry6vts6ntrsx"
                 }    
             ]
         }	    
