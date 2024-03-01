@@ -71,6 +71,10 @@
                 {
                     "id": "GNyMn8",
                     "version": 11
+                },	
+                {
+                    "id": "GNyMn8",
+                    "version": 12
                 },		    
                 {
                     "id": "EUazXZ",
@@ -111,6 +115,10 @@
                 {
                     "id": "EUazXZ",
                     "version": 11
+                },
+                {
+                    "id": "EUazXZ",
+                    "version": 12
                 }		    
             ]
         }
@@ -219,6 +227,13 @@
 	            "fullScriptHash": "715d8c5b94b0f7b9ebd60d0fdaa50e61039ded490c2d7a7da1088d1607",                        
                     "scriptHash": "5d8c5b94b0f7b9ebd60d0fdaa50e61039ded490c2d7a7da1088d1607",
                     "contractAddress": "addr1w9wccku5krmmn67kp58a4fgwvypemm2fpskh5ldppzx3vpcdkck62"
+                },
+                {
+                    "version": 12,
+                    "plutusVersion": 2,
+	            "fullScriptHash": "71ecd8548af2a121a652727da169f86fd7b43b4b3b698b8895ba956c50",                        
+                    "scriptHash": "ecd8548af2a121a652727da169f86fd7b43b4b3b698b8895ba956c50",
+                    "contractAddress": "addr1w8kds4y272sjrfjjwf76z60cdltmgw6t8d5chzy4h22kc5q6s7dkl"
                 }		    
             ]
         },
@@ -282,6 +297,11 @@
                     "mintPolicyID": "696e58d4453c525cb032a325ea8cde6499ff31ffdec05d3ca8dbaea0",
 		    "plutusVersion": 1,                    
                     "version": 11
+                },
+                {
+                    "mintPolicyID": "8a78965350bbdd35adbacd748d51c4fb83952d8851f785e2eae05e15",
+		    "plutusVersion": 1,                    
+                    "version": 12
                 }		    
             ]
         }
