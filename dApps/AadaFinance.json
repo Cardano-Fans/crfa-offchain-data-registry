@@ -82,7 +82,15 @@
                 {
                     "id": "TLvqM1",
                     "version": 1
-                }
+                },
+                {
+                    "id": "YEwnCE",
+                    "version": 1
+                },
+                {
+                    "id": "7zHEVC",
+                    "version": 1
+                }		    
             ],
             "contractId": "A9pD"
         }	    
@@ -269,6 +277,33 @@
                     "contractAddress": "addr1wyvej5rmcrhfpcwrwmnqsjtwvf8gv3dn64vwy3xzekp95wqqhdkwa"
                 }
             ]
-        }
+        },
+        {
+            "id": "YEwnCE",
+            "name": "DEPOSIT to/WITHDRAW from pool",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 2, 
+	            "fullScriptHash": "3132e8c0ae314ef4be452c16a999867f66d1a1791fc972cb2f7c74e38d21e45442265dad540322fe30cd4bdbe1322652dd5b95a8a5f6159d46",                     
+                    "scriptHash": "32e8c0ae314ef4be452c16a999867f66d1a1791fc972cb2f7c74e38d21e45442265dad540322fe30cd4bdbe1322652dd5b95a8a5f6159d46",
+                    "contractAddress": "addr1xyew3s9wx980f0j99st2nxvx0andrgterlyh9je0036w8rfpu32yyfja442qxgh7xrx5hklpxgn99h2mjk52tas4n4rq6ul55f"
+                }
+            ]
+        },
+        {
+            "id": "7zHEVC",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "15a7772335deb8349165860a94a10b9f0a6ee0ac850c43294a4f1428",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        }	    
     ]
 }
