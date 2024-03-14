@@ -88,7 +88,19 @@
                     "version": 1
                 },
                 {
+                    "id": "pk80lY",
+                    "version": 1
+                },
+                {
+                    "id": "pk80lY",
+                    "version": 2
+                },		    
+                {
                     "id": "7zHEVC",
+                    "version": 1
+                },
+                {
+                    "id": "0dhipv",
                     "version": 1
                 }		    
             ],
@@ -294,12 +306,46 @@
             ]
         },
         {
+            "id": "pk80lY",
+            "name": "REPAID to pool",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "version": 1,
+ 		    "plutusVersion": 2, 
+	            "fullScriptHash": "318021830afedd85fda1253da2be75b66c0e65c482148eb8ca690903cb26b90fe72e3c3b3f5d3f910bdeec9f01e0e2b55ead26d844b513c3f3",                     
+                    "scriptHash": "8021830afedd85fda1253da2be75b66c0e65c482148eb8ca690903cb26b90fe72e3c3b3f5d3f910bdeec9f01e0e2b55ead26d844b513c3f3",
+                    "contractAddress": "addr1xxqzrqc2lmwctldpy57690n4kekquewysg2gawx2dyys8jexhy87wt3u8vl460u3p00we8cpur3t2h4dymvyfdgnc0es6hnr4m"
+                },
+                {
+                    "version": 2,
+ 		    "plutusVersion": 2, 
+	            "fullScriptHash": "318021830afedd85fda1253da2be75b66c0e65c482148eb8ca690903cba3aebcff0afd040f9d5dc8675c309733ee9785713ebbf0dacb0dd408",                     
+                    "scriptHash": "8021830afedd85fda1253da2be75b66c0e65c482148eb8ca690903cba3aebcff0afd040f9d5dc8675c309733ee9785713ebbf0dacb0dd408",
+                    "contractAddress": "addr1xxqzrqc2lmwctldpy57690n4kekquewysg2gawx2dyys8jar46707zhaqs8e6hwgvawrp9ena6tc2uf7h0cd4jcd6syqdev9hh"
+                }		    
+            ]
+        },	    
+        {
             "id": "7zHEVC",
             "purpose": "MINT",
 	    "type": "PLUTUS",		
             "versions": [
                 {
                     "mintPolicyID": "15a7772335deb8349165860a94a10b9f0a6ee0ac850c43294a4f1428",
+		    "plutusVersion": 2,                    
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "id": "0dhipv",
+            "purpose": "MINT",
+	    "type": "PLUTUS",		
+            "versions": [
+                {
+                    "mintPolicyID": "8021830afedd85fda1253da2be75b66c0e65c482148eb8ca690903cb",
 		    "plutusVersion": 2,                    
                     "version": 1
                 }
