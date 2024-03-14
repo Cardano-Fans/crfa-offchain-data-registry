@@ -21,6 +21,10 @@
                 {
                     "id": "5Z6jMI",
                     "version": 1
+                },
+                {
+                    "id": "ZmXqcm",
+                    "version": 1
                 }		    
             ]          
         }
@@ -59,6 +63,21 @@
 	            "fullScriptHash": "114fff82b7d0bf7e1608b73bf86dcb481ad95a567b2f789e87857818a75ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",                     
                     "scriptHash": "4fff82b7d0bf7e1608b73bf86dcb481ad95a567b2f789e87857818a75ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",
                     "contractAddress": "addr1z98llq4h6zlhu9sgkualsmwtfqddjkjk0vhh3858s4up3f675jq4yvpskgayj55xegdp30g5rfynax66r8vgn9fldndsmyexdz"
+                }    
+            ]
+        },
+        {
+            "id": "ZmXqcm",
+            "name": "Lil Sappys",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "118fead602858a1d90c9c2f8e6cd6ba3fa086c668f0bc84193356f55455ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",                     
+                    "scriptHash": "8fead602858a1d90c9c2f8e6cd6ba3fa086c668f0bc84193356f55455ea481523030b23a495286ca1a18bd141a493e9b5a19d889953f6cdb",
+                    "contractAddress": "addr1zx8744szsk9pmyxfctuwdntt50aqsmrx3u9ussvnx4h423275jq4yvpskgayj55xegdp30g5rfynax66r8vgn9fldnds6jt6vp"
                 }    
             ]
         }	    
