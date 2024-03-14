@@ -169,6 +169,10 @@
                 {
                     "id": "GgdQfT",
                     "version": 1
+                },
+                {
+                    "id": "Cnsyh3",
+                    "version": 1
                 }		    
             ]          
         }
@@ -586,6 +590,21 @@
 	            "fullScriptHash": "11e1d522b61956233f2616215b496a42045402818b348a2a96d34ca3321a582e982228ba186050a0632611c839438a0f397ea8e9d54064d317",                     
                     "scriptHash": "e1d522b61956233f2616215b496a42045402818b348a2a96d34ca3321a582e982228ba186050a0632611c839438a0f397ea8e9d54064d317",
                     "contractAddress": "addr1z8sa2g4kr9tzx0exzcs4kjt2ggz9gq5p3v6g525k6dx2xvs6tqhfsg3ghgvxq59qvvnprjpegw9q7wt74r5a2sry6vts6ntrsx"
+                }    
+            ]
+        },
+        {
+            "id": "Cnsyh3",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",           
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "1147ba6f1a979967b5d9252f1830d1da104017551de7e603d25ad464f9f42b1f22a6a990627a2bf7d60b4816cc73b1160d5df5b44ed479686b",                     
+                    "scriptHash": "47ba6f1a979967b5d9252f1830d1da104017551de7e603d25ad464f9f42b1f22a6a990627a2bf7d60b4816cc73b1160d5df5b44ed479686b",
+                    "contractAddress": "addr1z9rm5mc6j7vk0dwey5h3svx3mggyq964rhn7vq7jtt2xf7059v0j9f4fjp3852lh6c95s9kvwwc3vr2a7k6ya4redp4s3gkjpl"
                 }    
             ]
         }	    
