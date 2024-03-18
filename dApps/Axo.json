@@ -173,6 +173,26 @@
                 {
                     "id": "Cnsyh3",
                     "version": 1
+                },
+                {
+                    "id": "ByJQVH",
+                    "version": 1
+                },
+                {
+                    "id": "ByJQVH",
+                    "version": 2
+                },
+                {
+                    "id": "ByJQVH",
+                    "version": 3
+                },
+                {
+                    "id": "ByJQVH",
+                    "version": 4
+                },
+                {
+                    "id": "ByJQVH",
+                    "version": 5
                 }		    
             ]          
         }
@@ -606,6 +626,49 @@
                     "scriptHash": "47ba6f1a979967b5d9252f1830d1da104017551de7e603d25ad464f9f42b1f22a6a990627a2bf7d60b4816cc73b1160d5df5b44ed479686b",
                     "contractAddress": "addr1z9rm5mc6j7vk0dwey5h3svx3mggyq964rhn7vq7jtt2xf7059v0j9f4fjp3852lh6c95s9kvwwc3vr2a7k6ya4redp4s3gkjpl"
                 }    
+            ]
+        },
+        {
+            "id": "ByJQVH",
+            "purpose": "SPEND",
+	    "type": "PLUTUS",
+            "contractLang": "PLUTARCH",           
+            "versions": [
+                {
+                    "version": 1,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "116de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bd6876c9cb1f9786e61964f4787630898ec0145611a4b3a3d1be74a3a7",                     
+                    "scriptHash": "6de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bd6876c9cb1f9786e61964f4787630898ec0145611a4b3a3d1be74a3a7",
+                    "contractAddress": "addr1z9k7tpwwzmr6fggp74wqvvnaz5qavh25ew5k476tuejh80tgwmyuk8uhsmnpje850pmrpzvwcq29vydykw3ar0n55wnspn4295"
+                },
+                {
+                    "version": 2,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "116de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bd9076fbd52e6d6d83e520406a4d45be5f679527bb47b7153363e02546",                     
+                    "scriptHash": "6de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bd9076fbd52e6d6d83e520406a4d45be5f679527bb47b7153363e02546",
+                    "contractAddress": "addr1z9k7tpwwzmr6fggp74wqvvnaz5qavh25ew5k476tuejh80vswmaa2tnddkp72gzqdfx5t0jlv72j0w68ku2nxclqy4rqjvghle"
+                },
+                {
+                    "version": 3,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "116de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bd33e59fba5df4b141bc620f84f6d22ec6922279505a6cc3720e765562",                     
+                    "scriptHash": "6de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bd33e59fba5df4b141bc620f84f6d22ec6922279505a6cc3720e765562",
+                    "contractAddress": "addr1z9k7tpwwzmr6fggp74wqvvnaz5qavh25ew5k476tuejh80fnuk0m5h05k9qmccs0snmdytkxjg38j5z6dnphyrnk243ql7dpa5"
+                },
+                {
+                    "version": 4,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "116de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bdd03c5c7485816734c6b46c0f80a6df6945718d745484b35ed9706d80",                     
+                    "scriptHash": "6de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bdd03c5c7485816734c6b46c0f80a6df6945718d745484b35ed9706d80",
+                    "contractAddress": "addr1z9k7tpwwzmr6fggp74wqvvnaz5qavh25ew5k476tuejh80ws83w8fpvpvu6vddrvp7q2dhmfg4cc6az5sje4aktsdkqqus0u0m"
+                },
+                {
+                    "version": 5,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "116de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bdb03f352762e1c1ef7185f369aed0dd13e9d8f57994b777a1ff6534e8",                     
+                    "scriptHash": "6de585ce16c7a4a101f55c06327d1501d65d54cba96afb4be66573bdb03f352762e1c1ef7185f369aed0dd13e9d8f57994b777a1ff6534e8",
+                    "contractAddress": "addr1z9k7tpwwzmr6fggp74wqvvnaz5qavh25ew5k476tuejh80ds8u6jwchpc8hhrp0ndxhdphgna8v027v5kam6rlm9xn5q696t95"
+                }		    
             ]
         }	    
     ]
