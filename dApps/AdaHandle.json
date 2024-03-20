@@ -27,7 +27,15 @@
                 {
                     "id": "tKAvB8",
                     "version": 2
-                }
+                },
+                {
+                    "id": "tKAvB8",
+                    "version": 3
+                },
+                {
+                    "id": "tKAvB8",
+                    "version": 4
+                }		    
             ]           
         }	    
     ],
@@ -57,6 +65,20 @@
 	            "fullScriptHash": "71d84e5bd5394b96cb61104439732fdf31fe272275f4a3235c105bc332",                     
                     "scriptHash": "d84e5bd5394b96cb61104439732fdf31fe272275f4a3235c105bc332",
                     "contractAddress": "addr1w8vyuk74899edjmpzpzrjue0muclufezwh62xg6uzpduxvsszgvr0"
+                },
+                {
+                    "version": 3,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "715cd18d995b79d3dab1d5190f84d73f3966610420254ac0379bbbfe1a",                     
+                    "scriptHash": "5cd18d995b79d3dab1d5190f84d73f3966610420254ac0379bbbfe1a",
+                    "contractAddress": "addr1w9wdrrvetdua8k4365vslpxh8uukvcgyyqj54sphnwaluxs753n9e"
+                },
+                {
+                    "version": 4,
+		    "plutusVersion": 2, 
+	            "fullScriptHash": "71503d94a31d3e6c3592323962a263273e2557c749f35e36e5a2d69011",                     
+                    "scriptHash": "503d94a31d3e6c3592323962a263273e2557c749f35e36e5a2d69011",
+                    "contractAddress": "addr1w9grm99rr5lxcdvjxguk9gnryulz2478f8e4udh95ttfqygu5z8er"
                 }		    
             ]
         }
