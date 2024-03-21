@@ -1,0 +1,88 @@
+{
+    "id": "t7ax8dy9",
+    "projectName": "Coinecta",
+    "link": "https://coinecta.fi",
+    "twitter": "https://twitter.com/CoinectaFinance",
+    "category": "DEFI",
+    "subCategory": "LAUNCHPAD",
+    "description": {
+                   "short": "Coinecta is a next-generation Cardano-based token launch platform, striving to be the launchpad of choice for innovative blockchain projects."
+    },	
+	
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "ybLR9b",
+                    "version": 1
+                },
+                {
+                    "id": "zN5XZs",
+                    "version": 1
+                },
+                {
+                    "id": "ZKkxPL",
+                    "version": 1
+                }               
+            ],
+        "contractId": "e14X"            
+        }
+    ],
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/coinecta",
+         "contractId": "e14X"
+        }
+    ],
+
+    "scripts": [
+        {
+            "id": "ybLR9b",
+            "name": "Stake Proxy",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71eaeeb6716f41383b1fb53ec0c91d4fbb55aba4f23061b73cdf5d0b62",                     
+                    "scriptHash": "eaeeb6716f41383b1fb53ec0c91d4fbb55aba4f23061b73cdf5d0b62",
+                    "contractAddress": "addr1w84wadn3daqnswclk5lvpjgaf7a4t2ay7gcxrdeumawskcs97z0ns"
+                }    
+            ]
+        },
+        {
+            "id": "zN5XZs",
+            "name": "Stake Pool",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "7161b3802ce748ed1fdaad2d6c744b19f104285f7d318172a5d4f06a4e",                     
+                    "scriptHash": "61b3802ce748ed1fdaad2d6c744b19f104285f7d318172a5d4f06a4e",
+                    "contractAddress": "addr1w9sm8qpvuayw687645kkcaztr8csg2zl05cczu496ncx5nssarfwf"
+                }    
+            ]
+        },
+        {
+            "id": "ZKkxPL",
+            "name": "Stake Pool",
+            "purpose": "SPEND",
+	          "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+		                "plutusVersion": 2, 
+	                  "fullScriptHash": "71f5daa8c5b5fc29f5bdcd18931269f0763ca6a7e85fc83c4d2b0117d5",                     
+                    "scriptHash": "f5daa8c5b5fc29f5bdcd18931269f0763ca6a7e85fc83c4d2b0117d5",
+                    "contractAddress": "addr1w86a42x9kh7znadae5vfxynf7pmref48ap0us0zd9vq304gcfvyy5"
+                }    
+            ]
+        }      
+    ]
+}
