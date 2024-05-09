@@ -72,7 +72,7 @@
                 }
             ],
             "auditId": "pUrR",
-            "contractId": "5LAW"		
+            "contractId": "5LAW"
         }
     ],
 
@@ -122,10 +122,17 @@
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "71ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",                     
+ 		            "plutusVersion": 1,  
+	                "fullScriptHash": "71ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",                     
                     "scriptHash": "ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",
                     "contractAddress": "addr1wxaptpmxcxawvr3pzlhgnpmzz3ql43n2tc8mn3av5kx0yzs09tqh8"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71fa6a58bbe2d0ff05534431c8e2f0ef2cbdc1602a8456e4b13c8f3077",
+                    "scriptHash": "fa6a58bbe2d0ff05534431c8e2f0ef2cbdc1602a8456e4b13c8f3077",
+                    "contractAddress": "addr1w8ax5k9mutg07p2ngscu3chsauktmstq92z9de938j8nqacprc9mw"
                 }
             ]
         },
