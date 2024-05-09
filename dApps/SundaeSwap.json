@@ -3,13 +3,16 @@
     "projectName": "SundaeSwap",
     "link": "https://www.sundaeswap.finance",
     "twitter": "https://twitter.com/SundaeSwap",
-    "category": "DEFI",    
+    "category": "DEFI",
     "subCategory": "AMM_DEX",
     "description": {
-                   "short": "SundaeSwap is a native, scalable decentralized exchange, automated liquidity provision protocol and the first AMM Dex on Cardano blockchain"
-    },			
-    "features": ["SWAP", "LIQUIDITY_MINING", "YIELD_FARMING"], 
-    
+        "short": "SundaeSwap is a native, scalable decentralized exchange, automated liquidity provision protocol and the first AMM Dex on Cardano blockchain"
+    },
+    "features": [
+        "SWAP",
+        "LIQUIDITY_MINING",
+        "YIELD_FARMING"
+    ],
     "releases": [
         {
             "releaseNumber": 0,
@@ -30,13 +33,13 @@
             "releaseNumber": 1,
             "releaseName": "V1",
             "description": "old farming contract",
-            "scripts": [ 
+            "scripts": [
                 {
                     "id": "Xwh0rZ",
                     "version": 1
                 }
             ]
-        },	    
+        },
         {
             "releaseNumber": 2,
             "releaseName": "V2",
@@ -61,7 +64,7 @@
                 {
                     "id": "NZGaoj",
                     "version": 1
-                },   
+                },
                 {
                     "id": "xrMhRL",
                     "version": 1
@@ -72,23 +75,22 @@
                 }
             ],
             "auditId": "pUrR",
-            "contractId": "5LAW"		
+            "contractId": "5LAW"
         }
     ],
-
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/SundaeSwap-finance/sundae-yield-v2",
-         "contractId": "5LAW"
+            "openSource": true,
+            "contractLink": "https://github.com/SundaeSwap-finance/sundae-yield-v2",
+            "contractId": "5LAW"
         }
     ],
     "audits": [
         {
-         "auditId": "pUrR",
-         "auditor": "Runtime Verification Inc.",
-         "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/SundaeSwap.pdf",
-         "auditType": "MANUAL"
+            "auditId": "pUrR",
+            "auditor": "Runtime Verification Inc.",
+            "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/SundaeSwap.pdf",
+            "auditType": "MANUAL"
         }
     ],
     "scripts": [
@@ -96,36 +98,43 @@
             "id": "EEHvb6",
             "name": "Mainnet load test",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 0,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "713776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",                      
+                    "plutusVersion": 1,
+                    "fullScriptHash": "713776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",
                     "scriptHash": "3776bcc4e4f8a06cf8e18d5507b782c4b539fcbab46ccc02d90a47b4",
                     "contractAddress": "addr1wymhd0xyunu2qm8cuxx42pahstzt2w0uh26xenqzmy9y0dqs9fdtx"
-                },    
+                },
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "71295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",
                     "scriptHash": "295f0471e1c9e5865ac198d685c3eb6d982c640396e9f2e46d789208",
                     "contractAddress": "addr1wy547pr3u8y7tpj6cxvddpwradkestryqwtwnuhyd4ufyzqw56p7p"
-                }                
+                }
             ]
-        },        
+        },
         {
             "id": "aM07TS",
-            "name": "Order Book / Escrow",
+            "name": "Order Book",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "71ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",
                     "scriptHash": "ba158766c1bae60e2117ee8987621441fac66a5e0fb9c7aca58cf20a",
                     "contractAddress": "addr1wxaptpmxcxawvr3pzlhgnpmzz3ql43n2tc8mn3av5kx0yzs09tqh8"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71fa6a58bbe2d0ff05534431c8e2f0ef2cbdc1602a8456e4b13c8f3077",
+                    "scriptHash": "fa6a58bbe2d0ff05534431c8e2f0ef2cbdc1602a8456e4b13c8f3077",
+                    "contractAddress": "addr1w8ax5k9mutg07p2ngscu3chsauktmstq92z9de938j8nqacprc9mw"
                 }
             ]
         },
@@ -133,14 +142,21 @@
             "id": "aX10UZ",
             "name": "Liquidity Pool",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "714020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",                    
+                    "plutusVersion": 1,
+                    "fullScriptHash": "714020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
                     "scriptHash": "4020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
                     "contractAddress": "addr1w9qzpelu9hn45pefc0xr4ac4kdxeswq7pndul2vuj59u8tqaxdznu"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "31e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b4399813dad91bb78a5eb17c26ff50852bc75d3fa7b6e9ae87232ccc1",
+                    "scriptHash": "e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b",
+                    "contractAddress": "addr1x8srqftqemf0mjlukfszd97ljuxdp44r372txfcr75wrz26rnxqnmtv3hdu2t6chcfhl2zzjh36a87nmd6dwsu3jenqsslnz7e"
                 }
             ]
         },
@@ -148,11 +164,11 @@
             "id": "wZvAWT",
             "name": "Liquidity Provider Token",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
- 		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
@@ -161,27 +177,27 @@
             "id": "Uq7zqE",
             "name": "SundaeSwap Factory",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "71d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",
                     "scriptHash": "d42d10695c0c2f7b3f7e32a0559c80704da8cf320289e7831b99d825",
                     "contractAddress": "addr1w82z6yrftsxz77el0ce2q4vuspcym2x0xgpgneurrwvasfge778fd"
                 }
             ]
-        },        
+        },
         {
             "id": "NZGaoj",
             "name": "Scooper Rewards",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "71646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",                    
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",
                     "scriptHash": "646ad13fb9e22d3b802049d85e95dc04edb6471eaa9237a932d38d49",
                     "contractAddress": "addr1w9jx45flh83z6wuqypyash54mszwmdj8r64fydafxtfc6jgrw4rm3"
                 }
@@ -191,12 +207,12 @@
             "id": "Xwh0rZ",
             "name": "Farming",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "7174db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",                    
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7174db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",
                     "scriptHash": "74db9c7a23605cacae4ee635a15af6e63c5a39915c481254eeb9758b",
                     "contractAddress": "addr1w96dh8r6yds9et9wfmnrtg267mnrck3ej9wysyj5a6uhtzchkcr5d"
                 }
@@ -207,26 +223,26 @@
             "name": "Yield Farming",
             "purpose": "SPEND",
             "type": "PLUTUS",
-	        "contractLang": "AIKEN",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 2,  
-	            "fullScriptHash": "1173275b9e267fd927bfc14cf653d904d1538ad8869260ab638bf73f5cd7244b4a8777b7dc6909f4640cf02ea4757a557a99fb483b05f87dfe",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "1173275b9e267fd927bfc14cf653d904d1538ad8869260ab638bf73f5cd7244b4a8777b7dc6909f4640cf02ea4757a557a99fb483b05f87dfe",
                     "scriptHash": "73275b9e267fd927bfc14cf653d904d1538ad8869260ab638bf73f5cd7244b4a8777b7dc6909f4640cf02ea4757a557a99fb483b05f87dfe",
                     "contractAddress": "addr1z9ejwku7yelajfalc9x0v57eqng48zkcs6fxp2mr30mn7hxhy3954pmhklwxjz05vsx0qt4yw4a9275eldyrkp0c0hlq4gdz8r"
                 }
             ]
-        },	    
+        },
         {
             "id": "I4bGnp",
             "name": "Scooper License",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "e8a447d4e19016ca2aa74d20b4c4de87adb1f21dfb5493bf2d7281a6",
- 		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
