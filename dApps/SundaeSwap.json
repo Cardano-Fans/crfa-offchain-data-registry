@@ -150,6 +150,13 @@
                     "fullScriptHash": "714020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
                     "scriptHash": "4020e7fc2de75a0729c3cc3af715b34d98381e0cdbcfa99c950bc3ac",
                     "contractAddress": "addr1w9qzpelu9hn45pefc0xr4ac4kdxeswq7pndul2vuj59u8tqaxdznu"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "31e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b4399813dad91bb78a5eb17c26ff50852bc75d3fa7b6e9ae87232ccc1",
+                    "scriptHash": "e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b",
+                    "contractAddress": "addr1x8srqftqemf0mjlukfszd97ljuxdp44r372txfcr75wrz26rnxqnmtv3hdu2t6chcfhl2zzjh36a87nmd6dwsu3jenqsslnz7e"
                 }
             ]
         },
