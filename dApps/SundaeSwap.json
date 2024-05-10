@@ -76,6 +76,23 @@
             ],
             "auditId": "pUrR",
             "contractId": "5LAW"
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "description": "new pool and liquidity scripts available in the Dapp",
+            "scripts": [
+                {
+                    "id": "aM07TS",
+                    "version": 3
+                },
+                {
+                    "id": "aX10UZ",
+                    "version": 3
+                }
+            ],
+            "auditId": "1OkN",
+            "contractId": "0VNF"
         }
     ],
     "contracts": [
@@ -83,6 +100,11 @@
             "openSource": true,
             "contractLink": "https://github.com/SundaeSwap-finance/sundae-yield-v2",
             "contractId": "5LAW"
+        },
+        {
+            "openSource": true,
+            "contractLink": "https://github.com/SundaeSwap-finance/sundae-contracts",
+            "contractId": "0VNF"
         }
     ],
     "audits": [
@@ -90,6 +112,12 @@
             "auditId": "pUrR",
             "auditor": "Runtime Verification Inc.",
             "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/SundaeSwap.pdf",
+            "auditType": "MANUAL"
+        },
+        {
+            "auditId": "1OkN",
+            "auditor": "TxPipe",
+            "auditLink": "",
             "auditType": "MANUAL"
         }
     ],
