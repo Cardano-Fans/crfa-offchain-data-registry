@@ -6,9 +6,8 @@
     "category": "DEFI",
     "subCategory": "SYNTHETICS",
     "description": {
-                   "short": "An autonomous synthetics protocol for on-chain price exposure to real-world assets, built on Cardano blockchain"
-    },	
-	
+        "short": "An autonomous synthetics protocol for on-chain price exposure to real-world assets, built on Cardano blockchain"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -29,7 +28,7 @@
                 {
                     "id": "TvFLk3",
                     "version": 1
-                },		    
+                },
                 {
                     "id": "HWzqk7",
                     "version": 1
@@ -61,7 +60,7 @@
                 {
                     "id": "5x7zd1",
                     "version": 1
-                },		    
+                },
                 {
                     "id": "RK7zDV",
                     "version": 1
@@ -85,17 +84,58 @@
                 {
                     "id": "dinq5r",
                     "version": 1
-                } 		    
+                }
             ],
             "auditId": "Vxhx",
-            "contractId": "JjHL"		
+            "contractId": "JjHL"
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "5VPVqA",
+                    "version": 2
+                },
+                {
+                    "id": "VC5xGL",
+                    "version": 2
+                },
+                {
+                    "id": "tNJGzu",
+                    "version": 2
+                },
+                {
+                    "id": "hUv99s",
+                    "version": 2
+                },
+                {
+                    "id": "d6PYKd",
+                    "version": 2
+                },
+                {
+                    "id": "t1mLuw",
+                    "version": 2
+                },
+                {
+                    "id": "RaXF2E",
+                    "version": 2
+                }
+            ],
+            "auditId": "BxhQ",
+            "contractId": "BjHQ"
         }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/IndigoProtocol/indigo-smart-contracts",
-         "contractId": "JjHL"		
+            "openSource": true,
+            "contractLink": "https://github.com/IndigoProtocol/indigo-smart-contracts",
+            "contractId": "JjHL"
+        },
+        {
+            "openSource": false,
+            "contractLink": "https://github.com/IndigoProtocol/indigo-upgrade-details",
+            "contractId": "BjHQ"
         }
     ],
     "audits": [
@@ -104,239 +144,244 @@
             "auditor": "Tweag",
             "auditLink": "https://indigoprotocol1.medium.com/indigo-protocol-tweag-security-audit-report-949b3c359f17",
             "auditType": "MANUAL"
+        },
+        {
+            "auditId": "BxhQ",
+            "auditor": "MLabs",
+            "auditLink": "https://forum.indigoprotocol.io/t/temperature-check-for-dao-approval-proposal-to-deploy-indigo-protocol-v2/13850",
+            "auditType": "MANUAL"
         }
-    ],	
-
+    ],
     "scripts": [
         {
             "id": "IGx8dF",
             "name": "Stability pool",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71de1585e046f16fdf79767300233c1affbe9d30340656acfde45e9142",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71de1585e046f16fdf79767300233c1affbe9d30340656acfde45e9142",
                     "scriptHash": "de1585e046f16fdf79767300233c1affbe9d30340656acfde45e9142",
                     "contractAddress": "addr1w80ptp0qgmcklhmeweesqgeurtlma8fsxsr9dt8au30fzss0czhl9"
-                }    
+                }
             ]
         },
         {
             "id": "KuAAJc",
             "name": "iUSD",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "711042576d1de963437bd4bb50dcd91459756e6812b7c06dd543a332c8",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "711042576d1de963437bd4bb50dcd91459756e6812b7c06dd543a332c8",
                     "scriptHash": "1042576d1de963437bd4bb50dcd91459756e6812b7c06dd543a332c8",
                     "contractAddress": "addr1wygyy4mdrh5kxsmm6ja4phxez3vh2mngz2muqmw4gw3n9jqdu67a0"
-                }    
+                }
             ]
         },
         {
             "id": "YMLObk",
             "name": "iBTC",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71d27ad3ed7b073018d429e57c2f8d1f52445aa241e280e6da149a91b4",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71d27ad3ed7b073018d429e57c2f8d1f52445aa241e280e6da149a91b4",
                     "scriptHash": "d27ad3ed7b073018d429e57c2f8d1f52445aa241e280e6da149a91b4",
                     "contractAddress": "addr1w8f845ld0vrnqxx598jhctudrafygk4zg83gpek6zjdfrdq6le7ag"
-                }    
+                }
             ]
         },
         {
             "id": "TvFLk3",
             "name": "iETH",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71f350350cd40d0d8e8744f2c6cad54a0abc9d51f107f57fb95c181a3f",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71f350350cd40d0d8e8744f2c6cad54a0abc9d51f107f57fb95c181a3f",
                     "scriptHash": "f350350cd40d0d8e8744f2c6cad54a0abc9d51f107f57fb95c181a3f",
                     "contractAddress": "addr1w8e4qdgv6sxsmr58gnevdjk4fg9te8237yrl2laetsvp50c7c0grw"
-                }    
+                }
             ]
-        },	    
+        },
         {
             "id": "HWzqk7",
             "name": "Indy staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "7154e8d424816f5bbd423353009ff7c31ada2cbdefe651175014117f46",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7154e8d424816f5bbd423353009ff7c31ada2cbdefe651175014117f46",
                     "scriptHash": "54e8d424816f5bbd423353009ff7c31ada2cbdefe651175014117f46",
                     "contractAddress": "addr1w92w34pys9h4h02zxdfsp8lhcvdd5t9aaln9z96szsgh73scty4aj"
-                }    
+                }
             ]
         },
         {
             "id": "BWdicZ",
             "name": "CDP",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71e4d2fb0b8d275852103fd75801e2c7dcf6ed3e276c74cabadbe5b8b6",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71e4d2fb0b8d275852103fd75801e2c7dcf6ed3e276c74cabadbe5b8b6",
                     "scriptHash": "e4d2fb0b8d275852103fd75801e2c7dcf6ed3e276c74cabadbe5b8b6",
                     "contractAddress": "addr1w8jd97ct35n4s5ss8lt4sq0zclw0dmf7yak8fj46m0jm3dsca5as8"
-                }    
+                }
             ]
         },
         {
             "id": "U1TRVE",
             "name": "Stability pool account",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71a473cb8eb0b61c03b8696fceab1c1a89fa3ec834572850e7c2abe783",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a473cb8eb0b61c03b8696fceab1c1a89fa3ec834572850e7c2abe783",
                     "scriptHash": "a473cb8eb0b61c03b8696fceab1c1a89fa3ec834572850e7c2abe783",
                     "contractAddress": "addr1wxj88juwkzmpcqacd9hua2cur2yl50kgx3tjs588c2470qc2ftfae"
-                }    
+                }
             ]
         },
         {
             "id": "WlL90Y",
             "name": "CDP creator",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71ea5358d9fe82cc7ad8de0e76b4eabd851526408e51daa9d8bb4b137d",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71ea5358d9fe82cc7ad8de0e76b4eabd851526408e51daa9d8bb4b137d",
                     "scriptHash": "ea5358d9fe82cc7ad8de0e76b4eabd851526408e51daa9d8bb4b137d",
                     "contractAddress": "addr1w849xkxel6pvc7kcmc88dd82hkz32fjq3ega42wchd93xlgqxxpv5"
-                }    
+                }
             ]
         },
         {
             "id": "xRcvDg",
             "name": "Poll Manager",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71c1af46643698bc73f9857a0cc21ec949ce6919974b435d057dc448b8",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71c1af46643698bc73f9857a0cc21ec949ce6919974b435d057dc448b8",
                     "scriptHash": "c1af46643698bc73f9857a0cc21ec949ce6919974b435d057dc448b8",
                     "contractAddress": "addr1w8q673nyx6vtcules4aqess7e9yuu6geja95xhg90hzy3wqpsjzzz"
-                }    
+                }
             ]
         },
         {
             "id": "Kee1gS",
             "name": "Poll Manager upgrade",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",
                     "scriptHash": "127912493e7b3c36a68aa4d8916fb9076b44faa5e15142486e317af4",
                     "contractAddress": "addr1wyf8jyjf8eancd4x32jd3yt0hyrkk3865hs4zsjgdcch4aqrpmple"
-                }    
+                }
             ]
         },
         {
             "id": "NtoDPR",
             "name": "DEX LP token staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "7110c36e9a15dc7843c47f57ad294d0a5187ab599961270ec9f5d2c993",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7110c36e9a15dc7843c47f57ad294d0a5187ab599961270ec9f5d2c993",
                     "scriptHash": "10c36e9a15dc7843c47f57ad294d0a5187ab599961270ec9f5d2c993",
                     "contractAddress": "addr1wygvxm56zhw8ss7y0at6622dpfgc026en9sjwrkf7hfvnycl8qekh"
-                }    
+                }
             ]
         },
         {
             "id": "5x7zd1",
             "name": "Upgrade",
             "purpose": "SPEND",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "7121a8e689ae9628b84e1767e5871c8a2d30f430579bc14fd863ffe720",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7121a8e689ae9628b84e1767e5871c8a2d30f430579bc14fd863ffe720",
                     "scriptHash": "21a8e689ae9628b84e1767e5871c8a2d30f430579bc14fd863ffe720",
                     "contractAddress": "addr1wys63e5f46tz3wzwzan7tpcu3gknpaps27duzn7cv0l7wgqkcm9fv"
-                }    
+                }
             ]
-        },	    
+        },
         {
             "id": "RK7zDV",
             "name": "iAssets minting policy",
             "purpose": "MINT",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "f66d78b4a3cb3d37afa0ec36461e51ecbde00f26c8f0a68f94b69880",
-		    "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }, 
+        },
         {
             "id": "VRlabJ",
             "name": "CDP minting policy",
             "purpose": "MINT",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "708f5e6d597fc038d09a738d7be32edd6ea779d6feb32a53668d9050",
-	            "includeScriptBalanceFromAsset": "CDP",			
-		    "plutusVersion": 2,                    
+                    "includeScriptBalanceFromAsset": "CDP",
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }, 
+        },
         {
             "id": "f2YMd8",
             "name": "SP Account minting policy",
             "purpose": "MINT",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "443c51db609bba8b2aa4c8af248bf797cbfcfa1e413c443296a50813",
-		    "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }, 
+        },
         {
             "id": "346xYx",
             "name": "Staking position minting policy",
             "purpose": "MINT",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "fd0d72fafee1d230a74c31ac503a192abd5b71888ae3f94128c1e634",
-		    "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
@@ -345,11 +390,11 @@
             "id": "bLo0Tq",
             "name": "Poll Manager minting policy",
             "purpose": "MINT",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "f9b162ea9529e639a083595294006a833473883a75d6df1e4c22dd4f",
-		    "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
@@ -358,14 +403,119 @@
             "id": "dinq5r",
             "name": "Upgrade minting policy",
             "purpose": "MINT",
-	    "type": "PLUTUS",			
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "ca72f111cc130ac311259181e0720516c044cee30704706a0299c2a8",
-		    "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }	    
+        },
+        {
+            "id": "5VPVqA",
+            "name": "Fee Collector",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "710752abd65a0c983bfb1c9c3880cc632c099ba3adb2fe307afb4bbd9c",
+                    "scriptHash": "0752abd65a0c983bfb1c9c3880cc632c099ba3adb2fe307afb4bbd9c",
+                    "contractAddress": "addr1wyr4927ktgxfswlmrjwr3qxvvvkqnxar4ke0uvr6ld9mm8qrzhplw"
+                }
+            ]
+        },
+        {
+            "id": "VC5xGL",
+            "name": "INDY staking",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a23793f529179e09cefb3c37fc6ae081e0e99e99be5cdb55a00941a5",
+                    "scriptHash": "a23793f529179e09cefb3c37fc6ae081e0e99e99be5cdb55a00941a5",
+                    "contractAddress": "addr1wx3r0yl49yteuzwwlv7r0lr2uzq7p6v7nxl9ek645qy5rfgwwzxw6"
+                }
+            ]
+        },
+        {
+            "id": "tNJGzu",
+            "name": "CDP",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "710d8aee2011f769502cdc07273f7e118722ebf9c585f3fee061986b7b",
+                    "scriptHash": "0d8aee2011f769502cdc07273f7e118722ebf9c585f3fee061986b7b",
+                    "contractAddress": "addr1wyxc4m3qz8mkj5pvmsrjw0m7zxrj96leckzl8lhqvxvxk7c47fwkx"
+                }
+            ]
+        },
+        {
+            "id": "hUv99s",
+            "name": "Stability Pool",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71918765cae1147f5f2d914d45059f8b6497caa149ea94dd8da1f683ce",
+                    "scriptHash": "918765cae1147f5f2d914d45059f8b6497caa149ea94dd8da1f683ce",
+                    "contractAddress": "addr1wxgcwew2uy287hedj9x52pvl3djf0j4pf84ffhvd58mg8ns07aj2q"
+                }
+            ]
+        },
+        {
+            "id": "d6PYKd",
+            "name": "CDP Creator",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "719a5c575d3bf99604bcb691d5f000b4b41866edb893b35a718be5dd01",
+                    "scriptHash": "9a5c575d3bf99604bcb691d5f000b4b41866edb893b35a718be5dd01",
+                    "contractAddress": "addr1wxd9c46a80uevp9uk6gatuqqkj6psehdhzfmxkn330ja6qg7uw9jf"
+                }
+            ]
+        },
+        {
+            "id": "t1mLuw",
+            "name": "Poll Manager",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7131aaab10e57345a2ed5c37ca32c57b2d9dc6219d23b51c85919febe2",
+                    "scriptHash": "31aaab10e57345a2ed5c37ca32c57b2d9dc6219d23b51c85919febe2",
+                    "contractAddress": "addr1wyc642csu4e5tghdtsmu5vk90vkem33pn53m28y9jx07hcsz7ywcd"
+                }
+            ]
+        },
+        {
+            "id": "RaXF2E",
+            "name": "Upgrade",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71ac64deeeab59a038158d4b2e22801253e7a9a87a313479acb7ac46ed",
+                    "scriptHash": "ac64deeeab59a038158d4b2e22801253e7a9a87a313479acb7ac46ed",
+                    "contractAddress": "addr1wxkxfhhw4dv6qwq4349jug5qzff702dg0gcng7dvk7kydmgunkw2v"
+                }
+            ]
+        }
     ]
 }
