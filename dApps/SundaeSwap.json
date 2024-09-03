@@ -89,6 +89,46 @@
                 {
                     "id": "aX10UZ",
                     "version": 3
+                },
+                {
+                    "id": "soVkHF",
+                    "version": 3
+                },
+                {
+                    "id": "BoVlkK",
+                    "version": 3
+                },
+                {
+                    "id": "iNLlwf",
+                    "version": 3
+                },
+                {
+                    "id": "hNdFwv",
+                    "version": 3
+                },
+                {
+                    "id": "nbKseF",
+                    "version": 3
+                },
+                {
+                    "id": "nsyNKl",
+                    "version": 3
+                },
+                {
+                    "id": "sdVAsk",
+                    "version": 3
+                },
+                {
+                    "id": "CJlkJd",
+                    "version": 3
+                },
+                {
+                    "id": "asDvkL",
+                    "version": 3
+                },
+                {
+                    "id": "skwVlK",
+                    "version": 3
                 }
             ],
             "auditId": "1OkN",
@@ -198,6 +238,136 @@
                     "mintPolicyID": "0029cb7c88c7567b63d1a512c0ed626aa169688ec980730c0473b913",
                     "plutusVersion": 1,
                     "version": 1
+                }
+            ]
+        },
+        {
+            "id": "soVkHF",
+            "name": "Oracle Spend",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "f50153654bd0e167563cd0bbbff1b73c40157e53408a0ef517e67a5d"
+                }
+            ]
+        },
+        {
+            "id": "BoVlkK",
+            "name": "Oracle Mint",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "f50153654bd0e167563cd0bbbff1b73c40157e53408a0ef517e67a5d"
+                }
+            ]
+        },
+        {
+            "id": "iNLlwf",
+            "name": "Order Spend",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "fa6a58bbe2d0ff05534431c8e2f0ef2cbdc1602a8456e4b13c8f3077"
+                }
+            ]
+        },
+        {
+            "id": "hNdFwv",
+            "name": "Pool Manage",
+            "purpose": "MANAGE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "e0fccbbfb75923bff6dac5f23805dcf6cecfaae8aa3a6d3e474ee670"
+                }
+            ]
+        },
+        {
+            "id": "nbKseF",
+            "name": "Pool Spend",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b"
+                }
+            ]
+        },
+        {
+            "id": "nsyNKl",
+            "name": "Pool Mint",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b"
+                }
+            ]
+        },
+        {
+            "id": "sdVAsk",
+            "name": "Pool Stake",
+            "purpose": "STAKE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "e0302560ced2fdcbfcb2602697df970cd0d6a38f94b32703f51c312b"
+                }
+            ]
+        },
+        {
+            "id": "CJlkJd",
+            "name": "Settings Spend",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "6d9d7acac59a4469ec52bb207106167c5cbfa689008ffa6ee92acc50"
+                }
+            ]
+        },
+        {
+            "id": "asDvkL",
+            "name": "Settings Mint",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "6d9d7acac59a4469ec52bb207106167c5cbfa689008ffa6ee92acc50"
+                }
+            ]
+        },
+        {
+            "id": "skwVlK",
+            "name": "Stake Stake",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "scriptHash": "99e5aacf401fed0eb0e2993d72d423947f42342e8f848353d03efe61"
                 }
             ]
         },
