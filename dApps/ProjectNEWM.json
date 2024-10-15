@@ -14,6 +14,7 @@
             "releaseNumber": 1,
             "releaseName": "V1",
             "description": "The NEWM Marketplace contracts allow the selling of stream tokens for NEWM or USD paid in NEWM. A potential buyer chooses the number of stream tokens they wish to purchase and places their purchase order into the queue. A batcher monitoring the queue automates the purchase order by transaction chaining a buy and refund action. After a few blocks, the buyer will automatically receive their stream tokens inside their wallet.",
+            "features": ["LIMIT_ORDERS", "MARKETPLACE", "PARTIAL_ORDERS", "SWAP"], 
             "scripts":
             [
                 {
