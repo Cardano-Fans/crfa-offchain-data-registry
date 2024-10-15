@@ -1,0 +1,169 @@
+{   
+
+    "id": "38fc8b92",
+    "projectName": "Project NEWM's Marketplace",
+    "link": "https://marketplace.newm.io/",
+    "twitter": "https://marketplace.newm.io/",
+    "category": "MARKETPLACE",
+    "subCategory": "ORDERBOOK_DEX",
+    "description": {
+        "short": "The NEWM Marketplace for streaming royalty rights tokens."
+    },
+   "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts":
+            [
+                {
+                    "id": "be670f",
+                    "version": 1
+                },
+                {
+                    "id": "1cfcfe",
+                    "version": 1
+                },
+                {
+                    "id": "26c0f8",
+                    "version": 1
+                },
+                {
+                    "id": "fd4572",
+                    "version": 1
+                },
+                {
+                    "id": "7c7487",
+                    "version": 1
+                },
+                {
+                    "id": "bf5ba0",
+                    "version": 1
+                },
+                {
+                    "id": "db7245",
+                    "version": 1
+                },
+                {
+                    "id": "b8193d",
+                    "version": 1
+                }
+            ]                                                    
+        }           
+    ],
+    
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/projectNEWM/newm-market",
+         "contractId": "6347"
+        }
+    ],
+    "scripts": [
+        {
+            "id": "be670f",
+            "name": "NEWM Monster Band Lock Up",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "31be670fd506fe343c238b8c3357511b863c8c2173f49a0b56aba1ab24db7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "scriptHash": "be670fd506fe343c238b8c3357511b863c8c2173f49a0b56aba1ab24db7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "contractAddress": "addr1xxlxwr74qmlrg0pr3wxrx463rwrrerppw06f5z6k4ws6kfxmwfzl7nlzxce79sgw7c3hfjntvnhasrf3lslhcscnsmsqxnq5u6"
+                }
+            ]
+        },
+        {
+            "id": "1cfcfe",
+            "name": "Batcher Certificate",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+                    "mintPolicyID": "1cfcfe58e3462df9a3ab474a66536ef48f5acc2c1e7ad2abb294446a"
+                }
+            ]
+        },
+        {
+            "id": "26c0f8",
+            "name": "Marketplace Pointer",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+	                "mintPolicyID": "26c0f8e2d3be37de297fa57c48820fcb24c7b09aebe280430cef9d87"
+                }
+            ]
+        },
+        {
+            "id": "fd4572",
+            "name": "Marketplace Queue",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "31fd4572b20a1d76e7dc0aaa548579bacc2b318a4862a7e12f94b7e76ddb7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "scriptHash": "fd4572b20a1d76e7dc0aaa548579bacc2b318a4862a7e12f94b7e76ddb7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "contractAddress": "addr1x8752u4jpgwhde7up249fptehtxzkvv2fp320cf0jjm7wmwmwfzl7nlzxce79sgw7c3hfjntvnhasrf3lslhcscnsmsqfaf2sz"
+                }
+            ]
+        },
+        {
+            "id": "7c7487",
+            "name": "Data Reference",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "717c7487bca5af9814f10b9e8239b9efa46f20f87edd075f78d62abbb7",
+                    "scriptHash": "7c7487bca5af9814f10b9e8239b9efa46f20f87edd075f78d62abbb7",
+                    "contractAddress": "addr1w978fpau5khes983pw0gywdea7jx7g8c0mwswhmc6c4thdcy423ez"
+                }
+            ]
+        },
+        {
+            "id": "bf5ba0",
+            "name": "Marketplace Sale",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "31bf5ba087d428e870a809c3e88fa8de019e01f5f31582c0e4abcb42bddb7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "scriptHash": "bf5ba087d428e870a809c3e88fa8de019e01f5f31582c0e4abcb42bddb7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "contractAddress": "addr1xxl4hgy86s5wsu9gp8p73ragmcqeuq047v2c9s8y409590wmwfzl7nlzxce79sgw7c3hfjntvnhasrf3lslhcscnsmsqyly5vr"
+                }
+            ]
+        },
+        {
+            "id": "db7245",
+            "name": "Staking/DRep/Voting",
+            "purpose": "WITHDRAW/PUBLISH/VOTE",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+                    "scriptHash": "db7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0"
+                }
+            ]
+        },
+        {
+            "id": "b8193d5acd8a0a6aa1f06ed1835648bc76e458c6c4621c543b769a3e",
+            "name": "Marketplace Vault",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "31b8193d5acd8a0a6aa1f06ed1835648bc76e458c6c4621c543b769a3edb7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "scriptHash": "b8193d5acd8a0a6aa1f06ed1835648bc76e458c6c4621c543b769a3edb7245ff4fe23633e2c10ef62374ca6b64efd80d31fc3f7c431386e0",
+                    "contractAddress": "addr1xxupj026ek9q564p7phdrq6kfz78dezccmzxy8z58dmf50kmwfzl7nlzxce79sgw7c3hfjntvnhasrf3lslhcscnsmsqx52z28"
+                }
+            ]
+        }
+    ]
+}
