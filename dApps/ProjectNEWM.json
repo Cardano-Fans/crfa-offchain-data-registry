@@ -3,7 +3,7 @@
     "id": "38fc8b92",
     "projectName": "Project NEWM's Marketplace",
     "link": "https://marketplace.newm.io/",
-    "twitter": "https://marketplace.newm.io/",
+    "twitter": "https://x.com/projectNEWM",
     "category": "MARKETPLACE",
     "subCategory": "ORDERBOOK_DEX",
     "description": {
@@ -154,7 +154,7 @@
             ]
         },
         {
-            "id": "b8193d5acd8a0a6aa1f06ed1835648bc76e458c6c4621c543b769a3e",
+            "id": "b8193d",
             "name": "Marketplace Vault",
             "purpose": "SPEND",
             "versions": [
