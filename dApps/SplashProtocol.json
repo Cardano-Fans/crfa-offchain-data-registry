@@ -1,0 +1,194 @@
+{
+    "id": "Dm21pIo7",
+    "projectName": "Splash Protocol",
+    "link": "https://www.splash.trade",
+    "twitter": "https://twitter.com/splashprotocol",
+    "category": "DEFI",
+    "subCategory": "AMM_DEX",
+    "description": {
+        "short": "Cardano DEX for efficient markets. Fast, flexible, and reliable."
+    },
+    "features": ["SWAP", "LIQUIDITY_MINING"],
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "description": "new versions of all scripts used by the Dapp",
+            "scripts": [
+                {
+                    "id": "vls4he",
+                    "version": 1
+                },
+                {
+                    "id": "vls4he",
+                    "version": 2
+                },
+                {
+                    "id": "vls4he",
+                    "version": 3
+                },
+                {
+                    "id": "9lduSG",
+                    "version": 1
+                },
+                {
+                    "id": "qs5xlI",
+                    "version": 1
+                },
+                {
+                    "id": "A7K8w7",
+                    "version": 1
+                },
+                {
+                    "id": "53to3c",
+                    "version": 1
+                },
+                {
+                    "id": "71PCuu",
+                    "version": 1
+                },
+                {
+                    "id": "38hoiI",
+                    "version": 1
+                }
+            ],
+            "contractId": "gt6K"
+        }
+    ],
+
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/splashprotocol/splash-core",
+         "contractId": "gt6K"
+        }
+    ],
+    "scripts": [
+        {
+            "id": "vls4he",
+            "name": "Order Contract",
+            "purpose": "SPEND",
+	        "type": "PLUTUS",
+            "contractLang": "PLUTARCH",          
+            "versions": [
+                {
+                    "version": 1,
+ 		            "plutusVersion": 2,
+	                "fullScriptHash": "71dbe7a3d8a1d82990992a38eea1a2efaa68e931e252fc92ca1383809b",
+                    "scriptHash": "dbe7a3d8a1d82990992a38eea1a2efaa68e931e252fc92ca1383809b",
+                    "contractAddress": "addr1w8d70g7c58vznyye9guwagdza74x36f3uff0eyk2zwpcpxcn3whlz"
+                },
+                {
+                    "version": 2,
+ 		            "plutusVersion": 2,
+	                "fullScriptHash": "712025463437ee5d64e89814a66ce7f98cb184a66ae85a2fbbfd750106",
+                    "scriptHash": "2025463437ee5d64e89814a66ce7f98cb184a66ae85a2fbbfd750106",
+                    "contractAddress": "addr1wysz2335xlh96e8gnq22vm88lxxtrp9xdt595taml46szps9nreda"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71464eeee89f05aff787d40045af2a40a83fd96c513197d32fbc54ff02",
+                    "scriptHash": "464eeee89f05aff787d40045af2a40a83fd96c513197d32fbc54ff02",
+                    "contractAddress": "addr1w9ryamhgnuz6lau86sqytte2gz5rlktv2yce05e0h3207qssa8euj"
+                }
+            ]
+        },
+        {
+            "id": "9lduSG",
+            "name": "Deposit (Weighted Pool)",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",          
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7199b82cb994dc2af44c12cb5daf5ad274211622800467af5bd8c32352",
+                    "scriptHash": "99b82cb994dc2af44c12cb5daf5ad274211622800467af5bd8c32352",
+                    "contractAddress": "addr1wxvmst9ejnwz4azvzt94mt666f6zz93zsqzx0t6mmrpjx5scaz63e"
+                }              
+            ]
+        },
+        {
+            "id": "qs5xlI",
+            "name": "Redeem (Weighted Pool)",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71b8a2bba77a5b50ac297032a7b0261f375a269ee3623d65172b384ba7",
+                    "scriptHash": "b8a2bba77a5b50ac297032a7b0261f375a269ee3623d65172b384ba7",
+                    "contractAddress": "addr1wxu29wa80fd4ptpfwqe20vpxrum45f57ud3r6egh9vuyhfc2a3jhj"
+                }
+            ]
+        },
+        {
+            "id": "A7K8w7",
+            "name": "Deposit (Constant Function Pool)",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71680f52841c06f32cecdcdeff2c20ce6b70c2a5249b94d1a2b4eff294",
+                    "scriptHash": "680f52841c06f32cecdcdeff2c20ce6b70c2a5249b94d1a2b4eff294",
+                    "contractAddress": "addr1w95q755yrsr0xt8vmn007tpqee4hps49yjdef5dzknhl99qntsmh0"
+                }
+            ]
+        },
+        {
+            "id": "53to3c",
+            "name": "Redeem (Constant Function Pool)",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7187f504b07add9e1d74ae102f53ab7f9ff2456dee897a43d8e27b348b",
+                    "scriptHash": "87f504b07add9e1d74ae102f53ab7f9ff2456dee897a43d8e27b348b",
+                    "contractAddress": "addr1wxrl2p9s0tweu8t54cgz75at070ly3tda6yh5s7cufanfzc52gv39"
+                }
+            ]
+        },
+        {
+            "id": "71PCuu",
+            "name": "Deposit (Stableswap Pool)",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "713771abe5d236a51ace13c738885e29845fd5ef9ee90ed0efb420d275",
+                    "scriptHash": "3771abe5d236a51ace13c738885e29845fd5ef9ee90ed0efb420d275",
+                    "contractAddress": "addr1wymhr2l96gm22xkwz0rn3zz79xz9l400nm5sa580kssdyagr5z7wq"
+                }
+            ]
+        },
+        {
+            "id": "38hoiI",
+            "name": "Redeem (Stableswap Pool)",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "714e7acc95834f1b86c54e9b9e38f3c1f72f848a52eb994da50d5f825f",
+                    "scriptHash": "4e7acc95834f1b86c54e9b9e38f3c1f72f848a52eb994da50d5f825f",
+                    "contractAddress": "addr1w9884ny4sd83hpk9f6deuw8nc8mjlpy22t4ejnd9p40cyhc74rg6y"
+                }
+            ]
+        }
+    ]
+}
