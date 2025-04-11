@@ -5,6 +5,7 @@
     "link": "https://github.com/logical-mechanism/Seedelf-Wallet",
     "twitter": "https://x.com/LogicalMechnism",
     "category": "SMART_WALLET",
+    "subCategory": "STEALTH_WALLET",
     "description": {
         "short": "A stealth wallet hides the receiver and spender of funds inside the contract."
     },
@@ -13,7 +14,7 @@
             "releaseNumber": 1,
             "releaseName": "V1",
             "description": "Seedelf is a stealth wallet that hides the receiver and spender using a non-interactive variant of Schnorr's Σ-protocol for the Discrete Logarithm Relation.",
-            "features": ["STEALTH", "PRIVACY"], 
+            "features": ["STEALTH", "PRIVACY", "ZERO_KNOWLEDGE"], 
             "scripts":
             [
                 {
