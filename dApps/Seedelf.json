@@ -1,0 +1,67 @@
+{   
+
+    "id": "acabcafe",
+    "projectName": "Seedelf",
+    "link": "https://github.com/logical-mechanism/Seedelf-Wallet",
+    "twitter": "https://x.com/LogicalMechnism",
+    "category": "SMART_WALLET",
+    "subCategory": "STEALTH_WALLET",
+    "description": {
+        "short": "A stealth wallet hides the receiver and spender of funds inside the contract."
+    },
+   "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "description": "Seedelf is a stealth wallet that hides the receiver and spender using a non-interactive variant of Schnorr's Σ-protocol for the Discrete Logarithm Relation.",
+            "features": ["STEALTH", "PRIVACY", "ZERO_KNOWLEDGE"], 
+            "scripts":
+            [
+                {
+                    "id": "1e270a",
+                    "version": 1
+                },
+                {
+                    "id": "6cacae",
+                    "version": 1
+                }
+            ]                                                    
+        }           
+    ],
+    
+    "contracts": [
+        {
+         "openSource": true,
+         "contractLink": "https://github.com/logical-mechanism/Seedelf-Wallet",
+         "contractId": "1337"
+        }
+    ],
+    "scripts": [
+        {
+            "id": "1e270a",
+            "name": "This contract handles the smart wallet interactions.",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "1194bca9c099e84ffd90d150316bb44c31a78702239076a0a80ea4a469fcfc7701b1df42061202efa9c96968a481bbd6a0676efb7afa87ebf1",
+                    "scriptHash": "94bca9c099e84ffd90d150316bb44c31a78702239076a0a80ea4a469fcfc7701b1df42061202efa9c96968a481bbd6a0676efb7afa87ebf1",
+                    "contractAddress": "addr1zx2te2wqn85yllvs69grz6a5fsc60pczywg8dg9gp6j2g60ul3msrvwlggrpyqh048ykj69ysxaadgr8dmah4758a0csvq3tjn"
+                }
+            ]
+        },
+        {
+            "id": "6cacae",
+            "name": "This contract handles the minting of seedelf tokens.",
+            "purpose": "MINT",
+            "versions": [
+                {
+                    "version": 1,
+		            "plutusVersion": 3,
+                    "mintPolicyID": "84967d911e1a10d5b4a38441879f374a07f340945bcf9e7697485255"
+                }
+            ]
+        }
+    ]
+}
