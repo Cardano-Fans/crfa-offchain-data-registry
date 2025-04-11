@@ -6,9 +6,8 @@
     "category": "MARKETPLACE",
     "subCategory": "-",
     "description": {
-                   "short": "IAGON is bridging decentralization with compliance for Web 3.0"
-                   },	
-	
+        "short": "IAGON is bridging decentralization with compliance for Web 3.0"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -19,32 +18,110 @@
                     "version": 1
                 }
             ],
-        "contractId": "OdAP"            
+            "contractId": "OdAP"
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "55AC3F",
+                    "version": 2
+                },
+                {
+                    "id": "48F00E",
+                    "version": 2
+                },
+                {
+                    "id": "9FAA7F",
+                    "version": 2
+                },
+                {
+                    "id": "19D4DF",
+                    "version": 2
+                }
+            ],
+            "contractId": "86BB"
         }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/Iagonorg/staking-and-rewards-contract",
-         "contractId": "OdAP"
+            "openSource": true,
+            "contractLink": "https://github.com/Iagonorg/staking-and-rewards-contract",
+            "contractId": "OdAP"
         }
     ],
-
     "scripts": [
         {
             "id": "g2xEBt",
             "name": "Staking",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
-            "contractLang": "AIKEN",          
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "716caa3ba78ac89b51aad2d06ab8a5cd097334faba23127fc6f665e272",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "716caa3ba78ac89b51aad2d06ab8a5cd097334faba23127fc6f665e272",
                     "scriptHash": "6caa3ba78ac89b51aad2d06ab8a5cd097334faba23127fc6f665e272",
                     "contractAddress": "addr1w9k25wa83tyfk5d26tgx4w99e5yhxd86hg33yl7x7ej7yusggvmu3"
-                }    
+                }
+            ]
+        },
+        {
+            "id": "55AC3F",
+            "name": "Data Contract",
+            "purpose": "SPEND",
+            "versions": [
+                {
+                    "version": 2,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "711fa8c9199601924c312fb4f206ff632ca575b27f4f97dd02d9a9ae56",
+                    "scriptHash": "1fa8c9199601924c312fb4f206ff632ca575b27f4f97dd02d9a9ae56",
+                    "contractAddress": "addr1wy063jgejcqeynp39760yphlvvk22adj0a8e0hgzmx56u4s3hv0s6"
+                }
+            ]
+        },
+        {
+            "id": "48F00E",
+            "name": "Node Contract",
+            "purpose": "SPEND/MINT",
+            "versions": [
+                {
+                    "version": 2,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "11ac35ee89c26b1e582771ed05af54b67fd7717bbaebd7f722fbf430d624562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "scriptHash": "ac35ee89c26b1e582771ed05af54b67fd7717bbaebd7f722fbf430d624562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "contractAddress": "addr1zxkrtm5fcf43ukp8w8kstt65kelawutmht4a0aezl06rp43y2c4s7gthspjk2c4557c9zltqcssl4qz7x5syzf7yknhqma7zxx"
+                }
+            ]
+        },
+        {
+            "id": "9FAA7F",
+            "name": "Delegation Contract",
+            "purpose": "SPEND/MINT",
+            "versions": [
+                {
+                    "version": 2,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "11faecb80eee6cadf9dac5184263ed4d164b38fe71d4f6f55e8f6b0da024562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "scriptHash": "faecb80eee6cadf9dac5184263ed4d164b38fe71d4f6f55e8f6b0da024562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "contractAddress": "addr1z8awewqwaek2m7w6c5vyycldf5tykw87w820da273a4smgpy2c4s7gthspjk2c4557c9zltqcssl4qz7x5syzf7yknhq6uv6j0"
+                }
+            ]
+        },
+        {
+            "id": "19D4DF",
+            "name": "Order Contract",
+            "purpose": "SPEND/Mint",
+            "versions": [
+                {
+                    "version": 2,
+		            "plutusVersion": 3,
+	                "fullScriptHash": "11a3959153cfd23daa1271b520bdf27dc7cbeab6ef24770fc72e458bd824562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "scriptHash": "a3959153cfd23daa1271b520bdf27dc7cbeab6ef24770fc72e458bd824562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "contractAddress": "addr1zx3ety2nelfrm2sjwx6jp00j0hruh64kauj8wr789ezchkpy2c4s7gthspjk2c4557c9zltqcssl4qz7x5syzf7yknhq8jsa04"
+                }
             ]
         }
     ]
