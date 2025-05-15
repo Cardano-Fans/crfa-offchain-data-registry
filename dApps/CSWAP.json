@@ -7,8 +7,8 @@
     "subCategory": "DEX",
     "description": {
                    "short": "The Progressive Protocol that merges DEX with NFTfi"
-    },	
-	
+    },
+
     "releases": [
         {
             "releaseNumber": 1,
@@ -33,13 +33,17 @@
                 {
                     "id": "aO9u03",
                     "version": 1
-                }		    
-            ]            
+                },
+                {
+                    "id": "CdGcYA",
+                    "version": 1
+                }
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
 
@@ -48,70 +52,84 @@
             "id": "xdDk9R",
             "name": "Origins Staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "11a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
                     "scriptHash": "a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
                     "contractAddress": "addr1zxjar4sm4vx82xhcqtnk05h6jvv5nr2r2cwmuferq0yc7faf0924s2rfv0k2zvncgs7nxyd6ym55ar9x0hplm98arw6qca728h"
-                }    
+                }
             ]
         },
         {
             "id": "G01OBI",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "116cf2aacc7c91d8af79ffdffafac18e66d9fd6733ea758d549bd7104ca9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "116cf2aacc7c91d8af79ffdffafac18e66d9fd6733ea758d549bd7104ca9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
                     "scriptHash": "6cf2aacc7c91d8af79ffdffafac18e66d9fd6733ea758d549bd7104ca9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
                     "contractAddress": "addr1z9k092kv0jga3tmell0l47kp3endnlt8x048tr25n0t3qn9f0924s2rfv0k2zvncgs7nxyd6ym55ar9x0hplm98arw6qt9q42l"
-                }    
+                }
             ]
         },
         {
             "id": "WsnjjC",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "11648b6bf54e3902d6229c12697ae3865d4970e340f9eabbece42af7ca97819736228024d43ff89a00b40c693381fc43bcfd999c25bc3bc1f3",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11648b6bf54e3902d6229c12697ae3865d4970e340f9eabbece42af7ca97819736228024d43ff89a00b40c693381fc43bcfd999c25bc3bc1f3",
                     "scriptHash": "648b6bf54e3902d6229c12697ae3865d4970e340f9eabbece42af7ca97819736228024d43ff89a00b40c693381fc43bcfd999c25bc3bc1f3",
                     "contractAddress": "addr1z9jgk6l4fcus943znsfxj7hrsew5ju8rgru74wlvus400j5hsxtnvg5qyn2rl7y6qz6qc6fns87y808anxwzt0pmc8es5nqza5"
-                }    
+                }
             ]
         },
         {
             "id": "3ByMCj",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "11a4d7e0346cabc3e084464875afd600f7c2bd24c76256c2b4bd46122097819736228024d43ff89a00b40c693381fc43bcfd999c25bc3bc1f3",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11a4d7e0346cabc3e084464875afd600f7c2bd24c76256c2b4bd46122097819736228024d43ff89a00b40c693381fc43bcfd999c25bc3bc1f3",
                     "scriptHash": "a4d7e0346cabc3e084464875afd600f7c2bd24c76256c2b4bd46122097819736228024d43ff89a00b40c693381fc43bcfd999c25bc3bc1f3",
                     "contractAddress": "addr1zxjd0cp5dj4u8cyygey8tt7kqrmu90fyca39ds45h4rpygyhsxtnvg5qyn2rl7y6qz6qc6fns87y808anxwzt0pmc8es2g4kc8"
-                }    
+                }
             ]
         },
         {
             "id": "aO9u03",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "99b750541529ba5cc684f9e1d43911c68913128d45a7004d9344343b",
-		    "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }	    
+        },
+        {
+            "id": "CdGcYA",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "11da5b47aed3955c9132ee087796fa3b58a1ba6173fa31a7bc29e56d4eec39fae09e0835b546eac323f7d1c46d7b7f64fe42f359aae7912b13",
+                    "scriptHash": "da5b47aed3955c9132ee087796fa3b58a1ba6173fa31a7bc29e56d4eec39fae09e0835b546eac323f7d1c46d7b7f64fe42f359aae7912b13",
+                    "contractAddress": "addr1z8d9k3aw6w24eyfjacy809h68dv2rwnpw0arrfau98jk6nhv88awp8sgxk65d6kry0mar3rd0dlkfljz7dv64eu39vfs38yd9p"
+                }
+            ]
+        }
     ]
 }
