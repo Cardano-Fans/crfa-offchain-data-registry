@@ -77,11 +77,7 @@
                 {
                     "id": "nG2Mtr",
                     "version": 16
-                },
-                {
-                    "id": "m9mzPs",
-                    "version": 1
-                }            
+                }
             ]           
         },
         {
@@ -1951,21 +1947,6 @@
 		    "plutusVersion": 1,                    
                     "version": 1
                 }
-            ]
-        },	    
-        {
-            "id": "m9mzPs",
-            "purpose": "SPEND",
-	    "type": "PLUTUS",
-            "contractLang": "PLUTARCH",			
-            "versions": [
-                {
-                    "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "7151936f3c98a04b6609aa9b5c832ba1182cf43a58e534fcc05db09d69",                     
-                    "scriptHash": "51936f3c98a04b6609aa9b5c832ba1182cf43a58e534fcc05db09d69",
-                    "contractAddress": "addr1w9gexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g5740fw"
-                }              
             ]
         },
         {
