@@ -1,0 +1,52 @@
+{
+
+  "id": "Generic SCs",
+  "projectName": "Smart contracts that are leveraged by multiple projects and shouldn't be credited to a specific one",                   // dApp name
+  "link": "",
+  "twitter": "",
+  "category": "",
+  "subCategory": "",
+  "description": {
+    "short": ""
+  },
+  "features": [""],
+
+  "releases": [
+    {
+      "releaseNumber": 1,
+      "releaseName": "V1",
+      "description": "",
+      "scripts":
+      [
+        {
+          "id": "m9mzPs",
+          "version": 1
+        }
+      ]
+    }
+  ],
+
+  "contracts": [
+    {
+      "openSource": false
+    }
+  ],
+  "audits": [],
+  "scripts": [
+    {
+      "id": "m9mzPs",
+      "purpose": "SPEND",
+      "type": "PLUTUS",
+      "contractLang": "PLUTARCH",
+      "versions": [
+        {
+          "version": 1,
+          "plutusVersion": 2,
+          "fullScriptHash": "7151936f3c98a04b6609aa9b5c832ba1182cf43a58e534fcc05db09d69",
+          "scriptHash": "51936f3c98a04b6609aa9b5c832ba1182cf43a58e534fcc05db09d69",
+          "contractAddress": "addr1w9gexmeunzsykesf42d4eqet5yvzeap6trjnflxqtkcf66g5740fw"
+        }
+      ]
+    }
+  ]
+}
