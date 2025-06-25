@@ -35,6 +35,7 @@
   "scripts": [
     {
       "id": "m9mzPs",
+      "name": "Always Fails Validator",
       "purpose": "SPEND",
       "type": "PLUTUS",
       "contractLang": "PLUTARCH",

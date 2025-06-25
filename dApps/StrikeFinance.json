@@ -1,0 +1,110 @@
+{
+  "id": "bOYrw01K",
+  "projectName": "Strike Finance",
+  "link": "https://app.strikefinance.org",
+  "twitter": "https://x.com/strikecardano",
+  "category": "DEFI",
+  "subCategory": "PERPETUALS",
+  "description": {
+    "short": "The Progressive Protocol that merges DEX with NFTfi"
+  },
+
+  "releases": [
+    {
+      "releaseNumber": 1,
+      "releaseName": "V1",
+      "scripts": [
+        {
+          "id": "bXS52b",
+          "version": 1
+        },
+        {
+          "id": "FSSQLY",
+          "version": 1
+        },
+        {
+          "id": "7t0P1T",
+          "version": 1
+        }
+      ]
+    },
+    {
+      "releaseNumber": 2,
+      "releaseName": "V2",
+      "scripts": [
+        {
+          "id": "7OBMfB",
+          "version": 1
+        }
+      ]
+    }
+  ],
+  "contracts": [
+    {
+      "openSource": false
+    }
+  ],
+
+  "scripts": [
+    {
+      "id": "bXS52b",
+      "name": "V1 Staking script",
+      "purpose": "SPEND",
+      "type": "PLUTUS",
+      "versions": [
+        {
+          "version": 1,
+          "plutusVersion": 2,
+          "fullScriptHash": "1137ec634d8f988ba9157f31bc7f024a6a2d8b8d483fa082de62d43bd11aabcb52a9ea7db46dfcfc63a71ab87937512bd130b50d62ea443594",
+          "scriptHash": "a5d1d61bab0c751af802e767d2fa9319498d43561dbe272303c98f27a9795558286963eca13278443d3311ba26e94e8ca67dc3fd94fd1bb4",
+          "contractAddress": "addr1zym7cc6d37vgh2g40ucmclczff4zmzudfql6pqk7vt2rh5g6409492020k6xml8uvwn34wrexagjh5fsk5xk96jyxk2qy3jvzp"
+        }
+      ]
+    },
+    {
+      "id": "FSSQLY",
+      "name": "Perps LP Script",
+      "purpose": "SPEND",
+      "type": "PLUTUS",
+      "versions": [
+        {
+          "version": 1,
+          "plutusVersion": 2,
+          "fullScriptHash": "11148c5cbcebfcf7f62d4555171b0e354273eb759929c8f410d6a1fe03",
+          "scriptHash": "148c5cbcebfcf7f62d4555171b0e354273eb759929c8f410d6a1fe03",
+          "contractAddress": "addr1wy2gch9ua0700a3dg423wxcwx4p886m4ny5u3aqs66sluqcly9uud"
+        }
+      ]
+    },
+    {
+      "id": "7t0P1T",
+      "name": "Perps batcher script",
+      "purpose": "SPEND",
+      "type": "PLUTUS",
+      "versions": [
+        {
+          "version": 1,
+          "plutusVersion": 2,
+          "fullScriptHash": "111e0c1a445e185485277c044d77d2b1aaf80aa489a28a4c1e11ec8df0",
+          "scriptHash": "1e0c1a445e185485277c044d77d2b1aaf80aa489a28a4c1e11ec8df0",
+          "contractAddress": "addr1wy0qcxjytcv9fpf80szy6a7jkx40sz4y3x3g5nq7z8kgmuqth60kl"
+        }
+      ]
+    },
+    {
+      "id": "7OBMfB",
+      "name": "V2 Staking Script",
+      "purpose": "SPEND",
+      "type": "PLUTUS",
+      "versions": [
+        {
+          "version": 2,
+          "plutusVersion": 3,
+          "fullScriptHash": "11497a8b0085517f1c9065cf3006af4c266454b39c6fa32a9d116c75ee1aabcb52a9ea7db46dfcfc63a71ab87937512bd130b50d62ea443594",
+          "scriptHash": "da5b47aed3955c9132ee087796fa3b58a1ba6173fa31a7bc29e56d4eec39fae09e0835b546eac323f7d1c46d7b7f64fe42f359aae7912b13",
+          "contractAddress": "addr1z9yh4zcqs4gh78ysvh8nqp40fsnxg49nn3h6x25az9k8tms6409492020k6xml8uvwn34wrexagjh5fsk5xk96jyxk2qf3a7kj"
+        }
+      ]
+    }
+  ]
+}
