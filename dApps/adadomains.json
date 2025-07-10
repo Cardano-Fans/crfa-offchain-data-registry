@@ -6,9 +6,8 @@
     "category": "COLLECTION",
     "subCategory": "NFT",
     "description": {
-                   "short": "Own a domain on the Cardano blockchain"
-    },	
-	
+        "short": "Own a domain on the Cardano blockchain"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -41,109 +40,108 @@
                 {
                     "id": "Pgwqnu",
                     "version": 1
-                }              
-            ]           
+                }
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "k57Gy9",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71f68a10da563e5fc7c4c61ecbc0c9513330ff94eefbc50ce35390a95f",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71f68a10da563e5fc7c4c61ecbc0c9513330ff94eefbc50ce35390a95f",
                     "scriptHash": "f68a10da563e5fc7c4c61ecbc0c9513330ff94eefbc50ce35390a95f",
                     "contractAddress": "addr1w8mg5yx62cl9l37ycc0vhsxf2yenplu5amau2r8r2wg2jhczneawq"
-                }    
+                }
             ]
         },
         {
             "id": "Ggh9pK",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "711ec33c46461b79c43f7ffc5fad0c73c98103203515cfbd15539519f5",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "711ec33c46461b79c43f7ffc5fad0c73c98103203515cfbd15539519f5",
                     "scriptHash": "1ec33c46461b79c43f7ffc5fad0c73c98103203515cfbd15539519f5",
                     "contractAddress": "addr1wy0vx0zxgcdhn3pl0l79ltgvw0yczqeqx52ul0g42w23nagemry69"
-                }    
+                }
             ]
         },
         {
             "id": "XXy0Im",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "7190a9eac152ab6e5048af3f0ed7ed0602918b6e25b8c9d1bb7a7f2a59",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7190a9eac152ab6e5048af3f0ed7ed0602918b6e25b8c9d1bb7a7f2a59",
                     "scriptHash": "90a9eac152ab6e5048af3f0ed7ed0602918b6e25b8c9d1bb7a7f2a59",
                     "contractAddress": "addr1wxg2n6kp224ku5zg4ulsa4ldqcpfrzmwykuvn5dm0flj5kgv36pn3"
-                }    
+                }
             ]
         },
         {
             "id": "58wBUY",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "711b6f580a069784875bfb7c9ada7d45201fdf44268b65f38a53305bd6",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "711b6f580a069784875bfb7c9ada7d45201fdf44268b65f38a53305bd6",
                     "scriptHash": "1b6f580a069784875bfb7c9ada7d45201fdf44268b65f38a53305bd6",
                     "contractAddress": "addr1wydk7kq2q6tcfp6mld7f4knag5splh6yy69ktuu22vc9h4sjhlr05"
-                }    
+                }
             ]
         },
         {
             "id": "A2uxqq",
             "name": "AdadomainsConfig",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "98df2df723eac9cef42beca19e6e6e1aec9c71908c76c774ff1e83d1",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        },  
+        },
         {
             "id": "fslrIL",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "fc411f546d01e88a822200243769bbc1e1fbdde8fa0f6c5179934edb",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        },  
+        },
         {
             "id": "Pgwqnu",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "49933b20c73dae19926b4ee0d7330f2c167c53414fa0c8308e2768d6",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }      
+        }
     ]
 }

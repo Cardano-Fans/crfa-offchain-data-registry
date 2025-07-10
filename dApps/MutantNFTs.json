@@ -4,170 +4,168 @@
     "link": "https://labs.mutant-nft.com",
     "twitter": "https://twitter.com/MutantNFTs",
     "category": "COLLECTION",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",
     "description": {
-                   "short": "A platform with a variety of utilities for NFT projects offering: raffles, staking and whitelist management services for Cardano NFT projects"
-    },	
-    
+        "short": "A platform with a variety of utilities for NFT projects offering: raffles, staking and whitelist management services for Cardano NFT projects"
+    },
     "releases": [
-			{
-				"releaseNumber": 1,
-				"releaseName": "V1",
-				"scripts": [
-					{
-						"id": "lSRWJ0",
-						"version": 1
-					}  					
-				]
-			},
-			{
-				"releaseNumber": 2,
-				"releaseName": "V2",
-				"scripts": [
-					{
-						"id": "BxrNX1",
-						"version": 1
-					},
-					{
-						"id": "SxL0mO",
-						"version": 1
-					},
-					{
-						"id": "lSRWJ0",
-						"version": 2
-					},
-					{
-						"id": "MiC79C",
-						"version": 1
-					},
-					{
-						"id": "uPvccj",
-						"version": 1
-					},
-					{
-						"id": "wfAh5o",
-						"version": 1
-					},
-					{
-						"id": "FbARx0",
-						"version": 1
-					}					
-				]
-			}	    
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "lSRWJ0",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "BxrNX1",
+                    "version": 1
+                },
+                {
+                    "id": "SxL0mO",
+                    "version": 1
+                },
+                {
+                    "id": "lSRWJ0",
+                    "version": 2
+                },
+                {
+                    "id": "MiC79C",
+                    "version": 1
+                },
+                {
+                    "id": "uPvccj",
+                    "version": 1
+                },
+                {
+                    "id": "wfAh5o",
+                    "version": 1
+                },
+                {
+                    "id": "FbARx0",
+                    "version": 1
+                }
+            ]
+        }
     ],
-
-    "scripts": [        
+    "scripts": [
         {
             "id": "BxrNX1",
             "name": "Mutant staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1,  
-	            "fullScriptHash": "711d13dcbab76e93fb80cc022fc7d797826bf64ca24d3bf6f1885272de",   			
+                    "plutusVersion": 1,
+                    "fullScriptHash": "711d13dcbab76e93fb80cc022fc7d797826bf64ca24d3bf6f1885272de",
                     "scriptHash": "1d13dcbab76e93fb80cc022fc7d797826bf64ca24d3bf6f1885272de",
                     "contractAddress": "addr1wyw38h96kahf87uqespzl37hj7pxhajv5fxnhah33pf89hswjepm0"
-                }             
+                }
             ]
         },
         {
             "id": "SxL0mO",
             "name": "Mutant token",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1,  
-	            "fullScriptHash": "711bec58093b1de0361affebe381fa3a6bcd93644aa47dafcd4eac88cb", 			
+                    "plutusVersion": 1,
+                    "fullScriptHash": "711bec58093b1de0361affebe381fa3a6bcd93644aa47dafcd4eac88cb",
                     "scriptHash": "1bec58093b1de0361affebe381fa3a6bcd93644aa47dafcd4eac88cb",
                     "contractAddress": "addr1wyd7ckqf8vw7qds6ll478q068f4umymyf2j8mt7df6kg3jcrrd8rw"
-                }             
+                }
             ]
         },
         {
             "id": "lSRWJ0",
             "name": "onchain raffle",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1,  
-	            "fullScriptHash": "7122f12548a9b1e61fca4b5d9cb87f947f757d0b5e7fb2366fc32e40fe", 			
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7122f12548a9b1e61fca4b5d9cb87f947f757d0b5e7fb2366fc32e40fe",
                     "scriptHash": "22f12548a9b1e61fca4b5d9cb87f947f757d0b5e7fb2366fc32e40fe",
                     "contractAddress": "addr1wy30zf2g4xc7v872fdweewrlj3lh2lgttelmydn0cvhyplsg3vnkq"
                 },
                 {
                     "version": 2,
-		    "plutusVersion": 2,  
-	            "fullScriptHash": "71f0c16278fb2dceaa8c32b52f282d6f57ccb6068077a56c7a8f0707a7", 			
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71f0c16278fb2dceaa8c32b52f282d6f57ccb6068077a56c7a8f0707a7",
                     "scriptHash": "f0c16278fb2dceaa8c32b52f282d6f57ccb6068077a56c7a8f0707a7",
                     "contractAddress": "addr1w8cvzcnclvkua25vx26j72pddatuedsxspm62mr63urs0fctuuzfv"
-                }		    
+                }
             ]
         },
         {
             "id": "MiC79C",
             "name": "Mutant staking service",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1,  
-	            "fullScriptHash": "716c59481b23efbdc48b5ead4f31e5a9bc73609b220f25191634b94244", 			
+                    "plutusVersion": 1,
+                    "fullScriptHash": "716c59481b23efbdc48b5ead4f31e5a9bc73609b220f25191634b94244",
                     "scriptHash": "6c59481b23efbdc48b5ead4f31e5a9bc73609b220f25191634b94244",
                     "contractAddress": "addr1w9k9jjqmy0hmm3ytt6k57v094x78xcymyg8j2xgkxju5y3qxz4y0w"
-                }             
+                }
             ]
         },
         {
             "id": "uPvccj",
             "name": "Burned NFT validator",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2,  
-	            "fullScriptHash": "71571562b26410dfd95b8d6c64003784134b48cf17cf9910080386bf1c", 			
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71571562b26410dfd95b8d6c64003784134b48cf17cf9910080386bf1c",
                     "scriptHash": "571562b26410dfd95b8d6c64003784134b48cf17cf9910080386bf1c",
                     "contractAddress": "addr1w9t32c4jvsgdlk2m34kxgqphssf5kjx0zl8ejyqgqwrt78q32l68q"
-                }             
+                }
             ]
         },
         {
             "id": "wfAh5o",
             "name": "New NFT metadata reference",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2,  
-	            "fullScriptHash": "710a1a65227bd351cf9e87f3dd9bcbc5e809a716d8e9edaa66af152933", 			
+                    "plutusVersion": 2,
+                    "fullScriptHash": "710a1a65227bd351cf9e87f3dd9bcbc5e809a716d8e9edaa66af152933",
                     "scriptHash": "0a1a65227bd351cf9e87f3dd9bcbc5e809a716d8e9edaa66af152933",
                     "contractAddress": "addr1wy9p5efz00f4rnu7sleamx7tch5qnfckmr57m2nx4u2jjvce9seq2"
-                }             
+                }
             ]
         },
         {
             "id": "FbARx0",
             "name": "Marketplace",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2,  
-	            "fullScriptHash": "71c561246fef7c35b6515d49dc4a0873cd32b42779aa7e621a8d03c3a9", 			
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71c561246fef7c35b6515d49dc4a0873cd32b42779aa7e621a8d03c3a9",
                     "scriptHash": "c561246fef7c35b6515d49dc4a0873cd32b42779aa7e621a8d03c3a9",
                     "contractAddress": "addr1w8zkzfr0aa7rtdj3t4yacjsgw0xn9dp80x48ucs635pu82g0mrq7t"
-                }             
+                }
             ]
-        }	    
+        }
     ]
 }

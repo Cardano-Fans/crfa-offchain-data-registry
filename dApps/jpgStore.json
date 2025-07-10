@@ -1,184 +1,182 @@
 {
-  "id": "X5ZVWkat",
-  "projectName": "jpg.store",
-  "link": "https://www.jpg.store",
-  "twitter": "https://twitter.com/jpgstoreNFT",
-  "category": "MARKETPLACE",
-  "subCategory": "NFT",
-  "description": {
-    "short": "A Cardano NFT marketplace that allows users to discover artwork, support creators and join communities on a decentralized blockchain"
-  },
-
-  "releases": [
-    {
-      "releaseNumber": 0.1,
-      "releaseName": "V0.1",
-      "scripts": [
-        {
-          "id": "1Ezcv7",
-          "version": 1
-        }
-      ]
+    "id": "X5ZVWkat",
+    "projectName": "jpg.store",
+    "link": "https://www.jpg.store",
+    "twitter": "https://twitter.com/jpgstoreNFT",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",
+    "description": {
+        "short": "A Cardano NFT marketplace that allows users to discover artwork, support creators and join communities on a decentralized blockchain"
     },
-    {
-      "releaseNumber": 0.2,
-      "releaseName": "V0.2",
-      "scripts": [
+    "releases": [
         {
-          "id": "1Ezcv7",
-          "version": 2
-        }
-      ]
-    },
-    {
-      "releaseNumber": 1,
-      "releaseName": "V1",
-      "scripts": [
-        {
-          "id": "1Ezcv7",
-          "version": 3
-        }
-      ]
-    },
-    {
-      "releaseNumber": 2,
-      "releaseName": "V2",
-      "scripts": [
-        {
-          "id": "LcIgfO",
-          "version": 1
-        }
-      ],
-      "auditId": "qpmI"
-    },
-    {
-      "releaseNumber": 3,
-      "releaseName": "V3",
-      "scripts": [
-        {
-          "id": "Ejwj3a",
-          "version": 1
+            "releaseNumber": 0.1,
+            "releaseName": "V0.1",
+            "scripts": [
+                {
+                    "id": "1Ezcv7",
+                    "version": 1
+                }
+            ]
         },
         {
-          "id": "Ejwj3a",
-          "version": 2
+            "releaseNumber": 0.2,
+            "releaseName": "V0.2",
+            "scripts": [
+                {
+                    "id": "1Ezcv7",
+                    "version": 2
+                }
+            ]
         },
         {
-          "id": "Ejwj3a",
-          "version": 3
-        },        
-        {
-          "id": "iX9cQG",
-          "version": 1
-        }        
-      ],
-      "contractId": "JN3E"
-    }
-  ],
-  "contracts": [
-    {
-      "openSource": true,
-      "contractLink": "https://github.com/jpg-store/contract-v2",
-      "contractId": "JN3E"
-    }
-  ],
-  "audits": [
-    {
-      "auditId": "qpmI",
-      "auditor": "Runtime Vеrification",
-      "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Jpg.Store-audit-report.pdf",
-      "auditType": "MANUAL"
-    }
-  ],
-
-  "scripts": [
-    {
-      "id": "1Ezcv7",
-      "purpose": "SPEND",
-      "type": "PLUTUS",
-      "name": "BuySell",
-      "versions": [
-        {
-          "version": 1,
-          "plutusVersion": 1,
-          "fullScriptHash": "7125da22dfd99bf874e59d74c304a1d28e921310327c3e4d6960123f2e",
-          "scriptHash": "25da22dfd99bf874e59d74c304a1d28e921310327c3e4d6960123f2e",
-          "contractAddress": "addr1wyja5gklmxdlsa89n46vxp9p628fyycsxf7runtfvqfr7tsj52k9x"
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "1Ezcv7",
+                    "version": 3
+                }
+            ]
         },
         {
-          "version": 2,
-          "plutusVersion": 1,
-          "fullScriptHash": "71beb881c47075b2910ae7e13fb268908f70878d06638ff86a5caaa16c",
-          "scriptHash": "beb881c47075b2910ae7e13fb268908f70878d06638ff86a5caaa16c",
-          "contractAddress": "addr1wxlt3qwywp6m9yg2ulsnlvngjz8hppudqe3cl7r2tj42zmqxrfx80"
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "LcIgfO",
+                    "version": 1
+                }
+            ],
+            "auditId": "qpmI"
         },
         {
-          "version": 3,
-          "plutusVersion": 1,
-          "fullScriptHash": "714a59ebd93ea53d1bbf7f82232c7b012700a0cf4bb78d879dabb1a20a",
-          "scriptHash": "4a59ebd93ea53d1bbf7f82232c7b012700a0cf4bb78d879dabb1a20a",
-          "contractAddress": "addr1w999n67e86jn6xal07pzxtrmqynspgx0fwmcmpua4wc6yzsxpljz3"
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "scripts": [
+                {
+                    "id": "Ejwj3a",
+                    "version": 1
+                },
+                {
+                    "id": "Ejwj3a",
+                    "version": 2
+                },
+                {
+                    "id": "Ejwj3a",
+                    "version": 3
+                },
+                {
+                    "id": "iX9cQG",
+                    "version": 1
+                }
+            ],
+            "contractId": "JN3E"
         }
-      ]
-    },
-    {
-      "id": "LcIgfO",
-      "name": "Offers",
-      "purpose": "SPEND",
-      "type": "PLUTUS",
-      "versions": [
+    ],
+    "contracts": [
         {
-          "version": 1,
-          "plutusVersion": 1,
-          "fullScriptHash": "11a55f409501bf65805bb0dc76f6f9ae90b61e19ed870bc0025681360881728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
-          "scriptHash": "a55f409501bf65805bb0dc76f6f9ae90b61e19ed870bc0025681360881728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
-          "contractAddress": "addr1zxj47sy4qxlktqzmkrw8dahe46gtv8seakrshsqz26qnvzypw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspksr3q9nx"
+            "openSource": true,
+            "contractLink": "https://github.com/jpg-store/contract-v2",
+            "contractId": "JN3E"
         }
-      ]
-    },
-    {
-      "id": "Ejwj3a",
-      "purpose": "SPEND",
-      "name": "OffersV2",
-      "type": "PLUTUS",
-      "versions": [
+    ],
+    "audits": [
         {
-          "version": 1,
-          "plutusVersion": 2,
-          "fullScriptHash": "119068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad81728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
-          "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad81728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
-          "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tvpw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspks905plm"
+            "auditId": "qpmI",
+            "auditor": "Runtime Vеrification",
+            "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/Jpg.Store-audit-report.pdf",
+            "auditType": "MANUAL"
+        }
+    ],
+    "scripts": [
+        {
+            "id": "1Ezcv7",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "name": "BuySell",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7125da22dfd99bf874e59d74c304a1d28e921310327c3e4d6960123f2e",
+                    "scriptHash": "25da22dfd99bf874e59d74c304a1d28e921310327c3e4d6960123f2e",
+                    "contractAddress": "addr1wyja5gklmxdlsa89n46vxp9p628fyycsxf7runtfvqfr7tsj52k9x"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71beb881c47075b2910ae7e13fb268908f70878d06638ff86a5caaa16c",
+                    "scriptHash": "beb881c47075b2910ae7e13fb268908f70878d06638ff86a5caaa16c",
+                    "contractAddress": "addr1wxlt3qwywp6m9yg2ulsnlvngjz8hppudqe3cl7r2tj42zmqxrfx80"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 1,
+                    "fullScriptHash": "714a59ebd93ea53d1bbf7f82232c7b012700a0cf4bb78d879dabb1a20a",
+                    "scriptHash": "4a59ebd93ea53d1bbf7f82232c7b012700a0cf4bb78d879dabb1a20a",
+                    "contractAddress": "addr1w999n67e86jn6xal07pzxtrmqynspgx0fwmcmpua4wc6yzsxpljz3"
+                }
+            ]
         },
         {
-          "version": 2,
-          "plutusVersion": 2,
-          "fullScriptHash": "319068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
-          "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
-          "contractAddress": "addr1xxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tfvjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8eks2utwdd"
+            "id": "LcIgfO",
+            "name": "Offers",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 1,
+                    "fullScriptHash": "11a55f409501bf65805bb0dc76f6f9ae90b61e19ed870bc0025681360881728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
+                    "scriptHash": "a55f409501bf65805bb0dc76f6f9ae90b61e19ed870bc0025681360881728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
+                    "contractAddress": "addr1zxj47sy4qxlktqzmkrw8dahe46gtv8seakrshsqz26qnvzypw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspksr3q9nx"
+                }
+            ]
         },
         {
-          "version": 3,
-          "plutusVersion": 2,
-          "fullScriptHash": "119068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",
-          "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",
-          "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tgvp7yludr26w44pjv927202tt7ayffdwxjj688k690f03sr4chmz"
-        }        
-      ]
-    },
-    {
-      "id": "iX9cQG",
-      "purpose": "SPEND",
-      "name": "AskV1",
-      "type": "PLUTUS",
-      "versions": [
+            "id": "Ejwj3a",
+            "purpose": "SPEND",
+            "name": "OffersV2",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "119068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad81728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
+                    "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad81728e7ed4cf324e1323135e7e6d931f01e30792d9cdf17129cb806d",
+                    "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tvpw288a4x0xf8pxgcntelxmyclq83s0ykeehchz2wtspks905plm"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "319068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
+                    "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad2c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
+                    "contractAddress": "addr1xxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tfvjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8eks2utwdd"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "119068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",
+                    "scriptHash": "9068a7a3f008803edac87af1619860f2cdcde40c26987325ace138ad0c0f89fe346ad3ab50c9855794f52d7ee91296b8d2968e7b68af4be3",
+                    "contractAddress": "addr1zxgx3far7qygq0k6epa0zcvcvrevmn0ypsnfsue94nsn3tgvp7yludr26w44pjv927202tt7ayffdwxjj688k690f03sr4chmz"
+                }
+            ]
+        },
         {
-          "version": 1,
-          "plutusVersion": 2,
-          "fullScriptHash": "31c727443d77df6cff95dca383994f4c3024d03ff56b02ecc22b0f3f652c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
-          "scriptHash": "c727443d77df6cff95dca383994f4c3024d03ff56b02ecc22b0f3f652c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
-          "contractAddress": "addr1x8rjw3pawl0kelu4mj3c8x20fsczf5pl744s9mxz9v8n7efvjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8ekstg4qrx"
+            "id": "iX9cQG",
+            "purpose": "SPEND",
+            "name": "AskV1",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "fullScriptHash": "31c727443d77df6cff95dca383994f4c3024d03ff56b02ecc22b0f3f652c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
+                    "scriptHash": "c727443d77df6cff95dca383994f4c3024d03ff56b02ecc22b0f3f652c967f4bd28944b06462e13c5e3f5d5fa6e03f8567569438cd833e6d",
+                    "contractAddress": "addr1x8rjw3pawl0kelu4mj3c8x20fsczf5pl744s9mxz9v8n7efvjel5h55fgjcxgchp830r7h2l5msrlpt8262r3nvr8ekstg4qrx"
+                }
+            ]
         }
-      ]
-    }
-  ]
+    ]
 }

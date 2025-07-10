@@ -5,9 +5,8 @@
     "twitter": "https://twitter.com/MadDogCarClub",
     "category": "GAMING",
     "description": {
-                   "short": "An exclusive community destined for sustainability"
-    },	
-
+        "short": "An exclusive community destined for sustainability"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -28,7 +27,7 @@
                 {
                     "id": "GEshlh",
                     "version": 1
-                }              
+                }
             ]
         }
     ],
@@ -36,48 +35,47 @@
         {
             "openSource": false
         }
-    ],		
-
+    ],
     "scripts": [
         {
             "id": "vmRJWK",
-            "name": "RaffleDetails",            
+            "name": "RaffleDetails",
             "purpose": "SPEND",
             "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71f8aaedb776e73868c3b516ca2c7af642da80d44f5b7461c38148a97b",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71f8aaedb776e73868c3b516ca2c7af642da80d44f5b7461c38148a97b",
                     "scriptHash": "f8aaedb776e73868c3b516ca2c7af642da80d44f5b7461c38148a97b",
                     "contractAddress": "addr1w8u24mdhwmnns6xrk5tv5tr67epd4qx5fadhgcwrs9y2j7cs5qcv5"
-                }    
+                }
             ]
         },
         {
             "id": "cKxscX",
-            "name": "RaffleCounter",          
+            "name": "RaffleCounter",
             "purpose": "SPEND",
             "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71ee4cba994058a6fe724cdc162f5d2aab2a4ca429e4abfcd12e696817",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71ee4cba994058a6fe724cdc162f5d2aab2a4ca429e4abfcd12e696817",
                     "scriptHash": "ee4cba994058a6fe724cdc162f5d2aab2a4ca429e4abfcd12e696817",
                     "contractAddress": "addr1w8hyew5egpv2dlnjfnwpvt6a924j5n9y98j2hlx39e5ks9ck64rw3"
-                }    
+                }
             ]
         },
         {
             "id": "m88Hvm",
             "name": "RaffleTicket",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "43b79379bce069ec0fe025bb0868bf56bce2db42026ad712f334e3ce",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
@@ -86,14 +84,14 @@
             "id": "GEshlh",
             "name": "RafflePlaceholder",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "550b354af4bec45dbdd516ab32e494ae009acd46bd2e443506b4060a",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }      
+        }
     ]
 }

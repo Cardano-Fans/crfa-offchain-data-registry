@@ -2,11 +2,10 @@
     "id": "WXpX6Sdf",
     "projectName": "CypherMonks",
     "link": "https://cyphermonks.com",
-    "category": "COMMUNITY",      
+    "category": "COMMUNITY",
     "description": {
-                   "short": "A token of tribute and memorial"
+        "short": "A token of tribute and memorial"
     },
-	
     "releases": [
         {
             "releaseNumber": 1,
@@ -19,7 +18,6 @@
             ]
         }
     ],
-
     "scripts": [
         {
             "id": "0fv6Mh",
@@ -28,12 +26,12 @@
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71b0f28a2615abdba39fe4b3f59291766b6df8185c09bbacbd88a06170",                      
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71b0f28a2615abdba39fe4b3f59291766b6df8185c09bbacbd88a06170",
                     "scriptHash": "b0f28a2615abdba39fe4b3f59291766b6df8185c09bbacbd88a06170",
                     "contractAddress": "addr1wxc09z3xzk4ahgulujelty53we4km7qctsymht9a3zsxzuqzt9gsl"
-                }    
+                }
             ]
         }
-     ]
+    ]
 }

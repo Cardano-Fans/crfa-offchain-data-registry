@@ -6,9 +6,8 @@
     "category": "COLLECTION",
     "subCategory": "NFT",
     "description": {
-                   "short": "The first CIP-0068 compliant NFT collection on Cardano blockchain"
-    },	 	
-
+        "short": "The first CIP-0068 compliant NFT collection on Cardano blockchain"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -25,20 +24,18 @@
                 {
                     "id": "xOGF7Q",
                     "version": 1
-                } 		    
+                }
             ],
-        "contractId": "f6Oj"	
+            "contractId": "f6Oj"
         }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/berry-pool/matrix",
-         "contractLink": "https://github.com/rodrigomd94/matrix-berry-update",		
-         "contractId": "f6Oj"
-        }	    
+            "openSource": true,
+            "contractLink": "https://github.com/rodrigomd94/matrix-berry-update",
+            "contractId": "f6Oj"
+        }
     ],
-
     "scripts": [
         {
             "id": "VnjA9w",
@@ -46,11 +43,11 @@
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",
                     "scriptHash": "a55b9f78156c141b53e19f9f380988b722c36a2ce2b5bc06bae95503",
                     "contractAddress": "addr1wxj4h8mcz4kpgx6nux0e7wqf3zmj9sm29n3tt0qxht542qc9xsv2z"
-                }    
+                }
             ]
         },
         {
@@ -59,23 +56,23 @@
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71997392e0c6e62ebe8202be078bbe59a9254e7d209192ed99717ceaa9",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71997392e0c6e62ebe8202be078bbe59a9254e7d209192ed99717ceaa9",
                     "scriptHash": "997392e0c6e62ebe8202be078bbe59a9254e7d209192ed99717ceaa9",
                     "contractAddress": "addr1wxvh8yhqcmnza05zq2lq0za7tx5j2nnayzge9mvew97w42g9hzfeg"
-                }    
+                }
             ]
-        },	    
+        },
         {
             "id": "nnT2dh",
             "purpose": "MINT",
             "versions": [
                 {
                     "mintPolicyID": "01cecfaeda9d846c08675902b55a6371f593d9239744867462c5382e",
-		    "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }      
+        }
     ]
 }

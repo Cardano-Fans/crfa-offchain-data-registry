@@ -3,13 +3,15 @@
     "projectName": "MELD",
     "link": "https://www.meld.com",
     "twitter": "https://twitter.com/MELD_labs",
-    "category": "DEFI",    
-    "subCategory": "LENDING_BORROWING", 
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",
     "description": {
-                   "short": "MELD is the first DeFi, non-custodial, banking protocol. You can securely lend & borrow both crypto and fiat currencies with ease and stake your MELD tokens for APY"
-    },	
-    "features": ["MELD_LOCKED_STAKING", "MELD_VESTING"], 
-    
+        "short": "MELD is the first DeFi, non-custodial, banking protocol. You can securely lend & borrow both crypto and fiat currencies with ease and stake your MELD tokens for APY"
+    },
+    "features": [
+        "MELD_LOCKED_STAKING",
+        "MELD_VESTING"
+    ],
     "releases": [
         {
             "releaseNumber": 0,
@@ -23,7 +25,7 @@
                 {
                     "id": "XLYQVj",
                     "version": 0
-                }              
+                }
             ]
         },
         {
@@ -34,7 +36,7 @@
                 {
                     "id": "CMCq66",
                     "version": 1
-                },                
+                },
                 {
                     "id": "CMCq66",
                     "version": 2
@@ -42,7 +44,7 @@
                 {
                     "id": "CMCq66",
                     "version": 3
-                },                
+                },
                 {
                     "id": "D8kwAe",
                     "version": 1
@@ -78,25 +80,25 @@
                 {
                     "id": "pyO15z",
                     "version": 1
-                }			    
+                }
             ],
             "auditId": "eelU",
-            "contractId": "315S"		
-        }        
+            "contractId": "315S"
+        }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/MELD-labs/cardano-defi-public",
-         "contractId": "315S"		
+            "openSource": true,
+            "contractLink": "https://github.com/MELD-labs/cardano-defi-public",
+            "contractId": "315S"
         }
     ],
     "audits": [
         {
-         "auditId": "eelU",
-         "auditor": "Tweag",
-         "auditLink": "https://meld-labs.github.io/technical/assets/tweag-audit-202112.pdf",
-         "auditType": "MANUAL"
+            "auditId": "eelU",
+            "auditor": "Tweag",
+            "auditLink": "https://meld-labs.github.io/technical/assets/tweag-audit-202112.pdf",
+            "auditType": "MANUAL"
         }
     ],
     "scripts": [
@@ -107,7 +109,7 @@
             "versions": [
                 {
                     "mintPolicyID": "c6d53bf97c0d7e38368b2ed6b2dcf8d5fb4df0ac533fa22458e04f45",
- 		            "plutusVersion": 1,                     
+                    "plutusVersion": 1,
                     "version": 0
                 }
             ]
@@ -119,7 +121,7 @@
             "versions": [
                 {
                     "mintPolicyID": "3b07e0f2a262fa1436df3c91e420d57ad9fd46aa04377ec80a05ee3f",
- 		            "plutusVersion": 1,                     
+                    "plutusVersion": 1,
                     "version": 0
                 }
             ]
@@ -131,19 +133,19 @@
             "versions": [
                 {
                     "mintPolicyID": "c51806ac8fd893646c12fbd8483abdd4db5b587e16e155a1bc1b289f",
- 		    "plutusVersion": 1,                     
+                    "plutusVersion": 1,
                     "version": 1
                 },
                 {
                     "mintPolicyID": "4c820aadf6ae8c755430455f5803d283bde0b20114bd93a8f381c72c",
- 		    "plutusVersion": 1,                     
+                    "plutusVersion": 1,
                     "version": 2
                 },
                 {
                     "mintPolicyID": "40243894c103511d74c884e8ed231c0ca7df00644bd4afe2b82044fb",
- 		    "plutusVersion": 1,                     
+                    "plutusVersion": 1,
                     "version": 3
-                }                 
+                }
             ]
         },
         {
@@ -153,11 +155,11 @@
             "versions": [
                 {
                     "mintPolicyID": "59c9aa4ea305356d37e5948ef2a3e6477674c80cff384889fdff902b",
- 		    "plutusVersion": 1,                     
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
-        },        
+        },
         {
             "id": "KDwTJq",
             "name": "token vesting",
@@ -165,8 +167,8 @@
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1, 
-	            "fullScriptHash": "71c677cdb77d115df5d3772aaad91ea9e4b5d4a7f970308183dd193f1c",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71c677cdb77d115df5d3772aaad91ea9e4b5d4a7f970308183dd193f1c",
                     "scriptHash": "c677cdb77d115df5d3772aaad91ea9e4b5d4a7f970308183dd193f1c",
                     "contractAddress": "addr1w8r80ndh05g4mawnwu424kg748jtt498l9crpqvrm5vn78q32ats7"
                 }
@@ -174,98 +176,98 @@
         },
         {
             "id": "v1TRHt",
-            "name": "staking 1",              
+            "name": "staking 1",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1, 
-	            "fullScriptHash": "71ba3501cd170c96349c342c5ef4242c596b58afaecdcffc0bb04af0ec",                       
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71ba3501cd170c96349c342c5ef4242c596b58afaecdcffc0bb04af0ec",
                     "scriptHash": "ba3501cd170c96349c342c5ef4242c596b58afaecdcffc0bb04af0ec",
                     "contractAddress": "addr1wxar2qwdzuxfvdyuxsk9aapy93vkkk904mxullqtkp90pmqh0xrmz"
                 }
             ]
-        },         
+        },
         {
             "id": "dF96KY",
-            "name": "staking 2",            
+            "name": "staking 2",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1, 
-	            "fullScriptHash": "7130e02ff8576298babd301cee58928d7b320364abeae556c46e3cf42d",                      
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7130e02ff8576298babd301cee58928d7b320364abeae556c46e3cf42d",
                     "scriptHash": "30e02ff8576298babd301cee58928d7b320364abeae556c46e3cf42d",
                     "contractAddress": "addr1wycwqtlc2a3f3w4axqwwukyj34anyqmy404w24kydc70gtg5w4elq"
                 }
             ]
         },
         {
-            "id": "lXQeog",             
+            "id": "lXQeog",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1, 
-	            "fullScriptHash": "71d5910c330ed47f23f0cc86132332bd081f193220e302f6c180acb3a2",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71d5910c330ed47f23f0cc86132332bd081f193220e302f6c180acb3a2",
                     "scriptHash": "d5910c330ed47f23f0cc86132332bd081f193220e302f6c180acb3a2",
                     "contractAddress": "addr1w82ezrpnpm287glsejrpxgejh5yp7xfjyr3s9akpszkt8gssyea0e"
                 }
             ]
         },
         {
-            "id": "cGtCMf",             
+            "id": "cGtCMf",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1, 
-	            "fullScriptHash": "710397b7b0f2fa064645785c2131fa7dd0a3a160ce603a3a30bff2df49",                    
+                    "plutusVersion": 1,
+                    "fullScriptHash": "710397b7b0f2fa064645785c2131fa7dd0a3a160ce603a3a30bff2df49",
                     "scriptHash": "0397b7b0f2fa064645785c2131fa7dd0a3a160ce603a3a30bff2df49",
                     "contractAddress": "addr1wype0das7taqv3j90pwzzv060hg28gtqeesr5w3shled7jguelvrg"
                 }
             ]
         },
         {
-            "id": "PU5HUW",    
-            "name": "Token Migration 1", 		
+            "id": "PU5HUW",
+            "name": "Token Migration 1",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 2, 
-	            "fullScriptHash": "71d612be7ab0bdbd3d728b922e422da843de33ee71bd13c19e78b32080",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71d612be7ab0bdbd3d728b922e422da843de33ee71bd13c19e78b32080",
                     "scriptHash": "d612be7ab0bdbd3d728b922e422da843de33ee71bd13c19e78b32080",
                     "contractAddress": "addr1w8tp90n6kz7m60tj3wfzus3d4ppauvlwwx738sv70zejpqqvnnz7x"
                 }
             ]
         },
         {
-            "id": "6Ww81v",    
-            "name": "Token Migration 2", 		
+            "id": "6Ww81v",
+            "name": "Token Migration 2",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 2, 
-	            "fullScriptHash": "715ae1a14e032b8583037304500163b72fb638a507447cbc00c6e6e2da",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "715ae1a14e032b8583037304500163b72fb638a507447cbc00c6e6e2da",
                     "scriptHash": "5ae1a14e032b8583037304500163b72fb638a507447cbc00c6e6e2da",
                     "contractAddress": "addr1w9dwrg2wqv4ctqcrwvz9qqtrkuhmvw99qaz8e0qqcmnw9ksu9mxcm"
                 }
             ]
         },
         {
-            "id": "pyO15z",    	
+            "id": "pyO15z",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 2, 
-	            "fullScriptHash": "7118c91bdff54ad8f4d3618818f36b99e401caa7eab153b42f51311cb0",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7118c91bdff54ad8f4d3618818f36b99e401caa7eab153b42f51311cb0",
                     "scriptHash": "18c91bdff54ad8f4d3618818f36b99e401caa7eab153b42f51311cb0",
                     "contractAddress": "addr1wyvvjx7l749d3axnvxyp3umtn8jqrj48a2c48dp02yc3evqzypx02"
                 }
             ]
-        }		    
+        }
     ]
 }

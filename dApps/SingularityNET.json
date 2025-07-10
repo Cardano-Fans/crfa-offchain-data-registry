@@ -3,11 +3,10 @@
     "projectName": "SingularityNET",
     "link": "https://singularitynet.io",
     "twitter": "https://twitter.com/singularity_net",
-    "category": "MARKETPLACE",   
+    "category": "MARKETPLACE",
     "description": {
-                   "short": "SingularityNET is the world’s leading decentralised AI marketplace, running on the Cardano blockchain"
-    },		
-
+        "short": "SingularityNET is the world’s leading decentralised AI marketplace, running on the Cardano blockchain"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -28,7 +27,7 @@
                 {
                     "id": "tB8eRH",
                     "version": 2
-                }		    
+                }
             ]
         }
     ],
@@ -40,7 +39,7 @@
             "versions": [
                 {
                     "mintPolicyID": "f43a62fdc3965df486de8a0d32fe800963589c41b38946602a0dc535",
- 		    "plutusVersion": 1,                  
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
@@ -52,32 +51,32 @@
             "versions": [
                 {
                     "mintPolicyID": "edfd7a1d77bcb8b884c474bdc92a16002d1fb720e454fa6e99344479",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
         },
         {
             "id": "tB8eRH",
-            "name": "AGIX staking",		
+            "name": "AGIX staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "7180cac682cc252515e96b3cd8e2c235f5a0b4c1e24b7345193269ae69",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7180cac682cc252515e96b3cd8e2c235f5a0b4c1e24b7345193269ae69",
                     "scriptHash": "80cac682cc252515e96b3cd8e2c235f5a0b4c1e24b7345193269ae69",
                     "contractAddress": "addr1wxqv435zesjj290fdv7d3ckzxh66pdxpuf9hx3gexf56u6gegh8zj"
                 },
                 {
                     "version": 2,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "7148886999b2be126f37f53443590a5107ad2455d58f5c7ef7b0af438c",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7148886999b2be126f37f53443590a5107ad2455d58f5c7ef7b0af438c",
                     "scriptHash": "48886999b2be126f37f53443590a5107ad2455d58f5c7ef7b0af438c",
                     "contractAddress": "addr1w9ygs6vek2lpymeh756yxkg22yr66fz46k84clhhkzh58rqs3hhhk"
-                }		    
+                }
             ]
-        }	    
+        }
     ]
 }

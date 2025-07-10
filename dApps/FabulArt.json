@@ -6,9 +6,8 @@
     "category": "MARKETPLACE",
     "subCategory": "NFT",
     "description": {
-                   "short": "Luxury 3D NFTs marketplace. One of a kind."
-    },	
-	
+        "short": "Luxury 3D NFTs marketplace. One of a kind."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -18,29 +17,28 @@
                     "id": "mIZP7S",
                     "version": 1
                 }
-            ]           
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "mIZP7S",
             "name": "Roleggs",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71afdc19a6caa1824900902675a8d843f094472e2fa6cc7c9f355da97a",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71afdc19a6caa1824900902675a8d843f094472e2fa6cc7c9f355da97a",
                     "scriptHash": "afdc19a6caa1824900902675a8d843f094472e2fa6cc7c9f355da97a",
                     "contractAddress": "addr1wxhacxdxe2scyjgqjqn8t2xcg0cfg3ew97nvclylx4w6j7scttez7"
-                }    
+                }
             ]
         }
     ]

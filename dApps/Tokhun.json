@@ -4,11 +4,10 @@
     "link": "https://tokhun.io",
     "twitter": "https://twitter.com/Tokhun_io",
     "category": "MARKETPLACE",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",
     "description": {
-                   "short": "An NFT Marketplace built on the Cardano blockchain, established in March 2021"
-    },	
-	
+        "short": "An NFT Marketplace built on the Cardano blockchain, established in March 2021"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,7 +20,6 @@
             ]
         }
     ],
-
     "scripts": [
         {
             "id": "c4eB7F",
@@ -29,11 +27,11 @@
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "713f44f789aeeabb8059f56cc358f94e2559f81233df464624d865ee3a",                    
+                    "plutusVersion": 1,
+                    "fullScriptHash": "713f44f789aeeabb8059f56cc358f94e2559f81233df464624d865ee3a",
                     "scriptHash": "3f44f789aeeabb8059f56cc358f94e2559f81233df464624d865ee3a",
                     "contractAddress": "addr1wyl5fauf4m4thqze74kvxk8efcj4n7qjx005v33ympj7uwsscprfk"
-                }    
+                }
             ]
         }
     ]

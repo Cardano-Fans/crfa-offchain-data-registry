@@ -5,9 +5,8 @@
     "twitter": "https://twitter.com/DripDropz_io",
     "category": "TOKEN_DISTRIBUTION",
     "description": {
-                   "short": "Token dispensing services to the Cardano community"
+        "short": "Token dispensing services to the Cardano community"
     },
-	
     "releases": [
         {
             "releaseNumber": 1,
@@ -16,31 +15,29 @@
                 {
                     "id": "tqzeyL",
                     "version": 1
-                }              
-            ]           
+                }
+            ]
         }
     ],
-  
-   "contracts":[
-      {
-         "openSource":false
-      }
-   ],
-
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],
     "scripts": [
         {
             "id": "tqzeyL",
-            "name":"DripDropz Token Claiming",          
+            "name": "DripDropz Token Claiming",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "61c232edd30746e3bce85ffecdfcccb79f79c043e5a590260b19565453",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "61c232edd30746e3bce85ffecdfcccb79f79c043e5a590260b19565453",
                     "scriptHash": "c232edd30746e3bce85ffecdfcccb79f79c043e5a590260b19565453",
                     "contractAddress": "addr1v8pr9mwnqarw808gtllvmlxvk70hnszrukjeqfstr9t9g5crud8c4"
-                }    
+                }
             ]
-        }      
+        }
     ]
 }

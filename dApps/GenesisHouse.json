@@ -4,11 +4,10 @@
     "link": "https://www.genesishouse.io",
     "twitter": "https://twitter.com/GenesisHouseIO",
     "category": "MARKETPLACE",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",
     "description": {
-                   "short": "A Cardano NFT Marketplace with Smart Contracts"
-    },	
-
+        "short": "A Cardano NFT Marketplace with Smart Contracts"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -39,7 +38,7 @@
                     "version": 3
                 }
             ],
-        "contractId": "Vr4Y"            
+            "contractId": "Vr4Y"
         },
         {
             "releaseNumber": 4,
@@ -54,12 +53,11 @@
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/Canonical-LLC/Genesis-Auction-House",
-         "contractId": "Vr4Y"
+            "openSource": true,
+            "contractLink": "https://github.com/Canonical-LLC/Genesis-Auction-House",
+            "contractId": "Vr4Y"
         }
-    ],    
-
+    ],
     "scripts": [
         {
             "id": "bYINU9",
@@ -67,29 +65,29 @@
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71cb40e79f9719a8cccfecce30f77461f456b492e5307231e66157c925",                      
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71cb40e79f9719a8cccfecce30f77461f456b492e5307231e66157c925",
                     "scriptHash": "cb40e79f9719a8cccfecce30f77461f456b492e5307231e66157c925",
                     "contractAddress": "addr1w895peuljuv63nx0an8rpam5v869ddyju5c8yv0xv9tujfg706num"
-                },    
+                },
                 {
                     "version": 2,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71fe762a90c4e7a3c2810f5b4e2b37f96f049c25a9172044e86f23f44e",                      
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71fe762a90c4e7a3c2810f5b4e2b37f96f049c25a9172044e86f23f44e",
                     "scriptHash": "fe762a90c4e7a3c2810f5b4e2b37f96f049c25a9172044e86f23f44e",
                     "contractAddress": "addr1w8l8v25scnn68s5ppad5u2ehl9hsf8p94ytjq38gdu3lgnscg4pa8"
                 },
                 {
                     "version": 3,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "7185a51b82cf24be7053565d6189dbda829f16c9c1ebf1ce506965d54a",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7185a51b82cf24be7053565d6189dbda829f16c9c1ebf1ce506965d54a",
                     "scriptHash": "85a51b82cf24be7053565d6189dbda829f16c9c1ebf1ce506965d54a",
                     "contractAddress": "addr1wxz62xuzeujtuuzn2ewkrzwmm2pf79kfc84lrnjsd9ja2jscv3gy0"
                 },
                 {
                     "version": 4,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71ddfe3afc2489187680a006800475d7781341793ab1432bf7fefb37bf",                    
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71ddfe3afc2489187680a006800475d7781341793ab1432bf7fefb37bf",
                     "scriptHash": "ddfe3afc2489187680a006800475d7781341793ab1432bf7fefb37bf",
                     "contractAddress": "addr1w8wluwhuyjy3sa5q5qrgqpr46aupxste82c5x2lhlman00c8yu5p2"
                 }

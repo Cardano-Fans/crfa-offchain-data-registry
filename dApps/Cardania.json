@@ -5,9 +5,8 @@
     "twitter": "https://twitter.com/cardania_HQ",
     "category": "GAMING",
     "description": {
-                   "short": "Cardania is a multi-game ecosystem in development on Cardano blockchain"
-    },	
-	
+        "short": "Cardania is a multi-game ecosystem in development on Cardano blockchain"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -56,170 +55,169 @@
                 {
                     "id": "yXicHh",
                     "version": 1
-                }		    
-            ]         
+                }
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "9lmYAr",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "710791485f4764194651dbbe75423117b77cd3bdf6aa64300a1881fb0e",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "710791485f4764194651dbbe75423117b77cd3bdf6aa64300a1881fb0e",
                     "scriptHash": "0791485f4764194651dbbe75423117b77cd3bdf6aa64300a1881fb0e",
                     "contractAddress": "addr1wyrezjzlgajpj3j3mwl82s33z7mhe5aa764xgvq2rzqlkrs8mrxfa"
-                }    
+                }
             ]
         },
         {
             "id": "Y894hx",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71e9f3f13b3d896b52462f7a65ee13626007148c1e0319f4adc59081b8",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71e9f3f13b3d896b52462f7a65ee13626007148c1e0319f4adc59081b8",
                     "scriptHash": "e9f3f13b3d896b52462f7a65ee13626007148c1e0319f4adc59081b8",
                     "contractAddress": "addr1w85l8ufm8kykk5jx9aaxtmsnvfsqw9yvrcp3na9dckggrwq2gjvjd"
-                }    
+                }
             ]
         },
         {
             "id": "INUstP",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71cd97e58d1cdc1515dae994dd60e62220450f85a141e67366c000891c",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71cd97e58d1cdc1515dae994dd60e62220450f85a141e67366c000891c",
                     "scriptHash": "cd97e58d1cdc1515dae994dd60e62220450f85a141e67366c000891c",
                     "contractAddress": "addr1w8xe0evdrnwp29w6ax2d6c8xygsy2ru959q7vumxcqqgj8qn4a8kd"
-                }    
+                }
             ]
         },
         {
             "id": "qw22WA",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "7151dfd3a3c71127cb1cea8225f701caae12489d343fbc89a388a21a9b",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "7151dfd3a3c71127cb1cea8225f701caae12489d343fbc89a388a21a9b",
                     "scriptHash": "51dfd3a3c71127cb1cea8225f701caae12489d343fbc89a388a21a9b",
                     "contractAddress": "addr1w9gal5arcugj0jcua2pztacpe2hpyjyaxslmezdr3z3p4xcn7a29y"
-                }    
+                }
             ]
         },
         {
             "id": "cce2nq",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71fa238b80d50b9a92484ef5c4e5ecde892810bb2d107fcd8dd68f5fbc",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71fa238b80d50b9a92484ef5c4e5ecde892810bb2d107fcd8dd68f5fbc",
                     "scriptHash": "fa238b80d50b9a92484ef5c4e5ecde892810bb2d107fcd8dd68f5fbc",
                     "contractAddress": "addr1w8az8zuq659e4yjgfm6ufe0vm6yjsy9m95g8lnvd6684l0qttz6c8"
-                }    
+                }
             ]
         },
         {
             "id": "K3LKri",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "710b9e2caefe4e0cf4eabb1753ea6c35e1005f5f581f133d4fe349dd88",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "710b9e2caefe4e0cf4eabb1753ea6c35e1005f5f581f133d4fe349dd88",
                     "scriptHash": "0b9e2caefe4e0cf4eabb1753ea6c35e1005f5f581f133d4fe349dd88",
                     "contractAddress": "addr1wy9eut9wle8qea82hvt486nvxhssqh6ltq03x020udyamzq40p88l"
-                }    
+                }
             ]
         },
         {
             "id": "L6GX51",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71a13970b1c7b7caa76b3106f83f69d1f8aafc8e28518b4c1272e5415a",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a13970b1c7b7caa76b3106f83f69d1f8aafc8e28518b4c1272e5415a",
                     "scriptHash": "a13970b1c7b7caa76b3106f83f69d1f8aafc8e28518b4c1272e5415a",
                     "contractAddress": "addr1wxsnju93c7mu4fmtxyr0s0mf68u24lyw9pgcknqjwtj5zksytu9q3"
-                }    
+                }
             ]
         },
         {
             "id": "oLqV5t",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71a6a9b8976dac4b0aedd003e29c964c31741b0b29f0d97c0d5e0a5ea1",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a6a9b8976dac4b0aedd003e29c964c31741b0b29f0d97c0d5e0a5ea1",
                     "scriptHash": "a6a9b8976dac4b0aedd003e29c964c31741b0b29f0d97c0d5e0a5ea1",
                     "contractAddress": "addr1wxn2nwyhdkkykzhd6qp798ykfschgxct98cdjlqdtc99aggh8agvc"
-                }    
+                }
             ]
         },
         {
             "id": "atJfgf",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "717a9e359fae1633451e3462c11e7e6ce8efed56813e802d7b0853b576",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "717a9e359fae1633451e3462c11e7e6ce8efed56813e802d7b0853b576",
                     "scriptHash": "7a9e359fae1633451e3462c11e7e6ce8efed56813e802d7b0853b576",
                     "contractAddress": "addr1w9afudvl4ctrx3g7x33vz8n7dn5wlm2ksylgqttmppfm2as7y29ds"
-                }    
+                }
             ]
         },
         {
             "id": "1bNZBL",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "710bde1af1e5584af8cc3c85e8eb7b0edc63ba64ea2be3c278a77fe5f5",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "710bde1af1e5584af8cc3c85e8eb7b0edc63ba64ea2be3c278a77fe5f5",
                     "scriptHash": "0bde1af1e5584af8cc3c85e8eb7b0edc63ba64ea2be3c278a77fe5f5",
                     "contractAddress": "addr1wy9auxh3u4vy47xv8jz736mmpmwx8wnyag478snc5al7tagqwsxac"
-                }    
+                }
             ]
         },
         {
             "id": "yXicHh",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71af37a656d60f99157e5d50cc419a9ec6103121ac85a447672e2f66a5",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71af37a656d60f99157e5d50cc419a9ec6103121ac85a447672e2f66a5",
                     "scriptHash": "af37a656d60f99157e5d50cc419a9ec6103121ac85a447672e2f66a5",
                     "contractAddress": "addr1wxhn0fjk6c8ej9t7t4gvcsv6nmrpqvfp4jz6g3m89chkdfgjrnlp9"
-                }    
+                }
             ]
-        }	    
+        }
     ]
 }

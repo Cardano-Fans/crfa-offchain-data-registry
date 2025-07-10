@@ -6,9 +6,8 @@
     "category": "MARKETPLACE",
     "subCategory": "NFT",
     "description": {
-                   "short": "An Artist-first platform, making Web3 accessible to indie artists"
-    },	
-
+        "short": "An Artist-first platform, making Web3 accessible to indie artists"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -25,7 +24,7 @@
                 {
                     "id": "lkbfza",
                     "version": 2
-                },		    
+                },
                 {
                     "id": "jFJFTn",
                     "version": 1
@@ -37,103 +36,103 @@
                 {
                     "id": "pHDZgP",
                     "version": 1
-                }		    
+                }
             ],
-         "contractId": "wV5p"          
+            "contractId": "wV5p"
         }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/kreate-community/kreate-protocol",
-         "contractId": "wV5p"
+            "openSource": true,
+            "contractLink": "https://github.com/kreate-community/kreate-protocol",
+            "contractId": "wV5p"
         }
     ],
     "scripts": [
         {
             "id": "gZzToQ",
-	    "name": "Marketplace",
+            "name": "Marketplace",
             "purpose": "SPEND",
-	    "type": "PLUTUS",	
-            "contractLang": "HELIOS",		
+            "type": "PLUTUS",
+            "contractLang": "HELIOS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71b9650b4852014da86328f9720229a6e660a53bc0660204cbe88cbc46",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71b9650b4852014da86328f9720229a6e660a53bc0660204cbe88cbc46",
                     "scriptHash": "b9650b4852014da86328f9720229a6e660a53bc0660204cbe88cbc46",
                     "contractAddress": "addr1wxuk2z6g2gq5m2rr9ruhyq3f5mnxpffmcpnqypxtazxtc3sq24p4k"
-                }    
+                }
             ]
         },
         {
             "id": "lkbfza",
-	    "name": "Offer/Reservation",
+            "name": "Offer/Reservation",
             "purpose": "SPEND",
-	    "type": "PLUTUS",	
-            "contractLang": "HELIOS",		
+            "type": "PLUTUS",
+            "contractLang": "HELIOS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "7176226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7176226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",
                     "scriptHash": "76226b1f3598260c192463575c8f7978ee5dd7ebcae3a7fba6987660",
                     "contractAddress": "addr1w9mzy6clxkvzvrqey334why009uwuhwha09w8flm56v8vcqnxgpqr"
                 },
                 {
                     "version": 2,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "110042bfae9b1a2e2bfce3b97320e0aa9c4e5c4425ed12f82319cb9ce6c4e1728a5f054404d82d78999cf5441852056452cb3a0537535c1be3",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "110042bfae9b1a2e2bfce3b97320e0aa9c4e5c4425ed12f82319cb9ce6c4e1728a5f054404d82d78999cf5441852056452cb3a0537535c1be3",
                     "scriptHash": "0042bfae9b1a2e2bfce3b97320e0aa9c4e5c4425ed12f82319cb9ce6c4e1728a5f054404d82d78999cf5441852056452cb3a0537535c1be3",
                     "contractAddress": "addr1zyqy90awnvdzu2luuwuhxg8q42wyuhzyyhk397prr89eeekyu9eg5hc9gszdsttcnxw023qc2gzkg5kt8gznw56ur03syekwfv"
-                }		    
+                }
             ]
         },
         {
             "id": "jFJFTn",
             "purpose": "SPEND",
-	    "type": "PLUTUS",	
-            "contractLang": "HELIOS",		
+            "type": "PLUTUS",
+            "contractLang": "HELIOS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "719464a57b5f92a6089488abfc7137baf301d0dd3456bdeebb6dbcf77f",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "719464a57b5f92a6089488abfc7137baf301d0dd3456bdeebb6dbcf77f",
                     "scriptHash": "9464a57b5f92a6089488abfc7137baf301d0dd3456bdeebb6dbcf77f",
                     "contractAddress": "addr1wx2xfftmt7f2vzy53z4lcufhhtesr5xax3ttmm4mdk70wlc03t45m"
-                }    
+                }
             ]
         },
         {
             "id": "4eU20z",
             "purpose": "SPEND",
-	    "type": "PLUTUS",	
-            "contractLang": "HELIOS",		
+            "type": "PLUTUS",
+            "contractLang": "HELIOS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "715ac9275012864fe0b78524d06ed930657ba81acdc2ccb5e49597f61c",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "715ac9275012864fe0b78524d06ed930657ba81acdc2ccb5e49597f61c",
                     "scriptHash": "5ac9275012864fe0b78524d06ed930657ba81acdc2ccb5e49597f61c",
                     "contractAddress": "addr1w9dvjf6sz2rylc9hs5jdqmkexpjhh2q6ehpved0yjktlv8qut6xdl"
-                }    
+                }
             ]
         },
         {
             "id": "pHDZgP",
-	    "name": "Auction",		
+            "name": "Auction",
             "purpose": "SPEND",
-	    "type": "PLUTUS",	
-            "contractLang": "HELIOS",		
+            "type": "PLUTUS",
+            "contractLang": "HELIOS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "710deb8864bfdb490d445d2fb10169d5e53861c319be9ff4903008bd9c",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "710deb8864bfdb490d445d2fb10169d5e53861c319be9ff4903008bd9c",
                     "scriptHash": "0deb8864bfdb490d445d2fb10169d5e53861c319be9ff4903008bd9c",
                     "contractAddress": "addr1wyx7hzryhld5jr2yt5hmzqtf6hjnscwrrxlflaysxqytm8qewq3tu"
-                }    
+                }
             ]
-        }	    
+        }
     ]
 }

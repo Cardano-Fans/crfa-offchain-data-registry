@@ -6,9 +6,8 @@
     "category": "MARKETPLACE",
     "subCategory": "NFT",
     "description": {
-                   "short": "Dropspot is a launchpad for creators, a marketplace for Cardano NFTs."
-    },	
-	
+        "short": "Dropspot is a launchpad for creators, a marketplace for Cardano NFTs."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -30,18 +29,18 @@
                     "id": "pfzYz9",
                     "version": 1
                 },
-	        {
+                {
                     "id": "R293gM",
                     "version": 1
                 },
-	        {
+                {
                     "id": "SkxzLD",
                     "version": 1
                 },
-	        {
+                {
                     "id": "IKi5Tw",
                     "version": 1
-                },		    
+                },
                 {
                     "id": "dvNmKv",
                     "version": 1
@@ -61,156 +60,155 @@
                 {
                     "id": "dvNmKv",
                     "version": 5
-                }              
-            ]            
+                }
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "FQu5xB",
             "name": "Creator Launchpad",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "11eab81577e56287d177d1d6788ee916c688af62c164de2d27648280d11e6623489105d246acbcca88fc537457fb3545ffb7a967e220364acb",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11eab81577e56287d177d1d6788ee916c688af62c164de2d27648280d11e6623489105d246acbcca88fc537457fb3545ffb7a967e220364acb",
                     "scriptHash": "eab81577e56287d177d1d6788ee916c688af62c164de2d27648280d11e6623489105d246acbcca88fc537457fb3545ffb7a967e220364acb",
                     "contractAddress": "addr1z84ts9thu43g05th68t83rhfzmrg3tmzc9jdutf8vjpgp5g7vc353yg96fr2e0x23r79xazhlv65tlah49n7ygpkft9s9jra5a"
                 },
                 {
                     "version": 2,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "11eab81577e56287d177d1d6788ee916c688af62c164de2d27648280d1128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11eab81577e56287d177d1d6788ee916c688af62c164de2d27648280d1128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "scriptHash": "eab81577e56287d177d1d6788ee916c688af62c164de2d27648280d1128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "contractAddress": "addr1z84ts9thu43g05th68t83rhfzmrg3tmzc9jdutf8vjpgp5gj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eqswat9v"
-                }              
+                }
             ]
         },
         {
             "id": "zST2Qw",
             "name": "Listing and selling",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "11e36566f137c1d46638e717912e5fe0be15b5b7c6e4a464d1298e6cf7128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11e36566f137c1d46638e717912e5fe0be15b5b7c6e4a464d1298e6cf7128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "scriptHash": "e36566f137c1d46638e717912e5fe0be15b5b7c6e4a464d1298e6cf7128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "contractAddress": "addr1z83k2eh3xlqage3cuuteztjluzlptddhcmj2gex39x8xeacj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eq5werre"
-                }             
+                }
             ]
         },
         {
             "id": "pfzYz9",
             "name": "Marketplace contract / Sale",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "11136d226fc0698dca55fbdae907d04d3e89dfccb914b5cc08b779c79f128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11136d226fc0698dca55fbdae907d04d3e89dfccb914b5cc08b779c79f128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "scriptHash": "136d226fc0698dca55fbdae907d04d3e89dfccb914b5cc08b779c79f128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "contractAddress": "addr1zyfk6gn0cp5cmjj4l0dwjp7sf5lgnh7vhy2ttnqgkauu08cj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eqtd4xj3"
-                }             
+                }
             ]
         },
         {
             "id": "R293gM",
             "name": "She Devils Mint Control Contract",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "112e7d8e3479f5fe926b6e72ec0527667962154d1f5e09147e989478d1128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "112e7d8e3479f5fe926b6e72ec0527667962154d1f5e09147e989478d1128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "scriptHash": "2e7d8e3479f5fe926b6e72ec0527667962154d1f5e09147e989478d1128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "contractAddress": "addr1zyh8mr35086layntdeewcpf8veuky92dra0qj9r7nz2835gj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eqjrrcsj"
-                }             
+                }
             ]
-        },	
+        },
         {
             "id": "SkxzLD",
             "name": "She Devils Mint Reserve Contract",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "115f8ebaa9329deb1f7482d7cd91bf42c8127ec9f9b15b682e93ce8b96128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "115f8ebaa9329deb1f7482d7cd91bf42c8127ec9f9b15b682e93ce8b96128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "scriptHash": "5f8ebaa9329deb1f7482d7cd91bf42c8127ec9f9b15b682e93ce8b96128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "contractAddress": "addr1z90caw4fx2w7k8m5sttumydlgtypylkflxc4k6pwj08gh9sj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eqgtedy8"
-                }             
+                }
             ]
         },
         {
             "id": "IKi5Tw",
             "name": "QRdano Mint Contract",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "1173fd659b865deaecd52b71c21f39cde3aae42036b7d07f0daca3fb92128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "1173fd659b865deaecd52b71c21f39cde3aae42036b7d07f0daca3fb92128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "scriptHash": "73fd659b865deaecd52b71c21f39cde3aae42036b7d07f0daca3fb92128a643cb2f5ed42bac01b57e187f5901e45fe60318bf5da2fc243f2",
                     "contractAddress": "addr1z9el6evmsew74mx49dcuy8eeeh364epqx6maqlcd4j3lhysj3fjrevh4a4pt4sqm2lsc0avsrezlucp3306a5t7zg0eq593lxs"
-                }             
+                }
             ]
-        },	    
+        },
         {
             "id": "dvNmKv",
             "name": "validator",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3f75b9ead15e3e4922e92702344ba2adba669249d7a196214deca9e8fb",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3f75b9ead15e3e4922e92702344ba2adba669249d7a196214deca9e8fb",
                     "scriptHash": "5843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3f75b9ead15e3e4922e92702344ba2adba669249d7a196214deca9e8fb",
                     "contractAddress": "addr1z9vy8mx0j7d9p4nwkrzwwy9arsjskgj2rlqhlxw22xkzc0m4h84dzh37fy3wjfczx3969td6v6fyn4apjcs5mm9farasgel63w"
                 },
                 {
                     "version": 2,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fa73c3be81582ab9a129ecb4b5a00970829746e731e6dfe69c8b5eb67",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fa73c3be81582ab9a129ecb4b5a00970829746e731e6dfe69c8b5eb67",
                     "scriptHash": "5843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fa73c3be81582ab9a129ecb4b5a00970829746e731e6dfe69c8b5eb67",
                     "contractAddress": "addr1z9vy8mx0j7d9p4nwkrzwwy9arsjskgj2rlqhlxw22xkzc0a88sa7s9vz4wdp98ktfddqp9cg996xuuc7dhlxnj94adnsrwygwe"
                 },
                 {
                     "version": 3,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fa5083f33f34b0e7f2de755e5f80967ab3b9d992d42ca965e0bd92cc1",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fa5083f33f34b0e7f2de755e5f80967ab3b9d992d42ca965e0bd92cc1",
                     "scriptHash": "5843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fa5083f33f34b0e7f2de755e5f80967ab3b9d992d42ca965e0bd92cc1",
                     "contractAddress": "addr1z9vy8mx0j7d9p4nwkrzwwy9arsjskgj2rlqhlxw22xkzc0a9pqln8u6tpeljme64uhuqjeat8wwejt2ze2t9uz7e9nqsvgck6m"
                 },
                 {
                     "version": 4,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3f32eee335daa63ce5675569fdc3fee13eac5cac478484794eec5e6d49",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3f32eee335daa63ce5675569fdc3fee13eac5cac478484794eec5e6d49",
                     "scriptHash": "5843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3f32eee335daa63ce5675569fdc3fee13eac5cac478484794eec5e6d49",
                     "contractAddress": "addr1z9vy8mx0j7d9p4nwkrzwwy9arsjskgj2rlqhlxw22xkzc0ejam3ntk4x8njkw4tflhplacf743w2c3uys3u5amz7d4ysg3fqdf"
                 },
                 {
                     "version": 5,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fc259a40fbe18bb51c6ad3c8b0a1d4d256e34bb8b72bb7ee94c3addb3",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "115843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fc259a40fbe18bb51c6ad3c8b0a1d4d256e34bb8b72bb7ee94c3addb3",
                     "scriptHash": "5843eccf979a50d66eb0c4e710bd1c250b224a1fc17f99ca51ac2c3fc259a40fbe18bb51c6ad3c8b0a1d4d256e34bb8b72bb7ee94c3addb3",
                     "contractAddress": "addr1z9vy8mx0j7d9p4nwkrzwwy9arsjskgj2rlqhlxw22xkzc07ztxjql0schdgudtfu3v9p6nf9dc6thzmjhdlwjnp6mkesf4g5s8"
-                }              
+                }
             ]
-        }      
+        }
     ]
 }

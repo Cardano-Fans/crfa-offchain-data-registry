@@ -3,21 +3,20 @@
     "projectName": "Cerra",
     "link": "https://cerra.io",
     "twitter": "https://twitter.com/Cerra_io",
-    "category": "DEFI",    
-    "subCategory": "LENDING_BORROWING",    
+    "category": "DEFI",
+    "subCategory": "LENDING_BORROWING",
     "description": {
-                   "short": "Decentralized Profit-Sharing Finance Hub on Cardano"
+        "short": "Decentralized Profit-Sharing Finance Hub on Cardano"
     },
-	
     "releases": [
-          {
+        {
             "releaseNumber": 1,
             "releaseName": "V1",
             "scripts": [
                 {
                     "id": "Zz9tcN",
                     "version": 1
-                },	    
+                },
                 {
                     "id": "8W7d5B",
                     "version": 1
@@ -29,73 +28,72 @@
                 {
                     "id": "x5iLTP",
                     "version": 1
-                }              
+                }
             ],
-            "contractId": "T2Vw"            
-            }      
+            "contractId": "T2Vw"
+        }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/cerraio/lending-plutus",
-         "contractId": "T2Vw"
+            "openSource": true,
+            "contractLink": "https://github.com/cerraio/lending-plutus",
+            "contractId": "T2Vw"
         }
     ],
-
     "scripts": [
         {
-            "id": "Zz9tcN",   
+            "id": "Zz9tcN",
             "name": "Lending",
             "purpose": "SPEND",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
                     "plutusVersion": 2,
-	                  "fullScriptHash": "71c5e72e9fc8254c30a639fddaedcaa793a88b35beab80f1652e071f44",                        
+                    "fullScriptHash": "71c5e72e9fc8254c30a639fddaedcaa793a88b35beab80f1652e071f44",
                     "scriptHash": "c5e72e9fc8254c30a639fddaedcaa793a88b35beab80f1652e071f44",
                     "contractAddress": "addr1w8z7wt5leqj5cv9x887a4mw257f63ze4h64cput99cr373qfjgjwn"
-                }                
+                }
             ]
         },
         {
             "id": "8W7d5B",
             "name": "Borrower",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "7d199ae580c415d89825b1a12820235f90625ba843e99bfaebe9ec35",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
-                }	    
+                }
             ]
         },
         {
             "id": "wG6cPq",
             "name": "Factory",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "4f92ffbe81c57ce2ae2c46c862b0dec78a885220bec8e6d4d5a541d2",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
-                }	    
+                }
             ]
         },
         {
             "id": "x5iLTP",
             "name": "Lender",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "ba0b95b059c4ba8514db6bd24440eca4cc8330fd51356a27bcaeac2b",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
-                }	    
+                }
             ]
-        }      
-     ]
+        }
+    ]
 }

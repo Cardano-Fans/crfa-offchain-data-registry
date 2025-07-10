@@ -4,11 +4,10 @@
     "link": "https://pxlz.org",
     "twitter": "https://twitter.com/pxlzNFT",
     "category": "MARKETPLACE",
-    "subCategory": "NFT",    
+    "subCategory": "NFT",
     "description": {
-                   "short": "The first interactive NFT collectibles on the Cardano blockchain"
+        "short": "The first interactive NFT collectibles on the Cardano blockchain"
     },
-	
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,7 +20,7 @@
                 {
                     "id": "SZBEPt",
                     "version": 1
-                }		    
+                }
             ]
         }
     ],
@@ -29,36 +28,35 @@
         {
             "openSource": false
         }
-    ],		
-
+    ],
     "scripts": [
         {
             "id": "mnq9Lo",
-            "name": "Marketplace",		
+            "name": "Marketplace",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "11e7e8550ae1a8a3e2fa5923004662d53cfd62ed62496e4df7496c462c05533eaf1b6dc02ed6639a8abb43d109820c5ba8bd5fcfcb803750db",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "11e7e8550ae1a8a3e2fa5923004662d53cfd62ed62496e4df7496c462c05533eaf1b6dc02ed6639a8abb43d109820c5ba8bd5fcfcb803750db",
                     "scriptHash": "e7e8550ae1a8a3e2fa5923004662d53cfd62ed62496e4df7496c462c05533eaf1b6dc02ed6639a8abb43d109820c5ba8bd5fcfcb803750db",
                     "contractAddress": "addr1z8n7s4g2ux528ch6ty3sq3nz65706chdvfykun0hf9kyvtq92vl27xmdcqhdvcu632a585gfsgx9h29atl8uhqph2rdsgkfpn3"
-                }    
+                }
             ]
         },
         {
             "id": "SZBEPt",
-            "name": "LP Drive",		
+            "name": "LP Drive",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71ea73086b0cdd52808de03baca0a1c696900b41a3c78844e3b3cdfb72",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71ea73086b0cdd52808de03baca0a1c696900b41a3c78844e3b3cdfb72",
                     "scriptHash": "ea73086b0cdd52808de03baca0a1c696900b41a3c78844e3b3cdfb72",
                     "contractAddress": "addr1w848xzrtpnw49qyduqa6eg9pc6tfqz6p50rcs38rk0xlkusv5fapd"
-                }    
+                }
             ]
-        }	    
+        }
     ]
 }

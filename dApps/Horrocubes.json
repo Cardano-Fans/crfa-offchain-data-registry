@@ -4,11 +4,10 @@
     "link": "https://horrocubes.io",
     "twitter": "https://twitter.com/horrocubes",
     "category": "GAMING",
-    "subCategory": "NFT",   
+    "subCategory": "NFT",
     "description": {
-                   "short": "Horrocubes are essentially puzzle boxes that live in the Cardano blockchain"
+        "short": "Horrocubes are essentially puzzle boxes that live in the Cardano blockchain"
     },
-	
     "releases": [
         {
             "releaseNumber": 1,
@@ -29,17 +28,16 @@
                 {
                     "id": "X1exNa",
                     "version": 1
-                }                 
+                }
             ],
-        "contractId": "fIFg"    
+            "contractId": "fIFg"
         }
-    ],    
-    
+    ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/Horrocubes",
-         "contractId": "fIFg"
+            "openSource": true,
+            "contractLink": "https://github.com/Horrocubes",
+            "contractId": "fIFg"
         }
     ],
     "scripts": [
@@ -49,11 +47,11 @@
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71331824937dd4425f5469058058729997f8feda0218542a7aef62143c",                       
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71331824937dd4425f5469058058729997f8feda0218542a7aef62143c",
                     "scriptHash": "331824937dd4425f5469058058729997f8feda0218542a7aef62143c",
                     "contractAddress": "addr1wye3sfyn0h2yyh65dyzcqkrjnxtl3lk6qgv9g2n6aa3pg0qfjmdan"
-                }                
+                }
             ]
         },
         {
@@ -62,7 +60,7 @@
             "versions": [
                 {
                     "mintPolicyID": "160b85e53e25ef49272c421f04b702bc32184d102865fd1dc8815cde",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
@@ -74,7 +72,7 @@
             "versions": [
                 {
                     "mintPolicyID": "cd743f819701ba9123b4a17d587aaf1342d19fee896453c6ad9c3825",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
@@ -86,10 +84,10 @@
             "versions": [
                 {
                     "mintPolicyID": "e45605e3f7d131723422c67353a3d2e0cccc06192e2e92efab9c8deb",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
-        }          
+        }
     ]
 }

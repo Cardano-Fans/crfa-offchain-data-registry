@@ -6,9 +6,8 @@
     "category": "DEFI",
     "subCategory": "LENDING_BORROWING",
     "description": {
-                   "short": "CherryLend is an open-source, secure, and scalable lending and borrowing protocol on the Cardano blockchain."
-    },	
-	
+        "short": "CherryLend is an open-source, secure, and scalable lending and borrowing protocol on the Cardano blockchain."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -33,84 +32,83 @@
                 {
                     "id": "0Z5D6k",
                     "version": 1
-                }              
-            ]         
+                }
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "yAAsU2",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "113c23ea46ed5a44ffa988dc15d25f98dbdbd96a1d7d1f5ae9f5f8c28293c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "113c23ea46ed5a44ffa988dc15d25f98dbdbd96a1d7d1f5ae9f5f8c28293c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "scriptHash": "3c23ea46ed5a44ffa988dc15d25f98dbdbd96a1d7d1f5ae9f5f8c28293c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "contractAddress": "addr1zy7z86jxa4dyflaf3rwpt5jlnrdahkt2r4737khf7huv9q5nc4gwrvu5dcuccayqddwpx0l492czzxp7929792qv4grqnc0lf0"
-                }    
+                }
             ]
         },
         {
             "id": "js6V0i",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "11fd204603a061365182543c52931d748f5a4c9e6a9aaa7480f610473693c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11fd204603a061365182543c52931d748f5a4c9e6a9aaa7480f610473693c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "scriptHash": "fd204603a061365182543c52931d748f5a4c9e6a9aaa7480f610473693c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "contractAddress": "addr1z87jq3sr5psnv5vz2s799ycawj845ny7d2d25ayq7cgywd5nc4gwrvu5dcuccayqddwpx0l492czzxp7929792qv4grql4zqxt"
-                }    
+                }
             ]
         },
         {
             "id": "s3VQIt",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "11b02458b2a0b5e5cb391f864b89029ef421da4046defaed48313624cd93c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11b02458b2a0b5e5cb391f864b89029ef421da4046defaed48313624cd93c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "scriptHash": "b02458b2a0b5e5cb391f864b89029ef421da4046defaed48313624cd93c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "contractAddress": "addr1zxczgk9j5z67tjeer7ryhzgznm6zrkjqgm004m2gxymzfnvnc4gwrvu5dcuccayqddwpx0l492czzxp7929792qv4grq2d0zxe"
-                }    
+                }
             ]
         },
         {
             "id": "pJrTuF",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "1117f734b3620a0e49cb1a379c06b645f3f92a876950ee47d1c4cf9ca593c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "1117f734b3620a0e49cb1a379c06b645f3f92a876950ee47d1c4cf9ca593c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "scriptHash": "17f734b3620a0e49cb1a379c06b645f3f92a876950ee47d1c4cf9ca593c550e1b3946e398c74806b5c133ff52ab021183e2a8be2a80caa06",
                     "contractAddress": "addr1zytlwd9nvg9qujwtrgmecp4kghelj258d9gwu373cn8eefvnc4gwrvu5dcuccayqddwpx0l492czzxp7929792qv4grqp3aqvs"
-                }    
+                }
             ]
         },
         {
             "id": "0Z5D6k",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "2e221993d37997f1023ad2b207bf75ef0e206de840224c63e94bacc9",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }      
+        }
     ]
 }

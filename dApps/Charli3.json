@@ -3,14 +3,13 @@
     "projectName": "Charli3",
     "link": "https://charli3.io",
     "twitter": "https://twitter.com/Oraclecharli3",
-    "category": "DEFI",    
-    "subCategory": "ORACLE",    
+    "category": "DEFI",
+    "subCategory": "ORACLE",
     "description": {
-                   "short": "Charli3 is a decentralized Oracle designed from the ground up for the Cardano network"
+        "short": "Charli3 is a decentralized Oracle designed from the ground up for the Cardano network"
     },
-	
     "releases": [
-          {
+        {
             "releaseNumber": 1,
             "releaseName": "V1",
             "scripts": [
@@ -21,14 +20,14 @@
                 {
                     "id": "GNyMn8",
                     "version": 1
-                },		    
+                },
                 {
                     "id": "EUazXZ",
                     "version": 1
-                }		    
+                }
             ]
-            },      
-	    {
+        },
+        {
             "releaseNumber": 2,
             "releaseName": "V2",
             "scripts": [
@@ -59,11 +58,11 @@
                 {
                     "id": "GNyMn8",
                     "version": 8
-                },	
+                },
                 {
                     "id": "GNyMn8",
                     "version": 9
-                },	
+                },
                 {
                     "id": "GNyMn8",
                     "version": 10
@@ -71,11 +70,11 @@
                 {
                     "id": "GNyMn8",
                     "version": 11
-                },	
+                },
                 {
                     "id": "GNyMn8",
                     "version": 12
-                },		    
+                },
                 {
                     "id": "EUazXZ",
                     "version": 2
@@ -119,7 +118,7 @@
                 {
                     "id": "EUazXZ",
                     "version": 12
-                }		    
+                }
             ]
         }
     ],
@@ -127,183 +126,182 @@
         {
             "openSource": false
         }
-    ],	
-
+    ],
     "scripts": [
         {
             "id": "t5sNH6",
-            "name": "C3 Tubural",            
+            "name": "C3 Tubural",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
                     "plutusVersion": 1,
-	            "fullScriptHash": "71e24268acb75d8613becf77027b810028d17c776fbdb8ec97b0a69b8e",                        
+                    "fullScriptHash": "71e24268acb75d8613becf77027b810028d17c776fbdb8ec97b0a69b8e",
                     "scriptHash": "e24268acb75d8613becf77027b810028d17c776fbdb8ec97b0a69b8e",
                     "contractAddress": "addr1w83yy69vkawcvya7eamsy7upqq5dzlrhd77m3myhkznfhrszj6emw"
-                }                
+                }
             ]
         },
         {
             "id": "GNyMn8",
-            "name": "Oracle",             
+            "name": "Oracle",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
                     "plutusVersion": 1,
-	            "fullScriptHash": "71755a2328e135e2b584f47685e86cc54c4bc8269560f71a4b6ea0e637",                        
+                    "fullScriptHash": "71755a2328e135e2b584f47685e86cc54c4bc8269560f71a4b6ea0e637",
                     "scriptHash": "755a2328e135e2b584f47685e86cc54c4bc8269560f71a4b6ea0e637",
                     "contractAddress": "addr1w9645geguy679dvy73mgt6rvc4xyhjpxj4s0wxjtd6swvdc5dxgc3"
                 },
                 {
                     "version": 2,
                     "plutusVersion": 2,
-	            "fullScriptHash": "711a7c64521bd1849e693730558db5bc3d9c514f96eceb004471b5fa49",                        
+                    "fullScriptHash": "711a7c64521bd1849e693730558db5bc3d9c514f96eceb004471b5fa49",
                     "scriptHash": "1a7c64521bd1849e693730558db5bc3d9c514f96eceb004471b5fa49",
                     "contractAddress": "addr1wyd8cezjr0gcf8nfxuc9trd4hs7ec520jmkwkqzywx6l5jg0al0ya"
                 },
                 {
                     "version": 3,
                     "plutusVersion": 2,
-	            "fullScriptHash": "71687df05d58764c7d98c9602871e1276aa5f028b9695369f40f430865",                        
+                    "fullScriptHash": "71687df05d58764c7d98c9602871e1276aa5f028b9695369f40f430865",
                     "scriptHash": "687df05d58764c7d98c9602871e1276aa5f028b9695369f40f430865",
                     "contractAddress": "addr1w958muzatpmyclvce9szsu0pya42tupgh954x605papssegtpnpu3"
                 },
                 {
                     "version": 4,
                     "plutusVersion": 2,
-	            "fullScriptHash": "71af0e4d91894fb19a2576cf5884926c435985a1d392bc00ab59e4665c",                        
+                    "fullScriptHash": "71af0e4d91894fb19a2576cf5884926c435985a1d392bc00ab59e4665c",
                     "scriptHash": "af0e4d91894fb19a2576cf5884926c435985a1d392bc00ab59e4665c",
                     "contractAddress": "addr1wxhsunv3398mrx39wm843pyjd3p4npdp6wftcq9tt8jxvhqh5dja0"
                 },
                 {
                     "version": 5,
                     "plutusVersion": 2,
-	            "fullScriptHash": "715cab7558e66a4592f019e47447fee9445930486077574abed3429fb4",                        
+                    "fullScriptHash": "715cab7558e66a4592f019e47447fee9445930486077574abed3429fb4",
                     "scriptHash": "5cab7558e66a4592f019e47447fee9445930486077574abed3429fb4",
                     "contractAddress": "addr1w9w2ka2cue4ytyhsr8j8g3l7a9z9jvzgvpm4wj476dpfldq2shdcx"
                 },
                 {
                     "version": 6,
                     "plutusVersion": 2,
-	            "fullScriptHash": "711869c28a5c1023a10c1deb30d112226cf45130b800a22d9c2afc1c9c",                        
+                    "fullScriptHash": "711869c28a5c1023a10c1deb30d112226cf45130b800a22d9c2afc1c9c",
                     "scriptHash": "1869c28a5c1023a10c1deb30d112226cf45130b800a22d9c2afc1c9c",
                     "contractAddress": "addr1wyvxns52tsgz8ggvrh4np5gjyfk0g5fshqq2ytvu9t7pe8qp3adw6"
                 },
                 {
                     "version": 7,
                     "plutusVersion": 2,
-	            "fullScriptHash": "71e647c49dc3cf8479304775c8333d4545d52deebed2293409f822ce50",                        
+                    "fullScriptHash": "71e647c49dc3cf8479304775c8333d4545d52deebed2293409f822ce50",
                     "scriptHash": "e647c49dc3cf8479304775c8333d4545d52deebed2293409f822ce50",
                     "contractAddress": "addr1w8ny03yac08cg7fsga6usveag4za2t0whmfzjdqflq3vu5qxarwzw"
                 },
                 {
                     "version": 8,
                     "plutusVersion": 2,
-	            "fullScriptHash": "710ce885f663dc693951104d0f5931b8d2c0e5ee656b2b39f9244d8192",                        
+                    "fullScriptHash": "710ce885f663dc693951104d0f5931b8d2c0e5ee656b2b39f9244d8192",
                     "scriptHash": "0ce885f663dc693951104d0f5931b8d2c0e5ee656b2b39f9244d8192",
                     "contractAddress": "addr1wyxw3p0kv0wxjw23zpxs7kf3hrfvpe0wv44jkw0ey3xcrysustx3f"
                 },
                 {
                     "version": 9,
                     "plutusVersion": 2,
-	            "fullScriptHash": "71712118c809009b34b747d43c781b11751982bbfabfa8aca2107722b2",                        
+                    "fullScriptHash": "71712118c809009b34b747d43c781b11751982bbfabfa8aca2107722b2",
                     "scriptHash": "712118c809009b34b747d43c781b11751982bbfabfa8aca2107722b2",
                     "contractAddress": "addr1w9cjzxxgpyqfkd9hgl2rc7qmz963nq4ml2l63t9zzpmj9vsf3pldw"
                 },
                 {
                     "version": 10,
                     "plutusVersion": 2,
-	            "fullScriptHash": "71363614aa3bd37dc0ec4b7b91c38fe15424a20f7a36d1044a4967aa5e",                        
+                    "fullScriptHash": "71363614aa3bd37dc0ec4b7b91c38fe15424a20f7a36d1044a4967aa5e",
                     "scriptHash": "363614aa3bd37dc0ec4b7b91c38fe15424a20f7a36d1044a4967aa5e",
                     "contractAddress": "addr1wymrv99280fhms8vfdaersu0u92zfgs00gmdzpz2f9n65hsyx9fuw"
                 },
                 {
                     "version": 11,
                     "plutusVersion": 2,
-	            "fullScriptHash": "715d8c5b94b0f7b9ebd60d0fdaa50e61039ded490c2d7a7da1088d1607",                        
+                    "fullScriptHash": "715d8c5b94b0f7b9ebd60d0fdaa50e61039ded490c2d7a7da1088d1607",
                     "scriptHash": "5d8c5b94b0f7b9ebd60d0fdaa50e61039ded490c2d7a7da1088d1607",
                     "contractAddress": "addr1w9wccku5krmmn67kp58a4fgwvypemm2fpskh5ldppzx3vpcdkck62"
                 },
                 {
                     "version": 12,
                     "plutusVersion": 2,
-	            "fullScriptHash": "71ecd8548af2a121a652727da169f86fd7b43b4b3b698b8895ba956c50",                        
+                    "fullScriptHash": "71ecd8548af2a121a652727da169f86fd7b43b4b3b698b8895ba956c50",
                     "scriptHash": "ecd8548af2a121a652727da169f86fd7b43b4b3b698b8895ba956c50",
                     "contractAddress": "addr1w8kds4y272sjrfjjwf76z60cdltmgw6t8d5chzy4h22kc5q6s7dkl"
-                }		    
+                }
             ]
         },
         {
             "id": "EUazXZ",
             "name": "Oracle Feed",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "adb6f28429c860672e877f15f505a39899c1cdef9c68b2081a172736",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 1
                 },
                 {
                     "mintPolicyID": "3d0d75aad1eb32f0ce78fb1ebc101b6b51de5d8f13c12daa88017624",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 2
                 },
                 {
                     "mintPolicyID": "30d7c4da385a1f5044261d27b6a22d46b645ca3567636df5edeb303d",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 3
                 },
                 {
                     "mintPolicyID": "e2ee3c439d71d22a77ccf019953459368b4d35e6184c115d67e1c735",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 4
                 },
                 {
                     "mintPolicyID": "a665bb42594646eaaed8ed59ada592fb8300775df916a4a5406ffa96",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 5
                 },
                 {
                     "mintPolicyID": "08c56c0fa73748a23c3bc1d9e6a60a4187416fc4ff8fe3475506990e",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 6
                 },
                 {
                     "mintPolicyID": "ba0b98665d9a18c04c50793768780dff7826e2bcff2ff0909b708fa0",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 7
                 },
                 {
                     "mintPolicyID": "de640fa36c56ca8eab2ff97dbeb5c3a297452fd133a1f77d7c9d3dbc",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 8
                 },
                 {
                     "mintPolicyID": "6167e3550a74ead031eaebe9ebddbf4d8fb9d9398568261d41bc9e97",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 9
                 },
                 {
                     "mintPolicyID": "aaff38a4fd17c66f66e0ac7d578d0ff30b2b1ec0d7638eb007db04cc",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 10
                 },
                 {
                     "mintPolicyID": "696e58d4453c525cb032a325ea8cde6499ff31ffdec05d3ca8dbaea0",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 11
                 },
                 {
                     "mintPolicyID": "8a78965350bbdd35adbacd748d51c4fb83952d8851f785e2eae05e15",
-		    "plutusVersion": 1,                    
+                    "plutusVersion": 1,
                     "version": 12
-                }		    
+                }
             ]
         }
-     ]
+    ]
 }

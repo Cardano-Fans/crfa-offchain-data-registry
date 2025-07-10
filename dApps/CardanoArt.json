@@ -3,12 +3,11 @@
     "projectName": "Cardano Art",
     "link": "https://cardano.art",
     "twitter": "https://twitter.com/CardanoArt",
-    "category": "COLLECTION",    
-    "subCategory": "NFT",   
+    "category": "COLLECTION",
+    "subCategory": "NFT",
     "description": {
-                   "short": "A creative and unique NFT collection"
-    },	
-
+        "short": "A creative and unique NFT collection"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,7 +20,7 @@
                 {
                     "id": "shgwuZ",
                     "version": 1
-                }                
+                }
             ]
         }
     ],
@@ -29,18 +28,17 @@
         {
             "openSource": false
         }
-    ],		
-
+    ],
     "scripts": [
         {
             "id": "b5VLuS",
             "name": "aw0k3n offspring",
             "purpose": "MINT",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "2b4ac45ffa2c8dca38354121bb581ce582819106c48920b4bcf3a109",
-		    "plutusVersion": 1,                     
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]
@@ -48,17 +46,17 @@
         {
             "id": "shgwuZ",
             "name": "aw0k3n breeding",
-            "purpose": "SPEND",   
-	    "type": "PLUTUS",			
+            "purpose": "SPEND",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71058da992164d8970320b8464088e6f0f2f702f2b7afe7847a760eb2f",                      
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71058da992164d8970320b8464088e6f0f2f702f2b7afe7847a760eb2f",
                     "scriptHash": "058da992164d8970320b8464088e6f0f2f702f2b7afe7847a760eb2f",
                     "contractAddress": "addr1wyzcm2vjzexcjupjpwzxgzywdu8j7up09da0u7z85aswktc4g3asp"
-                }    
+                }
             ]
-        }        
-     ]
+        }
+    ]
 }

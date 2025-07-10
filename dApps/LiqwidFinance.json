@@ -8,7 +8,6 @@
     "description": {
         "short": "Liqwid is a decentralized interest rate protocol for lending on Cardano blockchain"
     },
-
     "releases": [
         {
             "releaseNumber": 1,

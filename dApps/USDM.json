@@ -5,9 +5,8 @@
     "twitter": "https://twitter.com/MehenOfficial",
     "category": "STABLECOIN",
     "description": {
-                   "short": "Mehen is at the forefront of creating the USDM fiat-backed stablecoin, an essential tool for Cardano. USDM serves as a base asset for decentralized finance (DeFi) protocols and enables instant on-chain payments. Our vision is to be a scalable catalyst for the growth and adoption of the entire Cardano ecosystem."
-    },	
-	
+        "short": "Mehen is at the forefront of creating the USDM fiat-backed stablecoin, an essential tool for Cardano. USDM serves as a base asset for decentralized finance (DeFi) protocols and enables instant on-chain payments. Our vision is to be a scalable catalyst for the growth and adoption of the entire Cardano ecosystem."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -28,17 +27,17 @@
                 {
                     "id": "58GYwP",
                     "version": 1
-                }              
+                }
             ],
-        "auditId": "TWv8"            
+            "auditId": "TWv8"
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-      "audits": [
+    "audits": [
         {
             "auditId": "TWv8",
             "auditor": "SundaeSwap",
@@ -46,63 +45,62 @@
             "auditType": "MANUAL"
         }
     ],
-
     "scripts": [
         {
             "id": "FFwaFF",
-            "name": "control validator",          
+            "name": "control validator",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "716b3cb86f8aee9b5d754ba7aff3acea986297e833d52af0b00efe37c7",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "716b3cb86f8aee9b5d754ba7aff3acea986297e833d52af0b00efe37c7",
                     "scriptHash": "6b3cb86f8aee9b5d754ba7aff3acea986297e833d52af0b00efe37c7",
                     "contractAddress": "addr1w94newr03thfkht4fwn6luava2vx99lgx02j4u9spmlr03c266alt"
-                }    
+                }
             ]
         },
         {
             "id": "YVNh9m",
             "name": "token counter",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "e319d8e6629ff7991c8ae4f8aec2e0f10463ebdf29b57d26d34914f6",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
-                }		    
+                }
             ]
         },
         {
             "id": "oZzTFV",
             "name": "usdm minting policy",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "c48cbb3d5e57ed56e276bc45f99ab39abe94e6cd7ac39fb402da47ad",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
-                }		    
+                }
             ]
         },
         {
             "id": "58GYwP",
-            "name": "count validator",          
+            "name": "count validator",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "713e7530a023f5780a8fb800d23f9a338b76e5c4f2dd2edd19b29610fb",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "713e7530a023f5780a8fb800d23f9a338b76e5c4f2dd2edd19b29610fb",
                     "scriptHash": "3e7530a023f5780a8fb800d23f9a338b76e5c4f2dd2edd19b29610fb",
                     "contractAddress": "addr1wyl82v9qy06hsz50hqqdy0u6xw9hdewy7twjahgek2tpp7c0qajez"
-                }    
+                }
             ]
-        }      
+        }
     ]
 }

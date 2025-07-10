@@ -6,9 +6,8 @@
     "category": "COLLECTION",
     "subCategory": "NFT",
     "description": {
-                   "short": "Cardano Name Service (CNS) is a platform for social networking on the Cardano network, empowering users to create and manage secure social profiles on Cardano, with .ada domains acting as gateways to their social identity."
-    },	
-	
+        "short": "Cardano Name Service (CNS) is a platform for social networking on the Cardano network, empowering users to create and manage secure social profiles on Cardano, with .ada domains acting as gateways to their social identity."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,44 +20,43 @@
                 {
                     "id": "BtS4hi",
                     "version": 1
-                }              
-            ]         
+                }
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "2Req9s",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "113e6cc0d125a2c6461b9654cbf87b93d317bbf79d9af6bbba0b6ebcf4f9bfbb7dd42d080c67ef0f7337cd4deaa4b7fabd1e0a5af93d89d741",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "113e6cc0d125a2c6461b9654cbf87b93d317bbf79d9af6bbba0b6ebcf4f9bfbb7dd42d080c67ef0f7337cd4deaa4b7fabd1e0a5af93d89d741",
                     "scriptHash": "3e6cc0d125a2c6461b9654cbf87b93d317bbf79d9af6bbba0b6ebcf4f9bfbb7dd42d080c67ef0f7337cd4deaa4b7fabd1e0a5af93d89d741",
                     "contractAddress": "addr1zylxesx3yk3vv3smje2vh7rmj0f30wlhnkd0dwa6pdhtea8eh7ahm4pdpqxx0mc0wvmu6n025jml40g7pfd0j0vf6aqs8unfy2"
-                }    
+                }
             ]
         },
         {
             "id": "BtS4hi",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "11bcca2505b533eeedf3027b6d610ef4dcdc357b5beed1fdb9f3ee9e7bf9bfbb7dd42d080c67ef0f7337cd4deaa4b7fabd1e0a5af93d89d741",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "11bcca2505b533eeedf3027b6d610ef4dcdc357b5beed1fdb9f3ee9e7bf9bfbb7dd42d080c67ef0f7337cd4deaa4b7fabd1e0a5af93d89d741",
                     "scriptHash": "bcca2505b533eeedf3027b6d610ef4dcdc357b5beed1fdb9f3ee9e7bf9bfbb7dd42d080c67ef0f7337cd4deaa4b7fabd1e0a5af93d89d741",
                     "contractAddress": "addr1zx7v5fg9k5e7am0nqfak6cgw7nwdcdtmt0hdrlde70hfu7leh7ahm4pdpqxx0mc0wvmu6n025jml40g7pfd0j0vf6aqs9hz7rh"
-                }    
+                }
             ]
-        }      
+        }
     ]
 }

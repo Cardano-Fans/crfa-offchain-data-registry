@@ -4,11 +4,10 @@
     "link": "https://www.old-tales.com",
     "twitter": "https://twitter.com/oldtalesNFT",
     "category": "COLLECTION",
-    "subCategory": "NFT",  
+    "subCategory": "NFT",
     "description": {
-                   "short": "A complete 78 card Tarot deck, created over 18 months by a team of artists across the world"
-    },	
-
+        "short": "A complete 78 card Tarot deck, created over 18 months by a team of artists across the world"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -17,7 +16,7 @@
                 {
                     "id": "g5y1MZ",
                     "version": 1
-                }                
+                }
             ]
         }
     ],
@@ -25,22 +24,21 @@
         {
             "openSource": false
         }
-    ],  
-    
+    ],
     "scripts": [
         {
             "id": "g5y1MZ",
-            "name": "Sale in Nano Frames at Rare Bloom",          
+            "name": "Sale in Nano Frames at Rare Bloom",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 1, 
-	            "fullScriptHash": "71a519acd9ed172fa703762683e5c3ac3eefba255b411542aa19220038",                      
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71a519acd9ed172fa703762683e5c3ac3eefba255b411542aa19220038",
                     "scriptHash": "a519acd9ed172fa703762683e5c3ac3eefba255b411542aa19220038",
                     "contractAddress": "addr1wxj3ntxea5tjlfcrwcng8ewr4slwlw39tdq32s42ry3qqwqpe7wr2"
                 }
             ]
-        }        
+        }
     ]
 }

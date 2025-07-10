@@ -1,76 +1,74 @@
 {
-	"id": "A1DTtpJh",
-	"projectName": "Artano.",
-	"link": "https://artano.io",
-	"twitter": "https://twitter.com/artano__io",
-	"category": "MARKETPLACE",
-        "subCategory": "NFT",
-        "description": {
-                   "short": "Artano is a community-curated NFT marketplace on Cardano"
-        },	
-
-		"releases": [
-			{
-				"releaseNumber": 1,
-				"releaseName": "V1",
-				"scripts": [
-					{
-						"id": "I4LajT",
-						"version": 1
-					}
-				]
-			},
-			{
-				"releaseNumber": 2,
-				"releaseName": "V2",
-				"scripts": [
-					{
-						"id": "I4LajT",
-						"version": 2
-					}
-				]
-			},
-			{
-				"releaseNumber": 3,
-				"releaseName": "V3",
-				"scripts": [
-					{
-						"id": "I4LajT",
-						"version": 3
-					}
-				]
-			}
-		],
-	
-	    "scripts": [
-	        {
-		    "id": "I4LajT",
-		    "name": "Marketplace",
-	            "purpose": "SPEND",
-	            "type": "PLUTUS",			
-	            "versions": [
-	                {
-	                    "version": 1,
-		            "plutusVersion": 1, 
-	                    "fullScriptHash": "716c543aedd852f66af335b5a30056e85f99f29a98b95fe95190c6711b", 				
-	                    "scriptHash": "6c543aedd852f66af335b5a30056e85f99f29a98b95fe95190c6711b",
-	                    "contractAddress": "addr1w9k9gwhdmpf0v6hnxk66xqzkap0enu56nzu4l623jrr8zxcgcxtg3"
-	                },  
-	                {
-	                    "version": 2,
-		            "plutusVersion": 1, 
-	                    "fullScriptHash": "71d73279cce303cd1ed7efcf9987ffb5fddcb5b74bb39a806959451f99", 				
-	                    "scriptHash": "d73279cce303cd1ed7efcf9987ffb5fddcb5b74bb39a806959451f99",
-	                    "contractAddress": "addr1w8tny7wvuvpu68khal8enpllkh7aeddhfwee4qrft9z3lxgm0n2me"
-	                },
-	                {
-	                    "version": 3,
-		            "plutusVersion": 1, 
-	                    "fullScriptHash": "71304b51f49f0a53a973c24f84e84c118e7465443961a1379727103db1", 				
-	                    "scriptHash": "304b51f49f0a53a973c24f84e84c118e7465443961a1379727103db1",
-	                    "contractAddress": "addr1wycyk505nu9982tncf8cf6zvzx88ge2y89s6zduhyugrmvgjc2juq"
-	                } 			    
-	            ]
-	        }
-	    ]
+    "id": "A1DTtpJh",
+    "projectName": "Artano.",
+    "link": "https://artano.io",
+    "twitter": "https://twitter.com/artano__io",
+    "category": "MARKETPLACE",
+    "subCategory": "NFT",
+    "description": {
+        "short": "Artano is a community-curated NFT marketplace on Cardano"
+    },
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "I4LajT",
+                    "version": 1
+                }
+            ]
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "I4LajT",
+                    "version": 2
+                }
+            ]
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "scripts": [
+                {
+                    "id": "I4LajT",
+                    "version": 3
+                }
+            ]
+        }
+    ],
+    "scripts": [
+        {
+            "id": "I4LajT",
+            "name": "Marketplace",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 1,
+                    "fullScriptHash": "716c543aedd852f66af335b5a30056e85f99f29a98b95fe95190c6711b",
+                    "scriptHash": "6c543aedd852f66af335b5a30056e85f99f29a98b95fe95190c6711b",
+                    "contractAddress": "addr1w9k9gwhdmpf0v6hnxk66xqzkap0enu56nzu4l623jrr8zxcgcxtg3"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71d73279cce303cd1ed7efcf9987ffb5fddcb5b74bb39a806959451f99",
+                    "scriptHash": "d73279cce303cd1ed7efcf9987ffb5fddcb5b74bb39a806959451f99",
+                    "contractAddress": "addr1w8tny7wvuvpu68khal8enpllkh7aeddhfwee4qrft9z3lxgm0n2me"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71304b51f49f0a53a973c24f84e84c118e7465443961a1379727103db1",
+                    "scriptHash": "304b51f49f0a53a973c24f84e84c118e7465443961a1379727103db1",
+                    "contractAddress": "addr1wycyk505nu9982tncf8cf6zvzx88ge2y89s6zduhyugrmvgjc2juq"
+                }
+            ]
+        }
+    ]
 }

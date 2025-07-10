@@ -6,9 +6,8 @@
     "category": "COLLECTION",
     "subCategory": "NFT",
     "description": {
-                   "short": "The GOAT Tribe is an NFT Project. A place to connect, and bond with other GOATs."
-    },	
-	
+        "short": "The GOAT Tribe is an NFT Project. A place to connect, and bond with other GOATs."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -18,28 +17,27 @@
                     "id": "HW5u3j",
                     "version": 1
                 }
-            ]            
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "HW5u3j",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "71da143fe6fa6092a3956562f6fa1e20db221597e10be209760ad91dff",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71da143fe6fa6092a3956562f6fa1e20db221597e10be209760ad91dff",
                     "scriptHash": "da143fe6fa6092a3956562f6fa1e20db221597e10be209760ad91dff",
                     "contractAddress": "addr1w8dpg0lxlfsf9gu4v430d7s7yrdjy9vhuy97yztkptv3mlca6mhqw"
-                }    
+                }
             ]
         }
     ]

@@ -5,9 +5,8 @@
     "twitter": "https://twitter.com/wmtoken",
     "category": "MOBILE_NETWORK",
     "description": {
-                   "short": "The world's first mobile network built on the blockchain"
-    },	
-	
+        "short": "The world's first mobile network built on the blockchain"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -18,20 +17,20 @@
                     "version": 1
                 }
             ],
-            "auditId": "mtoq"         
+            "auditId": "mtoq"
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
     "audits": [
         {
-         "auditId": "mtoq",
-         "auditor": "runtime verification",
-         "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/WorldMobileGroup.pdf",
-         "auditType": "MANUAL"     
+            "auditId": "mtoq",
+            "auditor": "runtime verification",
+            "auditLink": "https://github.com/runtimeverification/publications/blob/main/reports/smart-contracts/WorldMobileGroup.pdf",
+            "auditType": "MANUAL"
         }
     ],
     "scripts": [
@@ -39,15 +38,15 @@
             "id": "FnKGIg",
             "name": "Ownership",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 1, 
-	                  "fullScriptHash": "71d5ca3d5986de2db3de5bf106ea4340f4ee049410fc16b9b810499185",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "71d5ca3d5986de2db3de5bf106ea4340f4ee049410fc16b9b810499185",
                     "scriptHash": "d5ca3d5986de2db3de5bf106ea4340f4ee049410fc16b9b810499185",
                     "contractAddress": "addr1w82u502esm0zmv77t0csd6jrgr6wupy5zr7pdwdczpyerpgf6r666"
-                }    
+                }
             ]
         }
     ]

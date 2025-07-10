@@ -6,9 +6,8 @@
     "category": "COMMUNITY",
     "subCategory": "CHARITY",
     "description": {
-                   "short": "A family-safe NFT coloring book. 100% donated to charity."
-    },	
-
+        "short": "A family-safe NFT coloring book. 100% donated to charity."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -25,21 +24,20 @@
         {
             "openSource": false
         }
-    ],	
-	
+    ],
     "scripts": [
         {
             "id": "h5kSkK",
-            "name": "Charity mint",             
+            "name": "Charity mint",
             "purpose": "SPEND",
-	    "type": "NATIVE",	
+            "type": "NATIVE",
             "versions": [
                 {
                     "version": 1,
-                    "fullScriptHash": "3181211d3365a2581f4aa98c1298a6cfd875b8aff5e691d6f3afd6064f81211d3365a2581f4aa98c1298a6cfd875b8aff5e691d6f3afd6064f",                    
+                    "fullScriptHash": "3181211d3365a2581f4aa98c1298a6cfd875b8aff5e691d6f3afd6064f81211d3365a2581f4aa98c1298a6cfd875b8aff5e691d6f3afd6064f",
                     "scriptHash": "81211d3365a2581f4aa98c1298a6cfd875b8aff5e691d6f3afd6064f81211d3365a2581f4aa98c1298a6cfd875b8aff5e691d6f3afd6064f",
                     "contractAddress": "addr1xxqjz8fnvk39s8624xxp9x9xelv8tw907hnfr4hn4ltqvnupyywnxedztq0542vvz2v2dn7cwku2la0xj8t08t7kqe8st8wgag"
-                }    
+                }
             ]
         }
     ]

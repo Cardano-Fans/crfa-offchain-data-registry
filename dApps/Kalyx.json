@@ -6,9 +6,8 @@
     "category": "DEFI",
     "subCategory": "-",
     "description": {
-                   "short": "Kalyx provides a service of decentralized contracts for future difference (dCFDs), operated on the Cardano Blockchain."
-    },	
-	
+        "short": "Kalyx provides a service of decentralized contracts for future difference (dCFDs), operated on the Cardano Blockchain."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,42 +20,42 @@
                 {
                     "id": "sgy97K",
                     "version": 1
-                }              
-            ]            
+                }
+            ]
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
     "scripts": [
         {
             "id": "5Z622H",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
-            "contractLang": "OPSHIN",          
+            "type": "PLUTUS",
+            "contractLang": "OPSHIN",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "7140f8745708ac503839d7fb4f9095c1ea6b1de0036ab89a598b09f29b",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7140f8745708ac503839d7fb4f9095c1ea6b1de0036ab89a598b09f29b",
                     "scriptHash": "40f8745708ac503839d7fb4f9095c1ea6b1de0036ab89a598b09f29b",
                     "contractAddress": "addr1w9q0sazhpzk9qwpe6la5lyy4c84xk80qqd4t3xje3vyl9xcv94tfm"
-                }    
+                }
             ]
         },
         {
             "id": "sgy97K",
             "purpose": "MINT",
-	          "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "mintPolicyID": "40f8745708ac503839d7fb4f9095c1ea6b1de0036ab89a598b09f29b",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }      
+        }
     ]
 }

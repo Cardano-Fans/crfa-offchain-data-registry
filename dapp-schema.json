@@ -1,0 +1,242 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Cardano dApp Registry Schema",
+  "description": "Schema for dApp entries in the Cardano Registry for Financial Applications (CRFA) offchain data registry",
+  "required": [
+    "id",
+    "projectName",
+    "link",
+    "category",
+    "description",
+    "releases",
+    "contracts",
+    "scripts"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Random 8 characters unique dApp id",
+      "pattern": "^[a-zA-Z0-9]{8}$"
+    },
+    "projectName": {
+      "type": "string",
+      "description": "dApp name"
+    },
+    "link": {
+      "type": "string",
+      "format": "uri",
+      "description": "dApp main page link"
+    },
+    "twitter": {
+      "type": "string",
+      "format": "uri",
+      "description": "dApp twitter page link"
+    },
+    "category": {
+      "type": "string",
+      "description": "Main category of the dApp",
+      "enum": [
+        "DEFI",
+        "MARKETPLACE",
+        "COLLECTION",
+        "GAMING",
+        "COMMUNITY",
+        "TOKEN_DISTRIBUTION",
+        "STABLECOIN"
+      ]
+    },
+    "subCategory": {
+      "type": "string",
+      "description": "Sub-category of the dApp",
+      "enum": [
+        "AMM_DEX",
+        "ORDERBOOK_DEX",
+        "HYBRID_DEX",
+        "LENDING_BORROWING",
+        "NFT",
+        "ORACLE",
+        "WRAPPED_ASSETS"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "required": ["short"],
+      "properties": {
+        "short": {
+          "type": "string",
+          "description": "Short description of the dApp"
+        }
+      }
+    },
+    "features": {
+      "type": "array",
+      "description": "dApp various features",
+      "items": {
+        "type": "string"
+      }
+    },
+    "releases": {
+      "type": "array",
+      "description": "Each smart contract or batch of smart contracts grouped by releases",
+      "items": {
+        "type": "object",
+        "required": ["releaseNumber", "releaseName", "scripts"],
+        "properties": {
+          "releaseNumber": {
+            "type": "integer",
+            "description": "Release number"
+          },
+          "releaseName": {
+            "type": "string",
+            "description": "Release name"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of the release"
+          },
+          "scripts": {
+            "type": "array",
+            "description": "Scripts included in this release",
+            "items": {
+              "type": "object",
+              "required": ["id", "version"],
+              "properties": {
+                "id": {
+                  "type": "string",
+                  "description": "Random 6 characters unique script id"
+                },
+                "version": {
+                  "type": "integer",
+                  "description": "Version of the script"
+                }
+              }
+            }
+          },
+          "auditId": {
+            "type": "string",
+            "description": "Random 4 characters unique audit Id of the released scripts"
+          },
+          "contractId": {
+            "type": "string",
+            "description": "Random 4 characters unique open source Id of the released scripts"
+          }
+        }
+      }
+    },
+    "contracts": {
+      "type": "array",
+      "description": "Open source contract information",
+      "items": {
+        "type": "object",
+        "required": ["openSource"],
+        "properties": {
+          "openSource": {
+            "type": "boolean",
+            "description": "True if contracts are open source, false otherwise"
+          },
+          "contractLink": {
+            "type": "string",
+            "format": "uri",
+            "description": "Open source contracts link"
+          },
+          "contractId": {
+            "type": "string",
+            "description": "Random 4 characters unique open source Id"
+          }
+        }
+      }
+    },
+    "audits": {
+      "type": "array",
+      "description": "Audit information",
+      "items": {
+        "type": "object",
+        "required": ["auditId", "auditor", "auditLink", "auditType"],
+        "properties": {
+          "auditId": {
+            "type": "string",
+            "description": "Random 4 characters unique audit Id"
+          },
+          "auditor": {
+            "type": "string",
+            "description": "Auditor company name"
+          },
+          "auditLink": {
+            "type": "string",
+            "format": "uri",
+            "description": "Audit report link"
+          },
+          "auditType": {
+            "type": "string",
+            "description": "Type of audit",
+            "enum": ["MANUAL", "AUTOMATIC"]
+          }
+        }
+      }
+    },
+    "scripts": {
+      "type": "array",
+      "description": "Detailed script information",
+      "items": {
+        "type": "object",
+        "required": ["id", "purpose", "versions"],
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Random 6 characters unique script id"
+          },
+          "name": {
+            "type": "string",
+            "description": "Script name"
+          },
+          "purpose": {
+            "type": "string",
+            "description": "Script purpose/type",
+            "enum": ["SPEND", "MINT"]
+          },
+          "type": {
+            "type": "string",
+            "description": "Script type",
+            "enum": ["PLUTUS"]
+          },
+          "versions": {
+            "type": "array",
+            "description": "Different versions of the script",
+            "items": {
+              "type": "object",
+              "required": ["version"],
+              "properties": {
+                "version": {
+                  "type": "integer",
+                  "description": "Version number"
+                },
+                "plutusVersion": {
+                  "type": "integer",
+                  "description": "Plutus version (1 or 2)",
+                  "enum": [1, 2]
+                },
+                "fullScriptHash": {
+                  "type": "string",
+                  "description": "Full script hash with prefix"
+                },
+                "scriptHash": {
+                  "type": "string",
+                  "description": "Script hash without prefix"
+                },
+                "contractAddress": {
+                  "type": "string",
+                  "description": "Contract address"
+                },
+                "mintPolicyID": {
+                  "type": "string",
+                  "description": "Mint policy ID (for MINT purpose scripts)"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

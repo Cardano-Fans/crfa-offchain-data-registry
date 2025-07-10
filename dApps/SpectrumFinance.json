@@ -3,13 +3,15 @@
     "projectName": "Spectrum Finance",
     "link": "https://spectrum.fi",
     "twitter": "https://twitter.com/SpectrumLabs_",
-    "category": "DEFI",    
+    "category": "DEFI",
     "subCategory": "AMM_DEX",
     "description": {
-                   "short": "Spectrum Finance is a cross-chain DEX built on top of decentralized cross-chain messaging protocol - Spectrum Network"
-    },			
-    "features": ["SWAP", "LIQUIDITY_MINING"], 
-    
+        "short": "Spectrum Finance is a cross-chain DEX built on top of decentralized cross-chain messaging protocol - Spectrum Network"
+    },
+    "features": [
+        "SWAP",
+        "LIQUIDITY_MINING"
+    ],
     "releases": [
         {
             "releaseNumber": 1,
@@ -23,7 +25,7 @@
                 {
                     "id": "UoOep0",
                     "version": 2
-                },		    
+                },
                 {
                     "id": "ej9O8S",
                     "version": 1
@@ -35,17 +37,16 @@
                 {
                     "id": "MzTScv",
                     "version": 1
-                }               
+                }
             ],
-            "contractId": "CW8j"		
+            "contractId": "CW8j"
         }
     ],
-
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/spectrum-finance/cardano-dex-contracts",
-         "contractId": "CW8j"
+            "openSource": true,
+            "contractLink": "https://github.com/spectrum-finance/cardano-dex-contracts",
+            "contractId": "CW8j"
         }
     ],
     "scripts": [
@@ -53,72 +54,72 @@
             "id": "UoOep0",
             "name": "liquidity pool",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
-            "contractLang": "PLUTARCH",          
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 2,  
-	            "fullScriptHash": "31e628bfd68c07a7a38fcd7d8df650812a9dfdbee54b1ed4c25c87ffbfb2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",                      
+                    "plutusVersion": 2,
+                    "fullScriptHash": "31e628bfd68c07a7a38fcd7d8df650812a9dfdbee54b1ed4c25c87ffbfb2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",
                     "scriptHash": "e628bfd68c07a7a38fcd7d8df650812a9dfdbee54b1ed4c25c87ffbfb2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",
                     "contractAddress": "addr1x8nz307k3sr60gu0e47cmajssy4fmld7u493a4xztjrll0aj764lvrxdayh2ux30fl0ktuh27csgmpevdu89jlxppvrswgxsta"
                 },
                 {
                     "version": 2,
- 		    "plutusVersion": 2,  
-	            "fullScriptHash": "316b9c456aa650cb808a9ab54326e039d5235ed69f069c9664a8fe5b69b2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",                      
+                    "plutusVersion": 2,
+                    "fullScriptHash": "316b9c456aa650cb808a9ab54326e039d5235ed69f069c9664a8fe5b69b2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",
                     "scriptHash": "6b9c456aa650cb808a9ab54326e039d5235ed69f069c9664a8fe5b69b2f6abf60ccde92eae1a2f4fdf65f2eaf6208d872c6f0e597cc10b07",
                     "contractAddress": "addr1x94ec3t25egvhqy2n265xfhq882jxhkknurfe9ny4rl9k6dj764lvrxdayh2ux30fl0ktuh27csgmpevdu89jlxppvrst84slu"
-                } 		    
+                }
             ]
-        }, 
+        },
         {
             "id": "ej9O8S",
             "name": "swap",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
-            "contractLang": "PLUTARCH",          
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
             "versions": [
                 {
                     "version": 1,
- 		                "plutusVersion": 2,  
-	                  "fullScriptHash": "712618e94cdb06792f05ae9b1ec78b0231f4b7f4215b1b4cf52e6342de",                      
+                    "plutusVersion": 2,
+                    "fullScriptHash": "712618e94cdb06792f05ae9b1ec78b0231f4b7f4215b1b4cf52e6342de",
                     "scriptHash": "2618e94cdb06792f05ae9b1ec78b0231f4b7f4215b1b4cf52e6342de",
                     "contractAddress": "addr1wynp362vmvr8jtc946d3a3utqgclfdl5y9d3kn849e359hsskr20n"
-                }              
+                }
             ]
-        }, 
+        },
         {
             "id": "doL7KQ",
             "name": "deposit",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
-            "contractLang": "PLUTARCH",          
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
             "versions": [
                 {
                     "version": 1,
- 		                "plutusVersion": 2,  
-	                  "fullScriptHash": "71075e09eb0fa89e1dc34691b3c56a7f437e60ac5ea67b338f2e176e20",                      
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71075e09eb0fa89e1dc34691b3c56a7f437e60ac5ea67b338f2e176e20",
                     "scriptHash": "075e09eb0fa89e1dc34691b3c56a7f437e60ac5ea67b338f2e176e20",
                     "contractAddress": "addr1wyr4uz0tp75fu8wrg6gm83t20aphuc9vt6n8kvu09ctkugqpsrmeh"
-                }              
+                }
             ]
         },
         {
             "id": "MzTScv",
             "name": "redeem",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
-            "contractLang": "PLUTARCH",          
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
             "versions": [
                 {
                     "version": 1,
- 		                "plutusVersion": 2,  
-	                  "fullScriptHash": "7183da79f531c19f9ce4d85359f56968a742cf05cc25ed3ca48c302dee",                      
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7183da79f531c19f9ce4d85359f56968a742cf05cc25ed3ca48c302dee",
                     "scriptHash": "83da79f531c19f9ce4d85359f56968a742cf05cc25ed3ca48c302dee",
                     "contractAddress": "addr1wxpa5704x8qel88ympf4natfdzn59nc9esj7609y3sczmmsasees8"
-                }              
+                }
             ]
-        }      
+        }
     ]
 }

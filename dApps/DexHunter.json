@@ -6,9 +6,8 @@
     "category": "DEFI",
     "subCategory": "DEX_AGGREGATOR",
     "description": {
-                   "short": "A dex aggregator with the best rates, real-time alerts and an easy to use interface"
-    },	
-	
+        "short": "A dex aggregator with the best rates, real-time alerts and an easy to use interface"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,22 +20,22 @@
                 {
                     "id": "ufhYp7",
                     "version": 1
-                }		    
+                }
             ],
-         "auditId": "rRW3"            
+            "auditId": "rRW3"
         }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
     "audits": [
         {
-         "auditId": "rRW3",
-         "auditor": "TxPipe Shop",
-         "auditLink": "https://storage.googleapis.com/dexhunter-papers/dexhunter_stop_loss_audit.pdf",
-         "auditType": "MANUAL"     
+            "auditId": "rRW3",
+            "auditor": "TxPipe Shop",
+            "auditLink": "https://storage.googleapis.com/dexhunter-papers/dexhunter_stop_loss_audit.pdf",
+            "auditType": "MANUAL"
         }
     ],
     "scripts": [
@@ -44,33 +43,33 @@
             "id": "sZN84F",
             "name": "Stop Loss Contract",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
-            "contractLang": "AIKEN",          
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "716ec4acc3fbbd570ada625f24902777cec5d7a349fa0f3c7ba87b0cff",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "716ec4acc3fbbd570ada625f24902777cec5d7a349fa0f3c7ba87b0cff",
                     "scriptHash": "6ec4acc3fbbd570ada625f24902777cec5d7a349fa0f3c7ba87b0cff",
                     "contractAddress": "addr1w9hvftxrlw74wzk6vf0jfyp8wl8vt4arf8aq70rm4paselc46ptfq"
-                }    
+                }
             ]
         },
         {
             "id": "ufhYp7",
             "name": "DCA Execute",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
-            "contractLang": "AIKEN",          
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "7197f1732964905b3c71d12163968814ac5f3be77abc94830a84d32cf9",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7197f1732964905b3c71d12163968814ac5f3be77abc94830a84d32cf9",
                     "scriptHash": "97f1732964905b3c71d12163968814ac5f3be77abc94830a84d32cf9",
                     "contractAddress": "addr1wxtlzuefvjg9k0r36ysk895gzjk97wl8027ffqc2snfje7gkzkf3h"
-                }    
+                }
             ]
-        }	    
+        }
     ]
 }

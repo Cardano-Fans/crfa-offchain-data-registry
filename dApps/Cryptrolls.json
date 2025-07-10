@@ -4,11 +4,10 @@
     "link": "https://cryptrolls.io",
     "twitter": "https://twitter.com/cryptrolls",
     "category": "GAMING",
-    "subCategory": "NFT",  
+    "subCategory": "NFT",
     "description": {
-                   "short": "An NFT based, Play2Earn project"
-    },		
-
+        "short": "An NFT based, Play2Earn project"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -25,8 +24,7 @@
         {
             "openSource": false
         }
-    ],		
-
+    ],
     "scripts": [
         {
             "id": "XlJb3t",
@@ -34,7 +32,7 @@
             "versions": [
                 {
                     "mintPolicyID": "1f3274e8e6a26804835b44c525b22b983badcd2e2f5cb4416d308c36",
-		    "plutusVersion": 1,                      
+                    "plutusVersion": 1,
                     "version": 1
                 }
             ]

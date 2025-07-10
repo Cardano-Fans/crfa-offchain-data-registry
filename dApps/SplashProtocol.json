@@ -8,7 +8,10 @@
     "description": {
         "short": "Cardano DEX for efficient markets. Fast, flexible, and reliable."
     },
-    "features": ["SWAP", "LIQUIDITY_MINING"],
+    "features": [
+        "SWAP",
+        "LIQUIDITY_MINING"
+    ],
     "releases": [
         {
             "releaseNumber": 1,
@@ -55,12 +58,11 @@
             "contractId": "gt6K"
         }
     ],
-
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/splashprotocol/splash-core",
-         "contractId": "gt6K"
+            "openSource": true,
+            "contractLink": "https://github.com/splashprotocol/splash-core",
+            "contractId": "gt6K"
         }
     ],
     "scripts": [
@@ -68,20 +70,20 @@
             "id": "vls4he",
             "name": "Order Contract",
             "purpose": "SPEND",
-	        "type": "PLUTUS",
-            "contractLang": "PLUTARCH",          
+            "type": "PLUTUS",
+            "contractLang": "PLUTARCH",
             "versions": [
                 {
                     "version": 1,
- 		            "plutusVersion": 2,
-	                "fullScriptHash": "71dbe7a3d8a1d82990992a38eea1a2efaa68e931e252fc92ca1383809b",
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71dbe7a3d8a1d82990992a38eea1a2efaa68e931e252fc92ca1383809b",
                     "scriptHash": "dbe7a3d8a1d82990992a38eea1a2efaa68e931e252fc92ca1383809b",
                     "contractAddress": "addr1w8d70g7c58vznyye9guwagdza74x36f3uff0eyk2zwpcpxcn3whlz"
                 },
                 {
                     "version": 2,
- 		            "plutusVersion": 2,
-	                "fullScriptHash": "712025463437ee5d64e89814a66ce7f98cb184a66ae85a2fbbfd750106",
+                    "plutusVersion": 2,
+                    "fullScriptHash": "712025463437ee5d64e89814a66ce7f98cb184a66ae85a2fbbfd750106",
                     "scriptHash": "2025463437ee5d64e89814a66ce7f98cb184a66ae85a2fbbfd750106",
                     "contractAddress": "addr1wysz2335xlh96e8gnq22vm88lxxtrp9xdt595taml46szps9nreda"
                 },
@@ -99,7 +101,7 @@
             "name": "Deposit (Weighted Pool)",
             "purpose": "SPEND",
             "type": "PLUTUS",
-            "contractLang": "PLUTARCH",          
+            "contractLang": "PLUTARCH",
             "versions": [
                 {
                     "version": 1,
@@ -107,7 +109,7 @@
                     "fullScriptHash": "7199b82cb994dc2af44c12cb5daf5ad274211622800467af5bd8c32352",
                     "scriptHash": "99b82cb994dc2af44c12cb5daf5ad274211622800467af5bd8c32352",
                     "contractAddress": "addr1wxvmst9ejnwz4azvzt94mt666f6zz93zsqzx0t6mmrpjx5scaz63e"
-                }              
+                }
             ]
         },
         {

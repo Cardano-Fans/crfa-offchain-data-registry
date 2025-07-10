@@ -6,9 +6,8 @@
     "category": "DEFI",
     "subCategory": "AMM DEX",
     "description": {
-                   "short": "Astarter is a key DeFi infrastructure hub on Cardano with four core applications: Launchpad(ISPO & IDO), DEX, Money Market & Tech Service Platform."
-    },	
-	
+        "short": "Astarter is a key DeFi infrastructure hub on Cardano with four core applications: Launchpad(ISPO & IDO), DEX, Money Market & Tech Service Platform."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,8 +20,8 @@
                 {
                     "id": "vIB1dR",
                     "version": 1
-                }		    
-            ]           
+                }
+            ]
         },
         {
             "releaseNumber": 2,
@@ -35,53 +34,52 @@
                 {
                     "id": "vIB1dR",
                     "version": 2
-                } 		    
-            ]           
-        }	    
+                }
+            ]
+        }
     ],
     "contracts": [
         {
-         "openSource": false
+            "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "DE82Oy",
             "name": "Batcher script",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71989d181d8cac02e26494d3e5d59aedb9ea0e71fc77fbe4bc686ad9bb",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71989d181d8cac02e26494d3e5d59aedb9ea0e71fc77fbe4bc686ad9bb",
                     "scriptHash": "989d181d8cac02e26494d3e5d59aedb9ea0e71fc77fbe4bc686ad9bb",
                     "contractAddress": "addr1wxvf6xqa3jkq9cnyjnf7t4v6aku75rn3l3mlhe9udp4dnwcjscuah"
-                }    
+                }
             ]
         },
         {
             "id": "vIB1dR",
             "name": "Pool script",
             "purpose": "SPEND",
-	    "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71b356bbef96f78bca6d7d4aba707efe2b2ddf12e98f75c4b1cb0d8941",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71b356bbef96f78bca6d7d4aba707efe2b2ddf12e98f75c4b1cb0d8941",
                     "scriptHash": "b356bbef96f78bca6d7d4aba707efe2b2ddf12e98f75c4b1cb0d8941",
                     "contractAddress": "addr1wxe4dwl0jmmchjnd049t5ur7lc4jmhcjax8ht393evxcjsgeccdeu"
                 },
                 {
                     "version": 2,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71cba5c6770fe7b30ebc1fa32f01938c150513211360ded23ac76e36b3",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71cba5c6770fe7b30ebc1fa32f01938c150513211360ded23ac76e36b3",
                     "scriptHash": "cba5c6770fe7b30ebc1fa32f01938c150513211360ded23ac76e36b3",
                     "contractAddress": "addr1w896t3nhplnmxr4ur73j7qvn3s2s2yepzdsda536cahrdvcq37n5x"
-                } 		    
+                }
             ]
-        }	    
+        }
     ]
 }

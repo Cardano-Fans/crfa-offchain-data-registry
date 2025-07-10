@@ -8,7 +8,6 @@
     "description": {
         "short": "The Progressive Protocol that merges DEX with NFTfi"
     },
-
     "releases": [
         {
             "releaseNumber": 1,
@@ -46,7 +45,6 @@
             "openSource": false
         }
     ],
-
     "scripts": [
         {
             "id": "xdDk9R",

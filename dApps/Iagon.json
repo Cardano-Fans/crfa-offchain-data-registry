@@ -75,8 +75,8 @@
             "versions": [
                 {
                     "version": 2,
-		            "plutusVersion": 3,
-	                "fullScriptHash": "711fa8c9199601924c312fb4f206ff632ca575b27f4f97dd02d9a9ae56",
+                    "plutusVersion": 3,
+                    "fullScriptHash": "711fa8c9199601924c312fb4f206ff632ca575b27f4f97dd02d9a9ae56",
                     "scriptHash": "1fa8c9199601924c312fb4f206ff632ca575b27f4f97dd02d9a9ae56",
                     "contractAddress": "addr1wy063jgejcqeynp39760yphlvvk22adj0a8e0hgzmx56u4s3hv0s6"
                 }
@@ -89,8 +89,8 @@
             "versions": [
                 {
                     "version": 2,
-		            "plutusVersion": 3,
-	                "fullScriptHash": "11ac35ee89c26b1e582771ed05af54b67fd7717bbaebd7f722fbf430d624562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "plutusVersion": 3,
+                    "fullScriptHash": "11ac35ee89c26b1e582771ed05af54b67fd7717bbaebd7f722fbf430d624562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
                     "scriptHash": "ac35ee89c26b1e582771ed05af54b67fd7717bbaebd7f722fbf430d624562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
                     "contractAddress": "addr1zxkrtm5fcf43ukp8w8kstt65kelawutmht4a0aezl06rp43y2c4s7gthspjk2c4557c9zltqcssl4qz7x5syzf7yknhqma7zxx"
                 }
@@ -103,8 +103,8 @@
             "versions": [
                 {
                     "version": 2,
-		            "plutusVersion": 3,
-	                "fullScriptHash": "11faecb80eee6cadf9dac5184263ed4d164b38fe71d4f6f55e8f6b0da024562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "plutusVersion": 3,
+                    "fullScriptHash": "11faecb80eee6cadf9dac5184263ed4d164b38fe71d4f6f55e8f6b0da024562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
                     "scriptHash": "faecb80eee6cadf9dac5184263ed4d164b38fe71d4f6f55e8f6b0da024562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
                     "contractAddress": "addr1z8awewqwaek2m7w6c5vyycldf5tykw87w820da273a4smgpy2c4s7gthspjk2c4557c9zltqcssl4qz7x5syzf7yknhq6uv6j0"
                 }
@@ -117,8 +117,8 @@
             "versions": [
                 {
                     "version": 2,
-		            "plutusVersion": 3,
-	                "fullScriptHash": "11a3959153cfd23daa1271b520bdf27dc7cbeab6ef24770fc72e458bd824562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
+                    "plutusVersion": 3,
+                    "fullScriptHash": "11a3959153cfd23daa1271b520bdf27dc7cbeab6ef24770fc72e458bd824562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
                     "scriptHash": "a3959153cfd23daa1271b520bdf27dc7cbeab6ef24770fc72e458bd824562b0f217780656562b4a7b0517d60c421fa805e35204127c4b4ee",
                     "contractAddress": "addr1zx3ety2nelfrm2sjwx6jp00j0hruh64kauj8wr789ezchkpy2c4s7gthspjk2c4557c9zltqcssl4qz7x5syzf7yknhq8jsa04"
                 }

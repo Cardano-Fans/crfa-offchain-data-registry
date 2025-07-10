@@ -5,9 +5,8 @@
     "twitter": "https://twitter.com/Milkomeda_com",
     "category": "BLOCKCHAIN",
     "description": {
-                   "short": "EVM-based sidechain connected to Cardano"
-    },	 	
-
+        "short": "EVM-based sidechain connected to Cardano"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -16,15 +15,15 @@
                 {
                     "id": "ND0xfk",
                     "version": 1
-                }		    
+                }
             ],
-            "auditId": "mNSN"		
+            "auditId": "mNSN"
         }
     ],
     "contracts": [
         {
-         "openSource": false
-        }	    
+            "openSource": false
+        }
     ],
     "audits": [
         {
@@ -33,22 +32,21 @@
             "auditLink": "https://www.milkomeda.com/docs/Milkomeda-audit-by-ArbitraryExecution.pdf",
             "auditType": "MANUAL"
         }
-    ],	
-
+    ],
     "scripts": [
         {
             "id": "ND0xfk",
-            "name": "Cardano-C1 bridge",          
+            "name": "Cardano-C1 bridge",
             "purpose": "SPEND",
-	    "type": "NATIVE",	
+            "type": "NATIVE",
             "versions": [
                 {
                     "version": 1,
-	            "fullScriptHash": "71c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",                     
+                    "fullScriptHash": "71c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",
                     "scriptHash": "c246c16d83b6d06d0a1b5742b440fc448484a159e1cfce48efc98736",
                     "contractAddress": "addr1w8pydstdswmdqmg2rdt59dzql3zgfp9pt8sulnjgalycwdsj9js7w"
-                }    
+                }
             ]
-        }      
+        }
     ]
 }

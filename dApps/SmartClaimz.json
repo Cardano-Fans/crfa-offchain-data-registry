@@ -1,74 +1,73 @@
 {
-   "id":"ZAJgpbqC",
-   "projectName":"SmartClaimz",
-   "link":"https://smartclaimz.io",
-   "twitter":"https://twitter.com/Freeloaderz2022",
-   "category":"TOKEN_DISTRIBUTION",
+    "id": "ZAJgpbqC",
+    "projectName": "SmartClaimz",
+    "link": "https://smartclaimz.io",
+    "twitter": "https://twitter.com/Freeloaderz2022",
+    "category": "TOKEN_DISTRIBUTION",
     "description": {
-                   "short": "FreeLoaderz SmartClaimz is a reward distribution platform"
-    },	
-   
-   "releases":[
-      {
-         "releaseNumber":1,
-         "releaseName":"V1",
-         "scripts":[
-            {
-               "id":"67JjcZ",
-               "version":1
-            },
-            {
-               "id":"67JjcZ",
-               "version":2
-            },
-            {
-               "id":"67JjcZ",
-               "version":3
-            },
-            {
-               "id":"67JjcZ",
-               "version":4
-            }                          
-         ]
-      }
-   ],
-   "contracts":[
-      {
-         "openSource":false
-      }
-   ],
-   "scripts":[
-      {
-         "id":"67JjcZ",
-         "name":"SmartClaimz Token Claiming",
-         "purpose":"SPEND",
-         "type": "NATIVE",
-         "versions":[
-            {
-               "version":1,
-               "scriptHash":"0b469570d716f4ba49c248cb26c383ea63a286fb3b69220fd71ef13e",
-               "fullScriptHash":"710b469570d716f4ba49c248cb26c383ea63a286fb3b69220fd71ef13e",
-               "contractAddress":"addr1wy95d9ts6ut0fwjfcfyvkfkrs04x8g5xlvakjgs06u00z0sejufrj"
-            },
-            {
-               "version":2,
-               "scriptHash":"ad46e6edb0ba8d77ae6724c245f5e381a055c40c34f2577a78fac5ac",
-               "fullScriptHash":"71ad46e6edb0ba8d77ae6724c245f5e381a055c40c34f2577a78fac5ac",
-               "contractAddress":"addr1wxk5dehdkzag6aawvujvy304uwq6q4wyps60y4m60ravttqd4mrnv"
-            },
-            {
-               "version":3,
-               "scriptHash":"4db2e4aa1a38b2f56b2c77d0a5ef4df9a6bb1b5dd36d2e1be58ecb3b",
-               "fullScriptHash":"714db2e4aa1a38b2f56b2c77d0a5ef4df9a6bb1b5dd36d2e1be58ecb3b",
-               "contractAddress":"addr1w9xm9e92rgut9att93mapf00fhu6dwcmthfk6tsmuk8vkwcklhsah"
-            },
-            {
-               "version":4,
-               "scriptHash":"544d0eb727d686b1d53e405900f948886d048148554df15bcd53786a",
-               "fullScriptHash":"71544d0eb727d686b1d53e405900f948886d048148554df15bcd53786a",
-               "contractAddress":"addr1w92y6r4hyltgdvw48eq9jq8efzyx6pypfp25mu2me4fhs6s3jptc6"
-            }              
-         ]
-      }
-   ]
+        "short": "FreeLoaderz SmartClaimz is a reward distribution platform"
+    },
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1",
+            "scripts": [
+                {
+                    "id": "67JjcZ",
+                    "version": 1
+                },
+                {
+                    "id": "67JjcZ",
+                    "version": 2
+                },
+                {
+                    "id": "67JjcZ",
+                    "version": 3
+                },
+                {
+                    "id": "67JjcZ",
+                    "version": 4
+                }
+            ]
+        }
+    ],
+    "contracts": [
+        {
+            "openSource": false
+        }
+    ],
+    "scripts": [
+        {
+            "id": "67JjcZ",
+            "name": "SmartClaimz Token Claiming",
+            "purpose": "SPEND",
+            "type": "NATIVE",
+            "versions": [
+                {
+                    "version": 1,
+                    "scriptHash": "0b469570d716f4ba49c248cb26c383ea63a286fb3b69220fd71ef13e",
+                    "fullScriptHash": "710b469570d716f4ba49c248cb26c383ea63a286fb3b69220fd71ef13e",
+                    "contractAddress": "addr1wy95d9ts6ut0fwjfcfyvkfkrs04x8g5xlvakjgs06u00z0sejufrj"
+                },
+                {
+                    "version": 2,
+                    "scriptHash": "ad46e6edb0ba8d77ae6724c245f5e381a055c40c34f2577a78fac5ac",
+                    "fullScriptHash": "71ad46e6edb0ba8d77ae6724c245f5e381a055c40c34f2577a78fac5ac",
+                    "contractAddress": "addr1wxk5dehdkzag6aawvujvy304uwq6q4wyps60y4m60ravttqd4mrnv"
+                },
+                {
+                    "version": 3,
+                    "scriptHash": "4db2e4aa1a38b2f56b2c77d0a5ef4df9a6bb1b5dd36d2e1be58ecb3b",
+                    "fullScriptHash": "714db2e4aa1a38b2f56b2c77d0a5ef4df9a6bb1b5dd36d2e1be58ecb3b",
+                    "contractAddress": "addr1w9xm9e92rgut9att93mapf00fhu6dwcmthfk6tsmuk8vkwcklhsah"
+                },
+                {
+                    "version": 4,
+                    "scriptHash": "544d0eb727d686b1d53e405900f948886d048148554df15bcd53786a",
+                    "fullScriptHash": "71544d0eb727d686b1d53e405900f948886d048148554df15bcd53786a",
+                    "contractAddress": "addr1w92y6r4hyltgdvw48eq9jq8efzyx6pypfp25mu2me4fhs6s3jptc6"
+                }
+            ]
+        }
+    ]
 }

@@ -5,9 +5,8 @@
     "twitter": "https://twitter.com/ENCOINS1",
     "category": "DEFI",
     "description": {
-                   "short": "ENCOINS is a decentralized private accounts and payments protocol on the Cardano blockchain."
-    },	
-	
+        "short": "ENCOINS is a decentralized private accounts and payments protocol on the Cardano blockchain."
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -18,30 +17,29 @@
                     "version": 1
                 }
             ],
-        "contractId": "DDhg"            
+            "contractId": "DDhg"
         }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/encryptedcoins",
-         "contractId": "DDhg"
+            "openSource": true,
+            "contractLink": "https://github.com/encryptedcoins",
+            "contractId": "DDhg"
         }
     ],
-
     "scripts": [
         {
             "id": "N2c1sp",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "1193ee21257ac2a126e3afb273cbf59635365d7f554751ab936bcaddf00bd016f8ba5857d2e2026da550e4b724a3e1e8d5598cbfab19ce756c",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "1193ee21257ac2a126e3afb273cbf59635365d7f554751ab936bcaddf00bd016f8ba5857d2e2026da550e4b724a3e1e8d5598cbfab19ce756c",
                     "scriptHash": "93ee21257ac2a126e3afb273cbf59635365d7f554751ab936bcaddf00bd016f8ba5857d2e2026da550e4b724a3e1e8d5598cbfab19ce756c",
                     "contractAddress": "addr1zxf7ugf90tp2zfhr47e88jl4jc6nvhtl24r4r2und09dmuqt6qt03wjc2lfwyqnd54gwfdey50s7342e3jl6kxwww4kquasqvy"
-                }    
+                }
             ]
         }
     ]

@@ -6,9 +6,8 @@
     "category": "COMMUNITY",
     "subCategory": "MINING",
     "description": {
-                   "short": "Bitcoin style proof of work in smart contract form"
-    },	
-	
+        "short": "Bitcoin style proof of work in smart contract form"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -21,47 +20,46 @@
                 {
                     "id": "Dnz6DF",
                     "version": 1
-                }              
+                }
             ],
-        "contractId": "A2vp"            
+            "contractId": "A2vp"
         }
     ],
     "contracts": [
         {
-         "openSource": true,
-         "contractLink": "https://github.com/aiken-lang/fortuna",
-         "contractId": "A2vp"
+            "openSource": true,
+            "contractLink": "https://github.com/aiken-lang/fortuna",
+            "contractId": "A2vp"
         }
     ],
-
     "scripts": [
         {
             "id": "TPtLqh",
             "purpose": "SPEND",
-	          "type": "PLUTUS",
-            "contractLang": "AIKEN",          
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "version": 1,
-		                "plutusVersion": 2, 
-	                  "fullScriptHash": "71279f842c33eed9054b9e3c70cd6a3b32298259c24b78b895cb41d91a",                     
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71279f842c33eed9054b9e3c70cd6a3b32298259c24b78b895cb41d91a",
                     "scriptHash": "279f842c33eed9054b9e3c70cd6a3b32298259c24b78b895cb41d91a",
                     "contractAddress": "addr1wynelppvx0hdjp2tnc78pnt28veznqjecf9h3wy4edqajxsg7hwsc"
-                }    
+                }
             ]
         },
         {
             "id": "Dnz6DF",
             "purpose": "MINT",
-	          "type": "PLUTUS",
-            "contractLang": "AIKEN",           
+            "type": "PLUTUS",
+            "contractLang": "AIKEN",
             "versions": [
                 {
                     "mintPolicyID": "279f842c33eed9054b9e3c70cd6a3b32298259c24b78b895cb41d91a",
-		                "plutusVersion": 2,                    
+                    "plutusVersion": 2,
                     "version": 1
                 }
             ]
-        }     
+        }
     ]
 }

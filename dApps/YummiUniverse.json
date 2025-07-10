@@ -6,9 +6,8 @@
     "category": "COLLECTION",
     "subCategory": "NFT",
     "description": {
-                   "short": "An NFT collection that provides additional services such as staking"
-    },		
-
+        "short": "An NFT collection that provides additional services such as staking"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -25,21 +24,20 @@
         {
             "openSource": false
         }
-    ],		
-
+    ],
     "scripts": [
         {
             "id": "KEHHi3",
-            "name": "Staking",          
+            "name": "Staking",
             "purpose": "SPEND",
             "versions": [
                 {
                     "version": 1,
- 		    "plutusVersion": 1,  
-	            "fullScriptHash": "711a180134108ad693da6c53190c69d4ac1248753ccd4ef9fa7149a3f3",                     
+                    "plutusVersion": 1,
+                    "fullScriptHash": "711a180134108ad693da6c53190c69d4ac1248753ccd4ef9fa7149a3f3",
                     "scriptHash": "1a180134108ad693da6c53190c69d4ac1248753ccd4ef9fa7149a3f3",
                     "contractAddress": "addr1wydpsqf5zz9ddy76d3f3jrrf6jkpyjr48nx5a706w9y68ucy4wu6s"
-                }    
+                }
             ]
         }
     ]

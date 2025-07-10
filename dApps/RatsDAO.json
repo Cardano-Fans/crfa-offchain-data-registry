@@ -6,9 +6,8 @@
     "category": "COLLECTION",
     "subCategory": "NFT",
     "description": {
-                   "short": "1st Multi-Sig Blue Chip NFT Purchasing DAO on Cardano blockchain"
-    },	
-
+        "short": "1st Multi-Sig Blue Chip NFT Purchasing DAO on Cardano blockchain"
+    },
     "releases": [
         {
             "releaseNumber": 1,
@@ -53,7 +52,7 @@
                 {
                     "id": "ISFT88",
                     "version": 1
-                }		    
+                }
             ]
         }
     ],
@@ -61,158 +60,157 @@
         {
             "openSource": false
         }
-    ],	
-	
+    ],
     "scripts": [
         {
             "id": "DwhOA1",
             "name": "Staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "7157ab777cbae4d1c778fa816979812dcdcb0e41d7ebab59b82009ff98",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "7157ab777cbae4d1c778fa816979812dcdcb0e41d7ebab59b82009ff98",
                     "scriptHash": "57ab777cbae4d1c778fa816979812dcdcb0e41d7ebab59b82009ff98",
                     "contractAddress": "addr1w9t6kamuhtjdr3mcl2qkj7vp9hxukrjp6l46kkdcyqyllxqwgts5p"
-                }    
+                }
             ]
         },
         {
             "id": "4HHq7f",
             "name": "MAYZ Staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71701fe3479a815346d2ea74d9261ba8af815b895ecd1981780bb4362e",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71701fe3479a815346d2ea74d9261ba8af815b895ecd1981780bb4362e",
                     "scriptHash": "701fe3479a815346d2ea74d9261ba8af815b895ecd1981780bb4362e",
                     "contractAddress": "addr1w9cplc68n2q4x3kjaf6djfsm4zhczkuftmx3nqtcpw6rvts74alaf"
-                }    
+                }
             ]
         },
         {
             "id": "rJ7Rrc",
             "name": "Falcon Staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71a029074c406018f4dbafd4acf781c6080123cad3aa7ad0791e6a5b34",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a029074c406018f4dbafd4acf781c6080123cad3aa7ad0791e6a5b34",
                     "scriptHash": "a029074c406018f4dbafd4acf781c6080123cad3aa7ad0791e6a5b34",
                     "contractAddress": "addr1wxszjp6vgpsp3axm4l22eaupccyqzg726w4845rere49kdqw6afx9"
-                }    
+                }
             ]
         },
         {
             "id": "zqOfsK",
             "name": "Falcon/Aldea Staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "718d7f108ec8e2866797503d85e8f0833603c9bf1d44cb618dcb64549b",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "718d7f108ec8e2866797503d85e8f0833603c9bf1d44cb618dcb64549b",
                     "scriptHash": "8d7f108ec8e2866797503d85e8f0833603c9bf1d44cb618dcb64549b",
                     "contractAddress": "addr1wxxh7yywer3gveuh2q7ct68ssvmq8jdlr4zvkcvdedj9fxcj4xqju"
-                }    
+                }
             ]
-        },	  
+        },
         {
             "id": "2lSLlI",
             "name": "Aldea Staking",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "712ebb8189add08bf542a147321d87d938e7df0b615a2c10fa125be185",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "712ebb8189add08bf542a147321d87d938e7df0b615a2c10fa125be185",
                     "scriptHash": "2ebb8189add08bf542a147321d87d938e7df0b615a2c10fa125be185",
                     "contractAddress": "addr1wyhthqvf4hggha2z59rny8v8myuw0hctv9dzcy86zfd7rpg8ydcy5"
-                }    
+                }
             ]
         },
         {
             "id": "w4yFJN",
             "name": "RatsDAO Released",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "718d66bab70bb46f44d669e784757a637f820ca54e22b3fde46e920fbe",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "718d66bab70bb46f44d669e784757a637f820ca54e22b3fde46e920fbe",
                     "scriptHash": "8d66bab70bb46f44d669e784757a637f820ca54e22b3fde46e920fbe",
                     "contractAddress": "addr1wxxkdw4hpw6x73xkd8ncgat6vdlcyr99fc3t8l0yd6fql0spcg20u"
-                }    
+                }
             ]
         },
         {
             "id": "7x18IZ",
             "name": "Aldea ITO",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "710aff8fa7fbaff38416d3388135ee20a184e7790d18387d8a27ea30b8",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "710aff8fa7fbaff38416d3388135ee20a184e7790d18387d8a27ea30b8",
                     "scriptHash": "0aff8fa7fbaff38416d3388135ee20a184e7790d18387d8a27ea30b8",
                     "contractAddress": "addr1wy90lra8lwhl8pqk6vugzd0wyzscfemep5vrslv2yl4rpwqd2fcr5"
-                }    
+                }
             ]
         },
         {
             "id": "Br0wEu",
             "name": "RatsDAO Members",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71a879665fb2fcae0ad5c2c9416b305bb8c98abb568204d0c5a0f0ab41",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71a879665fb2fcae0ad5c2c9416b305bb8c98abb568204d0c5a0f0ab41",
                     "scriptHash": "a879665fb2fcae0ad5c2c9416b305bb8c98abb568204d0c5a0f0ab41",
                     "contractAddress": "addr1wx58jejlkt72uzk4cty5z6estwuvnz4m26pqf5x95rc2ksgldjr4l"
-                }    
+                }
             ]
         },
         {
             "id": "kxXCJS",
             "name": "Onesies",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "71bb320fac191b9efb7211400697b6bd0e097b1dde27f52b6aaba16999",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "71bb320fac191b9efb7211400697b6bd0e097b1dde27f52b6aaba16999",
                     "scriptHash": "bb320fac191b9efb7211400697b6bd0e097b1dde27f52b6aaba16999",
                     "contractAddress": "addr1wxanyravrydea7mjz9qqd9akh58qj7camcnl22m24wsknxgp022sx"
-                }    
+                }
             ]
         },
         {
             "id": "ISFT88",
             "name": "RatsDAO Gen and Gov",
             "purpose": "SPEND",
-	    "type": "PLUTUS",		
+            "type": "PLUTUS",
             "versions": [
                 {
                     "version": 1,
-		    "plutusVersion": 2, 
-	            "fullScriptHash": "712665e7c7d77b3575cba67bd5d4c7ec324ebabd2fceb50f83658812c4",                    
+                    "plutusVersion": 2,
+                    "fullScriptHash": "712665e7c7d77b3575cba67bd5d4c7ec324ebabd2fceb50f83658812c4",
                     "scriptHash": "2665e7c7d77b3575cba67bd5d4c7ec324ebabd2fceb50f83658812c4",
                     "contractAddress": "addr1wynxte786aan2awt5eaat4x8aseyaw4a9l8t2rurvkyp93qf66n4d"
-                }    
+                }
             ]
-        }		    
+        }
     ]
 }
