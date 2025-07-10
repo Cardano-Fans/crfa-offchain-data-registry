@@ -231,7 +231,7 @@
                 },
                 "plutusVersion": {
                   "type": "integer",
-                  "description": "Plutus version (1, 2, or 3)",
+                  "description": "Plutus version (1, 2 or 3)",
                   "enum": [1, 2, 3]
                 },
                 "fullScriptHash": {
