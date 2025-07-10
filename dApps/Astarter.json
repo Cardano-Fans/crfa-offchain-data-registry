@@ -4,7 +4,7 @@
     "link": "https://www.astarter.io",
     "twitter": "https://twitter.com/AstarterDefiHub",
     "category": "DEFI",
-    "subCategory": "AMM DEX",
+    "subCategory": "AMM_DEX",
     "description": {
         "short": "Astarter is a key DeFi infrastructure hub on Cardano with four core applications: Launchpad(ISPO & IDO), DEX, Money Market & Tech Service Platform."
     },

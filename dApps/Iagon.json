@@ -4,7 +4,7 @@
     "link": "https://iagon.com",
     "twitter": "https://twitter.com/IagonOfficial",
     "category": "MARKETPLACE",
-    "subCategory": "-",
+    "subCategory": "UNKNOWN",
     "description": {
         "short": "IAGON is bridging decentralization with compliance for Web 3.0"
     },
@@ -113,7 +113,7 @@
         {
             "id": "19D4DF",
             "name": "Order Contract",
-            "purpose": "SPEND/Mint",
+            "purpose": "SPEND/MINT",
             "versions": [
                 {
                     "version": 2,

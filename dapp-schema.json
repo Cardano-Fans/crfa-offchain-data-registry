@@ -10,7 +10,6 @@
     "category",
     "description",
     "releases",
-    "contracts",
     "scripts"
   ],
   "properties": {
@@ -43,7 +42,14 @@
         "GAMING",
         "COMMUNITY",
         "TOKEN_DISTRIBUTION",
-        "STABLECOIN"
+        "STABLECOIN",
+        "MOBILE_NETWORK",
+        "GENERIC",
+        "SMART_WALLET",
+        "LAYER_2",
+        "BLOCKCHAIN",
+        "NFT_MINTING_PLATFORM",
+        "UNKNOWN"
       ]
     },
     "subCategory": {
@@ -56,7 +62,19 @@
         "LENDING_BORROWING",
         "NFT",
         "ORACLE",
-        "WRAPPED_ASSETS"
+        "WRAPPED_ASSETS",
+        "DEX",
+        "CHARITY",
+        "STAKING",
+        "PERPETUALS",
+        "LAUNCHPAD",
+        "DEX_AGGREGATOR",
+        "MINING",
+        "CONCENTRATED_LIQUIDITY_DEX",
+        "SYNTHETICS",
+        "OPTION",
+        "STEALTH_WALLET",
+        "UNKNOWN"
       ]
     },
     "description": {
@@ -84,8 +102,8 @@
         "required": ["releaseNumber", "releaseName", "scripts"],
         "properties": {
           "releaseNumber": {
-            "type": "integer",
-            "description": "Release number"
+            "type": "number",
+            "description": "Release number (integer or decimal)"
           },
           "releaseName": {
             "type": "string",
@@ -193,12 +211,12 @@
           "purpose": {
             "type": "string",
             "description": "Script purpose/type",
-            "enum": ["SPEND", "MINT"]
+            "enum": ["SPEND", "MINT", "MANAGE", "WITHDRAW/PUBLISH/VOTE", "STAKE", "SPEND/MINT"]
           },
           "type": {
             "type": "string",
             "description": "Script type",
-            "enum": ["PLUTUS"]
+            "enum": ["PLUTUS", "NATIVE"]
           },
           "versions": {
             "type": "array",
@@ -213,8 +231,8 @@
                 },
                 "plutusVersion": {
                   "type": "integer",
-                  "description": "Plutus version (1 or 2)",
-                  "enum": [1, 2]
+                  "description": "Plutus version (1, 2, or 3)",
+                  "enum": [1, 2, 3]
                 },
                 "fullScriptHash": {
                   "type": "string",
