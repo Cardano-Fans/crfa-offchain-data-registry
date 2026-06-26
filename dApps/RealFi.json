@@ -1,0 +1,187 @@
+{
+    "id": "bTk5PayU",
+    "projectName": "RealFi",
+    "link": "https://realfi.co",
+    "category": "STABLECOIN",
+    "description": {
+        "short": "Stablecoin by RealFi Co."
+    },
+    "releases": [
+        {
+            "releaseNumber": 1,
+            "releaseName": "V1_0 Mainnet",
+            "description": "RealFi V1_0 scripts deployed on Cardano mainnet",
+            "scripts": [
+                {
+                    "id": "S1FcF8",
+                    "version": 1
+                },
+                {
+                    "id": "JIyjMv",
+                    "version": 1
+                },
+                {
+                    "id": "PiJLC8",
+                    "version": 1
+                },
+                {
+                    "id": "zauR6D",
+                    "version": 1
+                },
+                {
+                    "id": "VWqtXN",
+                    "version": 1
+                },
+                {
+                    "id": "IVbWXg",
+                    "version": 1
+                },
+                {
+                    "id": "uKrBMH",
+                    "version": 1
+                },
+                {
+                    "id": "8LeHvj",
+                    "version": 1
+                },
+                {
+                    "id": "h4th48",
+                    "version": 1
+                }
+            ]
+        }
+    ],
+    "contracts": [
+        {
+            "openSource": true,
+            "contractLink": "https://github.com/realfi-co/realfi"
+        }
+    ],
+    "scripts": [
+        {
+            "id": "S1FcF8",
+            "name": "Proxy NFT policy",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "mintPolicyID": "b1a939dd2bed1ba23ea3d10bb00819891154a96c456c43692ee9a54c"
+                }
+            ]
+        },
+        {
+            "id": "JIyjMv",
+            "name": "USDr/sUSDr minting policy",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "mintPolicyID": "7d9e4a0ee1a3f5d5ff8159ea91a83310cf2795ee7a87170c7aea05ae"
+                }
+            ]
+        },
+        {
+            "id": "PiJLC8",
+            "name": "Protocol orchestrator",
+            "purpose": "WITHDRAW/PUBLISH/VOTE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "scriptHash": "84366c82db9ef87b978497861f2e7796588ba55af8fd9cbfa038fc30"
+                }
+            ]
+        },
+        {
+            "id": "zauR6D",
+            "name": "Protocol mint",
+            "purpose": "WITHDRAW/PUBLISH/VOTE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "scriptHash": "d97bdf5fd7b807a5fe8443c136a142eba38d00bebf4a1ea617953713"
+                }
+            ]
+        },
+        {
+            "id": "VWqtXN",
+            "name": "Protocol stake",
+            "purpose": "WITHDRAW/PUBLISH/VOTE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "scriptHash": "50ac76c228ed19711f26be4d39f8c51b3dfdb5c96d43aaa1d3fa1e0a"
+                }
+            ]
+        },
+        {
+            "id": "IVbWXg",
+            "name": "Protocol management",
+            "purpose": "WITHDRAW/PUBLISH/VOTE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "scriptHash": "1593c0187b26810e90b13e84419d1db649d0e26a8ff3eea27863722c"
+                }
+            ]
+        },
+        {
+            "id": "uKrBMH",
+            "name": "Treasury",
+            "purpose": "SPEND/MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "717d2ddbadbe784afcf07442e5b2c35e9097da4be61162b5ee8848fe00",
+                    "scriptHash": "7d2ddbadbe784afcf07442e5b2c35e9097da4be61162b5ee8848fe00",
+                    "contractAddress": "addr1w97jmkadheuy4l8sw3pwtvkrt6gf0kjtucgk9d0w3py0uqqel0c9l",
+                    "mintPolicyID": "7d2ddbadbe784afcf07442e5b2c35e9097da4be61162b5ee8848fe00"
+                }
+            ]
+        },
+        {
+            "id": "8LeHvj",
+            "name": "Order",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "71cf72d6995cc4664279db3fc292a2d6f79bdfbd515a188e8960b1d66c",
+                    "scriptHash": "cf72d6995cc4664279db3fc292a2d6f79bdfbd515a188e8960b1d66c",
+                    "contractAddress": "addr1w88h945etnzxvsnemvlu9y4z6mmehhaa29dp3r5fvzcavmqh2yxhu"
+                }
+            ]
+        },
+        {
+            "id": "h4th48",
+            "name": "Staking vault",
+            "purpose": "SPEND/MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "712efab7b9fe036476f6e095f69cf4728917755e1f9c75204dcf510e89",
+                    "scriptHash": "2efab7b9fe036476f6e095f69cf4728917755e1f9c75204dcf510e89",
+                    "contractAddress": "addr1wyh04daelcpkgahkuz2ld885w2y3wa27r7w82gzdeagsazgtwduhf",
+                    "mintPolicyID": "2efab7b9fe036476f6e095f69cf4728917755e1f9c75204dcf510e89"
+                }
+            ]
+        }
+    ]
+}
