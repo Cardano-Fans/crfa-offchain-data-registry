@@ -1,16 +1,19 @@
 {
     "id": "agwnXzew",
-    "projectName": "Danogo Bond",
-    "link": "https://bond.danogo.io",
-    "twitter": "https://twitter.com/danogo_2023",
+    "projectName": "Danogo Finance",
+    "link": "https://app.danogo.io",
+    "twitter": "https://x.com/DanogoFinance",
     "category": "DEFI",
     "subCategory": "DEX",
     "features": [
         "SWAP",
-        "LIMIT_ORDERS"
+        "LIMIT_ORDERS",
+        "STAKING_BOND",
+        "YIELD_AGGREGATOR",
+        "FIXED_RATE_LENDING"
     ],
     "description": {
-        "short": "The first DEX trading Optim Bond tokens on Cardano"
+        "short": "Danogo is a DeFi platform on Cardano focused on lending and borrowing."
     },
     "releases": [
         {
@@ -358,7 +361,61 @@
                     "version": 39
                 }
             ],
-            "contractId": "KDmn"
+            "contractId": "KDmn",
+            "auditId": "WsCk"
+        },
+        {
+            "releaseNumber": 2,
+            "releaseName": "V2",
+            "scripts": [
+                {
+                    "id": "aDjGEd",
+                    "version": 1
+                },
+                {
+                    "id": "aDjGEd",
+                    "version": 2
+                },
+                {
+                    "id": "aDjGEd",
+                    "version": 3
+                },
+                {
+                    "id": "aDjGEd",
+                    "version": 4
+                },
+                {
+                    "id": "3xlurQ",
+                    "version": 1
+                },
+                {
+                    "id": "3xlurQ",
+                    "version": 2
+                },
+                {
+                    "id": "3xlurQ",
+                    "version": 3
+                },
+                {
+                    "id": "3xlurQ",
+                    "version": 4
+                }
+            ],
+            "auditId": "z3bt"
+        }
+    ],
+    "audits": [
+        {
+            "auditId": "WsCk",
+            "auditor": "Anastasia Labs",
+            "auditLink": "https://github.com/Danogo2023/bond-dex/blob/master/audits/Danogo-BondDex-Audit.pdf",
+            "auditType": "MANUAL"
+        },
+        {
+            "auditId": "z3bt",
+            "auditor": "Anastasia Labs",
+            "auditLink": "https://github.com/Danogo2023/resources/blob/main/audits/danogo-fixed-lending.pdf",
+            "auditType": "MANUAL"
         }
     ],
     "contracts": [
@@ -986,6 +1043,78 @@
                     "fullScriptHash": "11d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2bac259a40fbe18bb51c6ad3c8b0a1d4d256e34bb8b72bb7ee94c3addb3",
                     "scriptHash": "d156b23f34ad66a506a40003ef4008be65dcdd424f41834c5677c2bac259a40fbe18bb51c6ad3c8b0a1d4d256e34bb8b72bb7ee94c3addb3",
                     "contractAddress": "addr1z8g4dv3lxjkkdfgx5sqq8m6qpzlxthxagf85rq6v2emu9wkztxjql0schdgudtfu3v9p6nf9dc6thzmjhdlwjnp6mkesmpkuyx"
+                }
+            ]
+        },
+        {
+            "id": "aDjGEd",
+            "name": "Loan",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "71c292a29e761f0074b798d6a1ffa99e2e238f9c893e3ce7e15f2f90db",
+                    "scriptHash": "c292a29e761f0074b798d6a1ffa99e2e238f9c893e3ce7e15f2f90db",
+                    "contractAddress": "addr1w8pf9g57wc0sqa9hnrt2rlafnchz8ruu3ylreelptuhepkcl9tfw3"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "71d8f8ca949680cb95e9028d001f415241a8e7600b3b602add7c82855c",
+                    "scriptHash": "d8f8ca949680cb95e9028d001f415241a8e7600b3b602add7c82855c",
+                    "contractAddress": "addr1w8v03j55j6qvh90fq2xsq86p2fq63emqpvakq2ka0jpg2hq2t8t90"
+                },
+                 {
+                    "version": 3,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "71be07ef7891be2011b97b407ebc91855428912263c2d6a18b84cc387d",
+                    "scriptHash": "be07ef7891be2011b97b407ebc91855428912263c2d6a18b84cc387d",
+                    "contractAddress": "addr1wxlq0mmcjxlzqyde0dq8a0y3s42z3yfzv0pddgvtsnxrslggal9u8"
+                },
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "71a2a39081978098ade606768c8b688d1ecc57910e8708511b48da82d2",
+                    "scriptHash": "a2a39081978098ade606768c8b688d1ecc57910e8708511b48da82d2",
+                    "contractAddress": "addr1wx328yypj7qf3t0xqemgezmg350vc4u3p6rss5gmfrdg95sqrz4aq"
+                }
+            ]
+        },
+        {
+            "id": "3xlurQ",
+            "name": "Pool",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "7134b887830849709cac0bc4972a2a34c71289a113817db75b2e48d8a2",
+                    "scriptHash": "34b887830849709cac0bc4972a2a34c71289a113817db75b2e48d8a2",
+                    "contractAddress": "addr1wy6t3purppyhp89vp0zfw232xnr39zdpzwqhmd6m9eyd3gscfc0az"
+                },
+                {
+                    "version": 2,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "711dbdd249479cb93f6a488db30ffaed8387b32d6eb0b594a52ec1bd9f",
+                    "scriptHash": "1dbdd249479cb93f6a488db30ffaed8387b32d6eb0b594a52ec1bd9f",
+                    "contractAddress": "addr1wywmm5jfg7wtj0m2fzxmxrl6akpc0vedd6ctt9999mqmm8c8vzed2"
+                },
+                {
+                    "version": 3,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "710ecada23c9f7fb64eca3be5a8e0891373298f8053c79fd53e30c8edc",
+                    "scriptHash": "0ecada23c9f7fb64eca3be5a8e0891373298f8053c79fd53e30c8edc",
+                    "contractAddress": "addr1wy8v4k3re8mlke8v5wl94rsgjymn9x8cq578nl2nuvxgahq0d2w8z"
+                },
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "fullScriptHash": "718786a2761c8a5b43af6b936fd852080820a9051ae9e707a7f1d6492a",
+                    "scriptHash": "8786a2761c8a5b43af6b936fd852080820a9051ae9e707a7f1d6492a",
+                    "contractAddress": "addr1wxrcdgnkrj99ksa0dwfklkzjpqyzp2g9rt57wpa878tyj2sem04ls"
                 }
             ]
         }
