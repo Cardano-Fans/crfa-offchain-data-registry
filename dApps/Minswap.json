@@ -335,6 +335,29 @@
                 }
             ],
             "auditId": "o53W"
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "description": "Minswap V2 pool, order, minting policy and batching scripts",
+            "scripts": [
+                {
+                    "id": "FyICul",
+                    "version": 2
+                },
+                {
+                    "id": "VAVnjM",
+                    "version": 2
+                },
+                {
+                    "id": "oRc985",
+                    "version": 2
+                },
+                {
+                    "id": "IuUFHa",
+                    "version": 2
+                }
+            ]
         }
     ],
     "contracts": [
@@ -965,6 +988,58 @@
                     "fullScriptHash": "71229863ae8694da16da002e889a1d19bcc82c581225b6dcca95fd69da",
                     "scriptHash": "229863ae8694da16da002e889a1d19bcc82c581225b6dcca95fd69da",
                     "contractAddress": "addr1wy3fscaws62d59k6qqhg3xsarx7vstzczgjmdhx2jh7knksj7w3y7"
+                }
+            ]
+        },
+        {
+            "id": "FyICul",
+            "name": "V2 Pool Contract",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "ea07b733d932129c378af627436e7cbc2ef0bf96e0036bb51b3bde6b"
+                }
+            ]
+        },
+        {
+            "id": "VAVnjM",
+            "name": "V2 Order Contract",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "c3e28c36c3447315ba5a56f33da6a6ddc1770a876a8d9f0cb3a97c4c"
+                }
+            ]
+        },
+        {
+            "id": "oRc985",
+            "name": "V2 Authen Minting Policy",
+            "purpose": "SPEND/MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "f5808c2c990d86da54bfc97d89cee6efa20cd8461616359478d96b4c"
+                }
+            ]
+        },
+        {
+            "id": "IuUFHa",
+            "name": "V2 Batching Withdrawal Contract",
+            "purpose": "STAKE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "1eae96baf29e27682ea3f815aba361a0c6059d45e4bfbe95bbd2f44a"
                 }
             ]
         }
