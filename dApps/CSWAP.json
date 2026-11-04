@@ -36,6 +36,14 @@
                 {
                     "id": "CdGcYA",
                     "version": 1
+                },
+                {
+                    "id": "gGgvBi",
+                    "version": 1
+                },
+                {
+                    "id": "V5UI4a",
+                    "version": 1
                 }
             ]
         }
@@ -126,6 +134,31 @@
                     "fullScriptHash": "11da5b47aed3955c9132ee087796fa3b58a1ba6173fa31a7bc29e56d4eec39fae09e0835b546eac323f7d1c46d7b7f64fe42f359aae7912b13",
                     "scriptHash": "da5b47aed3955c9132ee087796fa3b58a1ba6173fa31a7bc29e56d4eec39fae09e0835b546eac323f7d1c46d7b7f64fe42f359aae7912b13",
                     "contractAddress": "addr1z8d9k3aw6w24eyfjacy809h68dv2rwnpw0arrfau98jk6nhv88awp8sgxk65d6kry0mar3rd0dlkfljz7dv64eu39vfs38yd9p"
+                }
+            ]
+        },
+        {
+            "id": "gGgvBi",
+            "name": "Pool Contract",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 3,
+                    "scriptHash": "ed97e0a1394724bb7cb94f20acf627abc253694c92b88bf8fb4b7f6f"
+                }
+            ]
+        },
+        {
+            "id": "V5UI4a",
+            "name": "Batcher Licence Policy",
+            "purpose": "MINT",
+            "type": "NATIVE",
+            "versions": [
+                {
+                    "version": 1,
+                    "mintPolicyID": "c11604bc944b14c293b7ea6ad6583f0efedab38bbadebe2f5af4c09b"
                 }
             ]
         }

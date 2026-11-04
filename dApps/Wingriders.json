@@ -89,6 +89,33 @@
                 }
             ],
             "auditId": "9oS7"
+        },
+        {
+            "releaseNumber": 3,
+            "releaseName": "V3",
+            "description": "WingRiders DEX V2 pools, requests and pool validity token",
+            "scripts": [
+                {
+                    "id": "0GwFyB",
+                    "version": 2
+                },
+                {
+                    "id": "mp0Q2Z",
+                    "version": 2
+                },
+                {
+                    "id": "HYXaHV",
+                    "version": 2
+                },
+                {
+                    "id": "DIoJtW",
+                    "version": 2
+                },
+                {
+                    "id": "Q7XBOc",
+                    "version": 2
+                }
+            ]
         }
     ],
     "contracts": [
@@ -295,6 +322,71 @@
                     "fullScriptHash": "71c71e7c1fc483e897b1b0bfd0afc63204ca1a88701f55c371d117850e",
                     "scriptHash": "c71e7c1fc483e897b1b0bfd0afc63204ca1a88701f55c371d117850e",
                     "contractAddress": "addr1w8r3ulqlcjp739a3kzlapt7xxgzv5x5gwq04tsm36ytc2rs0vx42u"
+                }
+            ]
+        },
+        {
+            "id": "0GwFyB",
+            "name": "V2 Constant Product Pool",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "af97793b8702f381976cec83e303e9ce17781458c73c4bb16fe02b83"
+                }
+            ]
+        },
+        {
+            "id": "mp0Q2Z",
+            "name": "V2 Stableswap Pool",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "946ae228430f2fc64aa8b3acb910ee27e9b3e47aa8f925fac27834a1"
+                }
+            ]
+        },
+        {
+            "id": "HYXaHV",
+            "name": "V2 Constant Product Request",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "c134d839a64a5dfb9b155869ef3f34280751a622f69958baa8ffd29c"
+                }
+            ]
+        },
+        {
+            "id": "DIoJtW",
+            "name": "V2 Stableswap Request",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "23680ea6701b56f2c12ae79d8af94fd36f509b7b007029c7ce114840"
+                }
+            ]
+        },
+        {
+            "id": "Q7XBOc",
+            "name": "V2 Pool Validity Policy",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 2,
+                    "plutusVersion": 2,
+                    "scriptHash": "6fdc63a1d71dc2c65502b79baae7fb543185702b12c3c5fb639ed737"
                 }
             ]
         }
