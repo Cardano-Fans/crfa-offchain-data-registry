@@ -133,6 +133,49 @@
             ],
             "auditId": "1OkN",
             "contractId": "0VNF"
+        },
+        {
+            "releaseNumber": 4,
+            "releaseName": "V4",
+            "description": "SundaeSwap V4 pool, order, settings and module scripts",
+            "scripts": [
+                {
+                    "id": "VOnuxF",
+                    "version": 4
+                },
+                {
+                    "id": "LboyaP",
+                    "version": 4
+                },
+                {
+                    "id": "3IL08N",
+                    "version": 4
+                },
+                {
+                    "id": "S9eDy4",
+                    "version": 4
+                },
+                {
+                    "id": "bC3Rk3",
+                    "version": 4
+                },
+                {
+                    "id": "JETp11",
+                    "version": 4
+                },
+                {
+                    "id": "02hXsS",
+                    "version": 4
+                },
+                {
+                    "id": "snhXRu",
+                    "version": 4
+                },
+                {
+                    "id": "JGF0HX",
+                    "version": 4
+                }
+            ]
         }
     ],
     "contracts": [
@@ -442,6 +485,123 @@
                     "mintPolicyID": "e8a447d4e19016ca2aa74d20b4c4de87adb1f21dfb5493bf2d7281a6",
                     "plutusVersion": 1,
                     "version": 1
+                }
+            ]
+        },
+        {
+            "id": "VOnuxF",
+            "name": "V4 Pool Contract",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "21c9b7b965646069f9becebf8b4c3cedaf84c19b109eaa5980a14a26"
+                }
+            ]
+        },
+        {
+            "id": "LboyaP",
+            "name": "V4 Pool Mint Policy",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "d9d5985e0657933005d6eb953aeadad29aa8c36f17e493e2962584ec"
+                }
+            ]
+        },
+        {
+            "id": "3IL08N",
+            "name": "V4 Order Contract",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "07eb2fb09d9dd6603870ce6f84c8f8506249152173ddf0c77f1f07ec"
+                }
+            ]
+        },
+        {
+            "id": "S9eDy4",
+            "name": "V4 Settings Contract",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "808db58d7d66d348b0cc7d83c202ef1d19534d00bf6c463a531020ad"
+                }
+            ]
+        },
+        {
+            "id": "bC3Rk3",
+            "name": "V4 Settings Mint Policy",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "371738e95ab3f0afba69c6b0896df05d7851a5307a830677b77c2ead"
+                }
+            ]
+        },
+        {
+            "id": "JETp11",
+            "name": "V4 Basic Order Constraint",
+            "purpose": "STAKE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "30f1fac08a15ef84ea6a5aa04989b1c2ceeb3b437f2c3103df5aca68"
+                }
+            ]
+        },
+        {
+            "id": "02hXsS",
+            "name": "V4 Constant Sum Swap Module",
+            "purpose": "STAKE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "4e1a435f8d55f26068150579c18964e58078082b899e6bb560be7cd5"
+                }
+            ]
+        },
+        {
+            "id": "snhXRu",
+            "name": "V4 Stableswap Swap Module",
+            "purpose": "STAKE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "f47f6594cab956302f7f1cd81ac4122e9ee128146102497feca1a79f"
+                }
+            ]
+        },
+        {
+            "id": "JGF0HX",
+            "name": "V4 Fairness Module",
+            "purpose": "STAKE",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 4,
+                    "plutusVersion": 3,
+                    "scriptHash": "31d2328d6ddc3d5dfc48c5b827aa922506a80e7db40f25ef807d0fd5"
                 }
             ]
         }
