@@ -136,6 +136,14 @@
                 {
                     "id": "vI1yBo",
                     "version": 1
+                },
+                {
+                    "id": "2XqN6x",
+                    "version": 1
+                },
+                {
+                    "id": "ekf1S4",
+                    "version": 1
                 }
             ]
         }
@@ -449,6 +457,32 @@
                     "mintPolicyID": "22f6999d4effc0ade05f6e1a70b702c65d6b3cdf0e301e4a8267f585",
                     "plutusVersion": 2,
                     "version": 1
+                }
+            ]
+        },
+        {
+            "id": "2XqN6x",
+            "name": "DEX Order Contract v1.1",
+            "purpose": "SPEND",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "scriptHash": "a8d7ff5cf4c117270288372f9ac8e1ce5b758ae15a7851c41661a48c"
+                }
+            ]
+        },
+        {
+            "id": "ekf1S4",
+            "name": "DEX Order NFT Policy v1.1",
+            "purpose": "MINT",
+            "type": "PLUTUS",
+            "versions": [
+                {
+                    "version": 1,
+                    "plutusVersion": 2,
+                    "scriptHash": "642c1f7bf79ca48c0f97239fcb2f3b42b92f2548184ab394e1e1e503"
                 }
             ]
         }
